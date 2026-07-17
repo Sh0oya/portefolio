@@ -12,5 +12,6 @@ _deploy/
 .claude/
 _preview.html
 *.zip
+!downloads/*.zip
 Thumbs.db
 .DS_Store
