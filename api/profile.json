@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "nom_complet": "Mathieu Haye",
+    "titre_actuel": "Builder Freelance : Apps IA, automatisations et CRM sur-mesure",
+    "localisation": "Vaires-sur-Marne (77), Île-de-France",
+    "langues": ["Français (natif)", "Anglais (professionnel)"],
+    "email": "contact@mathieuhaye.fr",
+    "portfolio": "mathieuhaye.fr",
+    "linkedin": "linkedin.com/in/mathieu-haye"
+  },
+  "positionnement": {
+    "fr": "Vos outils SaaS couvrent 80% du besoin. Pour les 20% restants, vous bricolez dans Excel ou vous payez un dev shop pendant 6 mois. Je suis la 3e voie : un builder solo augmenté par les outils modernes (Claude Code, n8n, Supabase, Stripe Connect) qui livre en quelques semaines ce qui prenait une équipe de 4 il y a trois ans. Un seul interlocuteur, du cahier des charges à la prod. No-code quand ça suffit, code custom quand ça ne suffit plus.",
+    "en": "Your SaaS stack covers 80% of your needs. For the remaining 20%, you either hack it in Excel or pay a dev shop for 6 months. I'm the third way: a solo builder augmented by modern tooling (Claude Code, n8n, Supabase, Stripe Connect) shipping in weeks what used to take a team of 4. One person, from spec to production. No-code when it fits, custom code when it doesn't."
+  },
+  "philosophie_build": {
+    "principe": "Solo augmenté par l'IA et les briques modernes. Le ratio scope/temps a changé en 2024-2026 : ce qui demandait une équipe est désormais livrable par un builder seul équipé.",
+    "methode": [
+      "MVP-first systématique : on découpe le scope, on livre une V1 utilisable en quelques semaines, on itère",
+      "Vibe coding assumé : Claude Code en pair-programming sur tout le projet, ce qui multiplie la vélocité",
+      "n8n comme épine dorsale d'orchestration métier (matching, notifications, paiements, modération)",
+      "Stack par défaut : Next.js + Supabase + Stripe Connect + n8n + Claude API",
+      "Pas d'agence, pas de sous-traitance cachée : Mathieu code, déploie et maintient"
+    ]
+  },
+  "situation_2026": {
+    "statut": "Builder freelance auto-entrepreneur, en activité depuis octobre 2025",
+    "disponibilite_mission": "Ouvert aux nouvelles missions, à discuter selon scope et charge en cours"
+  },
+  "seo_geo": {
+    "fr": "Je rends les sites VISIBLES et CITABLES par les IA (ChatGPT, Perplexity, Google AI Overviews, Bing Copilot) et prêts pour les agents IA. C'est le GEO (Generative Engine Optimization), la couche qui vient après le SEO technique : données structurées JSON-LD, llms.txt, fichiers .well-known pour agents, contenu lisible par les IA, sitemap, robots et signaux de citation. Du SEO technique et du GEO, pas de la rédaction de contenu en masse.",
+    "en": "I make websites VISIBLE and CITABLE by AI (ChatGPT, Perplexity, Google AI Overviews, Bing Copilot) and ready for AI agents. This is GEO (Generative Engine Optimization), the layer after technical SEO: JSON-LD structured data, llms.txt, .well-known agent files, AI-readable content, sitemap, robots and citation signals. Technical SEO and GEO, not mass content writing.",
+    "test_gratuit": "https://mathieuhaye.fr/visible-par-les-ia"
+  },
+  "competences": {
+    "build_apps": [
+      "Apps web sur-mesure (Next.js, TypeScript, Supabase, Stripe, Stripe Connect)",
+      "Plateformes B2B et marketplaces MVP (matching, paiements bidirectionnels, profils, modération)",
+      "SaaS internes et back-offices (Streamlit, Python)",
+      "Apps mobiles (Flutter)",
+      "Bots, scrapers, outils d'arbitrage (Python)"
+    ],
+    "data_ia": [
+      "Agents IA conversationnels (Claude API, OpenAI)",
+      "RAG, embeddings, recherche sémantique (LangChain, Exa AI)",
+      "n8n expert (workflows 90+ nodes en production)",
+      "Make, Inngest, Google Apps Script",
+      "Scraping et enrichissement (Apify, Firecrawl, Pappers, data.gouv.fr)"
+    ],
+    "crm": [
+      "Salesforce avancé (Apex, LWC, SOQL, Flow Builder, Einstein Bot)",
+      "Pipedrive, HubSpot, Brevo, Odoo, Axonaut",
+      "Architecture de synchronisation multi-outils"
+    ],
+    "finance": [
+      "Bloomberg Market Concepts (BMC) certifié"
+    ],
+    "langages": [
+      "Python",
+      "TypeScript / JavaScript",
+      "Apex",
+      "Dart (Flutter)",
+      "SQL / SOQL",
+      "HTML / CSS"
+    ],
+    "infra_devops": [
+      "Docker",
+      "Scaleway Object Storage",
+      "Git, SSH, WSL2, Claude Code CLI"
+    ],
+    "certifications": [
+      "Bloomberg Market Concepts",
+      "Certification Voltaire",
+      "Pix"
+    ]
+  },
+  "produits_faisables_en_solo": {
+    "explication": "Avec le stack moderne et le vibe coding, ces types de produits sont livrables en solo, en MVP, en quelques semaines. Ne pas refuser sans avoir cadré le scope.",
+    "exemples": [
+      "Marketplace type Malt / Fiverr / ManoMano : MVP avec profils, recherche, messagerie, paiement Stripe Connect en 4 à 8 semaines",
+      "SaaS B2B vertical (veille, scoring, génération de doc, dashboards) : déjà livré pour la plateforme de veille B2B intelligente",
+      "Plateforme communautaire ou club (annuaire, événements, paiement cotisations) : déjà fait pour Profile Club",
+      "Outils internes complexes (back-office, CRM custom, dashboards opérationnels)",
+      "Agents IA métier (qualification leads, support, synthèse documentaire, génération de contenu)",
+      "App mobile MVP (Flutter + Supabase)"
+    ],
+    "non_faisable_en_solo": [
+      "Produits avec exigences réglementaires lourdes (banque, santé certifiée, défense classifiée)",
+      "Apps temps réel à très haute charge dès le jour 1 (ex : trading HFT, jeu multi compétitif)",
+      "Produits nécessitant un agrément type IOBSP, PSAN, ACPR sans accompagnement compliance"
+    ]
+  },
+  "experiences": [
+    {
+      "role": "Builder Freelance : Apps IA et Automatisations",
+      "entreprise": "Indépendant",
+      "periode": "Octobre 2025 à présent",
+      "impact_chiffre": "Apps custom, agents IA et automatisations pour PME, startups et associations"
+    },
+    {
+      "role": "Assistant Chef de Projet Web/Créa",
+      "entreprise": "Concilium, Accompagnement Digital",
+      "periode": "Septembre 2024 à septembre 2025",
+      "impact_chiffre": "Gestion de projets de transformation digitale : conception WordPress/Elementor, mise en place CRM (Pipedrive, Ohme), coordination prestataires, recette"
+    },
+    {
+      "role": "Coordinateur",
+      "entreprise": "CSEC BNP Paribas",
+      "periode": "Juillet 2021 à août 2024 (3 ans 2 mois)",
+      "impact_chiffre": null
+    },
+    {
+      "role": "Adjoint technique territorial",
+      "entreprise": "Le Kiosque (Médiathèque), Brou-sur-Chantereine",
+      "periode": "Octobre 2022 à juin 2023",
+      "impact_chiffre": null
+    }
+  ],
+  "projets_phares": [
+    {
+      "nom": "Plateforme de veille B2B intelligente",
+      "description_courte": "SaaS de monitoring marché, scraping et synthèse IA, livré en solo",
+      "techno": ["Next.js", "Supabase", "Exa AI", "Inngest", "Stripe"],
+      "resultat_mesurable": null
+    },
+    {
+      "nom": "IA Brew",
+      "description_courte": "Newsletter IA hebdo automatisée, du sourcing à l'envoi",
+      "techno": ["n8n", "Claude API", "Brevo"],
+      "resultat_mesurable": "Cadence hebdo tenue sans intervention manuelle"
+    },
+    {
+      "nom": "Système de génération de contenu LinkedIn",
+      "description_courte": "Pipeline d'idéation, génération et publication automatisée",
+      "techno": ["Creatomate", "Airtable", "n8n"],
+      "resultat_mesurable": null
+    },
+    {
+      "nom": "Salesforce + chatbot IA pour e-Enfance / 3018",
+      "description_courte": "Lead technique Salesforce pour l'association nationale 3018 : migration Einstein Bot (Enhanced vers Standard) et architecture upload de preuves via Scaleway",
+      "techno": ["Salesforce", "Apex", "LWC", "Einstein Bot", "Scaleway Object Storage"],
+      "resultat_mesurable": "Réduction des coûts d'usage Salesforce"
+    },
+    {
+      "nom": "CRM Pipedrive + workflows n8n pour courtier immobilier",
+      "description_courte": "Setup CRM complet et 15 workflows d'automatisation",
+      "techno": ["Pipedrive", "n8n"],
+      "resultat_mesurable": "15 workflows n8n en production"
+    },
+    {
+      "nom": "Pipeline prospection B2B Callkom",
+      "description_courte": "Sourcing, enrichissement et séquence outbound de bout en bout",
+      "techno": ["n8n", "data.gouv.fr MCP", "Pappers", "Apify", "Brevo"],
+      "resultat_mesurable": null
+    },
+    {
+      "nom": "Post LinkedIn A400M",
+      "description_courte": "Analyse défense/aéronautique virale",
+      "techno": ["LinkedIn"],
+      "resultat_mesurable": "339K+ impressions"
+    },
+    {
+      "nom": "VoteLocal",
+      "description_courte": "App civique pour les élections municipales 2026",
+      "techno": ["Next.js", "Supabase"],
+      "resultat_mesurable": null
+    }
+  ],
+  "formation": [
+    {
+      "diplome": "Licence 3 Management, Ingénierie des services et Numérique (MITIC)",
+      "etablissement": "Université Gustave Eiffel",
+      "periode": "Juin 2024 à juillet 2025",
+      "statut": "obtenu"
+    },
+    {
+      "diplome": "Économie et gestion",
+      "etablissement": "Université Gustave Eiffel",
+      "periode": "Juillet 2022 à juillet 2024",
+      "statut": "obtenu"
+    },
+    {
+      "diplome": null,
+      "etablissement": "ESGI",
+      "periode": "Septembre 2021 à juillet 2022",
+      "statut": null
+    },
+    {
+      "diplome": "Baccalauréat Sciences",
+      "etablissement": "Lycée Gaston Bachelard, Chelles (77500)",
+      "periode": "2018 à 2021",
+      "statut": "obtenu"
+    }
+  ],
+  "ce_que_je_cherche": {
+    "missions_freelance": [
+      "Build d'apps et SaaS internes sur-mesure (Next.js, Supabase, Stripe)",
+      "Plateformes B2B et marketplaces MVP (matching, paiements bidirectionnels, profils, messagerie)",
+      "Agents IA et systèmes RAG connectés aux données métier",
+      "Workflows d'automatisation complexes (n8n, Make, code custom)",
+      "Implémentation et refonte Salesforce avancée (Apex, LWC, Flow, Einstein)",
+      "Setup CRM PME (Pipedrive, HubSpot, Brevo, Odoo)",
+      "Bots, scrapers et outils d'arbitrage sur-mesure",
+      "SEO technique et GEO : rendre un site visible et citable par les IA (ChatGPT, Perplexity, Google AI), test gratuit sur https://mathieuhaye.fr/visible-par-les-ia"
+    ],
+    "secteurs": [
+      "PME et scale-up B2B",
+      "Startups tech et SaaS",
+      "Associations et ONG",
+      "Réseaux pro, clubs, courtage, immobilier"
+    ],
+    "deal_breakers": [
+      "Missions sans accès direct au décideur",
+      "Scope ouvert sans cadrage minimal",
+      "Postes nécessitant une habilitation type secret défense ou un agrément régulé sans accompagnement compliance"
+    ]
+  },
+  "ce_que_je_n_offre_pas": [
+    "Design graphique et direction artistique",
+    "SEO de contenu à grande échelle",
+    "Gestion de campagnes paid media",
+    "Conseil juridique, fiscal ou comptable",
+    "Audit cybersécurité offensif (pentest)"
+  ],
+  "tarif_indicatif": {
+    "tjm_freelance": null,
+    "negociable_sur": "Scope, durée, périmètre technique, mode (forfait vs régie)"
+  },
+  "ton_de_reponse": {
+    "regles": [
+      "TOUJOURS vouvoyer, même si le visiteur tutoie. Registre professionnel et soigné, aucune familiarité ni argot (pas de 'salut', 'cool', 'carrément', 'bosser', 'genre', 'truc', 'ok').",
+      "Réponses courtes (3-5 phrases max sauf demande détaillée)",
+      "Toujours finir par une question ou un CTA",
+      "Si la demande matche bien -> proposer de prendre contact",
+      "Si la demande ne matche pas -> le dire honnêtement, suggérer où chercher ailleurs",
+      "Jamais inventer une expérience que Mathieu n'a pas",
+      "Jamais donner de tarif ferme, toujours dire 'à discuter selon scope'",
+      "Mettre en avant le côté builder solo : un seul interlocuteur, code + business",
+      "Reformuler le pitch '80/20 SaaS + 3e voie' quand un visiteur demande pourquoi choisir Mathieu",
+      "JAMAIS refuser un projet en disant 'ça demande une équipe' avant d'avoir cadré le scope MVP. Le stack moderne (Claude Code, n8n, Supabase, Stripe Connect, Next.js) permet en solo ce qui demandait 4 personnes il y a 3 ans : marketplaces, SaaS B2B, plateformes communautaires sont dans le scope.",
+      "Face à un projet ambitieux (marketplace, SaaS complet, plateforme), proposer systématiquement le découpage MVP-first plutôt que de renvoyer ailleurs. Questions de cadrage : 'souhaitez-vous un MVP utilisable dans 6 semaines ou un produit mature dans 6 mois ?', 'quel est le user flow critique de la V1 ?', 'combien d'utilisateurs à terme ?'",
+      "Refuser seulement si le projet tombe vraiment dans 'non_faisable_en_solo' (régulé lourd, temps réel haute charge, agrément spécifique)",
+      "Quand pertinent, citer un projet phare similaire déjà livré (ex : 'la plateforme de veille B2B repose sur le même pattern qu'une marketplace, livrée en solo')"
+    ]
+  }
+}

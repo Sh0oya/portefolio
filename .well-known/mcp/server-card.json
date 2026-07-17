@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schemas/server-card.json",
+  "serverInfo": {
+    "name": "mathieu-haye-portfolio",
+    "version": "1.2.0",
+    "title": "Mathieu Haye Portfolio",
+    "description": "Read-only MCP surface for Mathieu Haye's portfolio. Exposes site content (projects, journal, contact, availability) via WebMCP in-browser tools and static metadata.",
+    "vendor": "Mathieu Haye",
+    "homepage": "https://mathieuhaye.fr/",
+    "documentation": "https://mathieuhaye.fr/llms.txt"
+  },
+  "transport": {
+    "type": "webmcp",
+    "description": "In-browser WebMCP via navigator.modelContext.provideContext(). No remote MCP endpoint is exposed. Tools are registered when the page is loaded in a WebMCP-capable client."
+  },
+  "capabilities": {
+    "tools": { "listChanged": false },
+    "resources": { "subscribe": false, "listChanged": false },
+    "prompts": { "listChanged": false }
+  },
+  "tools": [
+    { "name": "contact_info", "description": "Return Mathieu Haye's contact information (email, phone, LinkedIn, location, languages, status)." },
+    { "name": "list_projects", "description": "List Mathieu Haye's portfolio projects with key facts (stack, metrics, status)." },
+    { "name": "list_skills", "description": "List the technical skills displayed on the site (AI, Python/data, CRM, business literacy)." },
+    { "name": "list_journal_articles", "description": "List all journal articles (FR + EN) with title, date, language, HTML and Markdown URLs. Optional filter by language and limit." },
+    { "name": "get_article_markdown", "description": "Fetch a journal article in Markdown by slug or full URL." },
+    { "name": "get_availability", "description": "Check Mathieu's availability for freelance briefs and new client engagements." },
+    { "name": "site_map", "description": "Structured list of all addressable resources of the site (HTML, Markdown, JSON, RSS, agent metadata)." },
+    { "name": "open_section", "description": "Scroll the homepage to a named section (hero, services, approach, offer, projects, agent, about, contact)." },
+    { "name": "open_project", "description": "Open the details modal for a specific project (falls back to the /projets portfolio page when the card is not on the current page)." },
+    { "name": "switch_language", "description": "Switch the site language between English (en) and French (fr) by navigating to the static mirror (/ = FR, /en/ = EN)." }
+  ],
+  "resources": [
+    { "uri": "https://mathieuhaye.fr/llms.txt", "name": "portfolio-summary", "mimeType": "text/plain", "description": "LLM-friendly site summary" },
+    { "uri": "https://mathieuhaye.fr/index.md", "name": "portfolio-markdown", "mimeType": "text/markdown", "description": "Full portfolio in Markdown" },
+    { "uri": "https://mathieuhaye.fr/blog.md", "name": "journal-index", "mimeType": "text/markdown", "description": "Machine-readable index of all journal articles" },
+    { "uri": "https://mathieuhaye.fr/feed.xml", "name": "journal-rss", "mimeType": "application/rss+xml", "description": "Journal RSS 2.0 feed" },
+    { "uri": "https://mathieuhaye.fr/feed.json", "name": "journal-json-feed", "mimeType": "application/json", "description": "Journal JSON Feed 1.1" },
+    { "uri": "https://mathieuhaye.fr/sitemap.xml", "name": "sitemap", "mimeType": "application/xml", "description": "XML sitemap" }
+  ]
+}

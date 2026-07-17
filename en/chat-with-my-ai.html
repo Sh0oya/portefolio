@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RKK7XP89VW', { anonymize_ip: true });
+    </script>
+
+    <title>Chat with my AI &middot; Mathieu Haye</title>
+    <meta name="description" content="Talk directly to Mathieu Haye's AI agent, powered by Claude: describe your custom CRM, n8n automation, AI agent or web app project and find out within a few messages whether we are a good fit.">
+    <link rel="canonical" href="https://mathieuhaye.fr/en/chat-with-my-ai">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/discuter-avec-mon-ia">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/chat-with-my-ai">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/discuter-avec-mon-ia">
+    <link rel="alternate" type="text/markdown" title="Markdown version" href="/en/chat-with-my-ai.md">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chat with my AI &middot; Mathieu Haye">
+    <meta property="og:description" content="An AI agent powered by Claude, trained on Mathieu Haye's profile. Describe your project and it tells you whether and how Mathieu can ship it.">
+    <meta property="og:url" content="https://mathieuhaye.fr/en/chat-with-my-ai">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css?v=94">
+    <script defer src="/ui.js?v=94"></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://mathieuhaye.fr/en/chat-with-my-ai#webpage",
+                "url": "https://mathieuhaye.fr/en/chat-with-my-ai",
+                "name": "Chat with my AI. Mathieu Haye's Claude agent.",
+                "description": "Conversational agent powered by Claude, trained on Mathieu Haye's profile: qualifies briefs for custom CRM builds, n8n automations, AI agents and custom web apps.",
+                "inLanguage": "en",
+                "isPartOf": { "@id": "https://mathieuhaye.fr/#website" }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://mathieuhaye.fr/en/chat-with-my-ai#breadcrumbs",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mathieuhaye.fr/en/" },
+                    { "@type": "ListItem", "position": 2, "name": "Chat with my AI", "item": "https://mathieuhaye.fr/en/chat-with-my-ai" }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+<body class="chat-page">
+
+    <!-- ============ HEADER (home charte) ============ -->
+    <header class="v51-header">
+        <a href="/en/" class="v51-mark" aria-label="Mathieu Haye — home"><img src="/assets/img/logo-mh.svg" alt="MH" width="36" height="36"></a>
+        <nav class="v51-nav" aria-label="Navigation">
+            <a class="v51-link" href="/en/#services" data-i18n="nav5.services">Services</a>
+            <a class="v51-link" href="/en/#approach" data-i18n="nav5.approach">Approach</a>
+            <a class="v51-link" href="/en/#projects" data-i18n="nav5.projects">Projects</a>
+            <a class="v51-link" href="/en/#contact" data-i18n="nav5.contact">Contact</a>
+            <div class="lang-switch" role="group" aria-label="Language">
+                <a class="lang-btn" href="/discuter-avec-mon-ia" hreflang="fr">FR</a>
+                <span class="lang-sep" aria-hidden="true">/</span>
+                <span class="lang-btn active">EN</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ============ HERO ============ -->
+        <section class="chat-hero">
+            <div class="section-container">
+                <div class="section-eyebrow" data-i18n="lab.eyebrow">Test me</div>
+                <h1 class="chat-title" data-i18n="agent.title" data-i18n-html>Are we a <em>good fit</em>?</h1>
+                <p class="chat-lead" data-i18n="agent.lead">Talk to me directly. Tell me about your project, your team, what you’re trying to build. If it fits what I do, we’ll take the conversation off the page.</p>
+            </div>
+        </section>
+
+        <!-- ============ CHAT (Claude agent — api/chat.php via script.js) ============ -->
+        <section class="chat-wrap">
+            <div class="section-container">
+                <div class="agent-card">
+                    <div class="agent-card-glow" aria-hidden="true"></div>
+                    <div class="agent-card-in">
+                        <div class="agent-chat" id="agent-chat" aria-live="polite">
+                            <div class="agent-msg agent-msg-bot">
+                                <div class="agent-bubble" data-i18n="agent.greeting">Hello, this is Mathieu. Tell me in a few sentences what you are working on or what you need: a freelance mission, a brief on CRM / n8n / a custom build, a partnership idea, or simple curiosity.</div>
+                            </div>
+                        </div>
+                        <form class="agent-input" id="agent-form" autocomplete="off">
+                            <div class="agent-input-pill">
+                                <label for="agent-text" class="visually-hidden" data-i18n="agent.input_label">Your message</label>
+                                <textarea id="agent-text" rows="1" maxlength="2000" data-i18n-placeholder="agent.placeholder"
+                                          placeholder="Describe your project in a few sentences..." required></textarea>
+                                <button type="submit" class="agent-send" data-i18n-aria="agent.send_aria" aria-label="Send">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="agent-foot">
+                            <span class="agent-foot-note" data-i18n="agent.foot">You’re talking to an AI version of me, powered by Claude. I read every contact request myself.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-alt">
+                    <a href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener" class="btn btn-primary">
+                        <span data-i18n="cta.book">Book a call</span>
+                        <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="mailto:contact@mathieuhaye.fr" class="btn btn-ghost">
+                        <span data-i18n="chat.mail">Write an email</span>
+                    </a>
+                </div>
+                <div class="chat-note">
+                    <span class="ping is-live"><span></span><span></span></span>
+                    <span data-i18n="chat.note">Free · No signup · Instant reply</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER (home charte) ============ -->
+    <section class="explore-next" aria-label="Explore next">
+        <span class="section-eyebrow">Explore next</span>
+        <div class="explore-grid">
+            <a class="explore-card" href="/en/collaboration">Offers & collaboration <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/en/projects">Projects <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/en/ai-maturity">AI maturity test <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/blog/en/">Journal <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+    </section>
+
+    <footer class="footer-min">
+        <a href="/en/" class="fm-mark" aria-label="Mathieu Haye — home">MH</a>
+        <span><span data-i18n="footer5.line">© 2026 Mathieu Haye · AI & automation consultant</span> &middot; <a href="/confidentialite" data-i18n="footer.privacy">Privacy</a></span>
+    </footer>
+
+    <script src="/script.js?v=94"></script>
+</body>
+</html>

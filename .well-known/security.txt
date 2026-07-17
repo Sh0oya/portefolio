@@ -1,0 +1,9 @@
+# RFC 9116 — security.txt for mathieuhaye.fr
+# See https://securitytxt.org/
+
+Contact: mailto:contact@mathieuhaye.fr
+Contact: https://www.linkedin.com/in/mathieu-haye/
+Expires: 2027-05-04T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://mathieuhaye.fr/.well-known/security.txt
+Policy: https://mathieuhaye.fr/robots.txt

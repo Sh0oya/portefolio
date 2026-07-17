@@ -1,0 +1,19 @@
+# Protect sensitive files inside /api/
+<FilesMatch "\.(json|md|example\.php)$">
+    Require all denied
+</FilesMatch>
+
+# Explicitly block direct access to config.php
+<Files "config.php">
+    Require all denied
+</Files>
+
+# Force HTTPS on this endpoint
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# Disable directory listing
+Options -Indexes

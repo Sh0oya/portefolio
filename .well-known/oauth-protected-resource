@@ -1,0 +1,11 @@
+{
+  "$comment": "OAuth 2.0 Protected Resource Metadata (RFC 9728). This site is a public portfolio with no protected APIs at the moment, hence empty 'authorization_servers' and 'scopes_supported'. Published so AI agents can confirm there is nothing to authenticate against and that all content is freely readable.",
+  "resource": "https://mathieuhaye.fr/",
+  "resource_name": "Mathieu Haye Portfolio",
+  "resource_documentation": "https://mathieuhaye.fr/llms.txt",
+  "resource_policy_uri": "https://mathieuhaye.fr/robots.txt",
+  "authorization_servers": [],
+  "scopes_supported": [],
+  "bearer_methods_supported": [],
+  "tls_client_certificate_bound_access_tokens": false
+}

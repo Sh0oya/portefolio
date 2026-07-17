@@ -1,0 +1,106 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://mathieuhaye.fr/",
+      "service-desc": [
+        {
+          "href": "https://mathieuhaye.fr/llms.txt",
+          "type": "text/plain",
+          "title": "LLM-friendly site summary"
+        },
+        {
+          "href": "https://mathieuhaye.fr/index.md",
+          "type": "text/markdown",
+          "title": "Full portfolio in Markdown"
+        },
+        {
+          "href": "https://mathieuhaye.fr/blog.md",
+          "type": "text/markdown",
+          "title": "Machine-readable journal index (FR + EN)"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://mathieuhaye.fr/",
+          "type": "text/html",
+          "title": "Interactive portfolio (HTML)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/blog/",
+          "type": "text/html",
+          "title": "Journal index (FR)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/blog/en/",
+          "type": "text/html",
+          "title": "Journal index (EN)"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://mathieuhaye.fr/sitemap.xml",
+          "type": "application/xml",
+          "title": "XML sitemap"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/agent-skills/index.json",
+          "type": "application/json",
+          "title": "Agent Skills Discovery index"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/mcp/server-card.json",
+          "type": "application/json",
+          "title": "MCP server card (WebMCP transport)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/oauth-protected-resource",
+          "type": "application/json",
+          "title": "OAuth Protected Resource Metadata (RFC 9728)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/auth.md",
+          "type": "text/markdown",
+          "title": "Agent auth & registration guide (public, no auth required)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/oauth-authorization-server",
+          "type": "application/json",
+          "title": "OAuth Authorization Server Metadata + agent_auth (RFC 8414)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/nlweb.json",
+          "type": "application/json",
+          "title": "NLWeb manifest (conversational intents)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/.well-known/security.txt",
+          "type": "text/plain",
+          "title": "Security contact (RFC 9116)"
+        },
+        {
+          "href": "https://mathieuhaye.fr/robots.txt",
+          "type": "text/plain",
+          "title": "Robots policy + Content Signals"
+        }
+      ],
+      "alternate": [
+        {
+          "href": "https://mathieuhaye.fr/feed.xml",
+          "type": "application/rss+xml",
+          "title": "Journal RSS 2.0 feed"
+        },
+        {
+          "href": "https://mathieuhaye.fr/feed.json",
+          "type": "application/json",
+          "title": "Journal JSON Feed 1.1"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://mathieuhaye.fr/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}

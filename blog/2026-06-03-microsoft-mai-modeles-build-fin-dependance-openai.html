@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI &middot; Blog Mathieu Haye</title>
+    <meta name="description" content="Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). Fin de la dépendance Azure à OpenAI.">
+    <meta name="keywords" content="Microsoft Build 2026, MAI-Thinking-1, MAI-Code-1-Flash, modèles IA Microsoft, Azure OpenAI, Mustafa Suleyman, Microsoft Foundry, sparse Mixture of Experts, IA entreprise, multi-modèles, Mathieu Haye, freelance builder, apps IA, automatisations, CRM sur-mesure">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI">
+    <meta property="og:description" content="Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). Fin de la dépendance Azure à OpenAI.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="article:published_time" content="2026-06-03T08:00:00+02:00">
+    <meta property="article:author" content="Mathieu Haye">
+    <meta property="article:section" content="IA appliquée">
+    <meta property="article:tag" content="Microsoft">
+    <meta property="article:tag" content="OpenAI">
+    <meta property="article:tag" content="MAI-Thinking-1">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI">
+    <meta name="twitter:description" content="Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build. Décryptage de la rupture stratégique avec OpenAI.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../style.css?v=94">
+
+    <!-- JSON-LD Article (GEO-enriched: speakable, wordCount, isPartOf, mentions) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai#article",
+      "headline": "Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI",
+      "description": "Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). Fin de la dépendance Azure à OpenAI.",
+      "image": "https://mathieuhaye.fr/assets/img/og-cover.jpg",
+      "datePublished": "2026-06-03T08:00:00+02:00",
+      "dateModified": "2026-06-03T08:00:00+02:00",
+      "wordCount": 1673,
+      "author": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/",
+        "jobTitle": "Consultant IA &amp; automatisation, apps IA, automatisations et CRM sur-mesure",
+        "sameAs": ["https://www.linkedin.com/in/mathieu-haye/"]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/"
+      },
+      "mainEntityOfPage": "https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://mathieuhaye.fr/blog/#blog",
+        "name": "Mathieu Haye Journal",
+        "url": "https://mathieuhaye.fr/blog/"
+      },
+      "inLanguage": "fr",
+      "articleSection": "IA appliquée",
+      "keywords": "Microsoft Build 2026, MAI-Thinking-1, MAI-Code-1-Flash, modèles IA Microsoft, Azure OpenAI, Mustafa Suleyman, Microsoft Foundry, sparse Mixture of Experts, IA entreprise, multi-modèles, Mathieu Haye, freelance builder, apps IA, automatisations, CRM sur-mesure",
+      "about": [{"@type":"Organization","name":"Microsoft"}, {"@type":"Organization","name":"OpenAI"}, {"@type":"Product","name":"MAI-Thinking-1"}, {"@type":"Product","name":"Microsoft Foundry"}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-lead", ".article-body h2"]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD BreadcrumbList (GEO: entity grounding) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://mathieuhaye.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI", "item": "https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    { "@context":"https://schema.org", "@type":"FAQPage", "inLanguage":"fr", "mainEntity":[
+      {"@type":"Question","name":"Quelle est la différence entre MAI-Thinking-1 et MAI-Code-1-Flash ?","acceptedAnswer":{"@type":"Answer","text":"MAI-Thinking-1 est un modèle de raisonnement de 35 milliards de paramètres actifs avec une fenêtre de contexte de 256 000 tokens, conçu pour les tâches longues et analytiques. MAI-Code-1-Flash est un modèle plus léger spécialisé dans la génération de code à partir d'instructions en langage naturel. Les deux sont disponibles sur Microsoft Foundry depuis le 2 juin 2026."}},
+      {"@type":"Question","name":"Le partenariat Microsoft-OpenAI est-il rompu ?","acceptedAnswer":{"@type":"Answer","text":"Non, mais il a été profondément réécrit en avril 2026. Microsoft a perdu sa licence exclusive sur la propriété intellectuelle d'OpenAI et n'a plus à reverser une part de revenus à OpenAI. OpenAI continue toutefois de reverser une part plafonnée de ses revenus à Microsoft jusqu'en 2030."}},
+      {"@type":"Question","name":"Faut-il migrer vos workflows Azure vers les modèles MAI ?","acceptedAnswer":{"@type":"Answer","text":"Pas immédiatement. MAI-Thinking-1 est disponible en preview privée et ses performances réelles en production restent à valider sur des charges hétérogènes. La bonne approche consiste à benchmarker MAI sur deux ou trois cas d'usage internes représentatifs avant d'arbitrer entre MAI, GPT-5 et modèles partenaires sur la même plateforme Foundry."}}
+    ]}
+    </script>
+
+</head>
+<body class="launch-done">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+    <script>try { localStorage.setItem('lang', 'fr'); } catch(e) {}</script>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Retour au portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai" class="lang-btn active" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai" class="lang-btn" data-lang="en">EN</a>
+                </div>
+                <a href="/blog/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">Tous les articles</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-wrap">
+
+        <a href="/blog/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            Tous les articles
+        </a>
+
+        <div class="article-meta-top">
+            <span class="article-category">IA appliquée</span>
+            <span>&middot;</span>
+            <time datetime="2026-06-03T08:00:00+02:00">3 juin 2026</time>
+            <span>&middot;</span>
+            <span>7 min de lecture</span>
+        </div>
+
+        <h1 class="article-title">Microsoft Build 2026: 7 modèles IA pour sortir <em>d'OpenAI</em></h1>
+
+        <p class="article-lead">Le 2 juin 2026, Microsoft a dévoilé sept modèles d'intelligence artificielle conçus en interne lors de sa conférence Build, dont MAI-Thinking-1 et MAI-Code-1-Flash. L'annonce signe la fin de l'équation historique entre Azure et OpenAI, deux mois après la réécriture du partenariat exclusif.</p>
+
+        <article class="article-body">
+            <ul>
+                <li><strong>L'essentiel en 30 secondes:</strong></li>
+                <li>Microsoft a présenté 7 modèles IA maison à Build 2026 le 2 juin, sous la bannière MAI.</li>
+                <li>MAI-Thinking-1 active 35 milliards de paramètres sur 1 000 milliards théoriques, avec une fenêtre de contexte de 256 000 tokens.</li>
+                <li>Le modèle atteint 97,0 % sur AIME 2025 et égale Claude Opus 4.6 sur SWE-Bench Pro selon les évaluations internes Microsoft.</li>
+                <li>Mustafa Suleyman annonce un coût d'inférence dix fois inférieur à GPT-5 sur les benchmarks préparés avec McKinsey.</li>
+            </ul>
+
+            <h2>Le fait</h2>
+            <p>Pendant huit ans, Azure s'est confondu avec OpenAI. Le 2 juin 2026, Microsoft a rompu cette équation lors de sa conférence Build à San Francisco. Mustafa Suleyman, directeur général de Microsoft AI, a présenté sept modèles d'intelligence artificielle conçus en interne sous la bannière MAI. Le plus visible, MAI-Thinking-1, est un système de raisonnement de 35 milliards de paramètres actifs construit sur une architecture sparse Mixture of Experts d'environ 1 000 milliards de paramètres totaux, doté d'une fenêtre de contexte de 256 000 tokens. Selon la documentation publiée par Microsoft, il atteint 97,0 % sur le benchmark mathématique AIME 2025 et 94,5 % sur AIME 2026, et égale Claude Opus 4.6 d'Anthropic sur le test de génération de code SWE-Bench Pro. Des évaluateurs humains anonymes l'ont préféré à Claude Sonnet 4.6 en comparaison à l'aveugle.</p>
+
+            <p>Le modèle est disponible en preview privée sur la plateforme Microsoft Foundry depuis le 2 juin 2026. Il s'accompagne de MAI-Code-1-Flash, premier modèle Microsoft dédié à la génération de code applicatif, et de cinq autres modèles plus spécialisés. Mustafa Suleyman affirme, dans <a href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html" target="_blank" rel="noopener">une déclaration relayée par CNBC</a>, que les benchmarks préparés avec le cabinet McKinsey montrent un coût d'inférence dix fois inférieur à celui de GPT-5 pour des résultats comparables. L'annonce s'inscrit dans la suite directe de l'amendement signé en avril 2026 entre Microsoft et OpenAI, qui a mis fin à la licence exclusive accordée à Microsoft sur la propriété intellectuelle d'OpenAI et supprimé l'obligation de reverser une part de revenus à OpenAI; la part reversée par OpenAI à Microsoft reste plafonnée jusqu'en 2030. Microsoft a publié ses résultats sous forme de preprint, <a href="https://www.techtimes.com/articles/317631/20260602/microsoft-build-2026-mai-thinking-1-first-house-reasoning-model-trained-without-openai-data.htm" target="_blank" rel="noopener">comme l'a souligné TechTimes</a>, sans relecture par pairs ni reproduction indépendante à ce jour.</p>
+
+            <h2>Pourquoi Microsoft choisit l'autonomie maintenant ?</h2>
+            <p>Microsoft choisit l'autonomie en juin 2026 parce que le coût d'OpenAI pesait directement sur sa marge cloud, et parce que la dépendance technique était devenue intenable face à AWS et Google. L'éditeur a versé pendant cinq ans une part significative des revenus Azure à OpenAI au titre de la licence exclusive, alors que les usages explosaient. Les agents IA, les complétions de code, les chatbots intégrés à Office: chaque produit Microsoft payait OpenAI à chaque appel d'inférence. L'amendement d'avril 2026 a desserré le nœud financier, le lancement des MAI le coupe net.</p>
+
+            <p>Le second levier est stratégique. Une plateforme cloud qui dépend d'un seul fournisseur de modèles porte une vulnérabilité concurrentielle structurelle. Si OpenAI augmente ses prix, Microsoft les répercute. Si OpenAI accuse un retard technique, Azure accuse le même retard. En internalisant la couche modèle, Microsoft reprend le contrôle de la roadmap, du calendrier de release et de la marge. C'est la logique appliquée par Amazon Web Services avec Bedrock et par Google Cloud avec Gemini: chaque hyperscaler veut posséder son propre catalogue de modèles.</p>
+
+            <p>Le troisième levier, le moins commenté, est le contrôle du plan d'inférence. Microsoft Foundry sert désormais de plan de contrôle unique pour orchestrer modèles maison, modèles OpenAI, modèles partenaires et modèles open source. Pour un acheteur grand compte, le message est limpide: vous achetez la plateforme, vous arbitrez ensuite entre fournisseurs sans changer d'API, sans réécrire vos workflows agents. C'est le même argumentaire que Bedrock chez AWS, transposé sur Azure. La différence est nette: Microsoft contrôle désormais l'un des fournisseurs de sa propre liste.</p>
+
+            <h2>Quelle est la valeur des benchmarks annoncés ?</h2>
+            <p>La valeur des benchmarks annoncés par Microsoft mérite un examen serré, car les évaluations ont été publiées en preprint sans relecture par pairs ni reproduction indépendante. Les comparaisons à Claude Opus 4.6 sur SWE-Bench Pro et la préférence humaine sur Claude Sonnet 4.6 reposent sur des évaluations décrites par Microsoft lui-même. Les laboratoires Anthropic, OpenAI et DeepMind appliquent la même précaution avec leurs propres benchmarks, mais l'historique du secteur invite à la prudence: un modèle annoncé au niveau d'un concurrent peut décrocher dès qu'il rencontre des charges de travail en production.</p>
+
+            <p>Le chiffre du coût dix fois inférieur à GPT-5 vient des benchmarks préparés avec McKinsey, c'est-à-dire d'un cabinet client de Microsoft Foundry. La méthodologie complète n'est pas publique. Ce qui est vérifiable, en revanche, c'est l'architecture: une approche sparse Mixture of Experts active seulement 35 milliards de paramètres sur les 1 000 milliards théoriques pour chaque requête. À architecture égale, ce type de design réduit mécaniquement le coût d'inférence par token, à condition que le système de routage soit efficace. Si Microsoft a réussi cet équilibrage, la promesse de coût devient plausible, même si le facteur dix doit encore être validé sur des charges hétérogènes.</p>
+
+            <p>L'enjeu pour les directions techniques n'est donc pas de prendre les chiffres au pied de la lettre, mais de tester MAI-Thinking-1 sur leurs propres cas d'usage. Les retours terrain des prochains trimestres pèseront davantage que les preprints. Microsoft basculera vraisemblablement une partie de ses produits internes Copilot vers MAI sur l'année à venir, ce qui constituera le premier vrai test à l'échelle. Avant cela, toute promesse de migration depuis Claude ou GPT-5 reste un pari.</p>
+
+            <h2>Ce que ça change pour les acheteurs entreprise</h2>
+            <p>Pour les directions des systèmes d'information, la conséquence immédiate est tactique: Microsoft devient un négociateur de catalogue, là où il portait jusqu'ici une rente sur un fournisseur unique. Les contrats Azure renégociés en seconde moitié 2026 contiendront mécaniquement des clauses sur la portabilité entre MAI, GPT-5 et modèles partenaires. Les acheteurs avisés demanderont des engagements de prix indexés sur les modèles les moins chers du catalogue, pas sur les modèles propriétaires premium.</p>
+
+            <p>La deuxième conséquence est plus profonde. Pendant cinq ans, l'argument commercial de Microsoft tenait dans la qualité de GPT-4 puis de GPT-5. Le nouveau récit affirme que la qualité naît du choix du bon modèle pour la bonne tâche. Cela impose aux équipes IT d'apprendre à comparer, à benchmarker en interne, à mesurer la qualité par cas d'usage plutôt qu'à s'en remettre à un label unique. C'est exactement le travail que les éditeurs comme OpenRouter, Vellum ou Promptfoo monétisent déjà à petite échelle, et qui devient un réflexe de gouvernance plutôt qu'un sport d'expert.</p>
+
+            <p>La troisième conséquence touche la concurrence entre hyperscalers. AWS pousse Bedrock comme une plateforme agnostique. Google pousse Vertex AI avec Gemini. Microsoft Foundry rejoint cette logique avec en plus une carte unique: son intégration native dans Office, Teams, Outlook et Windows. Le combat ne porte plus sur le modèle qui gagne, mais sur la plateforme qui orchestre le mieux la diversité. Les entreprises qui sortiront vainqueurs seront celles qui auront construit une couche d'abstraction interne pour basculer d'un modèle à l'autre sans tout réécrire.</p>
+
+            <h2>Ce que ça change dans mon quotidien de freelance</h2>
+            <p>Cette logique multi-modèles est exactement celle que j'applique en mission depuis dix-huit mois. Pour le scorer d'offres d'emploi avec génération de CV ATS que je maintiens, j'ai testé quatre fournisseurs sur le même jeu de quarante annonces. Les écarts de qualité étaient minimes, les écarts de coût allaient du simple au quadruple. Le choix final s'est porté sur deux modèles distincts: un raisonnement plus fort pour la note d'analyse, un modèle plus léger pour la génération CV. La qualité utile au cas d'usage tient rarement sur un seul fournisseur.</p>
+
+            <p>Côté <a href="https://mathieuhaye.fr/#projets" target="_blank" rel="noopener">Bloomberg Dashboard</a> appliqué à mon portefeuille personnel, Claude Haiku 4.5 suffit à scorer les positions au quotidien; un modèle plus lourd serait du gaspillage. La même discipline structure le pipeline n8n à 93 nœuds que j'ai construit pour la <a href="https://mathieuhaye.fr/#projets" target="_blank" rel="noopener">Fromagerie Ermitage</a>: un modèle de classification rapide en amont, un modèle de rédaction plus exigeant en aval. L'annonce Microsoft confirme que cette pratique deviendra la norme. La compétence vendable en freelance n'est plus de prompter; c'est d'arbitrer entre fournisseurs sur un cas d'usage précis, métrique en main. C'est exactement ce que j'apporte aux PME qui veulent <a href="/collaboration">travailler avec moi</a> sur leurs projets IA.</p>
+
+            <h2>Questions fréquentes</h2>
+            <h3>Quelle est la différence entre MAI-Thinking-1 et MAI-Code-1-Flash ?</h3>
+            <p>MAI-Thinking-1 est un modèle de raisonnement de 35 milliards de paramètres actifs avec une fenêtre de contexte de 256 000 tokens, conçu pour les tâches longues et analytiques. MAI-Code-1-Flash est un modèle plus léger spécialisé dans la génération de code à partir d'instructions en langage naturel. Les deux sont disponibles sur Microsoft Foundry depuis le 2 juin 2026.</p>
+
+            <h3>Le partenariat Microsoft-OpenAI est-il rompu ?</h3>
+            <p>Non, mais il a été profondément réécrit en avril 2026. Microsoft a perdu sa licence exclusive sur la propriété intellectuelle d'OpenAI et n'a plus à reverser une part de revenus à OpenAI. OpenAI continue toutefois de reverser une part plafonnée de ses revenus à Microsoft jusqu'en 2030.</p>
+
+            <h3>Faut-il migrer vos workflows Azure vers les modèles MAI ?</h3>
+            <p>Pas immédiatement. MAI-Thinking-1 est disponible en preview privée et ses performances réelles en production restent à valider sur des charges hétérogènes. La bonne approche consiste à benchmarker MAI sur deux ou trois cas d'usage internes représentatifs avant d'arbitrer entre MAI, GPT-5 et modèles partenaires sur la même plateforme Foundry.</p>
+
+            <hr>
+
+            <p>L'ère du fournisseur unique est terminée. Microsoft, qui en avait tiré la rente la plus visible avec OpenAI, vient d'acter le passage à un monde multi-modèles. Reste à voir si les MAI tiendront en production ce que leurs preprints annoncent. La question n'est plus de savoir quel modèle gagne, mais quelle équipe sait arbitrer vite, sur la bonne métrique, au bon moment.</p>
+        </article>
+
+        <footer class="article-footer">
+            <div class="article-footer-author">
+                <img src="/assets/img/mathieu.webp" alt="Mathieu Haye, freelance builder en CRM, data engineering et IA appliquée, région parisienne" width="72" height="72">
+                <div class="author-info">
+                    <div class="author-name">Mathieu <em>Haye.</em></div>
+                    <div class="author-bio">22 ans, freelance builder en CRM, Data et IA appliquée. Apps IA, automatisations et CRM sur-mesure pour PME, startups et associations.</div>
+                    <div class="author-links">
+                        <a href="/">Portfolio</a>
+                        <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:contact@mathieuhaye.fr">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-nav">
+                <a href="/blog/">&larr; Tous les articles</a>
+                <a href="/">Portfolio complet &rarr;</a>
+            </div>
+        </footer>
+
+        <!-- Bloc conversion (v4) -->
+        <section class="final-cta article-conversion">
+            <div class="section-container">
+                <div class="final-cta-card">
+                    <h2 class="final-cta-title">Un projet CRM, IA ou automatisation&nbsp;?</h2>
+                    <p class="final-cta-lead">Je con&ccedil;ois et livre ce genre de syst&egrave;mes pour des PME et scale-ups &mdash; du cadrage &agrave; la production. Appel de cadrage 30&nbsp;min, gratuit.</p>
+                    <div class="final-cta-actions">
+                        <a class="btn btn-primary" href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener">R&eacute;server un appel</a>
+                        <a class="btn btn-ghost" href="/collaboration">Voir les offres</a>
+                        <a class="btn btn-ghost" href="/developpeur-agent-ia">Service li&eacute; &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<!-- ============ FOOTER v4 (FR, pages intérieures — texte statique) ============ -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>Consultant IA &amp; automatisation &middot; CRM, agents IA &amp; applications m&eacute;tier &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>R&eacute;server un appel</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/developpeur-agent-ia">D&eacute;veloppeur d&rsquo;agents IA</a></li>
+                    <li><a href="/automatisation-n8n">Automatisation n8n</a></li>
+                    <li><a href="/crm-sur-mesure">CRM sur-mesure</a></li>
+                    <li><a href="/application-sur-mesure">Application &amp; MVP sur-mesure</a></li>
+                    <li><a href="/agent-ia-pme">Agent IA pour PME</a></li>
+                    <li><a href="/freelance-ia">Freelance IA</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Naviguer</div>
+                <ul>
+                    <li><a href="/projets">Projets</a></li>
+                    <li><a href="/collaboration">Offres &amp; collaboration</a></li>
+                    <li><a href="/maturite-ia">Test maturit&eacute; IA</a></li>
+                    <li><a href="/visible-par-les-ia">Visible par les IA ?</a></li>
+                    <li><a href="/blog/">Journal</a></li>
+                    <li><a href="/discuter-avec-mon-ia">Discuter avec mon IA</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Me joindre</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Actuellement</div>
+                <ul>
+                    <li>Consultant freelance</li>
+                    <li>Bloomberg BMC certifi&eacute;</li>
+                    <li>Disponible pour missions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. Tous droits r&eacute;serv&eacute;s.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Confidentialit&eacute;</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Retour en haut">
+                    <span>Retour en haut</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script defer src="/ui.js?v=94"></script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>Salesforce Summer '26: AI agents that read your dashboards &middot; Mathieu Haye Blog</title>
+    <meta name="description" content="On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA.">
+    <meta name="keywords" content="Salesforce Summer 26, Tableau MCP, Agentforce, multi-agent orchestration, Model Context Protocol, semantic layer, agentic analytics, Data 360, Mathieu Haye, freelance builder, AI apps, automation, custom CRM">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="Salesforce Summer '26: AI agents that read your dashboards">
+    <meta property="og:description" content="On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:published_time" content="2026-06-15T09:00:00+02:00">
+    <meta property="article:author" content="Mathieu Haye">
+    <meta property="article:section" content="Data &amp; Analytics">
+    <meta property="article:tag" content="Salesforce">
+    <meta property="article:tag" content="Tableau MCP">
+    <meta property="article:tag" content="Agentforce">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Salesforce Summer '26: AI agents that read your dashboards">
+    <meta name="twitter:description" content="On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../style.css?v=94">
+
+    <!-- JSON-LD Article (GEO-enriched: speakable, wordCount, isPartOf, mentions) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics#article",
+      "headline": "Salesforce Summer '26: AI agents that read your dashboards",
+      "description": "On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA.",
+      "image": "https://mathieuhaye.fr/assets/img/og-cover-en.jpg",
+      "datePublished": "2026-06-15T09:00:00+02:00",
+      "dateModified": "2026-06-15T09:00:00+02:00",
+      "wordCount": 1344,
+      "author": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/",
+        "jobTitle": "Consultant IA &amp; automatisation, AI apps, automation and custom CRM",
+        "sameAs": ["https://www.linkedin.com/in/mathieu-haye/"]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/"
+      },
+      "mainEntityOfPage": "https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://mathieuhaye.fr/blog/#blog",
+        "name": "Mathieu Haye Journal",
+        "url": "https://mathieuhaye.fr/blog/"
+      },
+      "inLanguage": "en",
+      "articleSection": "Data &amp; Analytics",
+      "keywords": "Salesforce Summer 26, Tableau MCP, Agentforce, multi-agent orchestration, Model Context Protocol, semantic layer, agentic analytics, Data 360",
+      "about": [{"@type":"Organization","name":"Salesforce"}, {"@type":"SoftwareApplication","name":"Tableau"}, {"@type":"Thing","name":"Model Context Protocol"}, {"@type":"SoftwareApplication","name":"Agentforce"}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-lead", ".article-body h2"]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD BreadcrumbList (GEO: entity grounding) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mathieuhaye.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/en/" },
+        { "@type": "ListItem", "position": 3, "name": "Salesforce Summer '26: AI agents that read your dashboards", "item": "https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    { "@context":"https://schema.org", "@type":"FAQPage", "inLanguage":"en", "mainEntity":[
+      {"@type":"Question","name":"What is Tableau MCP in Salesforce Summer '26?","acceptedAnswer":{"@type":"Answer","text":"Tableau MCP is an open integration shipped with the Salesforce Summer '26 release on June 15, 2026 that lets AI agents query Tableau's analytics engine directly. Answers are grounded in the company's business context and the data stays protected by the Agentforce Trust Layer. MCP stands for Model Context Protocol, the standard that exposes a data source as a tool any model can call."}},
+      {"@type":"Question","name":"What is Agentforce multi-agent orchestration?","acceptedAnswer":{"@type":"Answer","text":"Agentforce multi-agent orchestration lets several specialized agents work together as one team on an end-to-end workflow. An orchestrator agent receives the request, reads the descriptions of the registered sub-agents, and routes the task to the best-suited specialist. The feature moved from beta to general availability in the Summer '26 release on June 15, 2026."}},
+      {"@type":"Question","name":"Why does the semantic layer matter for AI agents?","acceptedAnswer":{"@type":"Answer","text":"The semantic layer defines a company's metrics, relationships and business rules, and it is what stops an agent from computing a wrong revenue figure from ambiguous data. Without shared definitions, an agent wired to dashboards returns answers that sound right but are not reliable. Research firm ISG expects more than half of enterprises to deploy conversational experiences as standard BI interfaces by 2028, which makes this layer a strategic asset."}}
+    ]}
+    </script>
+
+</head>
+<body class="launch-done">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+    <script>try { localStorage.setItem('lang', 'en'); } catch(e) {}</script>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Back to portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics" class="lang-btn" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics" class="lang-btn active" data-lang="en">EN</a>
+                </div>
+                <a href="/blog/en/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">All articles</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-wrap">
+
+        <a href="/blog/en/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            All articles
+        </a>
+
+        <div class="article-meta-top">
+            <span class="article-category">Data &amp; Analytics</span>
+            <span>&middot;</span>
+            <time datetime="2026-06-15T09:00:00+02:00">June 15, 2026</time>
+            <span>&middot;</span>
+            <span>6 min read</span>
+        </div>
+
+        <h1 class="article-title">Salesforce Summer '26: AI agents that read your <em>dashboards</em></h1>
+
+        <p class="article-lead">On June 15, 2026, Salesforce shipped its Summer '26 release: through Tableau MCP, AI agents can now query Tableau's analytics engine directly, and Agentforce multi-agent orchestration reaches general availability. The real shift is not orchestration, which has become ordinary; it is that the analytics layer becomes a governed, callable data source for agents.</p>
+
+        <article class="article-body">
+            <ul>
+                <li><strong>The 30-second version:</strong></li>
+                <li>Salesforce rolled out its Summer '26 release in waves from June 13, 2026, reaching general availability on June 15, 2026.</li>
+                <li>Tableau MCP lets AI agents query Tableau's analytics engine directly, with the data protected by the Agentforce Trust Layer.</li>
+                <li>Agentforce multi-agent orchestration moves from beta to general availability; Salesforce-hosted MCP servers expose SOQL, Data 360 and Tableau as tool sources external agents like Claude, ChatGPT and Cursor can consume.</li>
+                <li>According to research firm ISG, more than half of enterprises will deploy conversational experiences as standard BI interfaces by 2028.</li>
+            </ul>
+
+            <h2>The facts</h2>
+            <p>On June 15, 2026, Salesforce made its twice-yearly Summer '26 release generally available, after a wave rollout that began on June 13. Two announcements stand out for anyone working with data and CRM. First, Tableau MCP, an open integration that lets AI agents query Tableau's analytics engine directly, returning answers grounded in business context with data protected by the Agentforce Trust Layer. MCP, short for Model Context Protocol, is the standard that exposes a data source as a tool any model can call.</p>
+
+            <p>Second, Agentforce multi-agent orchestration moves from beta to general availability. An orchestrator agent receives the request, reads the descriptions of the registered sub-agents, and routes the work to the best-suited specialist. Alongside it, Salesforce is generalizing its hosted MCP servers, which expose SObject operations via SOQL, Data 360 queries and Tableau analytics as tool sources external agents can consume, including Claude, ChatGPT and Cursor. The detail of these capabilities sits in <a href="https://www.salesforce.com/news/stories/summer-2026-product-release-announcement/" target="_blank" rel="noopener">the official Summer '26 announcement</a> and in <a href="https://www.salesforce.com/news/stories/tableau-agentic-analytics-platform-announcement/" target="_blank" rel="noopener">the Tableau agentic analytics announcement</a>. For scale, Salesforce's 2026 Connectivity Benchmark says the average company already runs 12 AI agents, half of which still operate in a silo.</p>
+
+            <h2>Why does Tableau MCP change the game?</h2>
+            <p>Tableau MCP changes the game because it turns the analytics layer into a first-class reasoning source for agents, rather than a screen a human reads. Until now, an agent wired to a CRM read raw records: opportunity rows, amounts, dates. Now it can ask Tableau a question and get back an answer already computed according to the company's definitions. The difference is concrete: instead of summing columns itself and risking an error, the agent queries the engine that holds the business logic.</p>
+
+            <p>This move tackles a problem everyone underestimated in 2025: reliability. An agent computing revenue from ambiguous data returns a plausible answer, not a correct one. By anchoring the agent to the analytics engine, Salesforce pushes the calculation to where the rules already live. It is less flashy than an agent writing an email, but it is what separates a demo from a tool an executive can decide on. For an agent, data is only worth as much as the definition it arrives with.</p>
+
+            <h2>The real battle: the semantic layer</h2>
+            <p>The decisive part of Summer '26 is not the agent, it is the semantic layer that feeds it. Salesforce gave Tableau a knowledge layer that, in the words of ISG analyst Matt Aslett, "combines data with metrics, relationships, semantics, business rules and definitions," through automated knowledge graph creation expected in July 2026. This layer is what lets an agent operate on established enterprise definitions rather than on data it can interpret however it likes.</p>
+
+            <p>The numbers from <a href="https://research.isg-one.com/analyst-perspectives/salesforce-adds-knowledge-to-tableau-for-agentic-analytics" target="_blank" rel="noopener">ISG</a> frame the trajectory: 62% of analytics vendors assessed in the 2025 Buyers Guide scored A- or above for natural language narratives, 52% for guided analytics, and Matt Aslett expects more than half of enterprises to deploy conversational experiences as standard BI interfaces by 2028. In other words, the "which model?" question becomes secondary; the question that matters is "who owns your metric definitions?" Whoever controls the semantic layer controls what agents are allowed to say about the business.</p>
+
+            <p>That is also where the risk hides. ISG notes that several core pieces of Tableau's agentic analytics, from the knowledge graph in July to the Command Center planned for fall 2026, are still early in their availability. Adopting now means living with incomplete features during rollout. The maturity of the layer matters as much as its existence.</p>
+
+            <h2>Salesforce opens its data to outside agents</h2>
+            <p>The other strong signal in Summer '26 is strategic: Salesforce is exposing its data to agents that are not its own. The hosted MCP servers make SOQL, Data 360 and Tableau consumable by Claude, ChatGPT or Cursor. In practice, an agent built outside Salesforce can query a Tableau dashboard and a CRM record as two standardized tools, with no custom integration. For a vendor historically attached to its walled garden, that is a notable change of posture.</p>
+
+            <p>The logic is as defensive as it is open. If agents become the entry point to work, Salesforce has every reason to stay the source of truth those agents query, whatever the model. Better to be the data everyone calls than the interface no one opens. The bet: turn CRM and analytics into a governed context layer, wired to the Agentforce Trust Layer for access rights and traceability. Gartner, cited in <a href="https://actgsys.com/en/blog/salesforce-agentforce-summer-26-multi-agent-sme-2026-06" target="_blank" rel="noopener">an analysis for SMEs</a>, expects that by 2028 at least 15% of day-to-day work decisions will be made autonomously by agents, up from roughly 0% in 2024. In that world, the value lives in data governance, not in the chatbot.</p>
+
+            <h2>What this changes in my freelance work</h2>
+            <p>This shift matches exactly what I see on my projects: an agent is only as good as the quality and governance of the data it queries. On the <a href="https://mathieuhaye.fr/#projets" target="_blank" rel="noopener">CRM platform I built for e-Enfance</a>, in Apex and LWC, the question was never the model, but who is allowed to access what, how to trace actions, and how to expose data cleanly to the right tools. A clear layer of rights and definitions is the difference between a reliable automation and a gimmick.</p>
+
+            <p>I apply the same reflex on my portfolio-tracking dashboard wired to Claude Haiku 4.5: a model reading market figures is useless if it sums positions without knowing the calculation rule. The value comes from the layer above, the one that defines the metrics before the model answers. Tableau MCP industrializes that principle for large accounts; but the lesson holds for a nonprofit with a handful of users just as much as for a global group. Before you wire an agent to your dashboards, get your definitions straight; otherwise you are automating the production of answers that are wrong but well phrased.</p>
+
+            <h2>The takeaway</h2>
+            <p>Salesforce has just turned analytics into a source agents can call and opened its data to rival models. The race is no longer about the smartest agent, but about the semantic layer that decides what it is allowed to say. So the right question for 2026 is not "which agent should I deploy?" but: who controls your metric definitions when an AI queries them on your behalf?</p>
+
+            <h2>Frequently asked questions</h2>
+            <h3>What is Tableau MCP in Salesforce Summer '26?</h3>
+            <p>Tableau MCP is an open integration shipped with the Salesforce Summer '26 release on June 15, 2026 that lets AI agents query Tableau's analytics engine directly. Answers are grounded in the company's business context and the data stays protected by the Agentforce Trust Layer. MCP stands for Model Context Protocol, the standard that exposes a data source as a tool any model can call.</p>
+
+            <h3>What is Agentforce multi-agent orchestration?</h3>
+            <p>Agentforce multi-agent orchestration lets several specialized agents work together as one team on an end-to-end workflow. An orchestrator agent receives the request, reads the descriptions of the registered sub-agents, and routes the task to the best-suited specialist. The feature moved from beta to general availability in the Summer '26 release on June 15, 2026.</p>
+
+            <h3>Why does the semantic layer matter for AI agents?</h3>
+            <p>The semantic layer defines a company's metrics, relationships and business rules, and it is what stops an agent from computing a wrong revenue figure from ambiguous data. Without shared definitions, an agent wired to dashboards returns answers that sound right but are not reliable. Research firm ISG expects more than half of enterprises to deploy conversational experiences as standard BI interfaces by 2028, which makes this layer a strategic asset.</p>
+        </article>
+
+        <footer class="article-footer">
+            <div class="article-footer-author">
+                <img src="/assets/img/mathieu.webp" alt="Mathieu Haye, freelance builder in CRM, data engineering and applied AI, Paris area" width="72" height="72">
+                <div class="author-info">
+                    <div class="author-name">Mathieu <em>Haye.</em></div>
+                    <div class="author-bio">22, freelance builder in CRM, Data and applied AI. Custom AI apps, automations and CRM for SMEs, startups and nonprofits.</div>
+                    <div class="author-links">
+                        <a href="/">Portfolio</a>
+                        <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:contact@mathieuhaye.fr">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-nav">
+                <a href="/blog/en/">&larr; All articles</a>
+                <a href="/">Full portfolio &rarr;</a>
+            </div>
+        </footer>
+
+        <!-- Conversion block (v4) -->
+        <section class="final-cta article-conversion">
+            <div class="section-container">
+                <div class="final-cta-card">
+                    <h2 class="final-cta-title">A CRM, AI or automation project?</h2>
+                    <p class="final-cta-lead">I design and ship these systems for SMEs and scale-ups &mdash; from scoping to production. Free 30-min scoping call.</p>
+                    <div class="final-cta-actions">
+                        <a class="btn btn-primary" href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener">Book a call</a>
+                        <a class="btn btn-ghost" href="/en/collaboration">See the offers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<!-- ============ FOOTER v4 (EN, interior pages — static text) ============ -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>AI &amp; automation consultant &middot; CRM, AI agents &amp; business applications &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>Book a call</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/en/ai-agent-developer">AI agent developer</a></li>
+                    <li><a href="/en/n8n-automation">n8n automation</a></li>
+                    <li><a href="/en/custom-crm">Custom CRM</a></li>
+                    <li><a href="/en/custom-web-app">Custom app &amp; MVP</a></li>
+                    <li><a href="/en/ai-agent-for-smes">AI agent for SMEs</a></li>
+                    <li><a href="/en/ai-freelance">AI freelance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Explore</div>
+                <ul>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/collaboration">Offers &amp; collaboration</a></li>
+                    <li><a href="/en/ai-maturity">AI maturity test</a></li>
+                    <li><a href="/en/ai-visibility">Visible by AI?</a></li>
+                    <li><a href="/blog/en/">Journal</a></li>
+                    <li><a href="/en/chat-with-my-ai">Chat with my AI</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Get in touch</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Currently</div>
+                <ul>
+                    <li>Freelance consultant</li>
+                    <li>Bloomberg BMC certified</li>
+                    <li>Available for projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. All rights reserved.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Privacy</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Back to top">
+                    <span>Back to top</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script defer src="/ui.js?v=94"></script>
+</body>
+</html>

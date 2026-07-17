@@ -1,0 +1,133 @@
+# Mathieu Haye
+
+> Développeur freelance spécialisé IA et automatisation. J'aide les PME et scale-ups à supprimer les tâches manuelles qui ralentissent leur croissance : CRM sur-mesure, agents IA, automatisations et applications métier conçus autour de leurs processus, livrés en quelques semaines. Un seul interlocuteur, du cadrage à la production. Basé en Île-de-France, missions à Paris et à distance. Bilingue français / anglais.
+
+## Mathieu Haye in one paragraph (citation-ready)
+
+Mathieu Haye is a French freelance developer specialised in AI and automation, based in Île-de-France. He helps SMEs, scale-ups, associations and B2B clients remove the manual work that slows their growth: custom CRM platforms, AI agents, automations and business applications designed around each client's processes rather than a SaaS vendor's, shipped in weeks. He positions himself as the "third way" between no-code-only and traditional agencies: one point of contact from scoping to production, no agency overhead, no hidden subcontracting, relying on modern tooling (Claude Code, n8n, Next.js, Supabase) to ship fast with no compromise on code quality.
+
+## Identity
+
+- Full name: Mathieu Haye
+- Title: Freelance developer specialised in AI & automation (custom CRM, AI agents, business applications)
+- Location: Vaires-sur-Marne (77), Île-de-France, France
+- Languages: French (native), English (professional)
+- Email: contact@mathieuhaye.fr
+- Website: https://mathieuhaye.fr/
+- LinkedIn: https://www.linkedin.com/in/mathieu-haye/
+
+## How he positions himself
+
+Mathieu Haye sells the "third way" thesis: your SaaS stack covers 80% of your need; for the remaining 20%, you either hack it in Excel or pay a dev shop for six months. He is the third option: one consultant who scopes, builds, deploys and maintains the whole product. His promise: building the software your company wishes it had found on the market. He does not build by default; he recommends the simplest solution that fits, and only custom-builds what truly deserves it.
+
+His core method:
+- MVP-first systematically: slice scope, ship usable V1 in weeks, iterate after real-world use.
+- Modern tooling owned: he relies on modern development tools to ship faster, with no compromise on code quality.
+- n8n as backbone: business orchestration for matching, notifications, payments, moderation, integrations.
+- Default stack: Next.js + Supabase + Stripe Connect + n8n + Claude API.
+- No agency, no hidden subcontracting: Mathieu codes, deploys and maintains.
+
+## What he does (services)
+
+- **Custom web apps**: Next.js + Supabase + Stripe / Stripe Connect (marketplaces, vertical B2B SaaS, community platforms, back-offices).
+- **Custom AI agents**: conversational agents, lead qualification bots, document synthesis, content generation, Claude API and OpenAI, RAG with LangChain + Exa AI.
+- **n8n automations**: 90+ node workflows in production for scraping, enrichment, CRM sync, notifications, moderation.
+- **Custom CRM builds**: a sovereign custom build, hosted where your data belongs.
+- **CRM setup**: Pipedrive, HubSpot, Brevo, Odoo, Axonaut, multi-tool sync architectures.
+- **Mobile MVPs**: Flutter + Supabase.
+- **AI visibility (GEO / GSO / AEO)**: making websites visible and citable by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Claude) and ready for AI agents. The field goes by several interchangeable names: GEO (Generative Engine Optimization), GSO (Generative Search Optimization) and AEO (Answer Engine Optimization), which all describe the same goal. Technical SEO plus structured data and AI-readable files, not mass content writing. Free test: https://mathieuhaye.fr/visible-par-les-ia . Self-serve product (scan, auto-generate llms.txt and structured data, one-click deploy to WordPress and Shopify, weekly AI citation tracking): https://www.biencite.fr/
+
+## Packages
+
+- **Sprint 1 semaine** (from €400 depending on scope): one n8n workflow, one simple AI agent, one CRM integration. Cadrage 30 min, delivery in 5 business days.
+- **MVP 4 to 6 weeks** (priced on quote): full web app, user base, payments, AI agent, moderation if needed, deployed in production. Most-requested package.
+- **Monthly Retainer** (priced on quote): 4 to 8 days/month on an existing product, feature work, maintenance, support. Weekly 20-min standup.
+
+He never quotes a firm day rate publicly, pricing depends on the project and is scoped in a 30-min call.
+
+## What he does not do
+
+- Graphic design / art direction
+- Content SEO at scale
+- Paid-media campaign management
+- Legal, tax or accounting advice
+- Offensive cybersecurity audits (pentest)
+- Products with heavy regulatory requirements (regulated banking, certified healthcare, classified defense) without compliance partner
+
+## Current work and clients (since October 2025)
+
+- **e-Enfance / 3018**: worked on their existing market CRM first, then designed and shipped an all-in-one, fully custom CRM (full-stack, hosted in France) that replaces their market CRM and fits the teams day to day, on sensitive data.
+- **Callkom**: end-to-end B2B prospection pipeline (n8n + data.gouv.fr + Pappers + Apify + Brevo).
+- **Fromagerie Ermitage**: n8n press monitoring workflow.
+- **Horus Condition Report**: Pipedrive implementation and follow-up.
+- **Profile Club** (invite-only Parisian professional network): member directory, event logistics, communications, infographics from member data.
+- **Real-estate broker**: full Pipedrive setup + 15 n8n automation workflows.
+
+## Flagship projects
+
+1. **Intelligent B2B watch platform**, SaaS for market monitoring, scraping and AI synthesis, delivered solo. Stack: Next.js, Supabase, Exa AI, Inngest, Stripe.
+2. **IA Brew**, fully automated weekly AI newsletter, sourcing to send. Stack: n8n, Claude API, Brevo. Weekly cadence held with no manual intervention.
+3. **LinkedIn content generation system**, ideation, generation and scheduled publication pipeline. Stack: Creatomate, Airtable, n8n.
+4. **All-in-one custom CRM for e-Enfance / 3018**, see above. Worked on their existing market CRM first, then a full-stack, France-hosted custom CRM that replaces their market CRM and fits the teams, on sensitive data.
+5. **CRM Pipedrive + n8n workflows for real-estate broker**, 15 workflows in production.
+6. **B2B prospection pipeline for Callkom**, see above.
+7. **LinkedIn post on the A400M**, viral defense and aerospace analysis: 339K+ impressions.
+
+## Education and certifications
+
+- 2024-2025: BSc Digital Innovation & IT (L3 MITIC), Université Gustave Eiffel, Serris.
+- 2022-2024: BSc Economics & Management (L1-L2), Université Gustave Eiffel.
+- 2021-2022: BSc Computer Science (L1), ESGI Paris.
+- Certifications: Bloomberg Market Concepts (BMC), Certification Voltaire, Pix.
+
+## Past experience
+
+- Sep 2024 → Sep 2025: Digital Project Coordinator at Concilium, Paris (150+ digital projects per year).
+- Jul 2021 → Aug 2024: Coordinator at CSEC BNP Paribas (3 years 2 months).
+- Oct 2022 → Jun 2023: Technical agent at Le Kiosque mediatheque, Brou-sur-Chantereine.
+
+## Technical skills
+
+- **Build apps**: Next.js, TypeScript, Supabase, Stripe / Stripe Connect, Streamlit, Flutter.
+- **AI and automation**: Claude API (daily), OpenAI, RAG / embeddings / semantic search (LangChain, Exa AI), n8n (expert, 90+ node workflows in production), Make, Inngest, Google Apps Script, scraping (Apify, Firecrawl, Pappers, data.gouv.fr).
+- **CRM**: Pipedrive, HubSpot, Brevo, Odoo, Axonaut.
+- **Languages**: Python, TypeScript / JavaScript, Apex, Dart (Flutter), SQL / SOQL, HTML / CSS.
+- **Infra**: Docker, Scaleway Object Storage, Git, SSH, WSL2, Claude Code CLI.
+
+## How to engage him
+
+- Book a free 30-min scoping call (primary CTA): https://calendly.com/mathieu-haye03/30min
+- Chat directly with his AI agent (trained on his profile) on https://mathieuhaye.fr/discuter-avec-mon-ia (EN: https://mathieuhaye.fr/en/chat-with-my-ai)
+- Free AI & automation maturity test (2 min, scored diagnostic): https://mathieuhaye.fr/maturite-ia (FR) / https://mathieuhaye.fr/en/ai-maturity (EN)
+- Free AI visibility test (score out of 100, 30s, no signup): https://mathieuhaye.fr/visible-par-les-ia (FR) / https://mathieuhaye.fr/en/ai-visibility (EN)
+- Read package details: https://mathieuhaye.fr/collaboration (FR) / https://mathieuhaye.fr/en/collaboration (EN)
+- Email: contact@mathieuhaye.fr
+- Reply time: within 24h, Monday to Friday.
+
+## Site map for AI agents
+
+- [Home (FR, default)](https://mathieuhaye.fr/): services-first sales page: what Mathieu builds (5 services), the third way vs agency and no-code, packages, flagship projects, AI agent + 2 free diagnostics, journal, about, contact.
+- [Home (EN)](https://mathieuhaye.fr/en/): same in English (static mirror, markdown twin at /en/index.md).
+- [How we work together (FR)](https://mathieuhaye.fr/collaboration): 3 packages, method, FAQ.
+- [How we work together (EN)](https://mathieuhaye.fr/en/collaboration): same in English.
+- [Freelance IA, service hub (FR)](https://mathieuhaye.fr/freelance-ia) / [AI freelance (EN)](https://mathieuhaye.fr/en/ai-freelance): overview of services and why work with Mathieu rather than an agency or a classic freelance.
+- [Custom AI agent development (FR)](https://mathieuhaye.fr/developpeur-agent-ia) / [(EN)](https://mathieuhaye.fr/en/ai-agent-developer): build custom AI agents that answer customers 24/7, qualify leads, and search your data.
+- [n8n automation (FR)](https://mathieuhaye.fr/automatisation-n8n) / [(EN)](https://mathieuhaye.fr/en/n8n-automation): automate repetitive processes and connect tools with n8n workflows you own.
+- [Custom CRM (FR)](https://mathieuhaye.fr/crm-sur-mesure) / [(EN)](https://mathieuhaye.fr/en/custom-crm): CRM setup and fixes (Pipedrive, HubSpot), integrations, or a fully custom sovereign CRM when market tools do not fit.
+- [Custom web app and MVP (FR)](https://mathieuhaye.fr/application-sur-mesure) / [(EN)](https://mathieuhaye.fr/en/custom-web-app): the software your SaaS stack cannot do, shipped as a production web app in 4 to 6 weeks.
+- [Projects and work (FR)](https://mathieuhaye.fr/projets) / [(EN)](https://mathieuhaye.fr/en/projects): full portfolio, every project detailed (custom CRM, AI newsletter, security tooling, dashboards).
+- [AI agent for SMEs (FR)](https://mathieuhaye.fr/agent-ia-pme) / [(EN)](https://mathieuhaye.fr/en/ai-agent-for-smes): AI for small businesses, start small on one process, RGPD, France hosting.
+- [AI maturity test (FR)](https://mathieuhaye.fr/maturite-ia): free 6-question scored diagnostic of AI & automation maturity.
+- [AI maturity test (EN)](https://mathieuhaye.fr/en/ai-maturity): same in English.
+- [AI visibility test (FR)](https://mathieuhaye.fr/visible-par-les-ia): free GEO / AI-visibility audit, a score out of 100 for whether AI (ChatGPT, Perplexity, Google AI) can read and cite a site.
+- [AI visibility test (EN)](https://mathieuhaye.fr/en/ai-visibility): same in English.
+- [Journal / Blog (FR)](https://mathieuhaye.fr/blog/): articles on AI, finance, builder economics.
+- [Journal / Blog (EN)](https://mathieuhaye.fr/blog/en/): same in English.
+- [Sitemap (XML)](https://mathieuhaye.fr/sitemap.xml): full URL list.
+
+## Licensing for AI
+
+- Search indexing: yes (`search=yes`).
+- AI input (answering user queries): yes (`ai-input=yes`).
+- AI training: no (`ai-train=no`).
+- Cited content should link back to https://mathieuhaye.fr/ and attribute "Mathieu Haye".

@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>Blog &middot; Business, IA &amp; Data &middot; Mathieu Haye</title>
+    <meta name="description" content="Business &times; IA &times; Data : ce que Mathieu Haye lit, teste et construit en livrant CRM, agents IA et automatisations pour des PME et scale-ups.">
+    <meta name="keywords" content="blog business IA, Mathieu Haye blog, articles Business Data IA, agents IA, CRM sur-mesure, automatisation n8n, IA pour PME, freelance builder">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="Blog &middot; Business, IA &amp; Data &middot; Mathieu Haye">
+    <meta property="og:description" content="Business &times; IA &times; Data : ce que je lis, teste et construis en livrant CRM, agents IA et automatisations pour des PME.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+    <meta property="og:locale" content="fr_FR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog &middot; Business, IA &amp; Data &middot; Mathieu Haye">
+    <meta name="twitter:description" content="Business &times; IA &times; Data : ce que je lis, teste et construis en livrant CRM, agents IA et automatisations pour des PME.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../style.css?v=94">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://mathieuhaye.fr/blog/#breadcrumbs",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mathieu Haye", "item": "https://mathieuhaye.fr/" },
+            { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/" }
+          ]
+        },
+        {
+          "@type": "Blog",
+          "@id": "https://mathieuhaye.fr/blog/#blog",
+          "name": "Blog Mathieu Haye - Finance, IA & Data",
+          "description": "Articles sur la Finance quantitative, l'IA appliquée aux marchés, la Data science et l'ALM.",
+          "url": "https://mathieuhaye.fr/blog/",
+          "inLanguage": "fr",
+          "author": { "@type": "Person", "name": "Mathieu Haye", "url": "https://mathieuhaye.fr/" }
+        }
+      ]
+    }
+    </script>
+
+</head>
+<body class="launch-done">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Retour au portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/" class="lang-btn active" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/" class="lang-btn" data-lang="en">EN</a>
+                </div>
+                <a href="/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">Portfolio</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="blog-wrap">
+        <a href="/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            mathieuhaye.fr
+        </a>
+
+        <div class="blog-eyebrow">Journal &middot; Business &times; IA &times; Data</div>
+        <h1 class="blog-title"><em>Notes</em> de terrain.</h1>
+        <p class="blog-intro">
+            Ce que je lis, ce que je teste, ce que je construis
+            en livrant CRM, agents IA et automatisations pour des PME et scale-ups.
+            Et les outils que j'utilise au quotidien : Claude, n8n, Python, Supabase.
+        </p>
+
+        <div class="article-list" id="articleList">
+            <!-- ARTICLES_START -->
+            <a href="/blog/2026-07-15-donnees-pretes-ia-fondation-agents" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-15T08:00:00+02:00">15 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>Agents IA en entreprise : la donnée n'est pas prête</h2>
+                <p>Le 14 juillet 2026, Xebia lance Axis, une fondation data agentique. Le vrai frein des agents IA en entreprise n'est pas le modèle, c'est la donnée.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-11T08:00:00+02:00">11 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>Lyzr : un agent IA a mené sa levée de 100 millions</h2>
+                <p>Le 9 juillet 2026, Lyzr a levé 100 millions de dollars en confiant le processus à son propre agent IA. Ce que ça révèle vraiment sur l'automatisation commerciale.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-10T08:00:00+02:00">10 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Microsoft généralise ses agents IA dans le CRM</h2>
+                <p>Le 7 juillet 2026, Microsoft a généralisé Sales Agent et Service Agent dans Dynamics 365 et Copilot ; deux agents IA qui fragilisent le prix au siège.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-09T08:00:00+02:00">9 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Prime Intellect lève 130 M$ pour des agents IA maison</h2>
+                <p>Le 8 juillet 2026, Prime Intellect a levé 130 millions de dollars pour aider les entreprises à entraîner leurs propres agents IA, sans dépendre d'OpenAI.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-07T08:00:00+02:00">7 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>HubSpot renonce au partage par défaut des données CRM</h2>
+                <p>Le 5 juillet 2026, HubSpot a annulé en quatre jours le partage par défaut des données d'enrichissement de ses 299 458 clients. Ce que l'affaire dit de l'IA.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-06T08:00:00+02:00">6 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Coût des agents IA : l'entreprise passe au FinOps</h2>
+                <p>Le 2 juillet 2026, Anthropic a doté Claude Enterprise de plafonds de dépenses et d'une attribution des coûts par utilisateur. L'IA d'entreprise passe au FinOps.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Fintech</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-05T11:00:00+02:00">5 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Commerce agentique : quand les agents IA se mettent à payer</h2>
+                <p>AIsa a levé 6,5 millions de dollars le 3 juillet 2026 pour faire payer les agents IA. Visa, Mastercard, Stripe et Coinbase se disputent l'infrastructure du commerce agentique.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-05T08:00:00+02:00">5 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>Profound Aim : la visibilité IA passe à l'exécution</h2>
+                <p>Profound a lancé Aim le 2 juillet 2026 : un agent qui ne mesure plus seulement la visibilité d'une marque dans ChatGPT, il déclenche l'action. Le GEO passe du tableau de bord au flux automatisé.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-07-01T08:00:00+02:00">1 juillet 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Claude Sonnet 5 : l'IA se juge au coût de l'agent</h2>
+                <p>Anthropic lance Claude Sonnet 5 le 30 juin, moins cher qu'Opus 4.8. Le vrai signal : l'IA en entreprise se juge désormais au coût par agent, plus au benchmark.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-28-taktile-110-millions-decision-agentique-finance" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Fintech</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-28T08:00:00+02:00">28 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>Taktile lève 110 M$ pour faire décider l'IA en banque</h2>
+                <p>Taktile lève 110 M$ menés par Goldman Sachs pour des agents IA qui décident crédit, sinistres et fraude. La vraie leçon : agents IA plus règles plus supervision humaine.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-26T08:00:00+02:00">26 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Attention lève 30 M$ : l'IA qui exécute la vente</h2>
+                <p>Attention lève 30 M$ le 24 juin 2026 pour une IA qui exécute la vente au lieu d'enregistrer les appels. Pourquoi le sales tech passe du system of record au system of action.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-19T08:00:00+02:00">19 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>NeuralTrust lève 20 M$ pour gouverner les agents IA</h2>
+                <p>NeuralTrust lève 20 M$, le plus gros seed cyber d'une entreprise UE, pour cartographier et sécuriser les agents IA déployés en entreprise. Pourquoi la gouvernance devient le frein numéro un de l'IA agentique.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-18T09:00:00+02:00">18 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>OpenAI et Anthropic débauchent les vendeurs de Salesforce</h2>
+                <p>OpenAI et Anthropic ont recruté près de 100 salariés de Salesforce en 18 mois, surtout des vendeurs. Pourquoi la course à l'IA se gagne désormais sur la distribution, pas sur le modèle.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-17T09:00:00+02:00">17 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Respond.io lève 62,5 M$ : la conversation devient le CRM</h2>
+                <p>Respond.io a levé 62,5 millions de dollars le 16 juin 2026 pour sa plateforme de conversation client. Pourquoi le canal où le client parle devient plus stratégique que le CRM.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-16T09:00:00+02:00">16 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Arcade lève 60 M$ : l'identité, vrai frein des agents IA</h2>
+                <p>Arcade a levé 60 millions de dollars le 15 juin 2026 pour sécuriser les actions des agents IA en production. Pourquoi le vrai frein n'est plus le modèle, mais l'autorisation.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-15T09:00:00+02:00">15 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Salesforce Summer '26 : les agents IA lisent vos dashboards</h2>
+                <p>Tableau MCP laisse les agents IA interroger vos dashboards et l'orchestration multi-agents passe en GA. Pourquoi la couche sémantique devient le vrai enjeu.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-14T09:00:00+02:00">14 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Samsung, SK, LG : un agent IA pour chaque salarié en 2026</h2>
+                <p>En juin 2026, les trois géants coréens donnent un agent IA à tous leurs salariés. Ce que ce virage révèle sur la vraie valeur de l'IA en entreprise.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-09T09:00:00+02:00">9 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>OpenAI dépose son IPO : la facture cachée des modèles IA</h2>
+                <p>Le 8 juin 2026, OpenAI a déposé un projet d'IPO confidentiel, une semaine après Anthropic. Ce que la Bourse va exposer sur le coût réel des modèles d'IA.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Visibilité IA</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-08T09:00:00+02:00">8 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>GEO, GSO, AEO : quelle différence, et laquelle choisir ?</h2>
+                <p>GEO, GSO et AEO désignent le même combat : être cité par les IA. La seule question qui compte, c'est de savoir si ChatGPT et Perplexity citent votre site ou vos concurrents.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-08T11:00:00+02:00">8 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Agents IA : qui possède la couche sémantique gagne</h2>
+                <p>Le 7 juin 2026, une analyse SiliconANGLE acte un tournant : la valeur des agents IA se joue sur la couche sémantique des données, pas sur le modèle. Microsoft, Snowflake et Databricks se battent pour la posséder.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-08T09:00:00+02:00">8 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Apple, Gemini et Siri : le modèle d'IA devient un réglage</h2>
+                <p>Le 8 juin 2026, Apple confie Siri à Gemini et laisse l'utilisateur choisir Claude ou ChatGPT. Pourquoi le modèle d'IA devient une pièce interchangeable, et ce que ça change pour les entreprises.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-05T09:00:00+02:00">5 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>AlphaSense, 7,5 Md$ : la recherche devient un agent IA</h2>
+                <p>Le 3 juin 2026, AlphaSense lève 350 millions de dollars à 7,5 milliards. Le vrai moat n'est pas le modèle, mais 500 millions de documents et l'agent SuperAnalyst.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-04T11:00:00+02:00">4 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>ZoomInfo GTM.AI : la donnée comme socle des agents IA</h2>
+                <p>Le 1er juin 2026, ZoomInfo lance GTM.AI, une couche de contexte vérifiée qui alimente les agents IA via le protocole MCP. Pari sur la donnée pendant que l'action chute de 50 %.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-04T08:00:00+02:00">4 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Anthropic dépose son S-1 : l'IA d'entreprise entre en Bourse</h2>
+                <p>Le 1er juin 2026, Anthropic a déposé un projet d'introduction en Bourse confidentiel auprès de la SEC, à 965 milliards de dollars de valorisation. Ce que ce S-1 révèle sur le vrai business de l'IA en entreprise.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-04-seo-vs-geo-referencement-ia-2026" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Visibilité IA</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-04T14:00:00+02:00">4 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>SEO vs GEO : ce qui change pour votre référencement en 2026</h2>
+                <p>SEO vs GEO en 2026 : le SEO vous place dans les liens bleus, le GEO vous place dans la réponse de l'IA. Pourquoi vos concurrents y sont déjà, et pas vous.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Visibilité IA</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-04T10:00:00+02:00">4 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>9 min de lecture</span>
+                </div>
+                <h2>Être cité par ChatGPT, Perplexity et Google AI Overviews</h2>
+                <p>Si ChatGPT ne cite pas votre site, c'est votre concurrent qui décroche le client. Pourquoi vous n'êtes pas cité par les IA, ce que ça coûte, et comment le vérifier.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Visibilité IA</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-04T08:00:00+02:00">4 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Qu'est-ce que le GEO, et pourquoi votre site en a besoin</h2>
+                <p>Le GEO décide si ChatGPT, Perplexity et Google AI citent votre site ou celui de vos concurrents. Ce que c'est, ce que ça vous coûte, et comment savoir où vous en êtes.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+
+            <a href="/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-03T08:00:00+02:00">3 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI</h2>
+                <p>Le 2 juin 2026, Microsoft a dévoilé sept modèles IA conçus en interne lors de Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). L'équation Azure égale OpenAI vient officiellement de se briser.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-06-02T08:00:00+02:00">2 juin 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>GitHub Copilot passe au token: la fin du forfait IA</h2>
+                <p>Le 1er juin 2026, GitHub a basculé Copilot vers une facturation au token. Le forfait illimité disparaît, remplacé par des AI Credits indexés sur le prix réel de chaque modèle, et les premières factures explosent.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Data &amp; Analytics</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-29T08:00:00+02:00">29 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Snowflake rachète Natoma pour gouverner les agents IA</h2>
+                <p>Le 27 mai 2026, Snowflake rachète Natoma, une passerelle MCP de 27 personnes. Donner l'accès aux données ne suffit plus; le vrai enjeu devient le contrôle de ce que les agents ont le droit de faire.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-27T08:00:00+02:00">27 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>OpenRouter à 1,3 milliard, la fin du modèle IA unique</h2>
+                <p>OpenRouter lève 113 millions de dollars chez CapitalG à 1,3 milliard de valorisation. La couche de routage entre 400 modèles devient l'infrastructure que NVIDIA, Snowflake et ServiceNow co-financent.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-26T08:00:00+02:00">26 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Anthropic vise 900 milliards et dépasse OpenAI</h2>
+                <p>Anthropic boucle cette semaine une levée d'au moins 30 milliards de dollars à 900 milliards de valorisation. Sequoia, Altimeter, Greenoaks à la manœuvre. Pourquoi le marché paie ce prix.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-24T08:00:00+02:00">24 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Intuit licencie 17 % de ses effectifs pour accélérer l'IA</h2>
+                <p>Le 20 mai 2026, Intuit annonce 3 000 suppressions de postes alors que son chiffre d'affaires grimpe de 10 %. Ce n'est pas une crise. C'est un modèle d'éditeur SaaS qui se réécrit autour de l'IA.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-21T08:00:00+02:00">21 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>OpenAI x Dell : Codex quitte le cloud pour les data centers privés</h2>
+                <p>Le 19 mai 2026, OpenAI signe avec Dell pour déployer Codex en hybride et on-premises. Première offre frontière hors du cloud public, taillée pour les secteurs régulés.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-20T08:00:00+02:00">20 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>KPMG signe avec Anthropic : trois Big Four sur Claude en sept mois</h2>
+                <p>Le 19 mai 2026, KPMG déploie Claude à 276 000 collaborateurs. Avec Deloitte et PwC, trois des Big Four ont scellé une alliance avec Anthropic. La fin du conseil au tarif horaire commence ici.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-19T08:00:00+02:00">19 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>8 min de lecture</span>
+                </div>
+                <h2>Anthropic rachète Stainless : la plomberie des agents IA</h2>
+                <p>Le 18 mai 2026, Anthropic annonce le rachat de Stainless pour plus de 300 millions de dollars. Le SDK qui faisait tourner les API d'OpenAI, Google et Cloudflare change de propriétaire et de camp.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-18-sap-anthropic-claude-erp-autonome" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-18T08:00:00+02:00">18 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>SAP confie à Claude le cerveau de son entreprise autonome</h2>
+                <p>Le 12 mai 2026 à Orlando, SAP a fait d'Anthropic Claude le modèle de raisonnement principal de son Autonomous Suite. Le geste rebat les cartes du back-office et pose une question rare dans l'enterprise software.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-17-openai-chatgpt-finance-plaid-banques" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliquée</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-17T08:00:00+02:00">17 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>ChatGPT branche les comptes bancaires : OpenAI vise la finance perso</h2>
+                <p>Le 15 mai 2026, OpenAI a branché ChatGPT directement à plus de 12 000 banques américaines via Plaid. Le geste paraît anodin ; il déplace la couche où s'opère le conseil financier des particuliers.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-15T08:00:00+02:00">15 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Anthropic dépasse OpenAI sur l'adoption B2B</h2>
+                <p>Le 13 mai 2026, l'AI Index de Ramp donne Anthropic à 34,4 % d'adoption en entreprise contre 32,3 % pour OpenAI. Première bascule depuis l'arrivée de ChatGPT au bureau, au moment où PwC s'engage à certifier 30 000 collaborateurs sur Claude.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-13T08:00:00+02:00">13 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Slack devient le frontal gratuit du CRM Salesforce</h2>
+                <p>Le 11 mai 2026, Salesforce annonce que tout nouveau client recevra automatiquement un Slack gratuit, deja connecte au CRM. Une bascule strategique qui fait sortir l'interface CRM du navigateur et fait de Slack la couche d'orchestration des agents Agentforce.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-06T08:00:00+02:00">6 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>ServiceNow lance des agents IA dans toute l'entreprise</h2>
+                <p>&Agrave; Knowledge 2026, le 5 mai, ServiceNow ne vend plus des copilotes&nbsp;: l'&eacute;diteur d&eacute;ploie des sp&eacute;cialistes IA qui cl&ocirc;turent les cas eux-m&ecirc;mes sur l'IT, le CRM, les RH et la s&eacute;curit&eacute;. L'IT desk de niveau&nbsp;1 r&eacute;sout 99&nbsp;% plus vite. Le control tower devient le vrai produit.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-05-sierra-950-millions-agents-ia-service-client" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">B2B SaaS</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-05T08:00:00+02:00">5 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Sierra l&egrave;ve 950 millions&nbsp;: l'agent IA client devient une cat&eacute;gorie</h2>
+                <p>Le 4 mai 2026, Sierra boucle une Series&nbsp;E de 950&nbsp;millions de dollars &agrave; 15,8&nbsp;milliards de valorisation. Bret Taylor convertit son ARR (de 100 &agrave; 150 millions en six mois) et 40&nbsp;% des Fortune&nbsp;50 en plateforme self-service. La guerre des agents customer-facing change de dimension.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Business &amp; Growth</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-04T18:00:00+02:00">4 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Anthropic et OpenAI lancent leurs cabinets de conseil IA</h2>
+                <p>Le 4 mai 2026, à quelques heures d'écart, Anthropic et OpenAI ont annoncé deux joint-ventures avec Blackstone, Goldman Sachs, TPG et Bain Capital. Anthropic lève 1,5 milliard de dollars, OpenAI cible 10 milliards. Modèle commun&nbsp;: les forward-deployed engineers de Palantir. Cible commune&nbsp;: McKinsey, BCG, Accenture, Deloitte.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">CRM &amp; Sales</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-04T08:00:00+02:00">4 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Salesforce Agentforce Operations&nbsp;: le back-office bascule</h2>
+                <p>Le 29 avril 2026, Salesforce a sorti Agentforce Operations, sa premi&egrave;re plateforme d'agents IA d&eacute;di&eacute;e au back-office. Cycles d'audit r&eacute;duits de 50 &agrave; 70&nbsp;%, 30 blueprints, int&eacute;gration Salesforce Flow en beta d&egrave;s mai. L'&eacute;diteur du CRM s'attaque enfin au terrain de SAP et Microsoft.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-05-03T08:00:00+02:00">3 mai 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Mistral Workflows&nbsp;: la France joue sa carte orchestration IA</h2>
+                <p>Le 28 avril 2026, Mistral AI a ouvert en public preview Workflows, un moteur d'orchestration sur Temporal d&eacute;j&agrave; en prod chez La Banque Postale, France Travail, ASML et CMA-CGM. La pi&egrave;ce qui manquait &agrave; la pile europ&eacute;enne face &agrave; OpenAI et Anthropic.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-30-bloomberg-askb-agent-ia-terminal" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-30T08:00:00+02:00">30 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Bloomberg AskB&nbsp;: Anthropic Claude au c&oelig;ur du Terminal</h2>
+                <p>Le 28 avril 2026, Bloomberg a ouvert AskB en b&ecirc;ta &agrave; 125&nbsp;000 utilisateurs du Terminal sur 375&nbsp;000. Sous le capot, des mod&egrave;les maison et Claude. Pourquoi cet agent IA r&eacute;&eacute;crit le Terminal et ce que &ccedil;a annonce pour les ALM.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-29-bce-qrf-machine-learning-inflation" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-29T08:00:00+02:00">29 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>BCE et IA : le mod&egrave;le QRF qui surveille l'inflation depuis 2022</h2>
+                <p>Quatre &eacute;conomistes de la BCE ont r&eacute;v&eacute;l&eacute; le 21 avril 2026 qu'un Quantile Regression Forest pr&eacute;pare la politique mon&eacute;taire depuis fin 2022. Le mod&egrave;le a anticip&eacute; les surprises de l'inflation 2025 &agrave; 20 points de base pr&egrave;s.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-28-bce-30-avril-stagflation-alm-banques" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">ALM &amp; Risque</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-28T08:00:00+02:00">28 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>BCE 30 avril : la stagflation impose un nouveau stress test ALM</h2>
+                <p>Le 30 avril 2026, la BCE garde ses taux à 2,00 % avec une inflation 2026 révisée à 2,6 % et une croissance ramenée à 0,9 %. Pourquoi cette décision rouvre, pour les ALM européennes, le scénario que personne ne voulait écrire.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-27T08:00:00+02:00">27 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Ta&iuml;wan : 16 banques s'unissent pour b&acirc;tir un LLM souverain</h2>
+                <p>Le 23 avril 2026, seize banques ta&iuml;wanaises mutualisent un LLM bancaire souverain pour 40 &agrave; 70 millions NT$. CTBC pilote, la FSC supervise. Ce que cette annonce dit de l'IA bancaire europ&eacute;enne &agrave; venir.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Trading quant</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-24T08:00:00+02:00">24 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Aspect Capital : Martin Lueck alerte sur l'IA en trading quant</h2>
+                <p>Le 23 avril 2026, Martin Lueck (cofondateur d'Aspect Capital, 7,8 milliards d'AUM) refuse de confier les d&eacute;cisions de portefeuille &agrave; l'IA. Pourquoi l'avertissement d'un pionnier du quant vise aussi les banques.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-23-google-tpu-8-inference-agentique" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-23T08:00:00+02:00">23 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Google TPU 8 : l'&egrave;re agentique se joue sur le silicium</h2>
+                <p>Le 22 avril 2026, Google d&eacute;voile ses TPU 8t et 8i, Anthropic s'engage sur 3,5&nbsp;GW&nbsp;: l'inf&eacute;rence devient la ligne de front &eacute;conomique de l'IA bancaire.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-22-mcp-faille-banques-ia-agentique" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Regulation</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-22T08:00:00+02:00">22 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>MCP : la faille qui rattrape les banques sur l'IA agentique</h2>
+                <p>Faille MCP d'Anthropic, position « expected » et 200 000 instances vulnerables : pourquoi les banques heritent du risque cyber agentique.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">Finance</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-21">21 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>Anthropic-Amazon : 100 milliards et 5 GW pour tenir Claude</h2>
+                <p>Le 20 avril 2026, Amazon engage jusqu'&agrave; 25 milliards suppl&eacute;mentaires dans Anthropic, qui promet 100 milliards de d&eacute;penses AWS sur dix ans. Derri&egrave;re le chiffre, un mod&egrave;le circulaire et une nouvelle ligne de risque pour la finance.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-20-bank-of-england-ia-stabilite-financiere" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">ALM &amp; Risque</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-20">20 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>7 min de lecture</span>
+                </div>
+                <h2>IA syst&eacute;mique : la Bank of England passe aux simulations</h2>
+                <p>Le 16 avril 2026, la Deputy Governor Sarah Breeden confirme que la BoE teste d&eacute;sormais l'IA en sc&eacute;nario de stabilit&eacute; financi&egrave;re. Un pivot m&eacute;thodologique qui ouvre l'&egrave;re des stress tests d&eacute;di&eacute;s aux agents et mod&egrave;les de langage.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <a href="/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia" class="article-card">
+                <div class="article-meta">
+                    <span class="article-category">IA appliqu&eacute;e</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-04-19">19 avril 2026</time>
+                    <span>&middot;</span>
+                    <span>6 min de lecture</span>
+                </div>
+                <h2>Wall Street Q1 2026 : 5 000 postes en moins, l'IA en plus</h2>
+                <p>47,3 milliards de profit trimestriel, pr&egrave;s de 5 000 postes supprim&eacute;s, un discours dirigeant qui assume enfin la ligne IA&nbsp;: le Q1 2026 acte une bascule dans la grammaire des grandes banques.</p>
+                <span class="read-more">Lire l'article &rarr;</span>
+            </a>
+            <!-- Les articles sont inser&eacute;s ici par l'agent planifi&eacute; -->
+            <!-- ARTICLES_END -->
+        </div>
+
+        <div class="empty-state" id="emptyState" style="display:none">
+            Premier article en cours de redaction. Revenez dans 2 jours.
+        </div>
+    </main>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<!-- ============ FOOTER v4 (FR, pages intérieures — texte statique) ============ -->
+    <section class="explore-next" aria-label="À explorer ensuite">
+        <span class="section-eyebrow">À explorer ensuite</span>
+        <div class="explore-grid">
+            <a class="explore-card" href="/discuter-avec-mon-ia">Discuter avec mon IA <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/crm-sur-mesure">CRM sur-mesure <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/developpeur-agent-ia">Développeur d'agents IA <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+            <a class="explore-card" href="/maturite-ia">Test maturité IA <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>Consultant IA &amp; automatisation &middot; CRM, agents IA &amp; applications m&eacute;tier &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>R&eacute;server un appel</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/developpeur-agent-ia">D&eacute;veloppeur d&rsquo;agents IA</a></li>
+                    <li><a href="/automatisation-n8n">Automatisation n8n</a></li>
+                    <li><a href="/crm-sur-mesure">CRM sur-mesure</a></li>
+                    <li><a href="/application-sur-mesure">Application &amp; MVP sur-mesure</a></li>
+                    <li><a href="/agent-ia-pme">Agent IA pour PME</a></li>
+                    <li><a href="/freelance-ia">Freelance IA</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Naviguer</div>
+                <ul>
+                    <li><a href="/projets">Projets</a></li>
+                    <li><a href="/collaboration">Offres &amp; collaboration</a></li>
+                    <li><a href="/maturite-ia">Test maturit&eacute; IA</a></li>
+                    <li><a href="/visible-par-les-ia">Visible par les IA ?</a></li>
+                    <li><a href="/blog/">Journal</a></li>
+                    <li><a href="/discuter-avec-mon-ia">Discuter avec mon IA</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Me joindre</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Actuellement</div>
+                <ul>
+                    <li>Consultant freelance</li>
+                    <li>Bloomberg BMC certifi&eacute;</li>
+                    <li>Disponible pour missions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. Tous droits r&eacute;serv&eacute;s.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Confidentialit&eacute;</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Retour en haut">
+                    <span>Retour en haut</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+    // Sync language preference (FR) across the site
+    try { localStorage.setItem('lang', 'fr'); } catch(e) {}
+    // Show empty state if no articles
+    (() => {
+        const list = document.getElementById('articleList');
+        const empty = document.getElementById('emptyState');
+        if (list && empty && list.children.length === 0) {
+            list.style.display = 'none';
+            empty.style.display = 'block';
+        }
+    })();
+    </script>
+<script defer src="/ui.js?v=94"></script>
+</body>
+</html>

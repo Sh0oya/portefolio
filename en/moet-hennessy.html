@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <!-- ============================================================
+         TARGETED APPLICATION (private page). To reuse for another
+         role, edit ONLY the blocks marked "OFFER" here (the <title>,
+         the hero, the mapping grid, the CTA availability) plus the
+         twin file /moet-hennessy.html. The rest (projects, skills,
+         education) is about me and stays the same.
+         ============================================================ -->
+
+    <!-- OFFER:title -->
+    <title>Mathieu Haye &middot; Applied AI Engineer &middot; Mo&euml;t Hennessy</title>
+    <meta name="description" content="Mathieu Haye's application for the Applied AI Engineer role on the Commercial Operations Platform at Mo&euml;t Hennessy. A builder who ships AI in production.">
+    <!-- /OFFER:title -->
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/en/moet-hennessy">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/moet-hennessy">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/moet-hennessy">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/moet-hennessy">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="Mathieu Haye &middot; Applied AI Engineer &middot; Mo&euml;t Hennessy">
+    <meta property="og:description" content="A builder who ships AI in production. Targeted application for the Commercial Operations Platform. Available for a work-study from September 2026.">
+    <meta property="og:url" content="https://mathieuhaye.fr/en/moet-hennessy">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-moet-hennessy-en.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mathieu Haye &middot; Applied AI Engineer &middot; Mo&euml;t Hennessy">
+    <meta name="twitter:description" content="A builder who ships AI in production. Targeted application, available for a work-study from September 2026.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-moet-hennessy-en.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../style.css?v=94">
+
+    <style>
+    /* ---- Application page (reuses the design system tokens) ---- */
+    .cand-wrap { position: relative; z-index: 2; max-width: 1080px; margin: 0 auto; padding: calc(var(--nav-height) + var(--space-xl)) var(--space-md) var(--space-2xl); }
+    .back-home { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-mono); font-size: 12px; color: var(--ink-500); letter-spacing: 0.05em; margin-bottom: var(--space-md); text-decoration: none; }
+    .back-home:hover { color: var(--albert-royal); }
+
+    .cand-eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--albert-royal); text-transform: uppercase; margin-bottom: var(--space-sm); }
+    .cand-title { font-family: var(--font-serif); font-size: clamp(2.3rem, 6vw, 4.4rem); font-weight: 400; line-height: 1.04; letter-spacing: -0.02em; color: var(--ink-900); margin-bottom: var(--space-md); }
+    .cand-title em { font-style: italic; color: var(--albert-royal); }
+    .cand-lead { font-size: clamp(1.05rem, 2.1vw, 1.3rem); line-height: 1.6; color: rgba(31,13,25,0.82); max-width: 720px; margin-bottom: var(--space-md); }
+    .cand-meta { font-family: var(--font-mono); font-size: 13px; color: var(--ink-500); letter-spacing: 0.03em; margin-bottom: var(--space-lg); }
+    .cand-actions { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-lg); }
+    .cand-btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; font-size: 14px; font-weight: 500; text-decoration: none; transition: all 300ms var(--ease-out); }
+    .cand-btn-primary { background: var(--ink-900); color: #fff; }
+    .cand-btn-primary:hover { background: var(--albert-royal); transform: translateY(-1px); }
+    .cand-btn-ghost { background: transparent; color: var(--ink-900); border: 1px solid rgba(31,13,25,0.16); }
+    .cand-btn-ghost:hover { border-color: var(--albert-royal); color: var(--albert-royal); }
+    .cand-stats { display: flex; gap: var(--space-lg); flex-wrap: wrap; margin-top: var(--space-md); }
+
+    .cand-section { margin-top: var(--space-2xl); }
+    .cand-section .section-head { margin-bottom: var(--space-lg); }
+
+    .map-grid { border-top: 1px solid rgba(31,13,25,0.1); }
+    .map-row { display: grid; grid-template-columns: 1fr 1.45fr; gap: var(--space-lg); padding: var(--space-md) 0; border-bottom: 1px solid rgba(31,13,25,0.1); align-items: start; }
+    .map-need { font-family: var(--font-display); font-weight: 600; color: var(--ink-900); font-size: 1.05rem; line-height: 1.35; }
+    .map-need span { display: block; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--albert-royal); margin-bottom: 7px; font-weight: 600; }
+    .map-bring { color: rgba(31,13,25,0.82); line-height: 1.6; font-size: 15px; }
+    .map-bring strong { color: var(--ink-900); font-weight: 600; }
+
+    .ee-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--space-lg); align-items: center; }
+    .ee-note { color: rgba(31,13,25,0.82); line-height: 1.7; font-size: 16px; }
+    .ee-note strong { color: var(--ink-900); }
+    .ee-grid .project-card { margin: 0; }
+
+    .skill-groups { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-md); margin-top: var(--space-lg); }
+    .skill-card { padding: var(--space-md); background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: var(--radius-md); box-shadow: var(--glass-inset); }
+    .skill-card h3 { font-family: var(--font-display); font-size: 1rem; color: var(--ink-900); margin-bottom: 8px; }
+    .skill-card p { font-size: 14px; color: var(--ink-500); line-height: 1.55; }
+
+    .formation-list { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-lg); }
+    .formation-item { padding: var(--space-md); border-left: 3px solid var(--albert-royal); background: rgba(139,26,47,0.045); border-radius: var(--radius-sm); }
+    .formation-item h3 { font-family: var(--font-display); font-size: 1.05rem; color: var(--ink-900); margin-bottom: 4px; }
+    .formation-org { font-size: 14px; color: rgba(31,13,25,0.82); }
+    .formation-meta { font-family: var(--font-mono); font-size: 12px; color: var(--ink-500); letter-spacing: 0.03em; margin-top: 6px; }
+
+    .cand-cta { margin-top: var(--space-2xl); padding: var(--space-xl) var(--space-lg); background: var(--glass-bg); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); border: 1px solid var(--glass-border); border-radius: var(--radius-md); box-shadow: var(--glass-shadow), var(--glass-inset); text-align: center; }
+    .cand-cta h2 { font-family: var(--font-serif); font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 400; color: var(--ink-900); margin-bottom: var(--space-xs); }
+    .cand-cta-sub { color: var(--ink-500); margin-bottom: var(--space-md); font-size: 15px; }
+    .cand-cta-links { display: flex; gap: var(--space-sm); flex-wrap: wrap; justify-content: center; }
+
+    @media (max-width: 720px) {
+        .map-row { grid-template-columns: 1fr; gap: 6px; }
+        .ee-grid { grid-template-columns: 1fr; }
+        .skill-groups { grid-template-columns: 1fr; }
+    }
+
+    /* ---- CV viewer modal ---- */
+    .cv-modal { position: fixed; inset: 0; z-index: 1000; display: none; align-items: center; justify-content: center; padding: var(--space-md); background: rgba(31,13,25,0.62); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+    .cv-modal.is-open { display: flex; animation: cvFade .25s var(--ease-out, ease); }
+    @keyframes cvFade { from { opacity: 0; } to { opacity: 1; } }
+    .cv-dialog { width: min(920px, 100%); height: min(92vh, 100%); background: #fff; border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 24px 70px rgba(31,13,25,0.4); }
+    .cv-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); padding: 12px 16px; border-bottom: 1px solid rgba(31,13,25,0.1); flex: 0 0 auto; }
+    .cv-head-title { font-family: var(--font-display); font-weight: 600; font-size: 14px; color: var(--ink-900); letter-spacing: 0.01em; }
+    .cv-head-actions { display: flex; align-items: center; gap: 10px; }
+    .cv-mini-btn { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em; color: var(--albert-royal); text-decoration: none; border: 1px solid rgba(139,26,47,0.3); border-radius: 999px; padding: 6px 13px; transition: all 200ms var(--ease-out); }
+    .cv-mini-btn:hover { background: var(--albert-royal); color: #fff; border-color: var(--albert-royal); }
+    .cv-close { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 0; border-radius: 999px; border: 1px solid rgba(31,13,25,0.14); background: transparent; color: var(--ink-900); cursor: pointer; transition: all 200ms var(--ease-out); }
+    .cv-close:hover { background: var(--ink-900); color: #fff; border-color: var(--ink-900); }
+    .cv-body { flex: 1 1 auto; min-height: 0; background: #f3f1ee; }
+    .cv-frame { width: 100%; height: 100%; border: 0; display: block; }
+    .cv-fallback { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-sm); height: 100%; padding: var(--space-lg); text-align: center; color: var(--ink-500); font-size: 14px; }
+    @media (max-width: 720px) { .cv-dialog { height: 100%; border-radius: 0; } }
+    </style>
+</head>
+<body class="launch-done">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Back to portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/moet-hennessy" class="lang-btn" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/en/moet-hennessy" class="lang-btn active" data-lang="en">EN</a>
+                </div>
+                <a href="/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">Portfolio</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <script>try { localStorage.setItem('lang', 'en'); } catch(e) {}</script>
+
+    <main class="cand-wrap">
+
+        <a href="/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            mathieuhaye.fr
+        </a>
+
+        <!-- ============ HERO ============ -->
+        <!-- OFFER:hero -->
+        <header class="cand-hero">
+            <div class="cand-eyebrow">Application &middot; Mo&euml;t Hennessy &middot; LVMH</div>
+            <h1 class="cand-title">Applied AI Engineer for the <em>Commercial Operations Platform</em>.</h1>
+            <p class="cand-lead">I speed up AI adoption by shipping products and automations that run in production, not slides. That is exactly what the Mo&euml;t Hennessy Commercial Operations Platform calls for.</p>
+            <div class="cand-meta">Available for a work-study from September 2026 &middot; Paris &middot; FR / EN</div>
+            <div class="cand-actions">
+                <a href="mailto:contact@mathieuhaye.fr" class="cand-btn cand-btn-primary">
+                    Get in touch
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="/" class="cand-btn cand-btn-ghost">See the portfolio</a>
+            </div>
+            <div class="cand-stats">
+                <div class="stat"><div class="stat-num" data-count="10">0</div><div class="stat-label">Projects shipped</div></div>
+                <div class="stat"><div class="stat-num" data-count="93">0</div><div class="stat-label">n8n nodes (max)</div></div>
+                <div class="stat"><div class="stat-num" data-count="4">0</div><div class="stat-label">Active clients</div></div>
+            </div>
+        </header>
+        <!-- /OFFER:hero -->
+
+        <!-- ============ 01. THE ROLE <-> WHAT I BRING ============ -->
+        <section class="cand-section">
+            <div class="section-head">
+                <span class="section-eyebrow">01. The role &harr; what I bring</span>
+                <h2 class="section-title">Point by point, on <span class="hero-accent">your needs</span>.</h2>
+            </div>
+            <!-- OFFER:mapping -->
+            <div class="map-grid">
+                <div class="map-row">
+                    <div class="map-need"><span>The role</span>Speed up AI adoption across teams</div>
+                    <div class="map-bring">AI products and agentic workflows shipped end to end. <strong>IA Brew</strong>, a 100% automated pipeline (93 n8n nodes), and <strong>LLM scoring</strong> in production on real listings.</div>
+                </div>
+                <div class="map-row">
+                    <div class="map-need"><span>The role</span>Evaluate and make model outputs reliable</div>
+                    <div class="map-bring">Serious <strong>prompt engineering</strong> and <strong>human feedback loops</strong>. I treat a model's output as a deliverable to check, not as magic.</div>
+                </div>
+                <div class="map-row">
+                    <div class="map-need"><span>The role</span>Build on a commercial operations platform</div>
+                    <div class="map-bring">A real <strong>CRM build</strong>, end to end. Building on my Salesforce experience, I shipped an <strong>all-in-one custom CRM</strong> for e-Enfance that fits the teams, replacing Salesforce. Not a demo, a platform in service.</div>
+                </div>
+                <div class="map-row">
+                    <div class="map-need"><span>The role</span>Work with data</div>
+                    <div class="map-bring"><strong>Python, SQL, pipelines, dashboards.</strong> I turn scattered data into readable decisions, from scraping to reporting.</div>
+                </div>
+                <div class="map-row">
+                    <div class="map-need"><span>The role</span>Fluent English, autonomy, rigor</div>
+                    <div class="map-bring">Bilingual <strong>FR / EN</strong>. I run from scoping to production on my own, across clients, and I document what I ship.</div>
+                </div>
+            </div>
+            <!-- /OFFER:mapping -->
+        </section>
+
+        <!-- ============ 02. OPS PLATFORM IN LIVE CONDITIONS (e-Enfance) ============ -->
+        <section class="cand-section">
+            <div class="section-head">
+                <span class="section-eyebrow">02. An ops platform, in live conditions</span>
+                <h2 class="section-title">I shipped a <span class="hero-accent">100% custom CRM</span>.</h2>
+            </div>
+            <div class="ee-grid">
+                <div class="ee-note">
+                    <p>It was my experience as the <strong>Salesforce Admin</strong> for e-Enfance, on the <strong>3018</strong> line (France's national child-protection number), that showed me from the inside what the teams really needed, and where Salesforce hit its limits for this specific need.</p>
+                    <p>That is what let me design and ship an <strong>all-in-one, 100% custom CRM</strong> that truly fits the teams: a full sovereign build, hosted in France, <strong>replacing</strong> Salesforce. A real operations platform in service, on <strong>sensitive data</strong>, end to end.</p>
+                    <p>For a Commercial Operations Platform, that is the right instinct: not just configuring a tool, but designing and shipping the platform when the existing one no longer fits.</p>
+                </div>
+                <article class="project-card" data-category="data ia">
+                    <div class="project-visual project-visual-salesforce">
+                        <div class="project-visual-content">
+                            <div class="sf-stack">
+                                <div class="sf-chip">Custom build</div>
+                                <div class="sf-chip">Full-stack TS</div>
+                                <div class="sf-chip sf-chip-ai">Realtime</div>
+                                <div class="sf-chip">Hosted in France</div>
+                                <div class="sf-chip">Multichannel</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Custom CRM</span><span>TypeScript</span><span>Realtime</span>
+                        </div>
+                        <h3 class="project-title">e-Enfance / 3018, custom CRM</h3>
+                        <p class="project-desc">An all-in-one, 100% custom CRM for the 3018 child-protection line that truly fits the teams. Full sovereign build, hosted in France, replacing Salesforce.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 03. PROJECTS THAT SHIP ============ -->
+        <section class="cand-section">
+            <div class="section-head">
+                <span class="section-eyebrow">03. Projects that ship</span>
+                <h2 class="section-title">AI, scoring, <span class="hero-accent">data in production</span>.</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-category="ia data">
+                    <div class="project-tag project-tag-featured">&#9733; Featured</div>
+                    <div class="project-visual project-visual-iabrew">
+                        <div class="project-visual-content">
+                            <div class="brew-flow">
+                                <div class="brew-step">Apify</div>
+                                <div class="brew-arrow"></div>
+                                <div class="brew-step brew-step-ai">Claude</div>
+                                <div class="brew-arrow"></div>
+                                <div class="brew-step">Brevo</div>
+                            </div>
+                            <div class="brew-label">93-node n8n workflow, weekly</div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>n8n</span><span>Claude API</span><span>Apify</span>
+                        </div>
+                        <h3 class="project-title">IA Brew, AI newsletter</h3>
+                        <p class="project-desc">Fully automated weekly newsletter: ingest from 20+ sources, AI scoring and summarisation, HTML rendering, delivery via Brevo. Runs on autopilot across 93 n8n nodes, no human in the loop.</p>
+                    </div>
+                </article>
+                <article class="project-card" data-category="data ia">
+                    <div class="project-visual project-visual-scrapper">
+                        <div class="project-visual-content">
+                            <div class="scrapper-grid">
+                                <div class="scrapper-cell"></div>
+                                <div class="scrapper-cell scrapper-cell-active"></div>
+                                <div class="scrapper-cell"></div>
+                                <div class="scrapper-cell scrapper-cell-active"></div>
+                                <div class="scrapper-cell scrapper-cell-active"></div>
+                                <div class="scrapper-cell"></div>
+                                <div class="scrapper-cell scrapper-cell-active"></div>
+                                <div class="scrapper-cell"></div>
+                                <div class="scrapper-cell scrapper-cell-active"></div>
+                            </div>
+                            <div class="scrapper-label">Scored jobs: <strong>240+</strong></div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Python</span><span>API</span><span>LLM</span>
+                        </div>
+                        <h3 class="project-title">Job Scorer + ATS CV generator</h3>
+                        <p class="project-desc">Aggregates WTTJ, JobTeaser and LinkedIn via APIs, applies weighted scoring against a profile. For each high-scoring offer, generates an <strong>ATS-optimised CV and cover letter in PDF</strong>, tailored to the job description.</p>
+                    </div>
+                </article>
+                <article class="project-card" data-category="finance ia">
+                    <div class="project-tag project-tag-featured">&#9733; Featured</div>
+                    <div class="project-visual project-visual-bloomberg">
+                        <div class="project-visual-content">
+                            <div class="mini-chart">
+                                <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+                                    <defs>
+                                        <linearGradient id="gradBlueMHen" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#FCBA35" stop-opacity="0.6"/>
+                                            <stop offset="100%" stop-color="#FCBA35" stop-opacity="0"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M0,50 L20,45 L40,40 L60,30 L80,35 L100,25 L120,20 L140,22 L160,15 L180,18 L200,10 L200,60 L0,60 Z" fill="url(#gradBlueMHen)"/>
+                                    <path d="M0,50 L20,45 L40,40 L60,30 L80,35 L100,25 L120,20 L140,22 L160,15 L180,18 L200,10" stroke="#FCBA35" stroke-width="2" fill="none"/>
+                                </svg>
+                            </div>
+                            <div class="mini-metrics">
+                                <span class="metric metric-up">BTC +4.2%</span>
+                                <span class="metric metric-up">NVDA +2.8%</span>
+                                <span class="metric metric-down">CW8 -0.6%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Next.js</span><span>Claude AI</span><span>Recharts</span>
+                        </div>
+                        <h3 class="project-title">Bloomberg-style dashboard</h3>
+                        <p class="project-desc">Personal multi-asset tracker (crypto, stocks, ETF) with technical indicators, <strong>AI-generated market commentary</strong> at open and close, DCA tracker and Telegram alerts.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ 04. SKILLS ============ -->
+        <section class="cand-section">
+            <div class="section-head">
+                <span class="section-eyebrow">04. Targeted skills</span>
+                <h2 class="section-title">The stack <span class="hero-accent">the role needs</span>.</h2>
+            </div>
+            <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                    <span class="ticker-item"><em>CLAUDE</em><b>API</b></span>
+                    <span class="ticker-item"><em>N8N</em><b>93N</b></span>
+                    <span class="ticker-item"><em>PYTHON</em><b>DATA</b></span>
+                    <span class="ticker-item"><em>SQL</em><b>ADV</b></span>
+                    <span class="ticker-item"><em>SALESFORCE</em><b>APEX</b></span>
+                    <span class="ticker-item"><em>RAG</em><b>LLM</b></span>
+                    <span class="ticker-item"><em>BLOOMBERG</em><b>BMC</b></span>
+                    <span class="ticker-item"><em>CLAUDE</em><b>API</b></span>
+                    <span class="ticker-item"><em>N8N</em><b>93N</b></span>
+                    <span class="ticker-item"><em>PYTHON</em><b>DATA</b></span>
+                    <span class="ticker-item"><em>SQL</em><b>ADV</b></span>
+                    <span class="ticker-item"><em>SALESFORCE</em><b>APEX</b></span>
+                    <span class="ticker-item"><em>RAG</em><b>LLM</b></span>
+                    <span class="ticker-item"><em>BLOOMBERG</em><b>BMC</b></span>
+                </div>
+            </div>
+            <div class="skill-groups">
+                <div class="skill-card">
+                    <h3>AI &amp; automation</h3>
+                    <p>Claude API daily, agentic workflows, n8n (93 nodes in prod), RAG, prompt engineering.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python &amp; data</h3>
+                    <p>Python, SQL, ETL pipelines, scraping, dashboards (Power BI, Looker Studio).</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CRM &amp; platforms</h3>
+                    <p>Salesforce (Admin, Apex, LWC) through to a 100% custom CRM. Pipedrive, HubSpot, Brevo.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Business</h3>
+                    <p>Business reading, sales pitch, multi-client handling, Bloomberg Market Concepts certified.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ 05. EDUCATION ============ -->
+        <section class="cand-section">
+            <div class="section-head">
+                <span class="section-eyebrow">05. Education</span>
+                <h2 class="section-title">The framing behind <span class="hero-accent">the field work</span>.</h2>
+            </div>
+            <div class="formation-list">
+                <div class="formation-item">
+                    <h3>MSc AI Applied to Business</h3>
+                    <div class="formation-org">Eugenia School, Paris</div>
+                    <div class="formation-meta">Starts September 2026 &middot; work-study &middot; Master level, RNCP level 7</div>
+                </div>
+                <div class="formation-item">
+                    <h3>Bloomberg Market Concepts (BMC)</h3>
+                    <div class="formation-org">Certification</div>
+                    <div class="formation-meta">Certified 2026 &middot; economic indicators, currencies, rates, equities</div>
+                </div>
+                <div class="formation-item">
+                    <h3>BSc Digital Innovation &amp; IT (L3 MITIC)</h3>
+                    <div class="formation-org">Université Gustave Eiffel, Serris</div>
+                    <div class="formation-meta">Digital innovation &amp; information systems</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FINAL CTA ============ -->
+        <section class="cand-cta">
+            <!-- OFFER:availability -->
+            <h2>Available for a work-study from September 2026.</h2>
+            <p class="cand-cta-sub">Let's talk about the Applied AI Engineer role on the Commercial Operations Platform.</p>
+            <!-- /OFFER:availability -->
+            <div class="cand-cta-links">
+                <a href="mailto:contact@mathieuhaye.fr" class="cand-btn cand-btn-primary">contact@mathieuhaye.fr</a>
+                <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener" class="cand-btn cand-btn-ghost">LinkedIn &rarr;</a>
+                <a href="tel:+33661513289" class="cand-btn cand-btn-ghost">+33 6 61 51 32 89</a>
+                <!-- CV button: opens the PDF in a popup (zoom + scroll). Drop the PDF at assets/cv-mathieu-haye.pdf -->
+                <a href="/assets/cv-mathieu-haye.pdf" class="cand-btn cand-btn-ghost" data-cv-open target="_blank" rel="noopener">View my CV</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CV viewer modal -->
+    <div class="cv-modal" id="cvModal" role="dialog" aria-modal="true" aria-label="Mathieu Haye CV">
+        <div class="cv-dialog">
+            <div class="cv-head">
+                <span class="cv-head-title">CV &middot; Mathieu Haye</span>
+                <div class="cv-head-actions">
+                    <a href="/assets/cv-mathieu-haye.pdf" download class="cv-mini-btn">Download</a>
+                    <button type="button" class="cv-close" data-cv-close aria-label="Close">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="cv-body">
+                <object id="cvObject" type="application/pdf" class="cv-frame" aria-label="Mathieu Haye CV">
+                    <div class="cv-fallback">
+                        <p>The CV preview is not available on this device.</p>
+                        <a href="/assets/cv-mathieu-haye.pdf" target="_blank" rel="noopener" class="cand-btn cand-btn-primary">Open the CV</a>
+                        <a href="/assets/cv-mathieu-haye.pdf" download class="cand-btn cand-btn-ghost">Download</a>
+                    </div>
+                </object>
+            </div>
+        </div>
+    </div>
+
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:8%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:8%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:52%;right:28%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+    <script>
+    (function () {
+      var els = document.querySelectorAll('.stat-num[data-count]');
+      if (!els.length || !('IntersectionObserver' in window)) {
+        els.forEach(function (el) { el.textContent = el.getAttribute('data-count'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          io.unobserve(e.target);
+          var el = e.target, target = parseInt(el.getAttribute('data-count'), 10) || 0, start = null;
+          function step(ts) {
+            if (!start) start = ts;
+            var p = Math.min((ts - start) / 1200, 1);
+            el.textContent = Math.round(p * target);
+            if (p < 1) requestAnimationFrame(step);
+          }
+          requestAnimationFrame(step);
+        });
+      }, { threshold: 0.4 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+    </script>
+
+    <!-- CV viewer: open in a popup (native PDF viewer = zoom + scroll); falls back to opening the PDF -->
+    <script>
+    (function () {
+      var modal = document.getElementById('cvModal');
+      if (!modal) return;
+      var obj = document.getElementById('cvObject');
+      var PDF = '/assets/cv-mathieu-haye.pdf';
+      function openCv() {
+        if (obj && !obj.getAttribute('data')) { obj.setAttribute('data', PDF + '#view=FitH'); }
+        modal.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeCv() {
+        modal.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
+      document.querySelectorAll('[data-cv-open]').forEach(function (b) {
+        b.addEventListener('click', function (e) { e.preventDefault(); openCv(); });
+      });
+      modal.querySelectorAll('[data-cv-close]').forEach(function (b) { b.addEventListener('click', closeCv); });
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeCv(); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && modal.classList.contains('is-open')) closeCv(); });
+    })();
+    </script>
+
+<script defer src="/ui.js?v=94"></script>
+</body>
+</html>

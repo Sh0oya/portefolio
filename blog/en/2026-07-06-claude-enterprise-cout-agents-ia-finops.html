@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>AI agent costs push the enterprise into FinOps &middot; Mathieu Haye Blog</title>
+    <meta name="description" content="On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.">
+    <meta name="keywords" content="AI FinOps, AI agent costs, Claude Enterprise, Anthropic, AI cost governance, cost attribution, usage-based pricing, AI budget, Gartner agentic AI, token costs, AI observability, showback chargeback, Mathieu Haye, freelance builder, AI apps, automation, custom CRM">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="AI agent costs push the enterprise into FinOps">
+    <meta property="og:description" content="On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:published_time" content="2026-07-06T08:00:00+02:00">
+    <meta property="article:author" content="Mathieu Haye">
+    <meta property="article:section" content="Data &amp; Analytics">
+    <meta property="article:tag" content="AI FinOps">
+    <meta property="article:tag" content="Agent costs">
+    <meta property="article:tag" content="Claude Enterprise">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI agent costs push the enterprise into FinOps">
+    <meta name="twitter:description" content="On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../style.css?v=94">
+
+    <!-- JSON-LD Article (GEO-enriched: speakable, wordCount, isPartOf, mentions) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops#article",
+      "headline": "AI agent costs push the enterprise into FinOps",
+      "description": "On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.",
+      "image": "https://mathieuhaye.fr/assets/img/og-cover-en.jpg",
+      "datePublished": "2026-07-06T08:00:00+02:00",
+      "dateModified": "2026-07-06T08:00:00+02:00",
+      "wordCount": 1496,
+      "author": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/",
+        "jobTitle": "Consultant IA &amp; automatisation, AI apps, automation and custom CRM",
+        "sameAs": ["https://www.linkedin.com/in/mathieu-haye/"]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/"
+      },
+      "mainEntityOfPage": "https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://mathieuhaye.fr/blog/#blog",
+        "name": "Mathieu Haye Journal",
+        "url": "https://mathieuhaye.fr/blog/en/"
+      },
+      "inLanguage": "en",
+      "articleSection": "Data &amp; Analytics",
+      "keywords": "AI FinOps, AI agent costs, Claude Enterprise, Anthropic, AI cost governance, cost attribution, usage-based pricing, AI budget, Gartner agentic AI, token costs, AI observability, showback chargeback",
+      "about": [{"@type":"Organization","name":"Anthropic"}, {"@type":"SoftwareApplication","name":"Claude Enterprise"}, {"@type":"Thing","name":"FinOps"}, {"@type":"Organization","name":"Gartner"}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-lead", ".article-body h2"]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD BreadcrumbList (GEO: entity grounding) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mathieuhaye.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/en/" },
+        { "@type": "ListItem", "position": 3, "name": "AI agent costs push the enterprise into FinOps", "item": "https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    { "@context":"https://schema.org", "@type":"FAQPage", "inLanguage":"en", "mainEntity":[
+      {"@type":"Question","name":"What is FinOps for AI?","acceptedAnswer":{"@type":"Answer","text":"FinOps for AI is the discipline that makes each team accountable for its AI spend, tying token and model-call costs to a specific user, project or workflow. Born in the cloud, it now extends to AI because usage-based pricing makes the bill variable and hard to forecast."}},
+      {"@type":"Question","name":"What did Anthropic announce for Claude Enterprise on July 2, 2026?","acceptedAnswer":{"@type":"Answer","text":"On July 2, 2026, Anthropic added to Claude Enterprise a cost dashboard broken down by team and by user, spend limits, threshold alerts at 75% and 90% of the budget, the ability to set a default model per group, and an Analytics API to pipe that data into tools like Datadog Cloud Cost Management or CloudZero."}},
+      {"@type":"Question","name":"Why are AI agent costs hard to forecast?","acceptedAnswer":{"@type":"Answer","text":"Because an agent does not make a single model call per task but several. According to Gartner, an agent generates 5 to 30 calls per user-initiated task, and up to 1,000x more tokens than a single-turn query. With usage-based pricing, the same action can cost very differently depending on context, which breaks the anchors of a per-seat budget."}},
+      {"@type":"Question","name":"How do you reduce AI agent bills?","acceptedAnswer":{"@type":"Answer","text":"By routing each task to the cheapest model that handles it correctly, setting spend limits and alerts per team, and attributing costs by user or workflow to spot the line items that run away. The goal is to measure a cost per outcome, not just a licence cost, before scaling an agent up."}}
+    ]}
+    </script>
+
+</head>
+<body class="launch-done">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+    <script>try { localStorage.setItem('lang', 'en'); } catch(e) {}</script>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Back to portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops" class="lang-btn" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops" class="lang-btn active" data-lang="en">EN</a>
+                </div>
+                <a href="/blog/en/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">All articles</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-wrap">
+
+        <a href="/blog/en/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            All articles
+        </a>
+
+        <div class="article-meta-top">
+            <span class="article-category">Data &amp; Analytics</span>
+            <span>&middot;</span>
+            <time datetime="2026-07-06T08:00:00+02:00">July 6, 2026</time>
+            <span>&middot;</span>
+            <span>7 min read</span>
+        </div>
+
+        <h1 class="article-title">AI <em>agent costs</em> push the enterprise into FinOps</h1>
+
+        <p class="article-lead">On July 2, 2026, Anthropic gave Claude Enterprise spend caps, threshold alerts and per-user cost attribution. It is the visible sign of a shift: the central question of enterprise AI is no longer "does it work?", but "what does it cost, and who is spending?".</p>
+
+        <article class="article-body">
+            <p><strong>The essentials in 30 seconds</strong></p>
+<ul>
+<li>On July 2, 2026, Anthropic added to Claude Enterprise a cost dashboard broken down by team and by user, spend limits, and alerts that fire at 75% and 90% of the budget.</li>
+<li>According to Gartner (July 1, 2026), up to $234bn in enterprise software spend is exposed to "agentic arbitrage" by 2030, roughly 20% of the SaaS market.</li>
+<li>An AI agent generates 5 to 30 model calls per task and up to 1,000x more tokens than a single query, which makes the bill far harder to forecast (Gartner, March 2026).</li>
+<li>Gartner expects AI coding costs to surpass the average developer's salary as early as 2028.</li>
+</ul>
+
+<p>When an AI vendor starts selling brakes instead of accelerator, a threshold has been crossed. On July 2, 2026, Anthropic published a Claude Enterprise update devoted entirely to one thing: seeing and containing what AI costs. No new model, no new capability; spend dashboards, caps and alerts. The implicit message is clear: in 2026, the first barrier to enterprise AI adoption is no longer performance, it is the bill.</p>
+
+<h2>What Anthropic launched on July 2</h2>
+<p>In a post titled "New analytics and cost controls for Claude Enterprise", Anthropic lays out a set of management controls (<a href="https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend" target="_blank" rel="noopener">Claude by Anthropic</a>). The admin dashboard now shows usage and cost by group and by user, with a breakdown of what was produced (artifacts created, files edited, skills and connectors used) sitting next to its cost. Admins can set a default model per team, so a routine task does not quietly land on the most expensive option, and restrict model access by role.</p>
+<p>The governance layer is explicit. Spend alerts warn the admin at 75% and 90% of the set cap, and the user at 75% and 95% of theirs, before work stalls mid-task. An Analytics API finally lets finance and IT pull the same data by date, team, product or model, and pipe it into existing cost tools such as Datadog Cloud Cost Management or CloudZero. For Claude Code, a dedicated tab even estimates a cost per commit and an annual value, with the formula visible. In other words, Anthropic is not just handing over a bill; it is handing over the means to slice it.</p>
+
+<h2>Why would an AI vendor throttle its own bills?</h2>
+<p>Because usage-based pricing, combined with the explosion in agent calls, has made the AI bill unpredictable. A chatbot answers in one call; an agent chains steps. According to a Gartner analysis from March 2026, an agent generates 5 to 30 model calls per user-initiated task, and can consume up to 1,000x more tokens than a single query. The same business action, depending on the context it pulls in, can therefore cost ten cents or ten dollars, without anyone deciding so.</p>
+<p>A recent change removed a natural guardrail. In March 2026, Anthropic dropped the 2x premium that applied to requests above 200,000 tokens of context (<a href="https://www.finout.io/blog/anthropics-enterprise-analytics" target="_blank" rel="noopener">Finout</a>). Long context became cheaper per unit, but easier to consume in bulk; giant windows fill up without the cost jumping out. As a result, AI spend has stopped being a fixed licence line and become a variable that tracks activity, hard to budget in advance.</p>
+<p>The discipline that answers this problem has a name, FinOps, and it is spreading fast. According to the FinOps Foundation's annual State of FinOps survey, nearly all practitioners now actively manage their AI spend, up from less than two-thirds a year earlier. That the vendor itself ships the tools for that management says a lot: containing agent costs has become a condition of sale, not an admin nicety.</p>
+
+<h2>Enterprise AI enters its FinOps era</h2>
+<p>FinOps was born in the cloud to answer a simple question: who, in the company, spent what, and is it justified? Applied to AI, it turns a fuzzy observation into an actionable one. The difference fits in a sentence, well summed up by FinOps vendor Finout: moving from "our Claude bill went up" to "12 engineers on the platform team drove 68% of the increase, mostly through Claude Code". The first statement triggers a crisis meeting; the second, a decision.</p>
+<p>This shift changes the reference metric. In 2025, the question was whether a model could do a task. In 2026, the question is what that task costs per outcome: cost per commit, cost per ticket resolved, cost per case handled. It is the same move that took IT from the server bought once and for all to the monthly cloud bill, then to line-by-line optimisation. AI is running that path at speed, in eighteen months rather than ten years.</p>
+<p>The stakes go beyond cost control. Gartner estimates that up to $234bn in enterprise software spend is exposed by 2030 to what it calls "agentic arbitrage", roughly 20% of the SaaS market (<a href="https://www.cio.com/article/4192242/agentic-ai-puts-234b-in-enterprise-saas-spending-at-risk-gartner-says.html" target="_blank" rel="noopener">CIO</a>, citing <a href="https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence" target="_blank" rel="noopener">Gartner</a>). When an agent completes a task by crossing several pieces of software, value stops being billed per seat and per feature and moves toward the outcome delivered. Knowing what each outcome costs is therefore not an accounting detail; it is the precondition for choosing between building, buying and automating.</p>
+
+<h2>What does it change for those deploying agents?</h2>
+<p>It forces you to design a cost model per workflow, not just a prototype that works. A demo agent handling ten cases costs a few dollars; the same agent scaled to a hundred thousand cases can blow up an annual budget. The gap between the mock-up and production is no longer only technical, it is financial, and it widens all the faster given that Gartner expects AI coding costs to exceed the average developer's salary as early as 2028 (<a href="https://www.gartner.com/en/newsroom/press-releases/2026-06-24-gartner-predicts-ai-coding-costs-will-surpass-average-developer-salary-by-2028-as-token-consumption-surges" target="_blank" rel="noopener">Gartner</a>).</p>
+<p>Three habits become structural. Route each task to the cheapest model that handles it correctly, rather than sending everything to the most powerful. Instrument every workflow to know its unit cost before multiplying it. Set caps and alerts per team, to turn an overrun into a signal you deal with rather than a surprise at month-end. These are not new ideas; they are cloud habits, applied to a spending line that is growing faster than the cloud ever did.</p>
+
+<h2>How this ties into my day-to-day</h2>
+<p>I already apply this reasoning project by project. On my Bloomberg Dashboard, a board tracking a personal portfolio, I chose to run the analysis on Claude Haiku 4.5 rather than a top-tier model. To read prices, compute moves and produce a commentary, the cheapest model is enough, and it holds up under load without inflating the bill. Model choice is a cost decision as much as a quality one, and it is made workflow by workflow.</p>
+<p>The other angle is orchestration. On IA Brew, my automated newsletter built from 93 n8n nodes, most of the work is not the model call but everything around it: capturing the right source, filtering, triggering the AI only when it adds something. Every node that calls a model is a cost line, and the best way to lower the bill is often not to call the AI at all. For a small business, the lesson is direct: before scaling an agent, you cost out its per-task price, the way you would cost a hire.</p>
+
+<h2>The takeaway</h2>
+<p>With these controls, Anthropic concedes that agent costs have become a governance problem, not just a billing matter. The right question for a leader is no longer "can the AI do it?", but "what does each outcome cost, and who, in my company, owns that budget?".</p>
+
+<h2>Frequently asked questions</h2>
+<h3>What is FinOps for AI?</h3>
+<p>FinOps for AI is the discipline that makes each team accountable for its AI spend, tying token and model-call costs to a specific user, project or workflow. Born in the cloud, it now extends to AI because usage-based pricing makes the bill variable and hard to forecast.</p>
+<h3>What did Anthropic announce for Claude Enterprise on July 2, 2026?</h3>
+<p>On July 2, 2026, Anthropic added to Claude Enterprise a cost dashboard broken down by team and by user, spend limits, threshold alerts at 75% and 90% of the budget, the ability to set a default model per group, and an Analytics API to pipe that data into tools like Datadog Cloud Cost Management or CloudZero.</p>
+<h3>Why are AI agent costs hard to forecast?</h3>
+<p>Because an agent does not make a single model call per task but several. According to Gartner, an agent generates 5 to 30 calls per user-initiated task, and up to 1,000x more tokens than a single-turn query. With usage-based pricing, the same action can cost very differently depending on context, which breaks the anchors of a per-seat budget.</p>
+<h3>How do you reduce AI agent bills?</h3>
+<p>By routing each task to the cheapest model that handles it correctly, setting spend limits and alerts per team, and attributing costs by user or workflow to spot the line items that run away. The goal is to measure a cost per outcome, not just a licence cost, before scaling an agent up.</p>
+
+        </article>
+
+        <footer class="article-footer">
+            <div class="article-footer-author">
+                <img src="/assets/img/mathieu.webp" alt="Mathieu Haye, freelance builder in CRM, data engineering and applied AI, Paris area" width="72" height="72">
+                <div class="author-info">
+                    <div class="author-name">Mathieu <em>Haye.</em></div>
+                    <div class="author-bio">22, freelance builder in CRM, Data and applied AI. AI apps, automation and custom CRM for SMBs, startups and nonprofits.</div>
+                    <div class="author-links">
+                        <a href="/">Portfolio</a>
+                        <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:contact@mathieuhaye.fr">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-nav">
+                <a href="/blog/en/">&larr; All articles</a>
+                <a href="/">Full portfolio &rarr;</a>
+            </div>
+        </footer>
+
+        <!-- Conversion block (v4) -->
+        <section class="final-cta article-conversion">
+            <div class="section-container">
+                <div class="final-cta-card">
+                    <h2 class="final-cta-title">A CRM, AI or automation project?</h2>
+                    <p class="final-cta-lead">I design and ship these systems for SMEs and scale-ups &mdash; from scoping to production. Free 30-min scoping call.</p>
+                    <div class="final-cta-actions">
+                        <a class="btn btn-primary" href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener">Book a call</a>
+                        <a class="btn btn-ghost" href="/en/collaboration">See the offers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<!-- ============ FOOTER v4 (EN, interior pages — static text) ============ -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>AI &amp; automation consultant &middot; CRM, AI agents &amp; business applications &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>Book a call</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/en/ai-agent-developer">AI agent developer</a></li>
+                    <li><a href="/en/n8n-automation">n8n automation</a></li>
+                    <li><a href="/en/custom-crm">Custom CRM</a></li>
+                    <li><a href="/en/custom-web-app">Custom app &amp; MVP</a></li>
+                    <li><a href="/en/ai-agent-for-smes">AI agent for SMEs</a></li>
+                    <li><a href="/en/ai-freelance">AI freelance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Explore</div>
+                <ul>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/collaboration">Offers &amp; collaboration</a></li>
+                    <li><a href="/en/ai-maturity">AI maturity test</a></li>
+                    <li><a href="/en/ai-visibility">Visible by AI?</a></li>
+                    <li><a href="/blog/en/">Journal</a></li>
+                    <li><a href="/en/chat-with-my-ai">Chat with my AI</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Get in touch</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Currently</div>
+                <ul>
+                    <li>Freelance consultant</li>
+                    <li>Bloomberg BMC certified</li>
+                    <li>Available for projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. All rights reserved.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Privacy</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Back to top">
+                    <span>Back to top</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script defer src="/ui.js?v=94"></script>
+</body>
+</html>

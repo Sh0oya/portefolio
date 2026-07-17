@@ -1,0 +1,9 @@
+{
+    "logos": [
+        { "file": "/assets/img/logos/logo-3018.png", "alt": "e-Enfance / 3018", "href": "", "h": 48, "white": false },
+        { "file": "/assets/img/logos/logo-esensia.png", "alt": "esensia", "href": "", "h": 36, "white": false },
+        { "file": "/assets/img/logos/logo-callkom.png", "alt": "Callkom", "href": "", "h": 30, "white": false },
+        { "file": "/assets/img/logos/logo-concilium.png", "alt": "Concilium", "href": "", "h": 46, "white": false },
+        { "file": "/assets/img/logos/logo-horus.png", "alt": "Horus Condition Report", "href": "", "h": 54, "white": true }
+    ]
+}

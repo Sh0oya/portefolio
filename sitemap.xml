@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Homepage (FR par défaut) -->
+    <url>
+        <loc>https://mathieuhaye.fr/</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/"/>
+        <image:image>
+            <image:loc>https://mathieuhaye.fr/assets/img/mathieu.webp</image:loc>
+            <image:title>Mathieu Haye, freelance builder CRM, agents IA &amp; automatisation</image:title>
+            <image:caption>Portrait de Mathieu Haye, freelance builder en CRM, agents IA et automatisation à Paris.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://mathieuhaye.fr/assets/img/og-cover.jpg</image:loc>
+            <image:title>Mathieu Haye. Freelance. CRM, Data &amp; Applied AI.</image:title>
+        </image:image>
+    </url>
+
+    <!-- Homepage (miroir EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/en/</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/"/>
+    </url>
+
+    <!-- Machine-readable journal index (Markdown + RSS) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog.md</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.60</priority>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/feed.xml</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- Collaboration (FR) -->
+    <url>
+        <loc>https://mathieuhaye.fr/collaboration</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/collaboration"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/collaboration"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/collaboration"/>
+    </url>
+
+    <!-- Collaboration (EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/en/collaboration</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/collaboration"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/collaboration"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/collaboration"/>
+    </url>
+
+    <!-- AI maturity quiz (FR) -->
+    <url>
+        <loc>https://mathieuhaye.fr/maturite-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/maturite-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-maturity"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/maturite-ia"/>
+    </url>
+
+    <!-- AI maturity quiz (EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/en/ai-maturity</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/maturite-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-maturity"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/maturite-ia"/>
+    </url>
+
+    <!-- AI visibility scanner (FR) -->
+    <url>
+        <loc>https://mathieuhaye.fr/visible-par-les-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/visible-par-les-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-visibility"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/visible-par-les-ia"/>
+    </url>
+
+    <!-- AI visibility scanner (EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/en/ai-visibility</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/visible-par-les-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-visibility"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/visible-par-les-ia"/>
+    </url>
+
+    <!-- Service: Developpeur d'agents IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/developpeur-agent-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/developpeur-agent-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-agent-developer"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/developpeur-agent-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/ai-agent-developer</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/developpeur-agent-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-agent-developer"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/developpeur-agent-ia"/>
+    </url>
+
+    <!-- Service: Automatisation n8n (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/automatisation-n8n</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/automatisation-n8n"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/n8n-automation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/automatisation-n8n"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/n8n-automation</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/automatisation-n8n"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/n8n-automation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/automatisation-n8n"/>
+    </url>
+
+    <!-- Service: Agent IA pour PME (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/agent-ia-pme</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/agent-ia-pme"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-agent-for-smes"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/agent-ia-pme"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/ai-agent-for-smes</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/agent-ia-pme"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-agent-for-smes"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/agent-ia-pme"/>
+    </url>
+
+    <!-- Service: CRM sur-mesure (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/crm-sur-mesure</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/crm-sur-mesure"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/custom-crm"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/crm-sur-mesure"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/custom-crm</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/crm-sur-mesure"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/custom-crm"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/crm-sur-mesure"/>
+    </url>
+
+    <!-- Service: Application & MVP sur-mesure (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/application-sur-mesure</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/application-sur-mesure"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/custom-web-app"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/application-sur-mesure"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/custom-web-app</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/application-sur-mesure"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/custom-web-app"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/application-sur-mesure"/>
+    </url>
+
+    <!-- Portfolio: Projets (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/projets</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/projets"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/projects"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/projets"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/projects</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/projets"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/projects"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/projets"/>
+    </url>
+
+    <!-- Service hub: Freelance IA en France (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/freelance-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/freelance-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-freelance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/freelance-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/ai-freelance</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/freelance-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/ai-freelance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/freelance-ia"/>
+    </url>
+
+    <!-- Blog indexes -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/</loc>
+        <lastmod>2026-07-11T08:00:00+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/"/>
+    </url>
+
+    <!-- Article 2026-05-05: Sierra leve 950M agents IA service client (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-05-sierra-950-millions-agents-ia-service-client</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client"/>
+    </url>
+
+    <!-- Article 2026-05-04: Anthropic OpenAI joint-ventures conseil IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-04-anthropic-openai-joint-ventures-conseil-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia"/>
+    </url>
+
+    <!-- Article 2026-05-04: Salesforce Agentforce Operations back-office (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-04-salesforce-agentforce-operations-back-office-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia"/>
+    </url>
+
+    <!-- Article 2026-05-03: Mistral Workflows orchestration IA entreprise (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise"/>
+    </url>
+
+    <!-- Article 2026-04-30: Bloomberg AskB agent IA Terminal Claude (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal"/>
+    </url>
+
+    <!-- Article 2026-04-29: BCE QRF machine learning inflation (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation"/>
+    </url>
+
+    <!-- Article 2026-04-28: BCE 30 avril stagflation ALM banques (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques"/>
+    </url>
+
+    <!-- Article 2026-04-27: Taiwan 16 banques LLM souverain finance (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance"/>
+    </url>
+
+    <!-- Article 2026-04-24: Aspect Capital Lueck IA quant boite noire (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire"/>
+    </url>
+
+    <!-- Article 2026-04-23: Google TPU 8 inference agentique (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique"/>
+    </url>
+
+    <!-- Article 2026-04-22: MCP faille banques IA agentique (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique"/>
+    </url>
+
+    <!-- Article 2026-04-21: Anthropic x Amazon (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia"/>
+    </url>
+
+    <!-- Article 2026-04-20: Bank of England (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere"/>
+    </url>
+
+    <!-- Article 2026-04-19: Wall Street Q1 (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia"/>
+    </url>
+
+    <!-- Article 2026-05-06: ServiceNow Knowledge 2026 Autonomous Workforce (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia"/>
+    </url>
+
+    <!-- Article 2026-05-13: Slack becomes free for new Salesforce customers (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one"/>
+    </url>
+
+    <!-- Article 2026-05-15: Ramp AI Index - Anthropic depasse OpenAI adoption B2B (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise"/>
+    </url>
+
+    <!-- Article 2026-05-17: OpenAI ChatGPT Finance Plaid - banques (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques"/>
+    </url>
+
+    <!-- Article 2026-05-18: SAP Anthropic Claude ERP autonome (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome"/>
+    </url>
+
+    <!-- Article 2026-05-19: Anthropic rachète Stainless, plomberie agents IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-19-anthropic-rachete-stainless-sdk-agents</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents"/>
+    </url>
+
+    <!-- Article 2026-05-20: KPMG signe avec Anthropic, trois Big Four sur Claude (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-20-kpmg-anthropic-claude-big-four-consulting</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting"/>
+    </url>
+
+    <!-- Article 2026-05-21: OpenAI x Dell, Codex on-premises pour secteurs régulés (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-21-openai-dell-codex-on-premises-ia-souveraine</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine"/>
+    </url>
+
+    <!-- Article 2026-05-24: Intuit licencie 3 000 personnes, restructuration IA d'un editeur rentable (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas"/>
+    </url>
+
+    <!-- Article 2026-05-26: Anthropic levee 30 milliards a 900 milliards de valorisation (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai"/>
+    </url>
+
+    <!-- Article 2026-05-27: OpenRouter leve 113 millions chez CapitalG, routeur multi-modeles IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia"/>
+    </url>
+
+    <!-- Article 2026-05-29: Snowflake rachete Natoma, gouvernance MCP des agents IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia"/>
+    </url>
+
+    <!-- Article 2026-06-02: GitHub Copilot passe au token, fin du forfait IA (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-02-github-copilot-tokens-fin-forfait-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia"/>
+    </url>
+
+    <!-- Article 2026-06-03: Microsoft Build 2026, 7 modèles IA pour sortir d'OpenAI (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+    </url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-05-alphasense-350-millions-agent-recherche-financiere</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere"/>
+    </url>
+
+    <!-- Pillar 2026-06-04-seo-vs-geo-referencement-ia-2026 (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-04-seo-vs-geo-referencement-ia-2026</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026"/>
+    </url>
+    <!-- Pillar 2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai"/>
+    </url>
+    <!-- Pillar 2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization"/>
+    </url>
+    <!-- 2026-06-08-apple-gemini-siri-modele-ia-interchangeable (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-08-apple-gemini-siri-modele-ia-interchangeable</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable"/>
+    </url>
+    <!-- 2026-06-08-couche-semantique-agents-ia-fabric-snowflake (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-08-couche-semantique-agents-ia-fabric-snowflake</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake"/>
+    </url>
+    <!-- Pillar 2026-06-08-geo-gso-aeo-difference-visibilite-ia (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-08-geo-gso-aeo-difference-visibilite-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia"/>
+    </url>
+    <!-- Article 2026-06-09-openai-ipo-confidentiel-cout-modeles-ia (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia"/>
+    </url>
+    <!-- Article 2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries"/>
+    </url>
+    <!-- Article 2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics"/>
+    </url>
+    <!-- Article 2026-06-16-arcade-60-millions-identite-agents-ia-production (FR + EN) -->
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-16-arcade-60-millions-identite-agents-ia-production</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-17-respond-io-62-millions-conversation-client-crm-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-07-hubspot-donnees-crm-enrichissement-ia</loc>
+        <lastmod>2026-07-10T02:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique</loc>
+        <lastmod>2026-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-10-microsoft-sales-service-agent-crm-agentique</loc>
+        <lastmod>2026-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-11-lyzr-agent-ia-mene-levee-100-millions</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions"/>
+    </url>
+
+<url>
+    <loc>https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents"/>
+</url>
+    <url>
+        <loc>https://mathieuhaye.fr/discuter-avec-mon-ia</loc>
+        <lastmod>2026-07-17T18:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/discuter-avec-mon-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/chat-with-my-ai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/discuter-avec-mon-ia"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/chat-with-my-ai</loc>
+        <lastmod>2026-07-17T18:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/discuter-avec-mon-ia"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/chat-with-my-ai"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/discuter-avec-mon-ia"/>
+    </url>
+</urlset>

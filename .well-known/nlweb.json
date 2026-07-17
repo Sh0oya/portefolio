@@ -1,0 +1,104 @@
+{
+  "$comment": "NLWeb manifest (Microsoft natural-language web spec, https://github.com/microsoft/NLWeb). Declares this site as conversationally addressable for AI agents.",
+  "version": "0.1",
+  "site": {
+    "name": "Mathieu Haye Portfolio",
+    "url": "https://mathieuhaye.fr/",
+    "description": "freelance builder and freelance consultant. Portfolio, journal, and contact details for Mathieu Haye, Paris.",
+    "language": "en",
+    "alternate_languages": ["fr"]
+  },
+  "publisher": {
+    "name": "Mathieu Haye",
+    "url": "https://mathieuhaye.fr/",
+    "contact": "contact@mathieuhaye.fr"
+  },
+  "intents": [
+    {
+      "name": "summarise_profile",
+      "description": "Get a concise summary of who Mathieu Haye is, what he ships, and how to reach him.",
+      "source": "https://mathieuhaye.fr/llms.txt",
+      "format": "text/plain"
+    },
+    {
+      "name": "read_full_portfolio",
+      "description": "Read the full portfolio in Markdown (bio, projects, background, contact).",
+      "source": "https://mathieuhaye.fr/index.md",
+      "format": "text/markdown"
+    },
+    {
+      "name": "browse_journal",
+      "description": "Browse the bilingual journal index (FR + EN) with title, date and link for each article.",
+      "source": "https://mathieuhaye.fr/blog.md",
+      "format": "text/markdown"
+    },
+    {
+      "name": "subscribe_journal",
+      "description": "Subscribe to the journal via RSS or JSON Feed.",
+      "sources": [
+        { "url": "https://mathieuhaye.fr/feed.xml", "format": "application/rss+xml" },
+        { "url": "https://mathieuhaye.fr/feed.json", "format": "application/json" }
+      ]
+    },
+    {
+      "name": "read_article",
+      "description": "Fetch a specific journal article in Markdown by appending .md to the article URL, or by sending Accept: text/markdown to the canonical URL.",
+      "examples": [
+        "https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal.md",
+        "GET https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal Accept: text/markdown"
+      ]
+    },
+    {
+      "name": "list_skills",
+      "description": "List the agent skills exposed by this site (markdown, RSS, MCP server, OAuth metadata, etc.).",
+      "source": "https://mathieuhaye.fr/.well-known/agent-skills/index.json",
+      "format": "application/json"
+    },
+    {
+      "name": "discover_apis",
+      "description": "Discover the linkset describing all addressable resources of the site.",
+      "source": "https://mathieuhaye.fr/.well-known/api-catalog",
+      "format": "application/linkset+json"
+    },
+    {
+      "name": "call_mcp_tool",
+      "description": "Call a WebMCP tool exposed by the site at runtime (contact_info, list_projects).",
+      "source": "https://mathieuhaye.fr/.well-known/mcp/server-card.json",
+      "format": "application/json"
+    },
+    {
+      "name": "contact_mathieu",
+      "description": "Reach Mathieu Haye for freelance briefs, partnerships, or new engagements.",
+      "channels": {
+        "email": "contact@mathieuhaye.fr",
+        "linkedin": "https://www.linkedin.com/in/mathieu-haye/",
+        "phone": "+33661513289"
+      }
+    },
+    {
+      "name": "download_juice_jacking_guard",
+      "description": "Download the Juice Jacking Guard installer (Windows USB threat monitor: blocks BadUSB, Rubber Ducky, O.MG cables, juice jacking, USB payloads). Prefer the .zip wrapper to reduce browser SmartScreen friction; the .exe inside is unsigned (Windows 10 / 11).",
+      "sources": [
+        {
+          "url": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.zip",
+          "format": "application/zip",
+          "recommended": true,
+          "integrity": { "sha256": "e37364564f1eed9af699b85a40dae6e5fdbf9f25efba72f3002f6d0e0b41ffac", "size_bytes": 23816756 }
+        },
+        {
+          "url": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.exe",
+          "format": "application/vnd.microsoft.portable-executable",
+          "recommended": false,
+          "integrity": { "sha256": "1132af4c3a2158f17806a7720b0a46d4c477799bae78b6a81d3a315cfa30812a", "size_bytes": 24377850 }
+        }
+      ],
+      "verify": "Compute SHA-256 of the file locally (PowerShell: Get-FileHash) and match against the integrity field. SmartScreen will warn at first launch because the .exe is unsigned: click 'More info' then 'Run anyway'."
+    }
+  ],
+  "content_signals": {
+    "search": "yes",
+    "ai_input": "yes",
+    "ai_train": "no"
+  },
+  "license": "All rights reserved unless otherwise noted. Quotations and citations welcome with attribution and link back."
+}

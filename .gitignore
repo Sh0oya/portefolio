@@ -1,0 +1,16 @@
+# Secrets serveur : ne JAMAIS versionner
+api/config.php
+api/google-sa.json
+
+# Données runtime (leads, scans, réglages serveur)
+api/data/
+
+# Bundle d'upload FileZilla (généré par _build_deploy.py)
+_deploy/
+
+# Outillage local
+.claude/
+_preview.html
+*.zip
+Thumbs.db
+.DS_Store

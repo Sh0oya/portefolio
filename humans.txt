@@ -1,0 +1,19 @@
+/* TEAM */
+    Builder: Mathieu Haye
+    Site: https://mathieuhaye.fr/
+    Contact: contact [at] mathieuhaye.fr
+    LinkedIn: https://www.linkedin.com/in/mathieu-haye/
+    From: Paris, France
+
+/* THANKS */
+    Anthropic: Claude API powers most of the AI workflows shipped from this site.
+    n8n: backbone of the IA Brew automation and most client integrations.
+    The open-source community: Inter, Space Grotesk, Instrument Serif, JetBrains Mono.
+
+/* SITE */
+    Last update: 2026/05/04
+    Languages: French, English
+    Standards: HTML5, CSS3, ES2023, RFC 8288, RFC 9116, RFC 9728, JSON Feed 1.1, RSS 2.0
+    Components: Vanilla JS, GSAP (animations), Brevo (newsletter), IONOS (hosting)
+    Doctype: HTML5
+    IDE: Cursor + Claude Code

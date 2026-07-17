@@ -1,0 +1,49 @@
+# robots.txt for mathieuhaye.fr
+# Mathieu Haye - Freelance Builder Portfolio
+#
+# AI answer engines and assistants are welcome to read, cite and index this
+# site. AI *training* crawlers are blocked (CCBot, Google-Extended,
+# Applebot-Extended). The same preference is sent as a Content-Signal HTTP
+# response header on every page (search=yes, ai-input=yes, ai-train=no).
+
+User-agent: *
+Allow: /
+Disallow: /SETUP.md
+Disallow: /.claude/
+
+# AI answer engines and assistants (explicitly allowed, named)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI *training* crawlers blocked (content may be read to answer, not to train)
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+Sitemap: https://mathieuhaye.fr/sitemap.xml

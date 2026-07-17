@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/agent-skills-discovery-rfc/main/schemas/v0.2.0/index.json",
+  "version": "0.2.0",
+  "publisher": {
+    "name": "Mathieu Haye",
+    "url": "https://mathieuhaye.fr/",
+    "contact": "contact@mathieuhaye.fr"
+  },
+  "skills": [
+    {
+      "name": "portfolio-summary",
+      "type": "content",
+      "description": "LLM-friendly summary of Mathieu Haye's portfolio: bio, projects, experience, contact details.",
+      "url": "https://mathieuhaye.fr/llms.txt",
+      "contentType": "text/plain"
+    },
+    {
+      "name": "portfolio-markdown",
+      "type": "content",
+      "description": "Full portfolio content in Markdown for LLM consumption. Same content also available via HTTP content negotiation: GET / with Accept: text/markdown.",
+      "url": "https://mathieuhaye.fr/index.md",
+      "contentType": "text/markdown"
+    },
+    {
+      "name": "journal-feed",
+      "type": "feed",
+      "description": "RSS feed of the bilingual journal (Business x AI x Data, published every two days).",
+      "url": "https://mathieuhaye.fr/feed.xml",
+      "contentType": "application/rss+xml"
+    },
+    {
+      "name": "journal-index-markdown",
+      "type": "content",
+      "description": "Machine-readable index of all journal articles (FR + EN), with title, date, language, slug and direct URL.",
+      "url": "https://mathieuhaye.fr/blog.md",
+      "contentType": "text/markdown"
+    },
+    {
+      "name": "sitemap",
+      "type": "sitemap",
+      "description": "XML sitemap listing all key sections of the portfolio and journal articles.",
+      "url": "https://mathieuhaye.fr/sitemap.xml",
+      "contentType": "application/xml"
+    },
+    {
+      "name": "api-catalog",
+      "type": "linkset",
+      "description": "RFC 9727 linkset describing the discoverable resources of the site (service-desc, service-doc, service-meta).",
+      "url": "https://mathieuhaye.fr/.well-known/api-catalog",
+      "contentType": "application/linkset+json"
+    },
+    {
+      "name": "mcp-server-card",
+      "type": "mcp",
+      "description": "WebMCP server card listing tools exposed by the site to AI agents (contact_info, list_projects, etc.).",
+      "url": "https://mathieuhaye.fr/.well-known/mcp/server-card.json",
+      "contentType": "application/json"
+    },
+    {
+      "name": "oauth-protected-resource",
+      "type": "auth",
+      "description": "OAuth 2.0 Protected Resource Metadata (RFC 9728). Declares this resource as public with no protected APIs.",
+      "url": "https://mathieuhaye.fr/.well-known/oauth-protected-resource",
+      "contentType": "application/json"
+    },
+    {
+      "name": "auth-md",
+      "type": "auth",
+      "description": "Agent authentication & registration guide (auth.md). Declares the site public and read-only: no authentication, no registration, no credentials. Self-contained discover->use recipe for agents.",
+      "url": "https://mathieuhaye.fr/auth.md",
+      "contentType": "text/markdown"
+    },
+    {
+      "name": "oauth-authorization-server",
+      "type": "auth",
+      "description": "OAuth 2.0 Authorization Server Metadata (RFC 8414) carrying the agent_auth block. Declares anonymous-only access; no interactive OAuth flow or token endpoint exists.",
+      "url": "https://mathieuhaye.fr/.well-known/oauth-authorization-server",
+      "contentType": "application/json"
+    },
+    {
+      "name": "robots-and-content-signals",
+      "type": "policy",
+      "description": "robots.txt with per-agent rules; Content Signals (search=yes, ai-input=yes, ai-train=no) are sent as an HTTP response header on every page.",
+      "url": "https://mathieuhaye.fr/robots.txt",
+      "contentType": "text/plain"
+    },
+    {
+      "name": "view-projects",
+      "type": "link",
+      "description": "Open the Projects section (7 AI / data / CRM projects with details and screenshots).",
+      "url": "https://mathieuhaye.fr/#projects",
+      "contentType": "text/html"
+    },
+    {
+      "name": "view-background",
+      "type": "link",
+      "description": "Open the About section (freelance builder profile, stats, skills; full background on /projets).",
+      "url": "https://mathieuhaye.fr/collaboration",
+      "contentType": "text/html"
+    },
+    {
+      "name": "contact",
+      "type": "link",
+      "description": "Contact Mathieu Haye by email, LinkedIn or phone.",
+      "url": "https://mathieuhaye.fr/#contact",
+      "contentType": "text/html"
+    },
+    {
+      "name": "download-juice-jacking-guard-zip",
+      "type": "download",
+      "description": "Recommended download: Juice Jacking Guard installer wrapped in a .zip archive (lower SmartScreen friction than raw .exe). Unsigned, Windows 10 / 11.",
+      "url": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.zip",
+      "contentType": "application/zip",
+      "platform": "windows",
+      "contains": "JuiceJackingGuard-Setup.exe",
+      "sha256": "e37364564f1eed9af699b85a40dae6e5fdbf9f25efba72f3002f6d0e0b41ffac",
+      "sha256_sidecar": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.zip.sha256",
+      "size_bytes": 23816756
+    },
+    {
+      "name": "download-juice-jacking-guard-exe",
+      "type": "download",
+      "description": "Direct .exe download of the Juice Jacking Guard installer. Unsigned, Windows 10 / 11. May trigger browser SmartScreen — verify SHA-256.",
+      "url": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.exe",
+      "contentType": "application/vnd.microsoft.portable-executable",
+      "platform": "windows",
+      "sha256": "1132af4c3a2158f17806a7720b0a46d4c477799bae78b6a81d3a315cfa30812a",
+      "sha256_sidecar": "https://mathieuhaye.fr/downloads/JuiceJackingGuard-Setup.exe.sha256",
+      "size_bytes": 24377850
+    }
+  ]
+}

@@ -1,0 +1,1556 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Mathieu Haye Journal",
+  "home_page_url": "https://mathieuhaye.fr/blog/",
+  "feed_url": "https://mathieuhaye.fr/feed.json",
+  "description": "Bilingual journal (FR + EN) on Business x AI x Data.",
+  "language": "fr",
+  "authors": [
+    {
+      "name": "Mathieu Haye",
+      "url": "https://mathieuhaye.fr/"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents",
+      "url": "https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents",
+      "title": "Agents IA en entreprise : la donnée n'est pas prête",
+      "summary": "Le 14 juillet 2026, Xebia lance Axis, une fondation data agentique. Le vrai frein des agents IA en entreprise n'est pas le modèle, c'est la donnée.",
+      "date_published": "2026-07-15T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 14 juillet 2026, Xebia lance Axis, une fondation data agentique. Le vrai frein des agents IA en entreprise n'est pas le modèle, c'est la donnée."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents",
+      "title": "Enterprise AI agents: the data isn't ready",
+      "summary": "On July 14, 2026, Xebia launched Axis, an agentic data foundation. The real bottleneck for enterprise AI agents isn't the model; it's data that isn't AI-ready.",
+      "date_published": "2026-07-15T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 14, 2026, Xebia launched Axis, an agentic data foundation. The real bottleneck for enterprise AI agents isn't the model; it's data that isn't AI-ready."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions",
+      "url": "https://mathieuhaye.fr/blog/2026-07-11-lyzr-agent-ia-mene-levee-100-millions",
+      "title": "Lyzr : un agent IA a mené sa levée de 100 millions",
+      "summary": "Le 9 juillet 2026, la start-up Lyzr a levé 100 millions de dollars en série B en confiant le processus à son propre agent IA. Ce que ça révèle vraiment.",
+      "date_published": "2026-07-11T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 9 juillet 2026, la start-up Lyzr a levé 100 millions de dollars en série B en confiant le processus à son propre agent IA. Ce que ça révèle vraiment."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-11-lyzr-agent-ia-mene-levee-100-millions",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-11-lyzr-agent-ia-mene-levee-100-millions",
+      "title": "Lyzr let an AI agent run its $100M fundraise",
+      "summary": "On July 9, 2026, Lyzr raised a $100M Series B with its own AI agent running the process. What the story actually reveals about sales automation.",
+      "date_published": "2026-07-11T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 9, 2026, Lyzr raised a $100M Series B with its own AI agent running the process. What the story actually reveals about sales automation."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique",
+      "url": "https://mathieuhaye.fr/blog/2026-07-10-microsoft-sales-service-agent-crm-agentique",
+      "title": "Microsoft généralise ses agents IA dans le CRM",
+      "summary": "Le 7 juillet 2026, Microsoft a généralisé Sales Agent et Service Agent dans Dynamics 365 et Copilot. Ce que ça change pour le CRM et le prix au siège.",
+      "date_published": "2026-07-10T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 7 juillet 2026, Microsoft a généralisé Sales Agent et Service Agent dans Dynamics 365 et Copilot. Ce que ça change pour le CRM et le prix au siège."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-10-microsoft-sales-service-agent-crm-agentique",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-10-microsoft-sales-service-agent-crm-agentique",
+      "title": "Microsoft ships AI sales and service agents to CRM",
+      "summary": "On July 7, 2026, Microsoft made Sales Agent and Service Agent generally available in Dynamics 365 and Copilot. What it means for CRM and per-seat pricing.",
+      "date_published": "2026-07-10T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 7, 2026, Microsoft made Sales Agent and Service Agent generally available in Dynamics 365 and Copilot. What it means for CRM and per-seat pricing."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia",
+      "title": "Prime Intellect lève 130 M$ pour des agents IA maison",
+      "summary": "Le 8 juillet 2026, Prime Intellect a levé 130 millions de dollars pour aider les entreprises à entraîner leurs propres agents IA, sans dépendre d'OpenAI.",
+      "date_published": "2026-07-09T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 8 juillet 2026, Prime Intellect a levé 130 millions de dollars pour aider les entreprises à entraîner leurs propres agents IA, sans dépendre d'OpenAI."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-09-prime-intellect-130-millions-entreprises-agents-ia",
+      "title": "Prime Intellect raises $130M for in-house AI agents",
+      "summary": "On July 8, 2026, Prime Intellect raised $130M to help companies train their own AI agents without depending on OpenAI or Anthropic. What build vs buy now means.",
+      "date_published": "2026-07-09T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 8, 2026, Prime Intellect raised $130M to help companies train their own AI agents without depending on OpenAI or Anthropic. What build vs buy now means."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-07-07-hubspot-donnees-crm-enrichissement-ia",
+      "title": "HubSpot renonce au partage par défaut des données CRM",
+      "summary": "Le 5 juillet 2026, HubSpot a annulé en quatre jours le partage par défaut des données d'enrichissement de ses 299 458 clients. Ce que l'affaire dit de l'IA.",
+      "date_published": "2026-07-07T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 5 juillet 2026, HubSpot a annulé en quatre jours le partage par défaut des données d'enrichissement de ses 299 458 clients. Ce que l'affaire dit de l'IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-07-hubspot-donnees-crm-enrichissement-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-07-hubspot-donnees-crm-enrichissement-ia",
+      "title": "HubSpot backs off default CRM data sharing",
+      "summary": "On July 5, 2026, HubSpot reversed in four days a plan to share its 299,458 customers' enrichment data by default. What the episode says about AI and data.",
+      "date_published": "2026-07-07T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 5, 2026, HubSpot reversed in four days a plan to share its 299,458 customers' enrichment data by default. What the episode says about AI and data."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops",
+      "url": "https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops",
+      "title": "Coût des agents IA : l'entreprise passe au FinOps",
+      "summary": "Le 2 juillet 2026, Anthropic a doté Claude Enterprise de plafonds de dépenses et d'une attribution des coûts par utilisateur. L'IA d'entreprise passe au FinOps.",
+      "date_published": "2026-07-06T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 2 juillet 2026, Anthropic a doté Claude Enterprise de plafonds de dépenses et d'une attribution des coûts par utilisateur. L'IA d'entreprise passe au FinOps."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops",
+      "title": "AI agent costs push the enterprise into FinOps",
+      "summary": "On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.",
+      "date_published": "2026-07-06T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique",
+      "url": "https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique",
+      "title": "Commerce agentique : quand les agents IA se mettent à payer",
+      "summary": "AIsa lève 6,5 millions de dollars pour faire payer les agents IA. Visa, Mastercard, Stripe et Coinbase se disputent l'infrastructure du commerce agentique.",
+      "date_published": "2026-07-05T11:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "AIsa lève 6,5 millions de dollars pour faire payer les agents IA. Visa, Mastercard, Stripe et Coinbase se disputent l'infrastructure du commerce agentique."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique",
+      "title": "Agentic commerce: when AI agents start to pay",
+      "summary": "AIsa raised $6.5m to let AI agents pay for data and APIs. Visa, Mastercard, Stripe and Coinbase are fighting to own the agentic commerce payment layer.",
+      "date_published": "2026-07-05T11:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "AIsa raised $6.5m to let AI agents pay for data and APIs. Visa, Mastercard, Stripe and Coinbase are fighting to own the agentic commerce payment layer."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia",
+      "title": "Profound Aim : la visibilité IA passe à l'exécution",
+      "summary": "Profound a lancé Aim le 2 juillet 2026 : un agent qui surveille la visibilité d'une marque dans ChatGPT et Perplexity, puis la transforme en tâches marketing.",
+      "date_published": "2026-07-05T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Profound a lancé Aim le 2 juillet 2026 : un agent qui surveille la visibilité d'une marque dans ChatGPT et Perplexity, puis la transforme en tâches marketing."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia",
+      "title": "Profound Aim: AI Visibility Becomes an Agent",
+      "summary": "Profound launched Aim on July 2, 2026: an agent that monitors a brand's visibility in ChatGPT and Perplexity, then turns it into concrete marketing tasks.",
+      "date_published": "2026-07-05T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Profound launched Aim on July 2, 2026: an agent that monitors a brand's visibility in ChatGPT and Perplexity, then turns it into concrete marketing tasks."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience",
+      "url": "https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience",
+      "title": "Claude Sonnet 5 : l'IA se juge au coût de l'agent",
+      "summary": "Anthropic lance Claude Sonnet 5 le 30 juin 2026, moins cher qu'Opus. Le vrai signal : l'IA en entreprise se juge au coût par agent, plus au benchmark.",
+      "date_published": "2026-07-01T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic lance Claude Sonnet 5 le 30 juin 2026, moins cher qu'Opus. Le vrai signal : l'IA en entreprise se juge au coût par agent, plus au benchmark."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience",
+      "title": "Claude Sonnet 5: AI now sells on cost per agent",
+      "summary": "Anthropic launched Claude Sonnet 5 on June 30, 2026, cheaper than Opus. The real signal: enterprise AI is now judged on cost per agent, not the benchmark.",
+      "date_published": "2026-07-01T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic launched Claude Sonnet 5 on June 30, 2026, cheaper than Opus. The real signal: enterprise AI is now judged on cost per agent, not the benchmark."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance",
+      "url": "https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance",
+      "title": "Taktile lève 110 M$ pour faire décider l'IA en banque",
+      "summary": "Taktile lève 110 millions de dollars menés par Goldman Sachs pour automatiser les décisions de crédit, de fraude et de sinistres avec des agents IA supervisés.",
+      "date_published": "2026-06-28T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Taktile lève 110 millions de dollars menés par Goldman Sachs pour automatiser les décisions de crédit, de fraude et de sinistres avec des agents IA supervisés."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance",
+      "title": "Taktile raises $110M to let AI decide for banks",
+      "summary": "Taktile raised $110m led by Goldman Sachs to automate credit, fraud and claims decisions with supervised AI agents inside an auditable framework.",
+      "date_published": "2026-06-28T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Taktile raised $110m led by Goldman Sachs to automate credit, fraud and claims decisions with supervised AI agents inside an auditable framework."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm",
+      "url": "https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm",
+      "title": "Attention lève 30 M$ : l'IA qui exécute la vente",
+      "summary": "Attention lève 30 M$ le 24 juin 2026 pour une IA qui exécute la vente au lieu d'enregistrer les appels. Pourquoi le sales tech passe du system of record au system of action.",
+      "date_published": "2026-06-26T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Attention lève 30 M$ le 24 juin 2026 pour une IA qui exécute la vente au lieu d'enregistrer les appels. Pourquoi le sales tech passe du system of record au system of action."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm",
+      "title": "Attention raises $30M: AI that runs the sale",
+      "summary": "Attention raised $30M on June 24, 2026 for AI that runs the sale instead of recording calls. Why sales tech is shifting from system of record to system of action.",
+      "date_published": "2026-06-26T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Attention raised $30M on June 24, 2026 for AI that runs the sale instead of recording calls. Why sales tech is shifting from system of record to system of action."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise",
+      "title": "NeuralTrust lève 20 M$ pour gouverner les agents IA",
+      "summary": "NeuralTrust lève 20 M$, le plus gros seed cyber d'une entreprise UE, pour cartographier et sécuriser les agents IA déployés en entreprise. Mon analyse.",
+      "date_published": "2026-06-19T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "NeuralTrust lève 20 M$, le plus gros seed cyber d'une entreprise UE, pour cartographier et sécuriser les agents IA déployés en entreprise. Mon analyse."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-19-neuraltrust-20-millions-securite-agents-ia-entreprise",
+      "title": "NeuralTrust raises $20M to govern enterprise AI agents",
+      "summary": "NeuralTrust raises $20M, the EU's largest cybersecurity seed, to map and secure the AI agents companies deploy faster than they can count. My analysis.",
+      "date_published": "2026-06-19T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "NeuralTrust raises $20M, the EU's largest cybersecurity seed, to map and secure the AI agents companies deploy faster than they can count. My analysis."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia",
+      "title": "OpenAI et Anthropic débauchent les vendeurs de Salesforce",
+      "summary": "OpenAI et Anthropic ont recruté près de 100 salariés de Salesforce en 18 mois, surtout des vendeurs. Ce que cette bataille révèle sur l'IA en entreprise.",
+      "date_published": "2026-06-18T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI et Anthropic ont recruté près de 100 salariés de Salesforce en 18 mois, surtout des vendeurs. Ce que cette bataille révèle sur l'IA en entreprise."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-18-openai-anthropic-debauchent-salesforce-vente-ia",
+      "title": "OpenAI and Anthropic are hiring Salesforce's sellers",
+      "summary": "OpenAI and Anthropic have hired nearly 100 Salesforce staff in 18 months, mostly in sales. What this talent raid reveals about the real AI enterprise race.",
+      "date_published": "2026-06-18T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI and Anthropic have hired nearly 100 Salesforce staff in 18 months, mostly in sales. What this talent raid reveals about the real AI enterprise race."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-06-17-respond-io-62-millions-conversation-client-crm-ia",
+      "title": "Respond.io lève 62,5 M$ : la conversation devient le CRM",
+      "summary": "Respond.io a levé 62,5 millions de dollars le 16 juin 2026 pour sa plateforme de conversation client dopée à l'IA. Pourquoi le canal devient le nouveau CRM.",
+      "date_published": "2026-06-17T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Respond.io a levé 62,5 millions de dollars le 16 juin 2026 pour sa plateforme de conversation client dopée à l'IA. Pourquoi le canal devient le nouveau CRM."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-17-respond-io-62-millions-conversation-client-crm-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-17-respond-io-62-millions-conversation-client-crm-ia",
+      "title": "Respond.io raises $62.5M: conversation becomes the CRM",
+      "summary": "Respond.io raised $62.5M on June 16, 2026 for its AI-powered customer conversation platform. Why the channel is becoming the new CRM.",
+      "date_published": "2026-06-17T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Respond.io raised $62.5M on June 16, 2026 for its AI-powered customer conversation platform. Why the channel is becoming the new CRM."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production",
+      "url": "https://mathieuhaye.fr/blog/2026-06-16-arcade-60-millions-identite-agents-ia-production",
+      "title": "Arcade lève 60 M$ : l'identité, vrai frein des agents IA",
+      "summary": "Arcade a levé 60 millions de dollars le 15 juin 2026 pour sécuriser les actions des agents IA en production. Le vrai frein n'est plus le modèle, mais l'autorisation.",
+      "date_published": "2026-06-16T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Arcade a levé 60 millions de dollars le 15 juin 2026 pour sécuriser les actions des agents IA en production. Le vrai frein n'est plus le modèle, mais l'autorisation."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-16-arcade-60-millions-identite-agents-ia-production",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-16-arcade-60-millions-identite-agents-ia-production",
+      "title": "Arcade raises $60M: identity is the AI agent bottleneck",
+      "summary": "Arcade raised $60M on June 15, 2026 to secure what production AI agents do. The real bottleneck is no longer the model, it's authorization and audit.",
+      "date_published": "2026-06-16T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Arcade raised $60M on June 15, 2026 to secure what production AI agents do. The real bottleneck is no longer the model, it's authorization and audit."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics",
+      "url": "https://mathieuhaye.fr/blog/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics",
+      "title": "Salesforce Summer '26 : les agents IA lisent vos dashboards",
+      "summary": "Le 15 juin 2026, Salesforce ouvre Summer '26 : Tableau MCP laisse les agents IA interroger vos dashboards et l'orchestration multi-agents passe en GA.",
+      "date_published": "2026-06-15T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 15 juin 2026, Salesforce ouvre Summer '26 : Tableau MCP laisse les agents IA interroger vos dashboards et l'orchestration multi-agents passe en GA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-15-salesforce-summer-26-tableau-mcp-agents-analytics",
+      "title": "Salesforce Summer '26: AI agents that read your dashboards",
+      "summary": "On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA.",
+      "date_published": "2026-06-15T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 15, 2026, Salesforce shipped Summer '26: Tableau MCP lets AI agents query your dashboards directly and multi-agent orchestration hits GA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries",
+      "url": "https://mathieuhaye.fr/blog/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries",
+      "title": "Samsung, SK, LG : un agent IA pour chaque salarié en 2026",
+      "summary": "En juin 2026, Samsung, SK et LG déploient des agents IA à tous leurs salariés. Ce que ce virage révèle sur la vraie valeur de l'IA en entreprise.",
+      "date_published": "2026-06-14T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "En juin 2026, Samsung, SK et LG déploient des agents IA à tous leurs salariés. Ce que ce virage révèle sur la vraie valeur de l'IA en entreprise."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-14-coree-samsung-sk-lg-agent-ia-tous-salaries",
+      "title": "Samsung, SK, LG: An AI Agent for Every Employee in 2026",
+      "summary": "In June 2026, Samsung, SK and LG are rolling out AI agents to every employee. What this shift reveals about where enterprise AI value really sits.",
+      "date_published": "2026-06-14T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "In June 2026, Samsung, SK and LG are rolling out AI agents to every employee. What this shift reveals about where enterprise AI value really sits."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia",
+      "title": "OpenAI dépose son IPO : la facture cachée des modèles IA",
+      "summary": "OpenAI a déposé un projet d'IPO confidentiel le 8 juin 2026, une semaine après Anthropic. Ce que la mise en Bourse révèle sur le coût réel des modèles d'IA.",
+      "date_published": "2026-06-09T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI a déposé un projet d'IPO confidentiel le 8 juin 2026, une semaine après Anthropic. Ce que la mise en Bourse révèle sur le coût réel des modèles d'IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-09-openai-ipo-confidentiel-cout-modeles-ia",
+      "title": "OpenAI Files for IPO: The Hidden Cost of AI Models",
+      "summary": "OpenAI filed confidentially for an IPO on June 8, 2026, a week after Anthropic. What the move to public markets reveals about the real cost of AI models.",
+      "date_published": "2026-06-09T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI filed confidentially for an IPO on June 8, 2026, a week after Anthropic. What the move to public markets reveals about the real cost of AI models."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake",
+      "url": "https://mathieuhaye.fr/blog/2026-06-08-couche-semantique-agents-ia-fabric-snowflake",
+      "title": "Agents IA : qui possède la couche sémantique gagne",
+      "summary": "Le 7 juin 2026, une analyse SiliconANGLE acte un tournant : la valeur des agents IA se joue sur la couche sémantique des données, pas sur le modèle. Décryptage.",
+      "date_published": "2026-06-08T11:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 7 juin 2026, une analyse SiliconANGLE acte un tournant : la valeur des agents IA se joue sur la couche sémantique des données, pas sur le modèle. Décryptage."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-08-couche-semantique-agents-ia-fabric-snowflake",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-08-couche-semantique-agents-ia-fabric-snowflake",
+      "title": "AI agents: whoever owns the semantic layer wins",
+      "summary": "On June 7, 2026, a SiliconANGLE analysis marks a shift: the value of AI agents now sits in the data semantic layer, not the model. Here is what it means.",
+      "date_published": "2026-06-08T11:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 7, 2026, a SiliconANGLE analysis marks a shift: the value of AI agents now sits in the data semantic layer, not the model. Here is what it means."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-06-08-geo-gso-aeo-difference-visibilite-ia",
+      "title": "GEO, GSO, AEO : quelle différence, et laquelle choisir ?",
+      "summary": "GEO, GSO et AEO désignent le même combat : être cité par les IA. La seule question qui compte, c'est de savoir si ChatGPT cite votre site ou vos concurrents.",
+      "date_published": "2026-06-08T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "GEO, GSO et AEO désignent le même combat : être cité par les IA. La seule question qui compte, c'est de savoir si ChatGPT cite votre site ou vos concurrents."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable",
+      "url": "https://mathieuhaye.fr/blog/2026-06-08-apple-gemini-siri-modele-ia-interchangeable",
+      "title": "Apple, Gemini et Siri : le modèle d'IA devient un réglage",
+      "summary": "Le 8 juin 2026, Apple confie Siri à Gemini et laisse l'utilisateur choisir Claude ou ChatGPT. Pourquoi le modèle d'IA devient une pièce interchangeable.",
+      "date_published": "2026-06-08T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 8 juin 2026, Apple confie Siri à Gemini et laisse l'utilisateur choisir Claude ou ChatGPT. Pourquoi le modèle d'IA devient une pièce interchangeable."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-08-geo-gso-aeo-difference-visibilite-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-08-geo-gso-aeo-difference-visibilite-ia",
+      "title": "GEO, GSO, AEO: what is the difference, and which one you need?",
+      "summary": "GEO, GSO and AEO name the same fight: getting cited by AI. The only question that matters is whether ChatGPT and Perplexity cite your site or your competitors'.",
+      "date_published": "2026-06-08T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "GEO, GSO and AEO name the same fight: getting cited by AI. The only question that matters is whether ChatGPT and Perplexity cite your site or your competitors'."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-08-apple-gemini-siri-modele-ia-interchangeable",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-08-apple-gemini-siri-modele-ia-interchangeable",
+      "title": "Apple picks Gemini for Siri: the AI model is now a setting",
+      "summary": "On June 8, 2026, Apple handed Siri to Gemini and will let users pick Claude or ChatGPT instead. Why the AI model is becoming a swappable component.",
+      "date_published": "2026-06-08T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 8, 2026, Apple handed Siri to Gemini and will let users pick Claude or ChatGPT instead. Why the AI model is becoming a swappable component."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere",
+      "url": "https://mathieuhaye.fr/blog/2026-06-05-alphasense-350-millions-agent-recherche-financiere",
+      "title": "AlphaSense, 7,5 Md$ : la recherche devient un agent IA",
+      "summary": "Le 3 juin 2026, AlphaSense lève 350 millions de dollars à 7,5 milliards. Son vrai moat n'est pas le modèle, mais 500 millions de documents et l'agent SuperAnalyst.",
+      "date_published": "2026-06-05T09:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 3 juin 2026, AlphaSense lève 350 millions de dollars à 7,5 milliards. Son vrai moat n'est pas le modèle, mais 500 millions de documents et l'agent SuperAnalyst."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-05-alphasense-350-millions-agent-recherche-financiere",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-05-alphasense-350-millions-agent-recherche-financiere",
+      "title": "AlphaSense hits $7.5bn: research becomes an AI agent",
+      "summary": "On June 3, 2026, AlphaSense raised $350M at a $7.5bn valuation. Its real moat isn't the model; it's 500M documents and the SuperAnalyst agent.",
+      "date_published": "2026-06-05T09:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 3, 2026, AlphaSense raised $350M at a $7.5bn valuation. Its real moat isn't the model; it's 500M documents and the SuperAnalyst agent."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026",
+      "url": "https://mathieuhaye.fr/blog/2026-06-04-seo-vs-geo-referencement-ia-2026",
+      "title": "SEO vs GEO : ce qui change pour votre référencement en 2026",
+      "summary": "SEO vs GEO en 2026 : le SEO vous place dans les liens bleus, le GEO vous place dans la réponse de l'IA. Pourquoi vos concurrents y sont déjà, et pas vous.",
+      "date_published": "2026-06-04T14:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "SEO vs GEO en 2026 : le SEO vous place dans les liens bleus, le GEO vous place dans la réponse de l'IA. Pourquoi vos concurrents y sont déjà, et pas vous."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-04-seo-vs-geo-referencement-ia-2026",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-04-seo-vs-geo-referencement-ia-2026",
+      "title": "SEO vs GEO: what changes for your rankings in 2026",
+      "summary": "SEO vs GEO in 2026: SEO ranks you in Google's blue links, GEO gets you cited inside the AI answer. Why your competitors are already there, and you are not.",
+      "date_published": "2026-06-04T14:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "SEO vs GEO in 2026: SEO ranks you in Google's blue links, GEO gets you cited inside the AI answer. Why your competitors are already there, and you are not."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees",
+      "url": "https://mathieuhaye.fr/blog/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees",
+      "title": "ZoomInfo GTM.AI : la donnée comme socle des agents IA",
+      "summary": "Le 1er juin 2026, ZoomInfo lance GTM.AI, une couche de contexte vérifiée qui alimente les agents IA via MCP. Pari sur la donnée, action en baisse de 50 %.",
+      "date_published": "2026-06-04T11:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 1er juin 2026, ZoomInfo lance GTM.AI, une couche de contexte vérifiée qui alimente les agents IA via MCP. Pari sur la donnée, action en baisse de 50 %."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-04-zoominfo-gtm-ai-couche-contexte-agents-donnees",
+      "title": "ZoomInfo GTM.AI: data as the bedrock for AI agents",
+      "summary": "On June 1, 2026, ZoomInfo launched GTM.AI, a headless context layer that feeds verified B2B data to AI agents over MCP. A bet on data while the stock fell 50%.",
+      "date_published": "2026-06-04T11:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 1, 2026, ZoomInfo launched GTM.AI, a headless context layer that feeds verified B2B data to AI agents over MCP. A bet on data while the stock fell 50%."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai",
+      "url": "https://mathieuhaye.fr/blog/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai",
+      "title": "Être cité par ChatGPT, Perplexity et Google AI Overviews",
+      "summary": "Si ChatGPT ne cite pas votre site, c'est votre concurrent qui décroche le client. Pourquoi vous n'êtes pas cité par les IA, ce que ça coûte, et comment le vérifier.",
+      "date_published": "2026-06-04T10:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Si ChatGPT ne cite pas votre site, c'est votre concurrent qui décroche le client. Pourquoi vous n'êtes pas cité par les IA, ce que ça coûte, et comment le vérifier."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-04-etre-cite-par-chatgpt-perplexity-google-ai",
+      "title": "Getting cited by ChatGPT, Perplexity and Google AI Overviews",
+      "summary": "If ChatGPT does not cite your site, your competitor wins the client who asked. Why your site is not cited by AI, what it costs you, and how to check where you stand.",
+      "date_published": "2026-06-04T10:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "If ChatGPT does not cite your site, your competitor wins the client who asked. Why your site is not cited by AI, what it costs you, and how to check where you stand."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization",
+      "url": "https://mathieuhaye.fr/blog/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization",
+      "title": "Qu'est-ce que le GEO, et pourquoi votre site en a besoin",
+      "summary": "Le GEO décide si ChatGPT, Perplexity et Google AI citent votre site ou celui de vos concurrents. Ce que c'est, ce que cela coûte, et comment vous situer.",
+      "date_published": "2026-06-04T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le GEO décide si ChatGPT, Perplexity et Google AI citent votre site ou celui de vos concurrents. Ce que c'est, ce que cela coûte, et comment vous situer."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise",
+      "title": "Anthropic dépose son S-1 : l'IA d'entreprise entre en Bourse",
+      "summary": "Anthropic a déposé un projet d'IPO confidentiel le 1er juin 2026, valorisé 965 milliards de dollars. Ce que ce S-1 révèle sur le business de l'IA en entreprise.",
+      "date_published": "2026-06-04T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic a déposé un projet d'IPO confidentiel le 1er juin 2026, valorisé 965 milliards de dollars. Ce que ce S-1 révèle sur le business de l'IA en entreprise."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-04-qu-est-ce-que-le-geo-generative-engine-optimization",
+      "title": "What GEO is, and why your site needs it",
+      "summary": "GEO decides whether ChatGPT, Perplexity and Google AI cite your site or your competitors'. What it is, what it costs you, and how to see where your site stands.",
+      "date_published": "2026-06-04T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "GEO decides whether ChatGPT, Perplexity and Google AI cite your site or your competitors'. What it is, what it costs you, and how to see where your site stands."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-04-anthropic-ipo-s1-bourse-ia-entreprise",
+      "title": "Anthropic files its S-1: enterprise AI goes public",
+      "summary": "Anthropic filed a confidential IPO draft on June 1, 2026, valued at $965bn. What its S-1 reveals about the real business of enterprise AI.",
+      "date_published": "2026-06-04T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic filed a confidential IPO draft on June 1, 2026, valued at $965bn. What its S-1 reveals about the real business of enterprise AI."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai",
+      "url": "https://mathieuhaye.fr/blog/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai",
+      "title": "Microsoft Build 2026: 7 modèles IA pour sortir d'OpenAI",
+      "summary": "Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). Fin de la dépendance Azure à OpenAI.",
+      "date_published": "2026-06-03T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 2 juin 2026, Microsoft a dévoilé sept modèles IA maison à Build, dont MAI-Thinking-1 (35 milliards de paramètres actifs). Fin de la dépendance Azure à OpenAI."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-03-microsoft-mai-modeles-build-fin-dependance-openai",
+      "title": "Microsoft Build 2026: 7 in-house AI models cut OpenAI ties",
+      "summary": "On June 2, 2026, Microsoft unveiled seven in-house AI models at Build, including MAI-Thinking-1 with 35 billion active parameters. End of Azure's OpenAI dependency.",
+      "date_published": "2026-06-03T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 2, 2026, Microsoft unveiled seven in-house AI models at Build, including MAI-Thinking-1 with 35 billion active parameters. End of Azure's OpenAI dependency."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-06-02-github-copilot-tokens-fin-forfait-ia",
+      "title": "GitHub Copilot passe au token: la fin du forfait IA",
+      "summary": "Le 1er juin 2026, GitHub Copilot bascule au token. Le forfait illimité disparaît, les premières factures s'envolent. Le vrai modèle économique de l'IA.",
+      "date_published": "2026-06-02T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 1er juin 2026, GitHub Copilot bascule au token. Le forfait illimité disparaît, les premières factures s'envolent. Le vrai modèle économique de l'IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-06-02-github-copilot-tokens-fin-forfait-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-06-02-github-copilot-tokens-fin-forfait-ia",
+      "title": "GitHub Copilot moves to tokens: end of flat AI pricing",
+      "summary": "On June 1, 2026, GitHub Copilot moved every paid user to token-based billing. The unlimited flat rate is dead, replaced by AI Credits priced per model.",
+      "date_published": "2026-06-02T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On June 1, 2026, GitHub Copilot moved every paid user to token-based billing. The unlimited flat rate is dead, replaced by AI Credits priced per model."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia",
+      "title": "Snowflake rachète Natoma: gouverner les agents IA",
+      "summary": "Snowflake rachète Natoma le 27 mai 2026 pour gouverner les agents IA via le protocole MCP. Pourquoi le contrôle des agents devient le vrai champ de bataille.",
+      "date_published": "2026-05-29T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Snowflake rachète Natoma le 27 mai 2026 pour gouverner les agents IA via le protocole MCP. Pourquoi le contrôle des agents devient le vrai champ de bataille."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-29-snowflake-natoma-mcp-gouvernance-agents-ia",
+      "title": "Snowflake buys Natoma: governing AI agents",
+      "summary": "Snowflake acquired Natoma on May 27, 2026 to govern AI agents through the MCP protocol. Why controlling agents, not data access, is the real battleground.",
+      "date_published": "2026-05-29T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Snowflake acquired Natoma on May 27, 2026 to govern AI agents through the MCP protocol. Why controlling agents, not data access, is the real battleground."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia",
+      "title": "OpenRouter à 1,3 milliard, la fin du modèle IA unique",
+      "summary": "OpenRouter lève 113 millions de dollars à 1,3 milliard de valorisation. La couche de routage entre 400 modèles devient l'infrastructure stratégique de l'IA.",
+      "date_published": "2026-05-27T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenRouter lève 113 millions de dollars à 1,3 milliard de valorisation. La couche de routage entre 400 modèles devient l'infrastructure stratégique de l'IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-27-openrouter-113-millions-routeur-multi-modeles-ia",
+      "title": "OpenRouter hits $1.3bn: the end of single-model AI",
+      "summary": "OpenRouter raises a $113M Series B at a $1.3bn valuation. The model-routing layer between 400+ AI providers is becoming the strategic infrastructure of AI.",
+      "date_published": "2026-05-27T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenRouter raises a $113M Series B at a $1.3bn valuation. The model-routing layer between 400+ AI providers is becoming the strategic infrastructure of AI."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai",
+      "url": "https://mathieuhaye.fr/blog/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai",
+      "title": "Anthropic vise 900 milliards et dépasse OpenAI",
+      "summary": "Anthropic boucle 30 milliards de dollars cette semaine à 900 milliards de valorisation. Sequoia, Altimeter, Greenoaks à la manœuvre. Pourquoi le marché paie ce prix.",
+      "date_published": "2026-05-26T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic boucle 30 milliards de dollars cette semaine à 900 milliards de valorisation. Sequoia, Altimeter, Greenoaks à la manœuvre. Pourquoi le marché paie ce prix."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-26-anthropic-30-milliards-900-milliards-valorisation-openai",
+      "title": "Anthropic targets $900bn and leapfrogs OpenAI",
+      "summary": "Anthropic closes $30bn this week at a $900bn valuation. Sequoia, Altimeter, Greenoaks lead. Why the market is paying that price, and what it means for buyers.",
+      "date_published": "2026-05-26T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic closes $30bn this week at a $900bn valuation. Sequoia, Altimeter, Greenoaks lead. Why the market is paying that price, and what it means for buyers."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas",
+      "url": "https://mathieuhaye.fr/blog/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas",
+      "title": "Intuit licencie 17 % de ses effectifs pour accélérer l'IA",
+      "summary": "Le 20 mai 2026, Intuit supprime 3 000 postes (17 % des effectifs) malgré un chiffre d'affaires en hausse de 10 %. Lecture du virage IA d'un éditeur rentable.",
+      "date_published": "2026-05-24T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 20 mai 2026, Intuit supprime 3 000 postes (17 % des effectifs) malgré un chiffre d'affaires en hausse de 10 %. Lecture du virage IA d'un éditeur rentable."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-24-intuit-3000-licenciements-ia-restructuration-saas",
+      "title": "Intuit cuts 17% of staff to accelerate AI",
+      "summary": "On May 20, 2026, Intuit cut 3,000 jobs (17% of staff) while revenue grew 10%. A profitable software vendor rewrites its model around AI agents.",
+      "date_published": "2026-05-24T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 20, 2026, Intuit cut 3,000 jobs (17% of staff) while revenue grew 10%. A profitable software vendor rewrites its model around AI agents."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine",
+      "url": "https://mathieuhaye.fr/blog/2026-05-21-openai-dell-codex-on-premises-ia-souveraine",
+      "title": "OpenAI x Dell : Codex quitte le cloud pour les data centers privés",
+      "summary": "Le 19 mai 2026, OpenAI signe avec Dell pour déployer Codex en hybride et on-premises. Première offre frontière hors du cloud public, taillée pour les régulés.",
+      "date_published": "2026-05-21T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 19 mai 2026, OpenAI signe avec Dell pour déployer Codex en hybride et on-premises. Première offre frontière hors du cloud public, taillée pour les régulés."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-21-openai-dell-codex-on-premises-ia-souveraine",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-21-openai-dell-codex-on-premises-ia-souveraine",
+      "title": "OpenAI x Dell: Codex leaves the cloud for on-premises data centers",
+      "summary": "On May 19, 2026, OpenAI signed a deal with Dell to run Codex in hybrid and on-premises environments, the first frontier offering built for regulated sectors.",
+      "date_published": "2026-05-21T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 19, 2026, OpenAI signed a deal with Dell to run Codex in hybrid and on-premises environments, the first frontier offering built for regulated sectors."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting",
+      "url": "https://mathieuhaye.fr/blog/2026-05-20-kpmg-anthropic-claude-big-four-consulting",
+      "title": "KPMG signe avec Anthropic : trois Big Four sur Claude",
+      "summary": "Le 19 mai 2026, KPMG déploie Claude à 276 000 collaborateurs. Avec Deloitte et PwC, trois des Big Four ont scellé une alliance avec Anthropic en sept mois.",
+      "date_published": "2026-05-20T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 19 mai 2026, KPMG déploie Claude à 276 000 collaborateurs. Avec Deloitte et PwC, trois des Big Four ont scellé une alliance avec Anthropic en sept mois."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-20-kpmg-anthropic-claude-big-four-consulting",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-20-kpmg-anthropic-claude-big-four-consulting",
+      "title": "KPMG signs with Anthropic: three Big Four on Claude",
+      "summary": "On May 19, 2026, KPMG rolled out Claude to its 276,000 staff. With Deloitte and PwC, three Big Four firms have signed alliances with Anthropic in seven months.",
+      "date_published": "2026-05-20T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 19, 2026, KPMG rolled out Claude to its 276,000 staff. With Deloitte and PwC, three Big Four firms have signed alliances with Anthropic in seven months."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents",
+      "url": "https://mathieuhaye.fr/blog/2026-05-19-anthropic-rachete-stainless-sdk-agents",
+      "title": "Anthropic rachète Stainless : la plomberie des agents IA",
+      "summary": "Anthropic rachète Stainless pour 300 millions de dollars. Le SDK qui fait tourner les API d'OpenAI, Google et Cloudflare change de propriétaire.",
+      "date_published": "2026-05-19T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic rachète Stainless pour 300 millions de dollars. Le SDK qui fait tourner les API d'OpenAI, Google et Cloudflare change de propriétaire."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-19-anthropic-rachete-stainless-sdk-agents",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-19-anthropic-rachete-stainless-sdk-agents",
+      "title": "Anthropic buys Stainless: who owns the AI agent plumbing",
+      "summary": "Anthropic buys Stainless for over $300M. The SDK toolkit powering OpenAI, Google and Cloudflare APIs now belongs to their direct competitor.",
+      "date_published": "2026-05-19T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic buys Stainless for over $300M. The SDK toolkit powering OpenAI, Google and Cloudflare APIs now belongs to their direct competitor."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome",
+      "url": "https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome",
+      "title": "SAP confie à Claude le cerveau de son entreprise autonome",
+      "summary": "SAP fait de Claude le modèle de raisonnement principal de son entreprise autonome, dévoilée le 12 mai 2026 à Sapphire. Analyse du pari et de ses risques.",
+      "date_published": "2026-05-18T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "SAP fait de Claude le modèle de raisonnement principal de son entreprise autonome, dévoilée le 12 mai 2026 à Sapphire. Analyse du pari et de ses risques."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome",
+      "title": "SAP bets on Claude as the brain of its autonomous enterprise",
+      "summary": "On May 12, 2026, SAP made Claude the primary reasoning model of its Autonomous Suite. Inside the ERP play and the concentration risk Forrester just flagged.",
+      "date_published": "2026-05-18T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 12, 2026, SAP made Claude the primary reasoning model of its Autonomous Suite. Inside the ERP play and the concentration risk Forrester just flagged."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques",
+      "url": "https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques",
+      "title": "ChatGPT branche les comptes bancaires : OpenAI vise la finance perso",
+      "summary": "Le 15 mai 2026, OpenAI branche ChatGPT à plus de 12 000 banques américaines via Plaid. Décryptage d'une bascule de couche pour la finance personnelle.",
+      "date_published": "2026-05-17T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 15 mai 2026, OpenAI branche ChatGPT à plus de 12 000 banques américaines via Plaid. Décryptage d'une bascule de couche pour la finance personnelle."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques",
+      "title": "ChatGPT plugs into your bank: OpenAI takes on personal finance",
+      "summary": "On May 15, 2026, OpenAI wired ChatGPT to 12,000+ US banks through Plaid. Breaking down a layer shift for personal finance and what it changes.",
+      "date_published": "2026-05-17T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 15, 2026, OpenAI wired ChatGPT to 12,000+ US banks through Plaid. Breaking down a layer shift for personal finance and what it changes."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise",
+      "url": "https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise",
+      "title": "Anthropic dépasse OpenAI sur l'adoption B2B (Ramp Index)",
+      "summary": "Le 13 mai 2026, l'AI Index de Ramp place Anthropic à 34,4 % d'adoption en entreprise contre 32,3 % pour OpenAI. Décryptage et trois menaces.",
+      "date_published": "2026-05-15T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 13 mai 2026, l'AI Index de Ramp place Anthropic à 34,4 % d'adoption en entreprise contre 32,3 % pour OpenAI. Décryptage et trois menaces."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise",
+      "title": "Anthropic overtakes OpenAI in enterprise AI adoption",
+      "summary": "On May 13, 2026, Ramp's AI Index put Anthropic at 34.4% of business adoption, ahead of OpenAI at 32.3%. Why now, and three threats that could erase the lead.",
+      "date_published": "2026-05-15T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 13, 2026, Ramp's AI Index put Anthropic at 34.4% of business adoption, ahead of OpenAI at 32.3%. Why now, and three threats that could erase the lead."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one",
+      "url": "https://mathieuhaye.fr/blog/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one",
+      "title": "Slack devient le frontal gratuit du CRM Salesforce",
+      "summary": "Salesforce offre Slack gratuit a tout nouveau client a partir de l'ete 2026. Une bascule strategique pour transformer Slack en frontal des agents Agentforce.",
+      "date_published": "2026-05-13T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Salesforce offre Slack gratuit a tout nouveau client a partir de l'ete 2026. Une bascule strategique pour transformer Slack en frontal des agents Agentforce."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-13-slack-salesforce-agentic-os-gratuit-day-one",
+      "title": "Slack becomes Salesforce's free CRM front-end",
+      "summary": "From summer 2026, every new Salesforce customer gets Slack free, pre-wired to the CRM. A strategic shift turning Slack into the front-end for Agentforce agents.",
+      "date_published": "2026-05-13T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "From summer 2026, every new Salesforce customer gets Slack free, pre-wired to the CRM. A strategic shift turning Slack into the front-end for Agentforce agents."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia",
+      "title": "ServiceNow lance des agents IA dans toute l'entreprise",
+      "summary": "ServiceNow dévoile son Autonomous Workforce le 5 mai 2026 : un IT desk qui résout 99 % plus vite et des spécialistes IA pour chaque fonction de l'entreprise.",
+      "date_published": "2026-05-06T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "ServiceNow dévoile son Autonomous Workforce le 5 mai 2026 : un IT desk qui résout 99 % plus vite et des spécialistes IA pour chaque fonction de l'entreprise."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-06-servicenow-knowledge-2026-autonomous-workforce-ia",
+      "title": "ServiceNow Brings AI Agents to Every Business Function",
+      "summary": "At Knowledge 2026 on May 5, ServiceNow shipped Autonomous Workforce specialists across IT, CRM, HR and security, with an L1 desk that resolves cases 99% faster.",
+      "date_published": "2026-05-06T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "At Knowledge 2026 on May 5, ServiceNow shipped Autonomous Workforce specialists across IT, CRM, HR and security, with an L1 desk that resolves cases 99% faster."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client",
+      "url": "https://mathieuhaye.fr/blog/2026-05-05-sierra-950-millions-agents-ia-service-client",
+      "title": "Sierra lève 950 millions : l'agent IA client devient une catégorie",
+      "summary": "Le 4 mai 2026, Sierra boucle 950 millions de dollars à 15,8 milliards de valorisation. Pourquoi cette levée fait de l'agent IA une nouvelle catégorie SaaS.",
+      "date_published": "2026-05-05T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 4 mai 2026, Sierra boucle 950 millions de dollars à 15,8 milliards de valorisation. Pourquoi cette levée fait de l'agent IA une nouvelle catégorie SaaS."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-05-sierra-950-millions-agents-ia-service-client",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-05-sierra-950-millions-agents-ia-service-client",
+      "title": "Sierra raises $950M : the AI customer agent becomes a category",
+      "summary": "On May 4, 2026, Sierra closes a $950M Series E at a $15.8bn valuation. Why the round confirms that customer-facing AI agents are now a SaaS category of their own.",
+      "date_published": "2026-05-05T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 4, 2026, Sierra closes a $950M Series E at a $15.8bn valuation. Why the round confirms that customer-facing AI agents are now a SaaS category of their own."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-05-04-anthropic-openai-joint-ventures-conseil-ia",
+      "title": "Anthropic et OpenAI lancent leurs cabinets de conseil IA",
+      "summary": "Le 4 mai 2026, Anthropic et OpenAI ont lancé deux joint-ventures de plusieurs milliards avec Blackstone, Goldman Sachs, TPG et Bain. Cible : le conseil IA.",
+      "date_published": "2026-05-04T18:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 4 mai 2026, Anthropic et OpenAI ont lancé deux joint-ventures de plusieurs milliards avec Blackstone, Goldman Sachs, TPG et Bain. Cible : le conseil IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-04-anthropic-openai-joint-ventures-conseil-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-04-anthropic-openai-joint-ventures-conseil-ia",
+      "title": "Anthropic and OpenAI launch their AI consulting arms",
+      "summary": "On May 4, 2026, Anthropic and OpenAI launched multibillion-dollar joint ventures with Blackstone, Goldman, TPG and Bain. Target: the AI consulting market.",
+      "date_published": "2026-05-04T18:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On May 4, 2026, Anthropic and OpenAI launched multibillion-dollar joint ventures with Blackstone, Goldman, TPG and Bain. Target: the AI consulting market."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-05-04-salesforce-agentforce-operations-back-office-ia",
+      "title": "Salesforce Agentforce Operations : le back-office bascule",
+      "summary": "Salesforce a sorti Agentforce Operations le 29 avril 2026. Cycles d'audit divisés par deux, 30 blueprints, beta Flow en mai. La bataille du back-office IA s'ouvre.",
+      "date_published": "2026-05-04T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Salesforce a sorti Agentforce Operations le 29 avril 2026. Cycles d'audit divisés par deux, 30 blueprints, beta Flow en mai. La bataille du back-office IA s'ouvre."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-04-salesforce-agentforce-operations-back-office-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-04-salesforce-agentforce-operations-back-office-ia",
+      "title": "Salesforce Agentforce Operations: the back-office turn",
+      "summary": "On April 29, 2026, Salesforce shipped Agentforce Operations: audit cycles cut in half, 30 blueprints, Flow in beta this May. The back-office AI war is on.",
+      "date_published": "2026-05-04T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 29, 2026, Salesforce shipped Agentforce Operations: audit cycles cut in half, 30 blueprints, Flow in beta this May. The back-office AI war is on."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise",
+      "title": "Mistral Workflows : la France joue sa carte orchestration IA",
+      "summary": "Mistral AI a lancé Workflows le 28 avril 2026, un moteur d'orchestration sur Temporal déjà en prod chez La Banque Postale, France Travail, ASML, CMA-CGM. Analyse.",
+      "date_published": "2026-05-03T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Mistral AI a lancé Workflows le 28 avril 2026, un moteur d'orchestration sur Temporal déjà en prod chez La Banque Postale, France Travail, ASML, CMA-CGM. Analyse."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise",
+      "url": "https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise",
+      "title": "Mistral Workflows: France's bet on enterprise AI orchestration",
+      "summary": "On April 28, 2026, Mistral AI launched Workflows, a Temporal-powered orchestration engine already in production at La Banque Postale, France Travail and ASML.",
+      "date_published": "2026-05-03T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 28, 2026, Mistral AI launched Workflows, a Temporal-powered orchestration engine already in production at La Banque Postale, France Travail and ASML."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal",
+      "url": "https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal",
+      "title": "Bloomberg AskB : Anthropic Claude au cœur du Terminal",
+      "summary": "Le 28 avril 2026, Bloomberg a ouvert AskB en bêta à 125 000 utilisateurs du Terminal. Pourquoi cet agent IA, alimenté par Claude, change la donne.",
+      "date_published": "2026-04-30T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 28 avril 2026, Bloomberg a ouvert AskB en bêta à 125 000 utilisateurs du Terminal. Pourquoi cet agent IA, alimenté par Claude, change la donne."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal",
+      "title": "Bloomberg AskB: Anthropic Claude lands inside the Terminal",
+      "summary": "On April 28, 2026, Bloomberg opened AskB in beta to 125,000 Terminal users. Why this Anthropic Claude-powered AI agent rewrites Wall Street's playbook.",
+      "date_published": "2026-04-30T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 28, 2026, Bloomberg opened AskB in beta to 125,000 Terminal users. Why this Anthropic Claude-powered AI agent rewrites Wall Street's playbook."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation",
+      "url": "https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation",
+      "title": "BCE et IA : le modèle QRF qui surveille l'inflation depuis 2022",
+      "summary": "Depuis fin 2022, la BCE utilise un Quantile Regression Forest pour traquer l'inflation. Quatre économistes l'ont admis le 21 avril 2026 : ce que cela change.",
+      "date_published": "2026-04-29T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Depuis fin 2022, la BCE utilise un Quantile Regression Forest pour traquer l'inflation. Quatre économistes l'ont admis le 21 avril 2026 : ce que cela change."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation",
+      "title": "ECB's QRF: how a random forest has quietly steered inflation calls since 2022",
+      "summary": "Since late 2022, the ECB has run a Quantile Regression Forest in its policy toolkit. Four economists confirmed it on April 21: what the disclosure changes.",
+      "date_published": "2026-04-29T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Since late 2022, the ECB has run a Quantile Regression Forest in its policy toolkit. Four economists confirmed it on April 21: what the disclosure changes."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques",
+      "url": "https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques",
+      "title": "BCE 30 avril : la stagflation impose un nouveau stress test ALM",
+      "summary": "Le 30 avril 2026, la BCE garde ses taux à 2,00 %. Inflation révisée à 2,6 %, croissance à 0,9 % : ce que cette décision change pour l'ALM des banques.",
+      "date_published": "2026-04-28T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 30 avril 2026, la BCE garde ses taux à 2,00 %. Inflation révisée à 2,6 %, croissance à 0,9 % : ce que cette décision change pour l'ALM des banques."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques",
+      "title": "ECB April 30: stagflation forces a new ALM stress test",
+      "summary": "On April 30, 2026, the ECB holds at 2.00%. Headline inflation revised up to 2.6%, growth down to 0.9%: what the decision changes for European bank ALM teams.",
+      "date_published": "2026-04-28T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 30, 2026, the ECB holds at 2.00%. Headline inflation revised up to 2.6%, growth down to 0.9%: what the decision changes for European bank ALM teams."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance",
+      "url": "https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance",
+      "title": "Taïwan : 16 banques s'unissent pour bâtir un LLM souverain",
+      "summary": "Le 23 avril 2026, 16 banques taïwanaises mutualisent un LLM bancaire souverain pour 40 à 70 millions NT$. Pourquoi cette annonce préfigure la trajectoire européenne.",
+      "date_published": "2026-04-27T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 23 avril 2026, 16 banques taïwanaises mutualisent un LLM bancaire souverain pour 40 à 70 millions NT$. Pourquoi cette annonce préfigure la trajectoire européenne."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance",
+      "title": "Taiwan: 16 banks unite to build a sovereign banking LLM",
+      "summary": "On April 23, 2026, sixteen Taiwanese banks pooled funds to build a sovereign banking LLM for NT$40-70 million. What this signals for Europe's financial AI strategy.",
+      "date_published": "2026-04-27T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 23, 2026, sixteen Taiwanese banks pooled funds to build a sovereign banking LLM for NT$40-70 million. What this signals for Europe's financial AI strategy."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire",
+      "url": "https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire",
+      "title": "Aspect Capital : Martin Lueck alerte sur l'IA en trading quant",
+      "summary": "Martin Lueck, cofondateur d'Aspect Capital et pionnier du quant, refuse de confier les decisions de portefeuille a l'IA. Pourquoi ca compte pour la finance.",
+      "date_published": "2026-04-24T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Martin Lueck, cofondateur d'Aspect Capital et pionnier du quant, refuse de confier les decisions de portefeuille a l'IA. Pourquoi ca compte pour la finance."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire",
+      "title": "Aspect Capital: Martin Lueck pushes back on AI quant trading",
+      "summary": "Martin Lueck, Aspect Capital co-founder and quant pioneer, refuses to hand portfolio decisions to AI. Why the FT interview matters for finance.",
+      "date_published": "2026-04-24T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Martin Lueck, Aspect Capital co-founder and quant pioneer, refuses to hand portfolio decisions to AI. Why the FT interview matters for finance."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique",
+      "url": "https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique",
+      "title": "Google TPU 8 : l'ère agentique se joue sur le silicium",
+      "summary": "Le 22 avril 2026, Google dévoile ses TPU 8t et 8i pour l'ère agentique. Anthropic valide avec 3,5 GW. Ce que ça change pour les banques et l'inférence IA.",
+      "date_published": "2026-04-23T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 22 avril 2026, Google dévoile ses TPU 8t et 8i pour l'ère agentique. Anthropic valide avec 3,5 GW. Ce que ça change pour les banques et l'inférence IA."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique",
+      "title": "Google TPU 8: the agentic era lands on silicon",
+      "summary": "On April 22, 2026, Google unveiled its TPU 8t and 8i for the agentic era. Anthropic commits 3.5 GW. What this means for banks and AI inference costs.",
+      "date_published": "2026-04-23T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 22, 2026, Google unveiled its TPU 8t and 8i for the agentic era. Anthropic commits 3.5 GW. What this means for banks and AI inference costs."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique",
+      "url": "https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique",
+      "title": "MCP : la faille qui rattrape les banques sur l'IA",
+      "summary": "Faille MCP d'Anthropic, position « expected » et 200 000 instances vulnerables : pourquoi les banques heritent du risque cyber agentique.",
+      "date_published": "2026-04-22T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Faille MCP d'Anthropic, position « expected » et 200 000 instances vulnerables : pourquoi les banques heritent du risque cyber agentique."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique",
+      "title": "MCP flaw exposes banks pushing into agentic AI",
+      "summary": "Anthropic's MCP design flaw, OX Security's 200,000 exposed instances and the bank-side fallout: who owns the third-party risk now?",
+      "date_published": "2026-04-22T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Anthropic's MCP design flaw, OX Security's 200,000 exposed instances and the bank-side fallout: who owns the third-party risk now?"
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia",
+      "title": "Anthropic-Amazon : 100 milliards et 5 GW pour tenir Claude",
+      "summary": "Le 20 avril 2026, Amazon investit jusqu'à 25 milliards dans Anthropic pour 5 GW de compute. Décryptage d'un deal IA et de son modèle circulaire.",
+      "date_published": "2026-04-21",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 20 avril 2026, Amazon investit jusqu'à 25 milliards dans Anthropic pour 5 GW de compute. Décryptage d'un deal IA et de son modèle circulaire."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia",
+      "title": "Anthropic-Amazon: $100bn and 5 GW to keep Claude running",
+      "summary": "On April 20, 2026, Amazon commits up to $25bn more to Anthropic for 5 GW of compute. A deep dive into the deal, its circular financing, and why finance should care.",
+      "date_published": "2026-04-21",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 20, 2026, Amazon commits up to $25bn more to Anthropic for 5 GW of compute. A deep dive into the deal, its circular financing, and why finance should care."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere",
+      "url": "https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere",
+      "title": "IA systémique : la Bank of England passe aux simulations",
+      "summary": "Le 16 avril 2026, la Bank of England confirme qu'elle teste l'IA en scénario de stabilité financière. Fin du wait-and-see réglementaire.",
+      "date_published": "2026-04-20",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 16 avril 2026, la Bank of England confirme qu'elle teste l'IA en scénario de stabilité financière. Fin du wait-and-see réglementaire."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere",
+      "title": "Systemic AI: the Bank of England moves to simulations",
+      "summary": "On April 16, 2026, the Bank of England confirmed it is now stress-testing AI for financial stability. The wait-and-see doctrine is officially over.",
+      "date_published": "2026-04-20",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "On April 16, 2026, the Bank of England confirmed it is now stress-testing AI for financial stability. The wait-and-see doctrine is officially over."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia",
+      "url": "https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia",
+      "title": "Wall Street Q1 2026 : 5 000 postes en moins, l'IA en plus",
+      "summary": "Q1 2026 : les six plus grandes banques US cumulent 47,3 milliards de profit et suppriment 5 000 postes. L'IA ne fait plus les annonces, elle fait le P&L.",
+      "date_published": "2026-04-19",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Q1 2026 : les six plus grandes banques US cumulent 47,3 milliards de profit et suppriment 5 000 postes. L'IA ne fait plus les annonces, elle fait le P&L."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia",
+      "url": "https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia",
+      "title": "Wall Street Q1 2026: 5,000 fewer jobs, more AI",
+      "summary": "Q1 2026: the six largest US banks posted $47.3bn in profit while cutting nearly 5,000 jobs. AI no longer does the press releases, it does the P&L.",
+      "date_published": "2026-04-19",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Q1 2026: the six largest US banks posted $47.3bn in profit while cutting nearly 5,000 jobs. AI no longer does the press releases, it does the P&L."
+    }
+  ]
+}
