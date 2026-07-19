@@ -575,13 +575,11 @@ a.v5-typed-card:hover { color: var(--ink-900); transform: translateY(-3px); box-
     .v5-bento-row { flex-direction: column; }
     .bento-card, .bento-card.is-active { flex: 1 1 auto; }
     .bento-card .bento-detail { max-height: 220px; opacity: 1; }
-    .v5-voie-wrap { height: auto; }
-    .v5-voie-sticky { position: static; height: auto; overflow: visible; padding: 70px 20px; }
-    .v5-voie-panels { min-height: 0; }
-    .v5-panel { position: static; display: none; opacity: 1; transform: none; pointer-events: auto; }
-    .v5-panel.is-active { display: flex; }
+    .v5-voie-sticky { padding: 28px 20px; height: 100vh; height: 100svh; }
+    .v5-voie h2 { margin-bottom: 26px; }
+    .v5-voie-panels { min-height: 460px; }
     .v5-panel-num { display: none; }
-    .v5-voie-grid { grid-template-columns: 1fr; gap: 30px; }
+    .v5-voie-grid { grid-template-columns: 1fr; gap: 24px; }
     .v5-voie h2 { text-align: left; }
     .v5-voie-nav { flex-direction: row; gap: 12px; overflow-x: auto; }
     .v5-voie-nav-label { display: none; }
@@ -610,7 +608,14 @@ a.v5-typed-card:hover { color: var(--ink-900); transform: translateY(-3px); box-
     .v5-band-pill { flex-direction: column; padding: 24px; gap: 14px; border-radius: 28px; }
     .v5-band-slider { height: 156px; }
     .v5-band-line { height: 52px; white-space: nowrap; font-size: 13.5px; justify-content: center; text-align: center; }
-    .v5-voie-sticky { padding: 24px 18px; }
+    .v5-voie-sticky { padding: 16px 16px; }
+    .v5-voie h2 { font-size: 1.55rem; margin-bottom: 16px; }
+    .v5-tab { padding: 11px 0; font-size: 13px; }
+    .v5-panel-kicker { font-size: 10px; padding: 5px 11px; margin-bottom: 12px; }
+    .v5-panel-title { font-size: 1.25rem; margin-bottom: 10px; }
+    .v5-panel-desc { font-size: 13px; line-height: 1.55; margin: 0 0 16px; }
+    .v5-stat-row { padding: 8px 0; font-size: 12.5px; }
+    .v5-voie-panels { min-height: 430px; }
     .v5-stats { padding: 4px 16px; }
     .mh-stack-card { width: min(324px, 94%); }
     .mh-channel { grid-template-columns: 1fr 44px; }

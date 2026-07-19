@@ -2241,7 +2241,9 @@
             });
         }
         function pinned() {
-            return !reduced && window.matchMedia('(min-width: 1081px)').matches;
+            // Le scrollytelling est actif a toutes les largeurs (mobile compris) ;
+            // seul prefers-reduced-motion bascule sur les panneaux statiques.
+            return !reduced;
         }
         tabs.forEach(function (t, k) {
             t.addEventListener('click', function () {
@@ -2255,16 +2257,26 @@
             });
         });
         var ticking = false;
+        function update() {
+            var total = wrap.offsetHeight - window.innerHeight;
+            if (total <= 0) return;
+            var p = Math.min(0.999, Math.max(0, -wrap.getBoundingClientRect().top / total));
+            setActive(Math.min(n - 1, Math.floor(p * n)));
+        }
         function onScroll() {
             if (!pinned() || ticking) return;
             ticking = true;
-            requestAnimationFrame(function () {
+            var done = false;
+            function run() {
+                if (done) return;
+                done = true;
                 ticking = false;
-                var total = wrap.offsetHeight - window.innerHeight;
-                if (total <= 0) return;
-                var p = Math.min(0.999, Math.max(0, -wrap.getBoundingClientRect().top / total));
-                setActive(Math.min(n - 1, Math.floor(p * n)));
-            });
+                update();
+            }
+            // rAF pour caler la mise a jour sur le rendu, setTimeout en filet
+            // (onglet en arriere-plan : le rAF peut rester gele, pas le timer).
+            requestAnimationFrame(run);
+            setTimeout(run, 120);
         }
         window.addEventListener('scroll', onScroll, { passive: true });
         onScroll();
