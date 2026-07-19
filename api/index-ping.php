@@ -61,8 +61,23 @@ $now = date('c');
 // --- IndexNow: every URL not yet sent (one batch) ---
 $newIn = array_values(array_diff($urls, array_keys($state['in'])));
 $inResult = 'skipped';
+$inHttp   = 0;
+$inNote   = '';
 if ($inKey !== '' && $newIn) {
-    $inResult = indexnow_ping($host, $inKey, $newIn) ? 'ok' : 'failed';
+    // Auto-réparation : le fichier de clé à la racine DOIT contenir exactement la
+    // clé configurée, sinon IndexNow rejette tout le lot (keyLocation invalide).
+    $keyFile = dirname(__DIR__) . '/' . $inKey . '.txt';
+    $current = is_file($keyFile) ? trim((string)@file_get_contents($keyFile)) : '';
+    if ($current !== $inKey) {
+        if (@file_put_contents($keyFile, $inKey . "\n", LOCK_EX) !== false) {
+            @chmod($keyFile, 0644);
+            $inNote = 'fichier de clé (ré)écrit à la racine';
+        } else {
+            $inNote = 'ÉCHEC écriture du fichier de clé ' . basename($keyFile);
+        }
+    }
+    $inHttp   = indexnow_ping($host, $inKey, $newIn);
+    $inResult = ($inHttp >= 200 && $inHttp < 300) ? 'ok' : 'failed';
     if ($inResult === 'ok') {
         foreach ($newIn as $u) { $state['in'][$u] = $now; }
     }
@@ -81,6 +96,12 @@ if ($token) {
         if (google_index_ping($token, $u)) {
             $state['g'][$u] = $now;
             $gDone++;
+        } elseif (strpos($GINDEX_LASTERR, 'PERMISSION_DENIED') !== false
+               || strpos($GINDEX_LASTERR, 'ownership') !== false) {
+            // Le compte de service n'est pas propriétaire de la propriété
+            // Search Console : inutile d'essayer les URLs suivantes.
+            $gResult = 'ownership_denied';
+            break;
         }
     }
 } elseif ($saPath !== '' && is_file($saPath)) {
@@ -92,10 +113,23 @@ if ($token) {
 
 $googleOut = ['status' => $gResult, 'sent' => $gDone, 'pending' => max(0, count($newG) - $gDone)];
 if ($GINDEX_LASTERR !== '') { $googleOut['error'] = $GINDEX_LASTERR; }
+if ($gResult === 'ownership_denied' || strpos($GINDEX_LASTERR, 'PERMISSION_DENIED') !== false) {
+    $saEmail = '';
+    if ($saPath !== '' && is_file($saPath)) {
+        $saJ = json_decode((string)@file_get_contents($saPath), true);
+        $saEmail = is_array($saJ) ? (string)($saJ['client_email'] ?? '') : '';
+    }
+    $googleOut['service_account'] = $saEmail;
+    $googleOut['fix'] = 'Search Console > Paramètres > Utilisateurs et autorisations : ajouter ce compte de service comme PROPRIÉTAIRE (délégué) de la propriété, puis relancer le ping. Un simple accès Utilisateur ne suffit pas pour l\'API Indexing.';
+}
+
+$inOut = ['status' => $inResult, 'sent' => count($newIn)];
+if ($inHttp) { $inOut['http'] = $inHttp; }
+if ($inNote !== '') { $inOut['note'] = $inNote; }
 
 echo json_encode([
     'ok'        => true,
-    'indexnow'  => ['status' => $inResult, 'sent' => count($newIn)],
+    'indexnow'  => $inOut,
     'google'    => $googleOut,
     'totalUrls' => count($urls),
 ], JSON_UNESCAPED_SLASHES);
@@ -180,8 +214,8 @@ function google_index_ping(string $token, string $url): bool
     return true;
 }
 
-/** Submit a batch of URLs to IndexNow (Bing, Yandex, ...). */
-function indexnow_ping(string $host, string $key, array $urls): bool
+/** Submit a batch of URLs to IndexNow (Bing, Yandex, ...). Returns the HTTP code. */
+function indexnow_ping(string $host, string $key, array $urls): int
 {
     $payload = [
         'host'        => $host,
@@ -198,11 +232,10 @@ function indexnow_ping(string $host, string $key, array $urls): bool
         CURLOPT_HTTPHEADER     => ['Content-Type: application/json; charset=utf-8'],
     ]);
     $resp = curl_exec($ch);
-    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
-    if ($code >= 300) {
+    if ($code >= 300 || $code === 0) {
         error_log("[index-ping] IndexNow error $code: $resp");
-        return false;
     }
-    return true; // 200 or 202 = accepted
+    return $code; // 200 ou 202 = accepté
 }

@@ -438,7 +438,7 @@ function google_token(array $config, string $scope): ?string
  * Guarded HTTPS request. Returns ['status' => int, 'body' => string|null].
  * Never throws. https only, 8s timeout. Used for every Google call.
  */
-function gsk_http(string $method, string $url, ?string $bearer, ?string $jsonBody): array
+function gsk_http(string $method, string $url, ?string $bearer, ?string $jsonBody, int $timeout = 8): array
 {
     $res = ['status' => 0, 'body' => null];
     if (!function_exists('curl_init')) {
@@ -454,7 +454,7 @@ function gsk_http(string $method, string $url, ?string $bearer, ?string $jsonBod
     }
     $opts = [
         CURLOPT_RETURNTRANSFER   => true,
-        CURLOPT_TIMEOUT          => 8,
+        CURLOPT_TIMEOUT          => $timeout,
         CURLOPT_CONNECTTIMEOUT   => 5,
         CURLOPT_PROTOCOLS        => CURLPROTO_HTTPS,
         CURLOPT_REDIR_PROTOCOLS  => CURLPROTO_HTTPS,
@@ -479,6 +479,17 @@ function gsk_http(string $method, string $url, ?string $bearer, ?string $jsonBod
     return $res;
 }
 
+/** Email du compte de service (client_email uniquement, jamais la clé). */
+function gsk_sa_email(array $config): string
+{
+    $saPath = (string)($config['google_sa_json'] ?? '');
+    if ($saPath === '' || !is_file($saPath)) {
+        return '';
+    }
+    $sa = json_decode((string)@file_get_contents($saPath), true);
+    return is_array($sa) ? (string)($sa['client_email'] ?? '') : '';
+}
+
 /** Cache file path for a panel. */
 function gsk_cache_path(string $dataDir, string $panel): string
 {
@@ -499,6 +510,13 @@ function gsk_cache_read(string $dataDir, string $panel, int $maxAgeSec): ?array
     $j = json_decode($raw, true);
     if (!is_array($j) || !isset($j['fetched_at'])) {
         return null;
+    }
+    // Un panneau en échec ne reste en cache que 15 min (une réussite : 6 h) :
+    // sinon une erreur de permission corrigée resterait affichée des heures.
+    $failed = (array_key_exists('ok', $j) && empty($j['ok']))
+           || (isset($j['state']) && $j['state'] !== 'ok');
+    if ($failed) {
+        $maxAgeSec = min($maxAgeSec, 900);
     }
     $age = time() - (int)$j['fetched_at'];
     if ($age > $maxAgeSec) {
@@ -558,8 +576,10 @@ function gsk_build_gsc(array $config): array
         'queries'  => [],
         'pages'    => [],
     ];
+    $out['error'] = '';
     $token = google_token($config, 'https://www.googleapis.com/auth/webmasters.readonly');
     if ($token === null) {
+        $out['error'] = 'jeton refusé : vérifier api/google-sa.json et que l\'API Search Console est activée sur le projet Google Cloud';
         return $out;
     }
     $endDate   = date('Y-m-d', time() - 3 * 86400);   // GSC data lags ~2-3 days
@@ -572,12 +592,15 @@ function gsk_build_gsc(array $config): array
     $candidates[] = $primary;
     $candidates[] = 'sc-domain:mathieuhaye.fr';
 
+    $lastStatus = 0;
     foreach ($candidates as $site) {
         $totalsR = gsk_gsc_query($token, $site, $startDate, $endDate, [], 1);
         if ($totalsR['status'] === 403 || $totalsR['status'] === 404) {
+            $lastStatus = $totalsR['status'];
             continue; // try next candidate
         }
         if ($totalsR['status'] < 200 || $totalsR['status'] >= 300) {
+            $out['error'] = 'HTTP ' . $totalsR['status'] . ' sur ' . $site;
             return $out; // transient error, report unavailable
         }
         $out['siteUsed'] = $site;
@@ -613,6 +636,8 @@ function gsk_build_gsc(array $config): array
         $out['ok'] = true;
         return $out;
     }
+    $out['error'] = 'HTTP ' . $lastStatus . ' sur ' . implode(' puis ', $candidates)
+        . ' : le compte de service n\'a pas accès à la propriété Search Console';
     return $out;
 }
 
@@ -631,9 +656,11 @@ function gsk_build_ga4(array $config): array
     if ($propId === '' || !ctype_digit($propId)) {
         return $out; // stays 'unconfigured'
     }
+    $out['error'] = '';
     $token = google_token($config, 'https://www.googleapis.com/auth/analytics.readonly');
     if ($token === null) {
         $out['state'] = 'error';
+        $out['error'] = 'jeton refusé : vérifier api/google-sa.json et que l\'API Analytics Data est activée';
         return $out;
     }
     $endpoint = 'https://analyticsdata.googleapis.com/v1beta/properties/'
@@ -651,6 +678,8 @@ function gsk_build_ga4(array $config): array
     $tR = gsk_http('POST', $endpoint, $token, is_string($totalsBody) ? $totalsBody : '{}');
     if ($tR['status'] < 200 || $tR['status'] >= 300) {
         $out['state'] = 'error';
+        $out['error'] = 'HTTP ' . $tR['status'] . ' sur la propriété ' . $propId
+            . ($tR['status'] === 403 ? ' : ajouter le compte de service en Lecteur sur la propriété GA4' : '');
         return $out;
     }
     $tj = is_string($tR['body']) ? json_decode($tR['body'], true) : null;
@@ -698,8 +727,9 @@ function gsk_build_pagespeed(array $config): array
     if ($key !== '') {
         $url .= '&key=' . rawurlencode($key);
     }
-    $r = gsk_http('GET', $url, null, null);
+    $r = gsk_http('GET', $url, null, null, 50);
     if ($r['status'] < 200 || $r['status'] >= 300 || !is_string($r['body'])) {
+        $out['error'] = $r['status'] === 0 ? 'délai dépassé (PageSpeed peut prendre 30 s ou plus)' : 'HTTP ' . $r['status'];
         return $out;
     }
     $j = json_decode($r['body'], true);
@@ -1906,11 +1936,28 @@ input[type=file]{width:100%;padding:10px 12px;border-radius:10px;border:1px dash
       <?php endif; ?>
     </p>
 
+    <?php
+      $saEmail = gsk_sa_email($config);
+      $anyFail = empty($gsc['ok']) || (($ga4['state'] ?? '') !== 'ok') || empty($psi['ok']);
+    ?>
+    <?php if ($anyFail && $saEmail !== ''): ?>
+    <div class="card">
+      <div class="card-label">Configuration requise côté Google</div>
+      <p class="note">Compte de service : <code class="hash" style="display:inline;padding:3px 8px;font-size:11.5px"><?= esc($saEmail) ?></code></p>
+      <ol class="check" style="margin-top:10px">
+        <li><strong>Search Console</strong> (données + API Indexing du ping) : Paramètres &rarr; Utilisateurs et autorisations &rarr; ajouter cet email comme <strong>Propriétaire</strong> (délégué) de la propriété <code>sc-domain:mathieuhaye.fr</code>.</li>
+        <li><strong>GA4</strong> : Administration &rarr; Gestion des accès à la propriété &rarr; ajouter cet email en <strong>Lecteur</strong>.</li>
+        <li>Dans Google Cloud (projet du compte de service) : APIs <em>Search Console</em>, <em>Analytics Data</em> et <em>Web Search Indexing</em> activées.</li>
+        <li>Attendre 2-3 minutes puis cliquer « Rafraîchir ».</li>
+      </ol>
+    </div>
+    <?php endif; ?>
+
     <!-- ===== Search Console ===== -->
     <div class="card">
       <div class="card-label">Search Console &middot; 28 derniers jours</div>
       <?php if (empty($gsc['ok'])): ?>
-        <div class="empty">Données Google indisponibles pour le moment.</div>
+        <div class="empty">Données Search Console indisponibles<?= !empty($gsc['error']) ? ' — ' . esc((string)$gsc['error']) : '.' ?></div>
       <?php else: ?>
         <div class="kpis" style="margin-top:8px">
           <div class="kpi">
@@ -2014,11 +2061,7 @@ input[type=file]{width:100%;padding:10px 12px;border-radius:10px;border:1px dash
           </div>
         <?php endif; ?>
       <?php else: ?>
-        <p class="note">
-          Analytics non connecté. Ajoute l'email du compte de service (champ client_email de api/google-sa.json)
-          comme utilisateur Lecteur sur ta propriété GA4, puis renseigne ga4_property_id
-          (l'ID numérique de la propriété) dans api/config.php.
-        </p>
+        <div class="empty">Analytics indisponible<?= !empty($ga4['error']) ? ' — ' . esc((string)$ga4['error']) : ' : renseigner l\'ID de propriété GA4 dans les Réglages et donner l\'accès Lecteur au compte de service (carte ci-dessus).' ?></div>
       <?php endif; ?>
     </div>
 
@@ -2026,7 +2069,7 @@ input[type=file]{width:100%;padding:10px 12px;border-radius:10px;border:1px dash
     <div class="card">
       <div class="card-label">PageSpeed Insights &middot; mobile &middot; accueil</div>
       <?php if (empty($psi['ok'])): ?>
-        <div class="empty">Données Google indisponibles pour le moment.</div>
+        <div class="empty">PageSpeed indisponible<?= !empty($psi['error']) ? ' — ' . esc((string)$psi['error']) : ' pour le moment.' ?> Réessayer via « Rafraîchir ».</div>
       <?php else: ?>
         <div class="kpis" style="margin-top:8px">
           <div class="kpi">
