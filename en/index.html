@@ -84,8 +84,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- ======================== STYLES ======================== -->
-    <link rel="stylesheet" href="/style.css?v=97">
-    <script defer src="/ui.js?v=97"></script>
+    <link rel="stylesheet" href="/style.css?v=99">
+    <script defer src="/ui.js?v=99"></script>
 
     <!-- ======================== STRUCTURED DATA (JSON-LD) ======================== -->
     <script type="application/ld+json">
@@ -353,7 +353,18 @@
     <header class="v51-header">
         <a href="#hero" class="v51-mark" aria-label="Mathieu Haye — retour en haut"><img src="/assets/img/logo-mh.svg" alt="MH" width="36" height="36"></a>
         <nav class="v51-nav" aria-label="Navigation">
-            <a class="v51-link" href="#services" data-i18n="nav5.services">Services</a>
+            <span class="nav-drop">
+                <a class="v51-link nav-drop-trigger" href="#services" data-i18n="nav5.services" aria-haspopup="true" aria-expanded="false">Services</a><svg class="nav-drop-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                <div class="nav-drop-panel">
+                    <a href="/en/custom-crm"><strong>Custom CRM</strong><span>A CRM your team actually opens</span></a>
+                    <a href="/en/ai-agent-for-smes"><strong>AI agents for SMEs</strong><span>Repetitive work, handled by agents</span></a>
+                    <a href="/en/n8n-automation"><strong>n8n automation</strong><span>Repetitive tasks disappear</span></a>
+                    <a href="/en/custom-web-app"><strong>Custom web app</strong><span>When nothing on the market fits</span></a>
+                    <a href="/en/website-creation"><strong>Website creation</strong><span>A website that brings in clients</span></a>
+                    <a href="/en/ai-visibility"><strong>Visible by AI</strong><span>Get recommended by ChatGPT and friends</span></a>
+                    <a class="nav-drop-all" href="/en/collaboration">How we work together &rarr;</a>
+                </div>
+            </span>
             <a class="v51-link" href="#approach" data-i18n="nav5.approach">Approach</a>
             <a class="v51-link" href="#projects" data-i18n="nav5.projects">Projects</a>
             <a class="v51-link" href="#contact" data-i18n="nav5.contact">Contact</a>
@@ -940,7 +951,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-    <script src="/script.js?v=97"></script>
+    <script src="/script.js?v=99"></script>
     <script src="/gsap-enhance.js?v=4" defer></script>
 </body>
 </html>

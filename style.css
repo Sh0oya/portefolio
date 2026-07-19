@@ -4759,19 +4759,130 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
 .explore-next .section-eyebrow, .explore-grid { position: relative; }
 .explore-card { background: var(--paper); }
 /* Rythme : seule la 1re bande méthode est olive, les suivantes reviennent papier */
-.method + .method { background: var(--paper); }
-.method + .method::before { content: none; }
-.method + .method .section-eyebrow { color: var(--terra); }
-.method + .method .section-eyebrow::after { background: var(--terra); }
-.method + .method .method-title { color: var(--ink-900); }
-.method + .method .method-lead { color: var(--ink-500); }
-.method + .method .hero-accent { color: var(--terra); }
-.method + .method .method-card { background: var(--card); border: 1px solid var(--hairline-soft); color: inherit; }
-.method + .method .method-card:hover { border-color: var(--hairline); }
-.method + .method .method-card-title { color: var(--ink-900); }
-.method + .method .method-num { color: var(--terra); }
-.method + .method .method-card a { color: var(--terra); }
-.method + .method .method-card strong, .method + .method .method-card b { color: var(--ink-900); }
+.method.method--index { background: var(--paper); }
+.method.method--index::before { content: none; }
+.method.method--index .section-eyebrow { color: var(--terra); }
+.method.method--index .section-eyebrow::after { background: var(--terra); }
+.method.method--index .method-title { color: var(--ink-900); }
+.method.method--index .method-lead { color: var(--ink-500); }
+.method.method--index .hero-accent { color: var(--terra); }
+.method.method--index .method-card { background: var(--card); border: 1px solid var(--hairline-soft); color: inherit; }
+.method.method--index .method-card:hover { border-color: var(--hairline); }
+.method.method--index .method-card-title { color: var(--ink-900); }
+.method.method--index .method-num { color: var(--terra); }
+.method.method--index .method-card a { color: var(--terra); }
+.method.method--index .method-card strong, .method.method--index .method-card b { color: var(--ink-900); }
 @media (prefers-reduced-motion: reduce) {
     .ui-reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ============================================================================
+   PAGES SERVICES v5.4 — variété des blocs : chaque section méthode a sa forme
+   (1re = timeline olive, 2e = index éditorial, 3e = tuiles sable)
+   ============================================================================ */
+/* --- 1re section (bande olive) : timeline verticale à pastilles --- */
+.method .method-grid { display: block; max-width: 800px; }
+.method .method-card { display: grid; grid-template-columns: 52px 1fr; gap: 0 26px; position: relative; padding: 26px 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.method .method-card:hover { transform: none; border: 0; box-shadow: none; }
+.method .method-card::before { content: ''; position: absolute; left: 25.5px; top: 0; bottom: 0; width: 1px; background: var(--olive-line); }
+.method .method-card:first-child::before { top: 30px; }
+.method .method-card:last-child::before { height: 30px; bottom: auto; }
+.method .method-num { grid-column: 1; grid-row: 1 / 3; align-self: start; display: flex; align-items: center; justify-content: center; width: 52px; height: 52px; margin: 0; position: relative; z-index: 1; background: var(--olive-2); border: 1px solid var(--olive-line); border-radius: 50%; font-family: var(--font-serif); font-weight: 400; font-size: 17px; letter-spacing: 0.04em; color: var(--lime); }
+.method .method-card-title { grid-column: 2; margin: 14px 0 0; font-size: 19px; }
+.method .method-card p { grid-column: 2; margin: 8px 0 0; color: var(--olive-dim); max-width: 58ch; }
+.method .method-card:hover .method-num { border-color: var(--sage); }
+
+/* --- 2e section (papier) : index éditorial en rangées, sans numéros --- */
+.method.method--index .method-grid { display: block; max-width: none; border-bottom: 1px solid var(--hairline-soft); }
+.method.method--index .method-card { display: grid; grid-template-columns: minmax(200px, 300px) 1fr; gap: 6px 44px; align-items: start; position: static; padding: 28px 0; background: transparent; border: 0; border-top: 1px solid var(--hairline-soft); border-radius: 0; box-shadow: none; }
+.method.method--index .method-card::before { content: none; }
+.method.method--index .method-card:hover { transform: none; border-color: var(--hairline-soft); }
+.method.method--index .method-num { display: none; }
+.method.method--index .method-card-title { grid-column: 1; margin: 0; font-family: var(--font-serif); font-weight: 400; font-size: 21px; line-height: 1.25; letter-spacing: 0; color: var(--ink-900); transition: color .25s var(--ease-out); }
+.method.method--index .method-card:hover .method-card-title { color: var(--terra); }
+.method.method--index .method-card p { grid-column: 2; grid-row: 1; margin: 4px 0 0; color: var(--ink-500); max-width: 62ch; }
+
+/* --- 3e section : tuiles sable compactes, sans numéros --- */
+.method.method--tiles .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; max-width: none; border-bottom: 0; }
+.method.method--tiles .method-card { display: block; padding: 24px 26px; background: var(--sand); border: 1px solid transparent; border-radius: 16px; transition: transform .3s var(--ease-out), background .3s var(--ease-out); }
+.method.method--tiles .method-card:hover { transform: translateY(-3px); background: #DCDCC6; }
+.method.method--tiles .method-card-title { font-family: var(--font-display); font-weight: 600; font-size: 15.5px; letter-spacing: -0.01em; line-height: 1.35; color: var(--ink-900); margin: 0 0 8px; transition: none; }
+.method.method--tiles .method-card:hover .method-card-title { color: var(--ink-900); }
+.method.method--tiles .method-card p { margin: 0; font-size: 13.8px; line-height: 1.6; color: var(--ink-500); max-width: none; }
+
+/* Tuiles : même fond papier et tête encre que l'index (revert de la bande olive) */
+.method.method--tiles { background: var(--paper); }
+.method.method--tiles::before { content: none; }
+.method.method--tiles .section-eyebrow { color: var(--terra); }
+.method.method--tiles .section-eyebrow::after { background: var(--terra); }
+.method.method--tiles .method-title { color: var(--ink-900); }
+.method.method--tiles .method-lead { color: var(--ink-500); }
+.method.method--tiles .hero-accent { color: var(--terra); }
+.method.method--tiles .method-num { display: none; }
+.method.method--tiles .method-card::before { content: none; }
+.method.method--tiles .method-card a { color: var(--terra); }
+.method.method--tiles .method-card strong, .method.method--tiles .method-card b { color: var(--ink-900); }
+
+@media (max-width: 720px) {
+    .method .method-card { grid-template-columns: 44px 1fr; gap: 0 18px; padding: 22px 0; }
+    .method .method-num { width: 44px; height: 44px; font-size: 15px; }
+    .method .method-card::before { left: 21.5px; }
+    .method .method-card:first-child::before { top: 26px; }
+    .method .method-card:last-child::before { height: 26px; }
+    .method .method-card-title { margin-top: 10px; }
+    .method.method--index .method-card { grid-template-columns: 1fr; gap: 8px 0; padding: 22px 0; }
+    .method.method--index .method-card p { grid-column: 1; grid-row: auto; margin-top: 6px; }
+    .method.method--tiles .method-card { padding: 20px 22px; }
+}
+
+
+/* ============================================================================
+   NAV v5.5 — menu déroulant Services (desktop ; la nav est masquée en mobile)
+   ============================================================================ */
+.nav-drop { position: relative; display: inline-flex; align-items: center; gap: 5px; }
+.nav-drop-chev { width: 12px; height: 12px; color: var(--ink-500); transition: transform .2s var(--ease-out), color .2s var(--ease-out); }
+.nav-drop:hover .nav-drop-chev, .nav-drop.open .nav-drop-chev { transform: rotate(180deg); color: var(--terra); }
+.nav-drop::after { content: ''; position: absolute; left: -10px; right: -10px; top: 100%; height: 16px; }
+.nav-drop-panel { position: absolute; top: calc(100% + 8px); left: 50%; transform: translate(-50%, 6px); min-width: 330px; padding: 10px; background: var(--card); border: 1px solid var(--hairline); border-radius: 18px; box-shadow: 0 24px 60px rgba(30, 32, 18, .16); opacity: 0; visibility: hidden; transition: opacity .18s var(--ease-out), transform .18s var(--ease-out), visibility .18s; z-index: 90; }
+.nav-drop:hover .nav-drop-panel, .nav-drop:focus-within .nav-drop-panel, .nav-drop.open .nav-drop-panel { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
+.nav-drop-panel a { display: block; padding: 10px 14px; border-radius: 12px; }
+.nav-drop-panel a strong { display: block; font-weight: 600; font-size: 14px; letter-spacing: -0.01em; color: var(--ink-900); transition: color .15s var(--ease-out); }
+.nav-drop-panel a span { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.45; color: var(--ink-500); }
+.nav-drop-panel a:hover { background: var(--paper-hi); }
+.nav-drop-panel a:hover strong { color: var(--terra); }
+.nav-drop-panel a.nav-drop-all { margin-top: 6px; padding-top: 12px; border-top: 1px solid var(--hairline-soft); border-radius: 0 0 12px 12px; font-size: 13px; color: var(--terra); }
+.nav-drop-panel a.nav-drop-all:hover { background: var(--paper-hi); color: var(--terra-hover); }
+@media (prefers-reduced-motion: reduce) {
+    .nav-drop-panel, .nav-drop-chev { transition: none; }
+}
+
+
+/* ============================================================================
+   CORRECTIFS v5.4b — retours de la revue adversariale
+   ============================================================================ */
+/* CTA final : l'em du titre etait peint par le degrade terracotta (illisible sur olive) */
+.final-cta-title em { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--lime); -webkit-text-fill-color: var(--lime); font-style: italic; }
+/* FAQ : l'ombre glass legacy reapparaissait au survol */
+.faq-item:hover { border-color: var(--hairline); box-shadow: none; }
+.faq-item[open]:hover { box-shadow: none; }
+/* Eyebrows : contraste AA (sauge 4.24:1 sur olive, terra 3.63:1 sur papier) */
+.method .section-eyebrow { color: var(--olive-dim); }
+.method.method--index .section-eyebrow, .method.method--tiles .section-eyebrow { color: var(--terra-hover); }
+/* Tiret des eyebrows dans les sections methode (le ::after n'avait jamais de content) */
+.method .method-head .section-eyebrow { display: inline-flex; align-items: center; gap: 10px; }
+.method .method-head .section-eyebrow::after { content: ''; width: 22px; height: 1px; flex-shrink: 0; background: var(--lime); }
+.method.method--index .method-head .section-eyebrow::after, .method.method--tiles .method-head .section-eyebrow::after { background: var(--terra); }
+/* Note packages posee dans une bande olive (crm) : texte encre sur fond sombre */
+.method .packages-note { color: var(--olive-dim); }
+.method .packages-note a { color: var(--terra-soft); }
+.method.method--index .packages-note, .method.method--tiles .packages-note { color: var(--ink-500); }
+.method.method--index .packages-note a, .method.method--tiles .packages-note a { color: var(--terra); }
+/* Tuiles : ne pas heriter du olive-dim de la bande sombre */
+.method.method--tiles .method-card { color: inherit; }
+/* Motif du bandeau explore aligne sur l'attenuation des autres motifs */
+.explore-next::before { opacity: .55; }
+/* Reduced motion : neutraliser les nouveaux transforms de survol */
+@media (prefers-reduced-motion: reduce) {
+    .package-card:hover, .explore-card:hover, .method.method--tiles .method-card:hover, .final-cta-card .btn-primary:hover { transform: none; }
+    .explore-card:hover .x-arrow { transform: none; }
 }

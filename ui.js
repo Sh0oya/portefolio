@@ -85,7 +85,14 @@
         div.setAttribute('aria-label', 'Navigation');
         var html = '';
         for (var i = 0; i < L.length; i++) {
-            html += '<a href="' + (en ? L[i][1] : L[i][0]) + '">' + (en ? L[i][3] : L[i][2]) + '</a>';
+            if (i === 0) {
+                html += '<span class="nav-drop">' +
+                    '<a class="nav-drop-trigger" href="' + (en ? L[i][1] : L[i][0]) + '" aria-haspopup="true" aria-expanded="false">' + (en ? L[i][3] : L[i][2]) + '</a>' +
+                    '<svg class="nav-drop-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>' +
+                    svcMenuHtml(en) + '</span>';
+            } else {
+                html += '<a href="' + (en ? L[i][1] : L[i][0]) + '">' + (en ? L[i][3] : L[i][2]) + '</a>';
+            }
         }
         div.innerHTML = html;
         var actions = slot.querySelector('.nav-actions');
@@ -271,6 +278,64 @@
     }
 
 
+    /* ---------- Menu déroulant Services (v5.5) ---------- */
+    function svcMenuHtml(en) {
+        var items = en ? [
+            ['/en/custom-crm', 'Custom CRM', 'A CRM your team actually opens'],
+            ['/en/ai-agent-for-smes', 'AI agents for SMEs', 'Repetitive work, handled by agents'],
+            ['/en/n8n-automation', 'n8n automation', 'Repetitive tasks disappear'],
+            ['/en/custom-web-app', 'Custom web app', 'When nothing on the market fits'],
+            ['/en/website-creation', 'Website creation', 'A website that brings in clients'],
+            ['/en/ai-visibility', 'Visible by AI', 'Get recommended by ChatGPT and friends']
+        ] : [
+            ['/crm-sur-mesure', 'CRM sur-mesure', 'Un CRM que votre équipe ouvre vraiment'],
+            ['/agent-ia-pme', 'Agents IA pour PME', 'Le travail répétitif, traité par des agents'],
+            ['/automatisation-n8n', 'Automatisation n8n', 'Les tâches répétitives disparaissent'],
+            ['/application-sur-mesure', 'Application sur mesure', 'Quand rien sur le marché ne colle'],
+            ['/creation-site-web', 'Création de site web', 'Un site qui ramène des clients'],
+            ['/visible-par-les-ia', 'Visible par les IA', 'Être recommandé par ChatGPT et consorts']
+        ];
+        var all = en ? ['/en/collaboration', 'How we work together'] : ['/collaboration', 'Comment on travaille ensemble'];
+        var h = '<div class="nav-drop-panel">';
+        for (var i = 0; i < items.length; i++) {
+            h += '<a href="' + items[i][0] + '"><strong>' + items[i][1] + '</strong><span>' + items[i][2] + '</span></a>';
+        }
+        return h + '<a class="nav-drop-all" href="' + all[0] + '">' + all[1] + ' &rarr;</a></div>';
+    }
+
+    function initNavDrop() {
+        var drops = document.querySelectorAll('.nav-drop');
+        if (!drops.length) return;
+        function closeAll() {
+            for (var i = 0; i < drops.length; i++) {
+                drops[i].classList.remove('open');
+                var t = drops[i].querySelector('.nav-drop-trigger');
+                if (t) t.setAttribute('aria-expanded', 'false');
+            }
+        }
+        for (var i = 0; i < drops.length; i++) (function (d) {
+            var t = d.querySelector('.nav-drop-trigger');
+            if (!t) return;
+            t.addEventListener('click', function (e) {
+                e.preventDefault();
+                var open = d.classList.toggle('open');
+                t.setAttribute('aria-expanded', open ? 'true' : 'false');
+            });
+            d.addEventListener('mouseleave', function () {
+                d.classList.remove('open');
+                t.setAttribute('aria-expanded', 'false');
+            });
+        })(drops[i]);
+        document.addEventListener('click', function (e) {
+            for (var i = 0; i < drops.length; i++) if (drops[i].contains(e.target)) return;
+            closeAll();
+        });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeAll();
+        });
+    }
+
+
     /* ---------- 5. Pages services : dither du CTA final + révélation au scroll ---------- */
     function enhanceServicePages() {
         /* La carte CTA finale reçoit la même couche dither que le contact de la home. */
@@ -318,6 +383,7 @@
         injectGlassFilter();
         normalizeNav();
         injectNavBook();
+        initNavDrop();
         enhanceServicePages();
         initRevealInterior();
         initDither();

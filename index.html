@@ -84,8 +84,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- ======================== STYLES ======================== -->
-    <link rel="stylesheet" href="style.css?v=97">
-    <script defer src="/ui.js?v=97"></script>
+    <link rel="stylesheet" href="style.css?v=99">
+    <script defer src="/ui.js?v=99"></script>
 
     <!-- ======================== STRUCTURED DATA (JSON-LD) ======================== -->
     <script type="application/ld+json">
@@ -354,7 +354,18 @@
     <header class="v51-header">
         <a href="#hero" class="v51-mark" aria-label="Mathieu Haye — retour en haut"><img src="/assets/img/logo-mh.svg" alt="MH" width="36" height="36"></a>
         <nav class="v51-nav" aria-label="Navigation">
-            <a class="v51-link" href="#services" data-i18n="nav5.services">Services</a>
+            <span class="nav-drop">
+                <a class="v51-link nav-drop-trigger" href="#services" data-i18n="nav5.services" aria-haspopup="true" aria-expanded="false">Services</a><svg class="nav-drop-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                <div class="nav-drop-panel">
+                    <a href="/crm-sur-mesure"><strong>CRM sur-mesure</strong><span>Un CRM que votre équipe ouvre vraiment</span></a>
+                    <a href="/agent-ia-pme"><strong>Agents IA pour PME</strong><span>Le travail répétitif, traité par des agents</span></a>
+                    <a href="/automatisation-n8n"><strong>Automatisation n8n</strong><span>Les tâches répétitives disparaissent</span></a>
+                    <a href="/application-sur-mesure"><strong>Application sur mesure</strong><span>Quand rien sur le marché ne colle</span></a>
+                    <a href="/creation-site-web"><strong>Création de site web</strong><span>Un site qui ramène des clients</span></a>
+                    <a href="/visible-par-les-ia"><strong>Visible par les IA</strong><span>Être recommandé par ChatGPT et consorts</span></a>
+                    <a class="nav-drop-all" href="/collaboration">Comment on travaille ensemble &rarr;</a>
+                </div>
+            </span>
             <a class="v51-link" href="#approach" data-i18n="nav5.approach">Approche</a>
             <a class="v51-link" href="#projects" data-i18n="nav5.projects">Projets</a>
             <a class="v51-link" href="#contact" data-i18n="nav5.contact">Contact</a>
@@ -941,7 +952,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-    <script src="script.js?v=97"></script>
+    <script src="script.js?v=99"></script>
     <script src="gsap-enhance.js?v=4" defer></script>
 </body>
 </html>

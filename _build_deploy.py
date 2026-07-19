@@ -10,7 +10,7 @@ les gabarits (_*.html), les scripts et fichiers de travail (_*.py, _*.md...).
 import os, shutil, fnmatch
 
 SRC, DST = '.', '_deploy'
-EXCLUDE_DIRS = {'.claude', '_deploy', '_docs', '_contenu', '.git', 'node_modules'}
+EXCLUDE_DIRS = {'.claude', '.claude-ads', '_deploy', '_docs', '_contenu', '.git', 'node_modules'}
 EXCLUDE_FILES = {'google-sa.json', 'assets/index.html'}  # racine uniquement (api/google-sa.json reste inclus)
 EXCLUDE_GLOBS = ['_*.md', '_*.py', '_*.html', '_*.js', '_*.png', 'iar*.json', '*.bak', '.DS_Store']
 
