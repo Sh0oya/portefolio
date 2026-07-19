@@ -4695,3 +4695,83 @@ body.page-projects .final-cta-actions .compare-cta-btn { width: 100%; }
 .explore-card:hover { border-color: var(--ink-900); color: var(--ink-900); transform: translateY(-3px); box-shadow: 0 12px 28px rgba(30, 32, 18, .08); }
 .explore-card .x-arrow { color: var(--terra); transition: transform .25s var(--ease-out); }
 .explore-card:hover .x-arrow { transform: translateX(3px); }
+
+
+/* ============================================================================
+   PAGES SERVICES v5.3 — relief façon home (bandes olive, motifs, animations)
+   ============================================================================ */
+/* Révélation au scroll (moteur ui.js, progressive enhancement) */
+.ui-reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s var(--ease-out), transform .7s var(--ease-out); will-change: opacity, transform; }
+.ui-reveal.ui-revealed { opacity: 1; transform: none; }
+
+/* Packages : papier chaud + motif + cartes qui se soulèvent */
+.packages { background: var(--paper-hi); position: relative; overflow: hidden; }
+.packages::after { content: ''; position: absolute; bottom: -150px; right: -120px; width: 380px; height: 380px; background: url('/assets/img/motif-2.svg') no-repeat center / contain; opacity: .55; pointer-events: none; }
+.packages > .section-container { position: relative; }
+.package-card { background: var(--card); border: 1.5px solid var(--hairline); border-radius: 22px; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; transition: transform .35s var(--ease-out), border-color .35s var(--ease-out), box-shadow .35s var(--ease-out); }
+.package-card:hover { transform: translateY(-6px); border-color: var(--ink-900); box-shadow: 0 20px 44px rgba(30, 32, 18, .1); }
+.package-card-featured { border-color: var(--ink-900); box-shadow: 0 20px 44px rgba(30, 32, 18, .08); }
+
+/* Méthode : bande olive comme la 3e voie de la home */
+.method { background: var(--olive); position: relative; overflow: hidden; }
+.method::before { content: ''; position: absolute; top: -150px; right: -110px; width: 400px; height: 400px; background: url('/assets/img/motif-1.svg') no-repeat center / contain; opacity: .6; pointer-events: none; }
+.method > .section-container { position: relative; }
+.method .section-eyebrow { color: var(--sage); }
+.method .section-eyebrow::after { background: var(--lime); }
+.method .method-title { color: var(--paper); }
+.method .method-lead { color: var(--olive-dim); }
+.method .hero-accent { color: var(--lime); }
+.method .method-card { background: var(--olive-2); border: 1px solid var(--olive-line); border-radius: 18px; color: var(--olive-dim); box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; transition: transform .3s var(--ease-out), border-color .3s var(--ease-out); }
+.method .method-card:hover { transform: translateY(-4px); border-color: var(--sage); box-shadow: none; }
+.method .method-card-title { color: var(--paper); }
+.method .method-num { color: var(--lime); }
+.method .method-card a { color: var(--terra-soft); }
+.method .method-card strong, .method .method-card b { color: var(--paper); }
+
+/* FAQ : cartes hairline nettes */
+.faq-item { background: var(--card); border: 1px solid var(--hairline-soft); border-radius: 16px; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; transition: border-color .25s var(--ease-out); }
+.faq-item:hover { border-color: var(--hairline); }
+.faq-item[open] { border-color: var(--ink-900); }
+
+/* CTA final : carte olive + dither injecté par ui.js (même rendu que le contact home) */
+.final-cta .final-cta-card, .final-cta-card { position: relative; overflow: hidden; background: var(--olive); border: 0; border-radius: var(--radius-2xl); color: var(--paper); text-align: center; padding: clamp(48px, 7vw, 88px) clamp(22px, 5vw, 56px); box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.final-cta .final-cta-card::before, .final-cta-card::before { content: none; }
+.final-cta-card > * { position: relative; z-index: 2; }
+.final-cta-card .dither-layer { position: absolute; inset: 0; z-index: 1; opacity: .5; pointer-events: none;
+    -webkit-mask-image: radial-gradient(closest-side at 50% 45%, transparent 30%, black 80%);
+    mask-image: radial-gradient(closest-side at 50% 45%, transparent 30%, black 80%); }
+.final-cta-card .dither-layer canvas { width: 100%; height: 100%; display: block; image-rendering: pixelated; }
+.final-cta-title { color: var(--paper); }
+.final-cta-title .hero-accent { color: var(--lime); }
+.final-cta-lead { color: var(--olive-dim); }
+.final-cta-card .btn-primary, .final-cta-card .compare-cta-btn.btn-primary { background: var(--paper); color: var(--ink-900); transition: transform .3s var(--ease-out), background .3s; }
+.final-cta-card .btn-primary:hover { background: #FFFFFF; color: var(--ink-900); transform: scale(1.04); }
+.final-cta-card .btn-ghost { color: var(--paper); border-color: rgba(243, 241, 234, .4); }
+.final-cta-card .btn-ghost:hover { background: var(--paper); color: var(--ink-900); border-color: var(--paper); }
+.final-cta-card .project-hash, .final-cta-card .project-note { color: var(--olive-dim); }
+body.page-projects .final-cta-title { color: var(--paper); }
+body.page-projects .final-cta-title em { background: none; background-clip: border-box; -webkit-background-clip: border-box; color: var(--lime); -webkit-text-fill-color: var(--lime); }
+body.page-projects .final-cta-lead { color: var(--olive-dim); }
+
+/* Explorer ensuite : bandeau sable comme le marquee logos */
+.explore-next { background: var(--sand); position: relative; overflow: hidden; border-top: 0; }
+.explore-next::before { content: ''; position: absolute; top: -140px; left: -110px; width: 340px; height: 340px; background: url('/assets/img/motif-1.svg') no-repeat center / contain; pointer-events: none; }
+.explore-next .section-eyebrow, .explore-grid { position: relative; }
+.explore-card { background: var(--paper); }
+/* Rythme : seule la 1re bande méthode est olive, les suivantes reviennent papier */
+.method + .method { background: var(--paper); }
+.method + .method::before { content: none; }
+.method + .method .section-eyebrow { color: var(--terra); }
+.method + .method .section-eyebrow::after { background: var(--terra); }
+.method + .method .method-title { color: var(--ink-900); }
+.method + .method .method-lead { color: var(--ink-500); }
+.method + .method .hero-accent { color: var(--terra); }
+.method + .method .method-card { background: var(--card); border: 1px solid var(--hairline-soft); color: inherit; }
+.method + .method .method-card:hover { border-color: var(--hairline); }
+.method + .method .method-card-title { color: var(--ink-900); }
+.method + .method .method-num { color: var(--terra); }
+.method + .method .method-card a { color: var(--terra); }
+.method + .method .method-card strong, .method + .method .method-card b { color: var(--ink-900); }
+@media (prefers-reduced-motion: reduce) {
+    .ui-reveal { opacity: 1; transform: none; transition: none; }
+}

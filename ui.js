@@ -270,10 +270,56 @@
         for (var k = 0; k < els.length; k++) setup(els[k]);
     }
 
+
+    /* ---------- 5. Pages services : dither du CTA final + révélation au scroll ---------- */
+    function enhanceServicePages() {
+        /* La carte CTA finale reçoit la même couche dither que le contact de la home. */
+        var cards = document.querySelectorAll('.final-cta-card');
+        for (var i = 0; i < cards.length; i++) {
+            if (!cards[i].querySelector('[data-dither]')) {
+                var layer = document.createElement('div');
+                layer.className = 'dither-layer';
+                layer.setAttribute('data-dither', '');
+                layer.setAttribute('aria-hidden', 'true');
+                cards[i].insertBefore(layer, cards[i].firstChild);
+            }
+        }
+    }
+
+    function initRevealInterior() {
+        if (!('IntersectionObserver' in window)) return;
+        var reduced = false;
+        try { reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { /* noop */ }
+        if (reduced) return;
+        var els = document.querySelectorAll('.package-card, .method-card, .faq-item, .final-cta-card, .explore-card, .method-head');
+        if (!els.length) return;
+        var io = new IntersectionObserver(function (entries) {
+            for (var i = 0; i < entries.length; i++) {
+                if (entries[i].isIntersecting) {
+                    entries[i].target.classList.add('ui-revealed');
+                    io.unobserve(entries[i].target);
+                }
+            }
+        }, { threshold: 0.12 });
+        var counters = {};
+        for (var k = 0; k < els.length; k++) {
+            var el = els[k];
+            /* Ne jamais masquer ce qui est déjà à l'écran au chargement. */
+            if (el.getBoundingClientRect().top < window.innerHeight * 0.9) continue;
+            var key = el.parentNode && el.parentNode.className ? String(el.parentNode.className) : 'x';
+            counters[key] = (counters[key] || 0) + 1;
+            el.style.transitionDelay = (((counters[key] - 1) % 4) * 80) + 'ms';
+            el.className += ' ui-reveal';
+            io.observe(el);
+        }
+    }
+
     ready(function () {
         injectGlassFilter();
         normalizeNav();
         injectNavBook();
+        enhanceServicePages();
+        initRevealInterior();
         initDither();
     });
 }());
