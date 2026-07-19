@@ -1384,4 +1384,58 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/chat-with-my-ai"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/discuter-avec-mon-ia"/>
     </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise"/>
+    </url>
+<url>
+    <loc>https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite"/>
+</url>
+
+    <url>
+        <loc>https://mathieuhaye.fr/creation-site-web</loc>
+        <lastmod>2026-07-18T18:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/creation-site-web"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/website-creation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/creation-site-web"/>
+    </url>
+    <url>
+        <loc>https://mathieuhaye.fr/en/website-creation</loc>
+        <lastmod>2026-07-18T18:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/creation-site-web"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/website-creation"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/creation-site-web"/>
+    </url>
 </urlset>

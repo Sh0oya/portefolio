@@ -6,7 +6,43 @@
         <atom:link href="https://mathieuhaye.fr/feed.xml" rel="self" type="application/rss+xml" />
         <description>Bilingual journal (FR + EN) on Business x AI x Data.</description>
         
-        <lastBuildDate>Wed, 15 Jul 2026 08:00:00 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 09:00:00 +0200</lastBuildDate>
+        <item>
+            <title>L'UE force Google à ouvrir Android aux agents IA rivaux</title>
+            <link>https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite</guid>
+            <description>Le 16 juillet 2026, l'UE a ordonné à Google d'ouvrir 11 fonctions d'Android aux assistants IA rivaux, au même niveau que Gemini. Ce que ça change.</description>
+            <pubDate>Sun, 19 Jul 2026 09:00:00 +0200</pubDate>
+            <dc:language>fr</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
+        <item>
+            <title>EU forces Google to open Android to rival AI agents</title>
+            <link>https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite</guid>
+            <description>On July 16, 2026, the EU ordered Google to open 11 Android features to rival AI assistants, on par with Gemini. Why distribution is the real fight.</description>
+            <pubDate>Sun, 19 Jul 2026 09:00:00 +0200</pubDate>
+            <dc:language>en</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
+        <item>
+            <title>SAP boucle Prior Labs : le pari de l'IA tabulaire</title>
+            <link>https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</guid>
+            <description>Le 17 juillet 2026, SAP a bouclé le rachat de Prior Labs et investit plus d'un milliard d'euros dans l'IA tabulaire, taillée pour les données métier structurées.</description>
+            <pubDate>Sun, 19 Jul 2026 08:00:00 +0200</pubDate>
+            <dc:language>fr</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
+        <item>
+            <title>SAP bets $1.16bn on tabular AI, not another LLM</title>
+            <link>https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise</guid>
+            <description>On July 17, 2026, SAP closed its Prior Labs acquisition and is investing over €1 billion in tabular AI, built to predict on structured business data.</description>
+            <pubDate>Sun, 19 Jul 2026 08:00:00 +0200</pubDate>
+            <dc:language>en</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
         <item>
             <title>Agents IA en entreprise : la donnée n'est pas prête</title>
             <link>https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents</link>

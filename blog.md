@@ -9,7 +9,13 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (FR), 55 posts
+## Articles (FR), 57 posts
+
+- **2026-07-19** : [L'UE force Google à ouvrir Android aux agents IA rivaux](https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite)
+  Le 16 juillet 2026, l'UE a ordonné à Google d'ouvrir 11 fonctions d'Android aux assistants IA rivaux, au même niveau que Gemini. Ce que ça change.
+
+- **2026-07-19** : [SAP boucle Prior Labs : le pari de l'IA tabulaire](https://mathieuhaye.fr/blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise)
+  Le 17 juillet 2026, SAP a bouclé le rachat de Prior Labs et investit plus d'un milliard d'euros dans l'IA tabulaire, taillée pour les données métier structurées.
 
 - **2026-07-15** : [Agents IA en entreprise : la donnée n'est pas prête](https://mathieuhaye.fr/blog/2026-07-15-donnees-pretes-ia-fondation-agents)
   Le 14 juillet 2026, Xebia lance Axis, une fondation data agentique. Le vrai frein des agents IA en entreprise n'est pas le modèle, c'est la donnée.
@@ -178,7 +184,13 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (EN), 55 posts
+## Articles (EN), 57 posts
+
+- **2026-07-19** : [EU forces Google to open Android to rival AI agents](https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite)
+  On July 16, 2026, the EU ordered Google to open 11 Android features to rival AI assistants, on par with Gemini. Why distribution is the real fight.
+
+- **2026-07-19** : [SAP bets $1.16bn on tabular AI, not another LLM](https://mathieuhaye.fr/blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise)
+  On July 17, 2026, SAP closed its Prior Labs acquisition and is investing over €1 billion in tabular AI, built to predict on structured business data.
 
 - **2026-07-15** : [Enterprise AI agents: the data isn't ready](https://mathieuhaye.fr/blog/en/2026-07-15-donnees-pretes-ia-fondation-agents)
   On July 14, 2026, Xebia launched Axis, an agentic data foundation. The real bottleneck for enterprise AI agents isn't the model; it's data that isn't AI-ready.

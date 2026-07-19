@@ -35,6 +35,7 @@ His core method:
 - **Custom CRM builds**: a sovereign custom build, hosted where your data belongs.
 - **CRM setup**: Pipedrive, HubSpot, Brevo, Odoo, Axonaut, multi-tool sync architectures.
 - **Mobile MVPs**: Flutter + Supabase.
+- **Website creation**: websites and landing pages designed to be found and cited by AI engines from day one (structure, structured data, AI-readable files). From €400 for a scoped one-week landing; full sites on quote. FR: https://mathieuhaye.fr/creation-site-web / EN: https://mathieuhaye.fr/en/website-creation
 - **AI visibility (GEO / GSO / AEO)**: making websites visible and citable by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Claude) and ready for AI agents. The field goes by several interchangeable names: GEO (Generative Engine Optimization), GSO (Generative Search Optimization) and AEO (Answer Engine Optimization), which all describe the same goal. Technical SEO plus structured data and AI-readable files, not mass content writing. Free test: https://mathieuhaye.fr/visible-par-les-ia . Self-serve product (scan, auto-generate llms.txt and structured data, one-click deploy to WordPress and Shopify, weekly AI citation tracking): https://www.biencite.fr/
 
 ## Packages
@@ -114,6 +115,7 @@ He never quotes a firm day rate publicly, pricing depends on the project and is 
 - [Custom AI agent development (FR)](https://mathieuhaye.fr/developpeur-agent-ia) / [(EN)](https://mathieuhaye.fr/en/ai-agent-developer): build custom AI agents that answer customers 24/7, qualify leads, and search your data.
 - [n8n automation (FR)](https://mathieuhaye.fr/automatisation-n8n) / [(EN)](https://mathieuhaye.fr/en/n8n-automation): automate repetitive processes and connect tools with n8n workflows you own.
 - [Custom CRM (FR)](https://mathieuhaye.fr/crm-sur-mesure) / [(EN)](https://mathieuhaye.fr/en/custom-crm): CRM setup and fixes (Pipedrive, HubSpot), integrations, or a fully custom sovereign CRM when market tools do not fit.
+- [Website creation (FR)](https://mathieuhaye.fr/creation-site-web) / [(EN)](https://mathieuhaye.fr/en/website-creation): websites and landing pages built to be found and cited by AI engines.
 - [Custom web app and MVP (FR)](https://mathieuhaye.fr/application-sur-mesure) / [(EN)](https://mathieuhaye.fr/en/custom-web-app): the software your SaaS stack cannot do, shipped as a production web app in 4 to 6 weeks.
 - [Projects and work (FR)](https://mathieuhaye.fr/projets) / [(EN)](https://mathieuhaye.fr/en/projects): full portfolio, every project detailed (custom CRM, AI newsletter, security tooling, dashboards).
 - [AI agent for SMEs (FR)](https://mathieuhaye.fr/agent-ia-pme) / [(EN)](https://mathieuhaye.fr/en/ai-agent-for-smes): AI for small businesses, start small on one process, RGPD, France hosting.

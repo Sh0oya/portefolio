@@ -1,6 +1,6 @@
 # Contenu du site mathieuhaye.fr — export texte brut
 
-Généré le 2026-07-17 par `_build_contenu_md.py` (relançable). Une section par page,
+Généré le 2026-07-20 par `_build_contenu_md.py` (relançable). Une section par page,
 dans l'ordre : pages FR, pages EN, blog FR (récent → ancien), blog EN.
 Le chrome répété (navigation, footers, formulaires) est exclu.
 
@@ -75,9 +75,9 @@ En savoir plus →
 Quand aucun logiciel du marché ne correspond à votre métier, on construit le vôtre. En production en 4 à 6 semaines.
 En savoir plus →
 
-### Intégrations
+### Sites web
 
-API, webhooks, data sync — tout est branché à votre stack existante, sans rien casser.
+Un site qui ramène des clients et que les IA savent citer. En ligne en quelques semaines.
 En savoir plus →
 
 ### Vous n’êtes pas sûr de ce qu’il faut mettre en place ?
@@ -812,6 +812,159 @@ Vous disposez d’un droit d’accès, de rectification, d’effacement, de limi
 
 Le site utilise Google Analytics pour mesurer son audience. Ces cookies ne servent qu’à comprendre l’usage du site, jamais à vous revendre. Vous pouvez les bloquer via les réglages de votre navigateur.
 ← Retour à l’accueil
+
+---
+
+## /creation-site-web
+
+**Titre :** Création de site web qui ramène des clients · Mathieu Haye
+**Description :** Création de site web pour PME et indépendants : un site qui ramène des clients, trouvé sur Google et cité par les IA dès le premier jour. Dès 400 €.
+
+Création de site web
+
+# Un site web qui ramène des clients, pas une vitrine de plus.
+
+Des pages qui donnent envie de vous appeler, un parcours qui mène au contact, une mise en ligne rapide. Je conçois votre site, je le mets en ligne et je le fais trouver. Si un site simple sur WordPress ou Webflow vous suffit, je vous le dirai. Le sur-mesure doit se justifier.
+Trois façons de démarrer
+
+## Un site, un objectif : vous apporter des demandes.
+
+Chaque formule vise un résultat concret : des appels, des demandes de devis, des réservations. On choisit la voie qui correspond à votre besoin, pas la plus chère.
+
+## Site vitrine efficace
+
+Les pages essentielles de votre activité : qui vous êtes, ce que vous proposez, comment vous joindre. Un site clair, rapide, en ligne sans attendre des mois.
+Pages essentielles : accueil, offre, contact
+Réservation ou formulaire de contact intégré
+Rapide à charger, lisible sur mobile
+Version simple dès 400 €, livrée en une semaine
+Idéal pour
+artisans, indépendants, professions libérales, PME qui veulent être trouvées et contactées.
+Discuter de ce projet
+Le plus rapide
+
+## Landing de conversion
+
+Une seule page, un seul objectif : transformer une visite en demande. Chaque bloc pousse vers l'action, et on mesure ce qui se passe réellement.
+Un message, un appel à l'action
+Mesure des visites et des conversions
+Idéale pour une campagne ou une offre précise
+Dès 400 €, livrée en une semaine, périmètre cadré
+Idéal pour
+lancement d'une offre, campagne publicitaire, test d'un marché, prise de rendez-vous.
+Discuter de ce projet
+
+## Refonte sans rien perdre
+
+Votre site actuel a vieilli, mais il est trouvé sur Google. On modernise le design et les contenus sans perdre le référencement existant.
+Audit de l'existant avant toute décision
+Redirections soignées : rien ne se perd
+Design et contenus remis au niveau
+Sur devis, après un cadrage de 30 minutes
+Idéal pour
+sites vieillissants, sites lents, sites absents des recherches ou des réponses des IA.
+Discuter de ce projet
+Vous hésitez entre deux formules ? On tranche ensemble en 30 min, et je vous oriente vers la plus simple qui atteint votre objectif.
+Comment se passe un projet
+
+## De l'idée à la mise en ligne, sans jargon.
+
+Trois étapes, pas de tunnel. Vous savez toujours où en est le projet, ce qui vient ensuite et ce qu'il vous reste à valider.
+01
+
+### Cadrage en 30 minutes
+
+On définit l'objectif du site, les pages nécessaires et le périmètre. Vous repartez avec une recommandation claire et un devis, sans engagement.
+02
+
+### Maquette validée ensemble
+
+Vous voyez le site avant qu'il n'existe. On ajuste les textes, les couleurs et le parcours jusqu'à ce que ce soit juste. Rien ne part en ligne sans votre accord.
+03
+
+### Mise en ligne et suivi
+
+Le site part en ligne, relié à votre nom de domaine, mesuré dès le premier jour. Je reste disponible après la livraison pour les ajustements.
+Visible par les IA
+
+## Un site pensé pour être trouvé et cité par les IA.
+
+Vos futurs clients ne cherchent plus seulement sur Google. Ils posent leurs questions à ChatGPT, Perplexity ou Google AI. Votre site doit pouvoir leur répondre dès le premier jour.
+01
+
+### Une structure que les IA comprennent
+
+Des pages organisées par question et par offre, des titres clairs, des réponses directes. Ce qui aide un lecteur pressé aide aussi une IA.
+02
+
+### Des données structurées
+
+Chaque page décrit votre activité, vos offres et vos réponses dans un format que les moteurs et les IA lisent sans effort.
+03
+
+### Des fichiers lisibles par les IA
+
+Chaque page existe aussi dans une version que les assistants IA peuvent lire et citer directement, sans rien deviner.
+La preuve ? Ce site lui-même. mathieuhaye.fr est construit ainsi et sert de chantier vitrine. Testez gratuitement votre site actuel pour savoir si les IA vous voient.
+Cadre & confiance
+
+## Un site à vous, vraiment.
+
+Un site engage votre image et vos données. Voici le cadre, posé une fois pour toutes.
+01
+
+### Le code vous appartient
+
+Dépôt, accès et documentation remis à la livraison. Vous pouvez confier le site à une autre équipe quand vous voulez, sans verrou.
+02
+
+### RGPD respecté
+
+Pas de collecte inutile. Les mentions et le consentement sont en place dès la mise en ligne.
+03
+
+### Hébergement en France
+
+Votre site et vos données restent hébergés en France, chez un prestataire à votre nom, que vous payez en direct.
+04
+
+### Un seul interlocuteur
+
+La personne qui cadre est celle qui conçoit, met en ligne et maintient. Vous avez mon numéro.
+FAQ
+
+## Questions qu'on me pose sur la création de site.
+
+Combien de temps pour créer un site web ?
+Une landing ou un site simple se livre en une semaine, une fois le périmètre cadré. Un site complet demande quelques semaines, selon le nombre de pages et les contenus à préparer. La date de mise en ligne est fixée au cadrage, avant tout engagement.
+Combien coûte la création d'un site web ?
+Une landing ou un site simple, livré en une semaine sur un périmètre cadré, démarre dès 400 €. Un site complet ou une refonte se chiffre sur devis, après un cadrage de 30 minutes. Le devis est fixé avant de commencer et ne bouge pas en cours de route.
+Qui écrit les textes du site ?
+Vous n'avez pas besoin d'arriver avec des textes prêts. On part de ce que vous savez dire de votre métier : je structure, je rédige un premier jet, vous validez. Si vous avez déjà des contenus, on les reprend et on les améliore.
+Et le référencement ?
+Il est prévu dès la construction, pas ajouté après : structure claire des pages, balises soignées, données structurées, fichiers lisibles par les moteurs et par les IA comme ChatGPT ou Perplexity. Pour une refonte, les adresses existantes sont redirigées pour ne pas perdre l'acquis.
+Qui maintient le site après la mise en ligne ?
+La personne qui l'a construit. Les mises à jour et les petites évolutions passent par un accompagnement mensuel, sur devis, à votre rythme. Vous gardez tous les accès : reprendre la main ou confier le site à une autre équipe reste possible à tout moment.
+
+## On cadre votre site ?
+
+Décrivez votre activité et ce que le site doit vous rapporter. En 30 min, je vous dis quelle formule choisir, en combien de temps, et à quel prix. Sans engagement.
+Réserver un appel Parler à mon agent IA Email direct
+Mathieu Haye crée des sites web sur mesure pour les PME et les indépendants : sites vitrines, landings de conversion et refontes, pensés pour être trouvés sur Google et cités par les IA (ChatGPT, Perplexity, Google AI) dès le premier jour. Le point de départ est toujours le même : un objectif concret, des demandes de clients, et la formule la plus simple pour l'atteindre. Dès 400 € pour une landing ou un site simple livré en une semaine ; site complet et refonte sur devis.
+
+## Sur-mesure ou WordPress : que choisir ?
+
+Un site simple sur WordPress ou Webflow suffit dans bien des cas, et le cadrage sert justement à le dire. Le sur-mesure se justifie quand la vitesse, la conversion et la présence dans les réponses des IA comptent pour votre activité : pas de thème générique, pas d'extension superflue, chaque page construite pour son objectif.
+
+## La preuve : ce site
+
+mathieuhaye.fr est construit avec la méthode décrite sur cette page. Il sert de chantier vitrine : chaque page répond à une question précise, expose ses données structurées et publie une version lisible par les assistants IA. Vous pouvez tester votre propre site gratuitement sur la page Visible par les IA.
+
+## La technique, en deux mots
+
+Des pages statiques rapides, un code léger et transférable, des données structurées à jour : l'ensemble reste simple à maintenir et à reprendre.
+Vous voyez ce qu'un site peut vous rapporter. Pour aller plus loin, réservez un appel de cadrage ou décrivez votre projet à mon agent IA. Voir aussi : l'application sur-mesure, la visibilité par les IA (GEO), le développeur d'agents IA, l'automatisation n8n, votre maturité IA, la page d'accueil et le journal.
+À explorer ensuite Application & MVP sur-mesure Visible par les IA ? Offres & collaboration Discuter avec mon IA
 
 ---
 
@@ -1699,9 +1852,9 @@ Avec Juice Jacking Guard installé, tout périphérique inconnu est bloqué avan
 
 ### Téléchargement (Windows 10 / 11)
 
-Télécharger .zip (recommandé, 22,7 Mo) .exe direct (23,3 Mo)
-SHA-256 (.zip) : e37364564f1eed9af699b85a40dae6e5fdbf9f25efba72f3002f6d0e0b41ffac
-SHA-256 (.exe) : 1132af4c3a2158f17806a7720b0a46d4c477799bae78b6a81d3a315cfa30812a
+Télécharger .zip (recommandé, 22,8 Mo) .exe direct (23,3 Mo)
+SHA-256 (.zip) : a58fb6cc307b64d7354a84f9a1447a29dd473446df6e418f8dbb5e8711d851c9
+SHA-256 (.exe) : 22d6c49f73cbb2564d3be8112438ce1553ac6174706432eb9d24157aa2d4b2bf
 L’installeur est non signé, donc Chrome / Edge et Windows SmartScreen préviennent avant le téléchargement et au premier lancement. Le .zip est recommandé : les navigateurs font davantage confiance aux archives. Après extraction, si Windows affiche « Windows a protégé votre PC », cliquez sur Informations complémentaires → Exécuter quand même et vérifiez le SHA-256 ci-dessus. L’application est locale, sans télémétrie, et ne contacte VirusTotal que si vous activez l’option de vérification.
 
 ### Ce que ça prouve
@@ -2013,9 +2166,9 @@ Learn more →
 When no software on the market fits your business, we build yours. In production within 4 to 6 weeks.
 Learn more →
 
-### Integrations
+### Websites
 
-APIs, webhooks, data sync — everything plugged into your existing stack, without breaking anything.
+A website that brings in clients and that AI engines can actually cite. Live within weeks.
 Learn more →
 
 ### Not sure what you should set up?
@@ -3624,9 +3777,9 @@ With Juice Jacking Guard installed, any unknown device is blocked before it can 
 
 ### Download (Windows 10 / 11)
 
-Download .zip (recommended, 22.7 MB) Direct .exe (23.3 MB)
-SHA-256 (.zip): e37364564f1eed9af699b85a40dae6e5fdbf9f25efba72f3002f6d0e0b41ffac
-SHA-256 (.exe): 1132af4c3a2158f17806a7720b0a46d4c477799bae78b6a81d3a315cfa30812a
+Download .zip (recommended, 22.8 MB) Direct .exe (23.3 MB)
+SHA-256 (.zip): a58fb6cc307b64d7354a84f9a1447a29dd473446df6e418f8dbb5e8711d851c9
+SHA-256 (.exe): 22d6c49f73cbb2564d3be8112438ce1553ac6174706432eb9d24157aa2d4b2bf
 The installer is unsigned, so Chrome / Edge and Windows SmartScreen will warn before download and at first launch. The .zip is recommended: browsers trust archives more than raw executables. After extraction, if Windows shows "Windows protected your PC", click More info → Run anyway and verify the SHA-256 above. The app is local, with no telemetry, and only reaches VirusTotal if you enable the optional check.
 
 ### What it proves
@@ -3774,6 +3927,159 @@ Describe your project in 30 seconds. I’ll tell you if I can do it (and how lon
 Book a call See the services
 Explore next Custom CRM Custom app & MVP Journal Offers & collaboration
 
+---
+
+## /en/website-creation
+
+**Titre :** Website creation that brings in clients · Mathieu Haye
+**Description :** Website creation for small businesses: a site that brings in clients, found on Google and cited by AI such as ChatGPT from day one. From €400.
+
+Website creation
+
+# A website that brings in clients, not one more brochure.
+
+Pages that make people want to call you, a path that leads to contact, a fast launch. I design your site, put it online and make it findable. If a simple site on WordPress or Webflow is enough for you, I will tell you. Custom work has to earn its place.
+Three ways to start
+
+## One site, one goal: bringing you enquiries.
+
+Every option targets a concrete result: calls, quote requests, bookings. We pick the route that fits your need, not the most expensive one.
+
+## Effective business site
+
+The essential pages of your activity: who you are, what you offer, how to reach you. A clear, fast site, online without waiting for months.
+Essential pages: home, offer, contact
+Booking or contact form built in
+Fast to load, readable on mobile
+Simple version from €400, delivered in one week
+Best for
+craftspeople, independents, professionals, small businesses that want to be found and contacted.
+Discuss this project
+Fastest route
+
+## Conversion landing page
+
+One page, one goal: turning a visit into an enquiry. Every block pushes towards the action, and we measure what actually happens.
+One message, one call to action
+Visits and conversions measured
+Ideal for a campaign or a precise offer
+From €400, delivered in one week, scoped perimeter
+Best for
+launching an offer, an ad campaign, testing a market, booking appointments.
+Discuss this project
+
+## Redesign, nothing lost
+
+Your current site has aged, but it is found on Google. We modernise the design and the content without losing the existing rankings.
+Audit of the existing site before any decision
+Careful redirects: nothing gets lost
+Design and content brought up to standard
+On quote, after a 30-minute scoping call
+Best for
+ageing sites, slow sites, sites missing from searches or from AI answers.
+Discuss this project
+Hesitating between two options? We decide together in 30 min, and I point you to the simplest one that reaches your goal.
+How a project runs
+
+## From idea to launch, without jargon.
+
+Three steps, no tunnel. You always know where the project stands, what comes next and what is left for you to validate.
+01
+
+### Scoping in 30 minutes
+
+We define the goal of the site, the pages needed and the perimeter. You leave with a clear recommendation and a quote, no commitment.
+02
+
+### A mock-up validated together
+
+You see the site before it exists. We adjust the copy, the colours and the path until it feels right. Nothing goes live without your approval.
+03
+
+### Launch and follow-up
+
+The site goes live, wired to your domain name, measured from day one. I stay available after delivery for the adjustments.
+Visible by AI
+
+## A site built to be found and cited by AI.
+
+Your future clients no longer search only on Google. They ask their questions to ChatGPT, Perplexity or Google AI. Your site must be able to answer them from day one.
+01
+
+### A structure AI understands
+
+Pages organised by question and by offer, clear headings, direct answers. What helps a hurried reader also helps an AI.
+02
+
+### Structured data
+
+Every page describes your activity, your offers and your answers in a format that search engines and AI read effortlessly.
+03
+
+### Files AI can read
+
+Every page also exists in a version that AI assistants can read and cite directly, with nothing to guess.
+The proof? This very site. mathieuhaye.fr is built this way and serves as its own showcase. Test your current site for free to know whether AI can see you.
+Framework & trust
+
+## A site that is truly yours.
+
+A website carries your image and your data. Here is the framework, set once and for all.
+01
+
+### You own the code
+
+Repository, access and documentation handed over at delivery. You can pass the site to another team whenever you want, with no lock-in.
+02
+
+### GDPR respected
+
+No pointless data collection. Legal notices and consent are in place from launch.
+03
+
+### Hosting in France
+
+Your site and your data stay hosted in France, with a provider in your name, that you pay directly.
+04
+
+### One point of contact
+
+The person who scopes is the one who designs, launches and maintains. You have my number.
+FAQ
+
+## Questions I get about website creation.
+
+How long does it take to create a website?
+A landing page or a simple site ships in one week, once the perimeter is scoped. A full site takes a few weeks, depending on the number of pages and the content to prepare. The launch date is set during scoping, before any commitment.
+How much does creating a website cost?
+A landing page or a simple site, delivered in one week on a scoped perimeter, starts from €400. A full site or a redesign is priced on quote, after a 30-minute scoping call. The quote is set before we start and does not move along the way.
+Who writes the website copy?
+You do not need to arrive with finished copy. We start from what you know how to say about your work: I structure it, I write a first draft, you validate. If you already have content, we reuse it and improve it.
+What about SEO?
+It is planned from the build, not added afterwards: clear page structure, careful tags, structured data, files readable by search engines and by AI such as ChatGPT or Perplexity. For a redesign, existing addresses are redirected so nothing earned is lost.
+Who maintains the site after launch?
+The person who built it. Updates and small evolutions run through a monthly support plan, on quote, at your pace. You keep all the access: taking over or handing the site to another team stays possible at any time.
+
+## Shall we scope your site?
+
+Describe your activity and what the site should bring you. In 30 min, I tell you which option to pick, how long it takes, and at what price. No commitment.
+Book a call Chat with my AI agent Direct email
+Mathieu Haye creates custom websites for small businesses and independents: business sites, conversion landing pages and redesigns, built to be found on Google and cited by AI (ChatGPT, Perplexity, Google AI) from day one. The starting point is always the same: a concrete goal, client enquiries, and the simplest option that reaches it. From €400 for a landing page or a simple site delivered in one week; full site and redesign on quote.
+
+## Custom or WordPress: which to choose?
+
+A simple site on WordPress or Webflow is enough in many cases, and the scoping call exists precisely to say so. Custom work earns its place when speed, conversion and presence in AI answers matter for your business: no generic theme, no superfluous plugin, every page built for its goal.
+
+## The proof: this site
+
+mathieuhaye.fr is built with the method described on this page. It serves as its own showcase: every page answers one precise question, exposes its structured data and publishes a version readable by AI assistants. You can test your own site for free on the Visible by AI page.
+
+## The technical side, in short
+
+Fast static pages, light and transferable code, up-to-date structured data: the whole thing stays simple to maintain and to take over.
+You can see what a website can bring you. To go further, book a scoping call or describe your project to my AI agent. See also: a custom web app, AI visibility (GEO), the AI agent developer, n8n automation, your AI maturity, the home page and the journal.
+Explore next Custom app & MVP Visible by AI? Offers & collaboration Chat with my AI
+
 # ======================================================================
 # BLOG (FR)
 # ======================================================================
@@ -3790,7 +4096,17 @@ mathieuhaye.fr Journal · Business × IA × Data
 # Notes de terrain.
 
 Ce que je lis, ce que je teste, ce que je construis en livrant CRM, agents IA et automatisations pour des PME et scale-ups. Et les outils que j'utilise au quotidien : Claude, n8n, Python, Supabase.
-Data & Analytics · 15 juillet 2026 · 6 min de lecture
+Régulation · 19 juillet 2026 · 6 min de lecture
+
+## L'UE force Google à ouvrir Android aux agents IA
+
+Le 16 juillet 2026, Bruxelles a ordonné à Google d'ouvrir 11 fonctions d'Android aux assistants IA rivaux : la bataille des agents se déplace vers la distribution.
+Lire l'article → Data & Analytics · 19 juillet 2026 · 6 min de lecture
+
+## SAP boucle Prior Labs : le pari de l'IA tabulaire
+
+Le 17 juillet 2026, SAP a bouclé le rachat de Prior Labs et mise plus d'un milliard d'euros sur l'IA tabulaire, taillée pour les données métier.
+Lire l'article → Data & Analytics · 15 juillet 2026 · 6 min de lecture
 
 ## Agents IA en entreprise : la donnée n'est pas prête
 
@@ -4068,6 +4384,132 @@ Lire l'article → IA appliquée · 19 avril 2026 · 6 min de lecture
 Lire l'article →
 Premier article en cours de redaction. Revenez dans 2 jours.
 À explorer ensuite Discuter avec mon IA CRM sur-mesure Développeur d'agents IA Test maturité IA
+
+---
+
+## /blog/2026-07-19-ue-google-android-agents-ia-interoperabilite
+
+**Titre :** L'UE force Google à ouvrir Android aux agents IA rivaux · Blog Mathieu Haye
+**Description :** Le 16 juillet 2026, l'UE a ordonné à Google d'ouvrir 11 fonctions d'Android aux assistants IA rivaux, au même niveau que Gemini. Ce que ça change.
+
+Tous les articles Régulation · 19 juillet 2026 · 6 min de lecture
+
+# L'UE force Google à ouvrir Android aux agents IA rivaux
+
+TL;DR : le 16 juillet 2026, la Commission européenne a ordonné à Google d'ouvrir onze fonctionnalités clés d'Android aux assistants IA concurrents, avec le même niveau d'accès qu'à son propre Gemini. La bataille des agents ne se joue plus sur le modèle, mais sur le point d'accès au téléphone.
+L'essentiel en 30 secondes
+Le 16 juillet 2026, la Commission européenne a imposé à Google, au titre du règlement sur les marchés numériques (DMA, Digital Markets Act), d'ouvrir onze fonctionnalités d'Android aux assistants IA concurrents, au même niveau d'accès que Gemini.
+Ces mesures doivent arriver dans la prochaine version majeure du système, Android 18, et être pleinement appliquées au plus tard le 1er août 2027.
+Une seconde décision oblige Google à partager avec les moteurs de recherche et les chatbots rivaux les données de recherche qu'il collecte à grande échelle, sous forme anonymisée et à prix encadré, dès janvier 2027.
+La Commission estime qu'environ 60 % des utilisateurs de smartphones dans l'Union sont concernés ; Google prévient que ces règles risquent d'affaiblir des garde-fous de sécurité et de vie privée.
+Pendant deux ans, la course aux agents IA s'est jouée sur la puissance des modèles. La décision de la Commission européenne du 16 juillet 2026 déplace le terrain de jeu là où l'usage se décide vraiment : le point d'accès sur le téléphone. En obligeant Google à ouvrir Android à ses concurrents, Bruxelles traite l'endroit d'où l'on invoque un assistant comme une infrastructure partagée, et non comme une chasse gardée.
+
+## Ce que la Commission a décidé le 16 juillet
+
+Le 16 juillet 2026, la Commission européenne a adopté deux décisions de spécification contraignantes visant Alphabet, la maison mère de Google, dans le cadre du DMA (Commission européenne). La première porte sur l'interopérabilité des assistants IA : Google doit donner aux services concurrents le même accès qu'à Gemini à onze fonctionnalités d'Android. Concrètement, un assistant rival doit pouvoir être déclenché à la voix, comme "Hey Google", ou depuis le bouton d'accueil ; agir dans les applications et d'une application à l'autre, y compris pour des tâches longues qui tournent en arrière-plan ; accéder au contexte des applications et aux capteurs de l'appareil ; et disposer des ressources matérielles et logicielles nécessaires, jusqu'aux modèles d'IA embarqués sur le téléphone (MacRumors).
+La seconde décision oblige Google à partager les données de recherche qu'il est seul à collecter à cette échelle avec les moteurs concurrents, et désormais aussi avec les chatbots qui proposent une fonction de recherche. Le partage, prévu pour débuter en janvier 2027, se fera sur des données anonymisées, selon une méthode élaborée avec des experts de la vie privée et une formule de prix jugée équitable. Google dispose de la prochaine version majeure du système, Android 18, pour se conformer, avec une échéance ferme fixée au 1er août 2027, soit environ un an après la décision. La Commission chiffre à près de 60 % la part des utilisateurs de smartphones de l'Union concernés par ces changements (Computerworld).
+
+## Pourquoi la bataille des agents se joue sur le téléphone ?
+
+La bataille des agents se joue sur le téléphone parce que le meilleur assistant du monde reste invisible s'il ne peut pas être appelé. Sur Android, le geste par défaut, presser le bouton d'accueil ou dire "Hey Google", menait jusqu'ici vers Gemini, et lui seul disposait d'un accès complet au contexte, aux capteurs et aux modèles embarqués. Un concurrent, même supérieur en qualité de réponse, partait avec deux ou trois clics de retard et un accès dégradé aux données de l'appareil. Dans un marché où l'usage se gagne à la friction près, ce désavantage est décisif.
+C'est pourquoi la décision compte bien au-delà du duel Google contre OpenAI ou Perplexity. Elle acte que la couche de distribution des agents, l'endroit d'où on les invoque et ce qu'ils ont le droit de toucher, devient un bien commun réglementé, au même titre que l'a été l'accès au navigateur ou au moteur de recherche à l'époque du web. Pour un éditeur d'assistant, l'accès au bouton d'accueil vaut aujourd'hui plus cher que quelques points de performance sur un banc d'essai.
+
+## Ce que l'UE standardise vraiment : l'invocation et le contexte
+
+Au fond, les onze fonctionnalités listées par la Commission décrivent un contrat technique : comment un agent est déclenché, ce qu'il peut lire, et ce qu'il peut faire à la place de l'utilisateur. C'est exactement le problème que le secteur essaie de résoudre par le bas avec des protocoles comme le MCP (Model Context Protocol), qui normalise la façon dont un agent se connecte à des outils et à des données. La différence, c'est que Bruxelles impose cette interopérabilité par le haut, sur la surface la plus convoitée du marché : le smartphone.
+Le risque soulevé par Google mérite d'être pris au sérieux plutôt que balayé. Donner à un assistant tiers le droit d'agir dans les applications et de lire le contexte de l'appareil ouvre une surface d'attaque réelle. Kent Walker, responsable des affaires internationales de Google, avertit que ces décisions "risquent d'affaiblir des garde-fous essentiels de vie privée et de sécurité pour des millions d'Européens", et affirme que l'entreprise avait proposé d'autres solutions. Roman Stanek, PDG de Good Data AI, résume le vrai chantier côté entreprises : les responsables sécurité doivent cesser de traiter "assistant IA" comme une permission unique et bien comprise. Autrement dit, l'interopérabilité imposée déplace la charge de la sécurité vers une gestion fine des droits accordés à chaque agent.
+
+## Ce que ça change quand on construit des agents
+
+Pour qui construit des agents et des automatisations, la leçon est concrète : le point de blocage n'est presque jamais le modèle, c'est l'accès. La valeur d'un agent se mesure à ce qu'il peut réellement déclencher dans les outils métier, pas à sa qualité de rédaction. C'est la même logique que sur mes missions : les 93 nœuds n8n qui font tourner la newsletter d'IA Brew ou l'intégration de la téléphonie 3CX dans le Salesforce d'e-Enfance ne valent pas par le morceau intelligent, mais par le câblage qui donne à l'agent le droit d'agir sur les bons systèmes, avec les bonnes permissions.
+La décision européenne pousse ce câblage vers un standard sur le téléphone, mais la question qu'elle pose est universelle : quels droits accorde-t-on à un agent, et comment les révoque-t-on ? Une PME qui déploie un assistant commercial doit se poser la même question que la Commission pose à Google. Ouvrir l'accès crée de la valeur ; l'ouvrir sans gouvernance des permissions crée un risque. Le bon réflexe n'est pas de tout verrouiller, mais de savoir exactement ce que chaque agent peut lire et exécuter.
+La vraie nouvelle du 16 juillet n'est pas qu'un régulateur ait sanctionné Google de plus. C'est que le champ de bataille des agents s'est officiellement déplacé du modèle vers la distribution. En 2027, la question ne sera plus "quel assistant répond le mieux", mais "lequel a le droit d'agir, et depuis où".
+
+## Questions fréquentes
+
+### Qu'a décidé l'Union européenne contre Google le 16 juillet 2026 ?
+
+La Commission européenne a adopté deux décisions contraignantes au titre du DMA. La première oblige Google à ouvrir onze fonctionnalités d'Android aux assistants IA concurrents, au même niveau d'accès que Gemini. La seconde impose le partage de ses données de recherche avec les moteurs et chatbots rivaux, sous forme anonymisée, à partir de janvier 2027.
+
+### À quelle échéance Google doit-il se conformer ?
+
+Google doit intégrer les mesures d'interopérabilité IA dans la prochaine version majeure d'Android, Android 18, avec une conformité pleine et entière au plus tard le 1er août 2027, soit environ un an après la décision du 16 juillet 2026. Le partage des données de recherche, lui, doit débuter dès janvier 2027.
+
+### Pourquoi cette décision compte-t-elle pour les agents IA ?
+
+Parce qu'elle fait de la couche de distribution, le point depuis lequel un agent est invoqué et ce qu'il peut toucher, une infrastructure ouverte plutôt qu'une chasse gardée. Sur mobile, l'accès au bouton d'accueil, au contexte et aux capteurs pèse davantage que quelques points de performance sur un banc d'essai. La décision fixe de fait un standard d'invocation et de permissions pour les assistants.
+Mathieu Haye.
+22 ans, freelance builder en CRM, Data et IA appliquée. Apps IA, automatisations et CRM sur-mesure pour PME, startups et associations.
+Portfolio LinkedIn Email
+← Tous les articles Portfolio complet →
+
+## Un projet CRM, IA ou automatisation ?
+
+Je conçois et livre ce genre de systèmes pour des PME et scale-ups — du cadrage à la production. Appel de cadrage 30 min, gratuit.
+Réserver un appel Voir les offres
+
+---
+
+## /blog/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise
+
+**Titre :** SAP boucle Prior Labs : le pari de l'IA tabulaire · Blog Mathieu Haye
+**Description :** Le 17 juillet 2026, SAP a bouclé le rachat de Prior Labs et investit plus d'un milliard d'euros dans l'IA tabulaire, taillée pour les données métier structurées.
+
+Tous les articles Data & Analytics · 19 juillet 2026 · 6 min de lecture
+
+# SAP boucle Prior Labs : le pari de l'IA tabulaire
+
+Le 17 juillet 2026, SAP a finalisé le rachat de Prior Labs et promet plus d'un milliard d'euros à une équipe qui ne fait pas de chatbot. Derrière l'opération, une thèse à contre-courant : la donnée qui fait vraiment tourner une entreprise n'est pas du texte, ce sont des tableaux, et il faut un modèle taillé pour ça.
+L'essentiel en 30 secondes
+Le 17 juillet 2026, SAP a finalisé le rachat de Prior Labs, une société allemande fondée il y a environ 18 mois, et s'engage à y investir plus d'un milliard d'euros (près de 1,16 milliard de dollars) sur quatre ans.
+Prior Labs ne construit pas un modèle de langage : elle est à l'origine de TabPFN, un modèle de fondation tabulaire publié dans la revue Nature et téléchargé plus de 3 millions de fois, taillé pour prédire sur des tableaux de données métier.
+Le pari de SAP : les grands modèles de langage n'ont qu'une compréhension rudimentaire des tables, des nombres et des statistiques, alors que l'essentiel de la donnée d'entreprise (ERP, CRM, comptabilité) vit dans des lignes et des colonnes.
+Pour une PME, le signal est clair : la valeur de l'IA appliquée se joue sur la donnée structurée (churn, retards de paiement, scoring de leads), pas seulement sur le chatbot posé par-dessus.
+Pendant deux ans, la course à l'IA d'entreprise s'est résumée à une question : quel modèle de langage est le plus gros ? Le 17 juillet 2026, SAP a répondu à côté de la question, et c'est tout l'intérêt. L'éditeur allemand a bouclé le rachat de Prior Labs, une équipe qui ne fait pas de conversationnel du tout, et promet d'y verser plus d'un milliard d'euros. Le message est net : la prochaine bataille de l'IA d'entreprise ne se jouera pas sur le texte, mais sur les tableaux.
+
+## Ce que SAP a bouclé le 17 juillet
+
+Le 17 juillet 2026, SAP a annoncé la clôture de l'acquisition de Prior Labs, une société fondée à Fribourg il y a environ 18 mois (SAP News). Les termes financiers n'ont pas été divulgués, mais l'éditeur s'engage à investir "plus d'un milliard d'euros sur les quatre prochaines années" pour transformer Prior Labs en laboratoire d'IA de premier plan dédié aux données structurées. TechCrunch chiffre le pari à près de 1,16 milliard de dollars et souligne l'audace de miser une telle somme sur une structure de dix-huit mois (TechCrunch).
+Prior Labs restera une entité indépendante, basée à Fribourg, équipe et trajectoire open source intactes. Ses fondateurs, Frank Hutter, Noah Hollmann et Sauraj Gambhir, sont à l'origine de TabPFN, une série de modèles publiée dans la revue Nature et téléchargée plus de 3 millions de fois. La dernière version, TabPFN-2.6, domine le classement de référence TabArena et, selon SAP, "égale la précision d'un pipeline de machine learning automatisé de quatre heures, instantanément, dans un seul modèle" (SAP News). L'éditeur prévoit d'intégrer cette technologie dans SAP AI Core, SAP Business Data Cloud et sa couche agentique Joule.
+
+## Pourquoi parier sur un modèle "tabulaire" plutôt qu'un LLM de plus ?
+
+SAP parie sur le tabulaire parce qu'un modèle de langage lit mal ce qui fait tourner une entreprise. Comme le formule l'éditeur, "les grands modèles de langage peinent à faire des prédictions exactes sur des données métier structurées, parce qu'ils n'ont qu'une compréhension rudimentaire des tables, des nombres et des statistiques". Or l'ERP, le CRM, la comptabilité, les stocks : tout cela vit dans des lignes et des colonnes, pas dans des paragraphes.
+Un modèle de fondation tabulaire, ou TFM (Tabular Foundation Model), est conçu pour ce format. Là où un LLM génère du texte plausible, un TFM prédit une valeur : un retard de paiement probable, un risque fournisseur, une opportunité d'upsell, un client sur le point de partir. TabPFN apprend à généraliser sur des tableaux qu'il n'a jamais vus, sans le long cycle d'entraînement d'un modèle de machine learning classique. Le gain n'est pas cosmétique : il compresse en un seul modèle ce qui exigeait auparavant une chaîne d'outils, un data scientist et plusieurs heures de calcul. C'est la différence entre louer un cerveau généraliste bavard et disposer d'un spécialiste des chiffres qui répond du premier coup.
+
+## Le vrai signal : la valeur se déplace vers la donnée structurée
+
+Le rachat dit quelque chose de plus large sur l'IA d'entreprise en 2026 : la valeur ne se déplace plus vers des modèles toujours plus gros, mais vers les données propriétaires sur lesquelles ces modèles agissent. "Très tôt, SAP a reconnu que la plus grande opportunité inexploitée de l'IA d'entreprise n'était pas les grands modèles de langage ; c'était l'IA construite pour la donnée structurée qui fait tourner les entreprises du monde", résume Philipp Herzig, directeur technique de SAP. Traduction : celui qui détient les tables détient l'avantage, et SAP en héberge parmi les plus grandes réserves de la planète, dans les ERP de dizaines de milliers d'entreprises.
+L'autre signal est financier. Prior Labs avait levé moins de dix millions de dollars en pré-amorçage début 2025 ; dix-huit mois plus tard, elle sort sur un engagement de plus d'un milliard d'euros. "Rejoindre la famille SAP nous donne les ressources, l'environnement de données et la portée client pour amener cette catégorie à son plein potentiel", explique Frank Hutter, PDG de Prior Labs. Le message aux investisseurs est limpide : une équipe de recherche pointue sur une niche technique bien réelle, la prédiction sur données tabulaires, vaut aujourd'hui plus cher qu'un énième assistant conversationnel posé sur une API de LLM. Après deux ans de démesure sur la taille des modèles, le marché recommence à payer pour l'utilité mesurable.
+
+## Ce que ça change pour une PME, et pour mon quotidien
+
+Pour une PME, la leçon est concrète : les questions qui rapportent (quel client va partir, quelle facture va glisser, quel lead vaut un appel) sont des problèmes de prédiction sur données tabulaires, pas des problèmes de génération de texte. On n'a pas besoin du plus gros modèle de langage pour y répondre ; on a besoin de données propres et d'un modèle taillé pour les tableaux. C'est une bonne nouvelle budgétaire : la brique de prédiction devient accessible, à condition d'avoir d'abord mis ses données en ordre.
+C'est le terrain où je passe le plus clair de mon temps en mission. Le scorer d'offres d'emploi que j'ai construit, avec sa génération de CV compatible ATS, est au fond un problème de ranking sur données structurées : des critères en colonnes, un score en sortie. Sur la mission Pipedrive Horus (Condition Report bilingue), la valeur ne vient pas d'un chatbot mais de la structuration du pipeline pour que le scoring et les relances tiennent la route. Et sur le tableau de bord Bloomberg monté avec Claude Haiku 4.5 pour suivre un portefeuille, l'essentiel du travail portait sur la mise en forme des données de marché, pas sur le modèle. Un TFM comme TabPFN est précisément l'outil qui manquait entre le tableur et le gros modèle de langage : capable de prédire sur des colonnes sans monter une usine de machine learning. La brique se démocratise ; l'avantage restera à ceux dont les données sont propres.
+La vraie question de 2026 n'est plus "quel est le plus gros modèle", mais "qui détient les tables et sait prédire dessus". SAP vient de payer un milliard d'euros pour se placer. Pour une PME, la version abordable de la même réponse commence par une seule chose : des données structurées propres.
+
+## Questions fréquentes
+
+### Qu'est-ce qu'un modèle de fondation tabulaire ?
+
+Un modèle de fondation tabulaire (TFM) est un modèle d'IA conçu pour prédire sur des données structurées en lignes et en colonnes, comme celles d'un ERP, d'un CRM ou d'un tableur. Contrairement à un modèle de langage, taillé pour le texte, il estime des valeurs métier (churn, retard de paiement, score d'un lead) et généralise sur des tableaux qu'il n'a jamais vus. TabPFN, développé par Prior Labs, est l'exemple le plus téléchargé de cette catégorie.
+
+### Combien SAP a-t-il payé pour Prior Labs ?
+
+SAP n'a pas divulgué le prix d'acquisition, mais s'engage à investir plus d'un milliard d'euros (près de 1,16 milliard de dollars) sur quatre ans pour développer Prior Labs en laboratoire d'IA dédié aux données structurées. L'opération a été finalisée le 17 juillet 2026, environ 18 mois après la fondation de la société à Fribourg.
+
+### Pourquoi ne pas simplement utiliser un LLM pour ces prédictions ?
+
+Parce qu'un modèle de langage n'a, selon SAP, qu'une compréhension rudimentaire des tables, des nombres et des statistiques, ce qui le rend peu fiable pour prédire sur des données métier structurées. Un modèle tabulaire est entraîné spécifiquement pour ce format et atteint une précision qu'un LLM généraliste n'égale pas sur ces tâches, souvent avec beaucoup moins de calcul.
+Mathieu Haye.
+22 ans, freelance builder en CRM, Data et IA appliquée. Apps IA, automatisations et CRM sur-mesure pour PME, startups et associations.
+Portfolio LinkedIn Email
+← Tous les articles Portfolio complet →
+
+## Un projet CRM, IA ou automatisation ?
+
+Je conçois et livre ce genre de systèmes pour des PME et scale-ups — du cadrage à la production. Appel de cadrage 30 min, gratuit.
+Réserver un appel Voir les offres
 
 ---
 
@@ -7583,7 +8025,17 @@ mathieuhaye.fr Journal · Business × AI × Data
 # Field notes.
 
 What I read, what I test, what I ship while delivering CRMs, AI agents and automations for SMEs and scale-ups. And the tools I use daily: Claude, n8n, Python, Supabase.
-Data & Analytics · July 15, 2026 · 6 min read
+Regulation · July 19, 2026 · 6 min read
+
+## EU forces Google to open Android to rival AI agents
+
+On July 16, 2026, Brussels ordered Google to open 11 Android features to rival AI assistants: the agent fight is shifting to distribution.
+Read article → Data & Analytics · July 19, 2026 · 6 min read
+
+## SAP bets $1.16bn on tabular AI, not another LLM
+
+On July 17, 2026, SAP closed its Prior Labs acquisition and is betting over €1 billion on tabular AI, built for structured business data.
+Read article → Data & Analytics · July 15, 2026 · 6 min read
 
 ## Enterprise AI agents: the data isn't ready
 
@@ -7861,6 +8313,132 @@ The six largest US banks posted $47.3bn in profit while cutting nearly 5,000 job
 Read article →
 First article in progress. Come back in two days.
 Explore next Chat with my AI Custom CRM AI agent developer AI maturity test
+
+---
+
+## /blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite
+
+**Titre :** EU forces Google to open Android to rival AI agents · Mathieu Haye Journal
+**Description :** On July 16, 2026, the EU ordered Google to open 11 Android features to rival AI assistants, on par with Gemini. Why distribution is the real fight.
+
+All articles Regulation · July 19, 2026 · 6 min read
+
+# EU forces Google to open Android to rival AI agents
+
+TL;DR: on July 16, 2026, the European Commission ordered Google to open eleven core Android features to rival AI assistants, with the same access it gives its own Gemini. The agent fight is no longer about the model; it is about the entry point on the phone.
+The 30-second version
+On July 16, 2026, the European Commission ordered Google, under the Digital Markets Act (DMA), to open eleven Android features to rival AI assistants, with the same level of access it grants Gemini.
+The measures must ship in the next major release, Android 18, and be fully implemented by August 1, 2027 at the latest.
+A second decision forces Google to share the search data it collects at scale with rival search engines and chatbots, anonymized and at a regulated price, starting January 2027.
+The Commission estimates that around 60% of smartphone users in the EU are affected; Google warns the rules risk weakening privacy and security safeguards.
+For two years, the AI agent race has been fought on model power. The European Commission's July 16, 2026 decision moves the contest to where usage is actually decided: the entry point on the phone. By forcing Google to open Android to competitors, Brussels treats the place from which you invoke an assistant as shared infrastructure rather than private turf.
+
+## What the Commission decided on July 16
+
+On July 16, 2026, the European Commission adopted two binding specification decisions targeting Alphabet, Google's parent company, under the DMA (European Commission). The first covers AI assistant interoperability: Google must give competing services the same access it gives Gemini to eleven Android features. In practice, a rival assistant must be able to be triggered by voice, like "Hey Google", or from the home button; to act within and across apps, including long-running background tasks; to access context from apps and device sensors; and to get the hardware and software resources it needs, down to the on-device AI models (MacRumors).
+The second decision forces Google to share the search data it alone collects at this scale with rival search engines, and now also with chatbots that offer a search function. The sharing, due to begin in January 2027, will use anonymized data, following a method built with privacy experts and a pricing formula deemed fair. Google has until the next major release, Android 18, to comply, with a hard deadline of August 1, 2027, roughly a year after the decision. The Commission puts the share of EU smartphone users affected at close to 60% (Computerworld).
+
+## Why the agent fight is happening on the phone
+
+The agent fight is happening on the phone because the best assistant in the world stays invisible if it cannot be called. On Android, the default gesture, pressing the home button or saying "Hey Google", led only to Gemini, and Gemini alone had full access to context, sensors and on-device models. A competitor, even with better answers, started two or three taps behind and with degraded access to device data. In a market won on friction, that gap is decisive.
+That is why the decision matters well beyond the Google versus OpenAI or Perplexity duel. It establishes that the agent distribution layer, the place from which they are invoked and what they are allowed to touch, becomes regulated common ground, much as browser and search-engine access were in the web era. For an assistant maker, access to the home button is now worth more than a few points on a benchmark. It is a shift the industry has seen before: on the desktop web, the default browser and the default search engine decided which products people actually used, no matter how good the alternatives were. The phone is now that chokepoint for agents, and the Commission has decided it should not belong to a single company.
+
+## What the EU is really standardizing: invocation and context
+
+At heart, the eleven features listed by the Commission describe a technical contract: how an agent is triggered, what it can read, and what it can do on the user's behalf. That is exactly the problem the industry is trying to solve from the bottom up with protocols like MCP (Model Context Protocol), which standardizes how an agent connects to tools and data. The difference is that Brussels is imposing this interoperability from the top, on the most coveted surface on the market: the smartphone.
+The risk Google raises deserves to be taken seriously rather than waved away. Letting a third-party assistant act within apps and read device context opens a real attack surface. Kent Walker, Google's head of global affairs, warns that the decisions "risk undermining vital privacy and security guardrails for millions of Europeans", and says the company had offered alternative solutions. Roman Stanek, CEO of Good Data AI, names the real work on the enterprise side: security leaders must stop treating "AI assistant" as a single, well-understood permission. In other words, forced interoperability shifts the security burden toward fine-grained control of the rights granted to each agent.
+
+## What it changes when you build agents
+
+For anyone building agents and automations, the lesson is concrete: the bottleneck is almost never the model, it is access. An agent's value is measured by what it can actually trigger in business tools, not by how well it writes. It is the same logic as on my own projects: the 93 n8n nodes that run the IA Brew newsletter, or the 3CX telephony integration inside e-Enfance's Salesforce, are not valuable for the clever part but for the wiring that gives the agent the right to act on the right systems, with the right permissions. Strip the wiring away and even a state-of-the-art model does nothing useful.
+The European decision pushes that wiring toward a standard on the phone, but the question it raises is universal: what rights do you grant an agent, and how do you revoke them? An SME deploying a sales assistant faces the same question the Commission is putting to Google. Opening access creates value; opening it without permission governance creates risk. The right reflex is not to lock everything down, but to know exactly what each agent can read and execute.
+The real news of July 16 is not that a regulator fined Google again. It is that the agent battlefield has officially moved from the model to distribution. In 2027, the question will no longer be "which assistant answers best", but "which one is allowed to act, and from where".
+
+## Frequently asked questions
+
+### What did the European Union decide against Google on July 16, 2026?
+
+The European Commission adopted two binding decisions under the DMA. The first forces Google to open eleven Android features to rival AI assistants, with the same access it gives Gemini. The second requires it to share its search data with rival engines and chatbots, anonymized, starting January 2027.
+
+### By when must Google comply?
+
+Google must build the AI interoperability measures into the next major Android release, Android 18, with full compliance by August 1, 2027 at the latest, about a year after the July 16, 2026 decision. The search data sharing must begin as early as January 2027.
+
+### Why does this decision matter for AI agents?
+
+Because it turns the distribution layer, the point from which an agent is invoked and what it can touch, into open infrastructure rather than private turf. On mobile, access to the home button, context and sensors matters more than a few points on a benchmark. In effect, it sets a standard for how assistants are invoked and permissioned.
+Mathieu Haye.
+22, freelance builder in CRM, Data and applied AI. Custom AI apps, automations and CRM for SMEs, startups and nonprofits.
+Portfolio LinkedIn Email
+← All articles Full portfolio →
+
+## A CRM, AI or automation project?
+
+I design and ship these systems for SMEs and scale-ups — from scoping to production. Free 30-min scoping call.
+Book a call See the offers
+
+---
+
+## /blog/en/2026-07-19-sap-prior-labs-ia-tabulaire-donnees-entreprise
+
+**Titre :** SAP bets $1.16bn on tabular AI, not another LLM · Mathieu Haye Journal
+**Description :** On July 17, 2026, SAP closed its Prior Labs acquisition and is investing over €1 billion in tabular AI, built to predict on structured business data.
+
+All articles Data & Analytics · July 19, 2026 · 6 min read
+
+# SAP bets $1.16bn on tabular AI, not another LLM
+
+On July 17, 2026, SAP closed its acquisition of Prior Labs and pledged over €1 billion to a team that builds no chatbot at all. Behind the deal sits a contrarian thesis: the data that actually runs a business is not text, it is tables, and that calls for a model built for the job.
+Key takeaways
+On July 17, 2026, SAP closed its acquisition of Prior Labs, a German company founded about 18 months ago, committing to invest more than €1 billion (roughly $1.16 billion) over four years.
+Prior Labs does not build a language model: it created TabPFN, a tabular foundation model published in Nature and downloaded more than 3 million times, built to predict on tables of business data.
+SAP's bet: large language models have only a rudimentary understanding of tables, numbers and statistics, while most enterprise data (ERP, CRM, accounting) lives in rows and columns.
+For an SME, the signal is clear: the value of applied AI sits in structured data (churn, payment delays, lead scoring), not just the chatbot laid on top of it.
+For two years, the enterprise AI race boiled down to one question: which language model is the biggest? On July 17, 2026, SAP answered a different question, and that is exactly the point. The German software maker closed its acquisition of Prior Labs, a team that does no conversational AI at all, and pledged to pour more than €1 billion into it. The message is blunt: the next battle in enterprise AI will not be fought over text, but over tables.
+
+## What SAP closed on July 17
+
+On July 17, 2026, SAP announced it had completed the acquisition of Prior Labs, a company founded in Freiburg, Germany, about 18 months earlier (SAP News). Financial terms were not disclosed, but SAP is committing to invest "more than €1 billion over the next four years" to turn Prior Labs into a leading AI lab for structured data. TechCrunch put the bet at about $1.16 billion and flagged the boldness of wagering that sum on an 18-month-old outfit (TechCrunch).
+Prior Labs will stay an independent unit, based in Freiburg, with its team and open-source direction intact. Its founders, Frank Hutter, Noah Hollmann and Sauraj Gambhir, created TabPFN, a model series published in the journal Nature and downloaded more than 3 million times. The latest version, TabPFN-2.6, tops the TabArena benchmark and, per SAP, "matches the accuracy of a four-hour automated machine learning pipeline, instantly, in a single model" (SAP News). SAP plans to integrate the technology into SAP AI Core, SAP Business Data Cloud and its agentic layer, Joule.
+
+## Why bet on a "tabular" model instead of one more LLM?
+
+SAP is betting on tabular models because a language model reads the stuff that runs a business poorly. As the company puts it, "large language models struggle to make accurate predictions on structured business data because they have only a rudimentary understanding of tables, numbers and statistics." Yet the ERP, the CRM, accounting, inventory: all of it lives in rows and columns, not in paragraphs.
+A tabular foundation model, or TFM, is designed for that format. Where an LLM generates plausible text, a TFM predicts a value: a likely payment delay, a supplier risk, an upsell opportunity, a customer about to leave. TabPFN learns to generalize to tables it has never seen, without the long training cycle of a classic machine learning model. The gain is not cosmetic: it compresses into a single model what used to require a toolchain, a data scientist and hours of compute. It is the difference between renting a chatty generalist brain and having a numbers specialist that answers on the first try.
+
+## The real signal: value is moving toward structured data
+
+The deal says something broader about enterprise AI in 2026: value is no longer moving toward ever-larger models, but toward the proprietary data those models act on. "Early on, SAP recognized that the greatest untapped opportunity in enterprise AI wasn't large language models; it was AI built for the structured data that runs the world's businesses," says Philipp Herzig, SAP's chief technology officer. In plain terms: whoever holds the tables holds the edge, and SAP hosts some of the largest reserves on the planet, inside the ERP systems of tens of thousands of companies.
+The other signal is financial. Prior Labs had raised under $10 million in pre-seed funding in early 2025; 18 months later, it exits on a commitment of more than €1 billion. "Joining the SAP family gives us the resources, data environment and customer reach to take this category to its full potential," says Frank Hutter, CEO of Prior Labs. The message to investors is clear: a sharp research team on a real technical niche, prediction over tabular data, is now worth more than yet another conversational assistant wrapped around an LLM API. After two years of excess around model size, the market is paying for measurable usefulness again.
+
+## What it changes for an SME, and for my own work
+
+For an SME, the lesson is concrete: the questions that pay (which customer will leave, which invoice will slip, which lead is worth a call) are prediction problems on tabular data, not text-generation problems. You do not need the biggest language model to answer them; you need clean data and a model built for tables. That is good budget news: the prediction layer is becoming affordable, provided you have first put your data in order.
+This is where I spend most of my time on client work. The job-offer scorer I built, with its ATS-friendly CV generation, is at heart a ranking problem on structured data: criteria in columns, a score out. On the Pipedrive Horus engagement (a bilingual Condition Report), the value comes not from a chatbot but from structuring the pipeline so scoring and follow-ups hold up. And on the Bloomberg dashboard I built with Claude Haiku 4.5 to track a portfolio, most of the work was shaping the market data, not the model. A TFM like TabPFN is exactly the tool that was missing between the spreadsheet and the large language model: able to predict on columns without standing up a machine learning factory. The building block is spreading; the edge will stay with those whose data is clean.
+The real question of 2026 is no longer "which model is biggest," but "who holds the tables and can predict on them." SAP just paid a billion euros to take a position. For an SME, the affordable version of the same answer starts with one thing: clean, structured data.
+
+## Frequently asked questions
+
+### What is a tabular foundation model?
+
+A tabular foundation model (TFM) is an AI model built to predict on structured data organized in rows and columns, like the data in an ERP, a CRM or a spreadsheet. Unlike a language model, which is built for text, it estimates business values such as churn, payment delay or lead score, and generalizes to tables it has never seen. TabPFN, developed by Prior Labs, is the most downloaded example of this category.
+
+### How much did SAP pay for Prior Labs?
+
+SAP did not disclose the purchase price, but it is committing to invest more than €1 billion (about $1.16 billion) over four years to grow Prior Labs into an AI lab focused on structured data. The deal closed on July 17, 2026, roughly 18 months after the company was founded in Freiburg, Germany.
+
+### Why not just use an LLM for these predictions?
+
+Because a language model, in SAP's words, has only a rudimentary understanding of tables, numbers and statistics, which makes it unreliable for predicting on structured business data. A tabular model is trained specifically for that format and reaches an accuracy a general-purpose LLM cannot match on these tasks, often with far less compute.
+Mathieu Haye.
+22, freelance builder in CRM, Data and applied AI. Custom AI apps, automations and CRM for SMEs, startups and nonprofits.
+Portfolio LinkedIn Email
+← All articles Full portfolio →
+
+## A CRM, AI or automation project?
+
+I design and ship these systems for SMEs and scale-ups — from scoping to production. Free 30-min scoping call.
+Book a call See the offers
 
 ---
 
