@@ -6,6 +6,9 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+      gtag('set', 'ads_data_redaction', true);
+      gtag('set', 'url_passthrough', true);
       gtag('js', new Date());
       gtag('config', 'G-RKK7XP89VW');
     </script>
@@ -25,7 +28,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css?v=99">
+    <link rel="stylesheet" href="style.css?v=100">
 
     <style>
     .legal-wrap { max-width: 760px; margin: 0 auto; padding: calc(var(--nav-height, 72px) + var(--space-xl)) var(--space-md) var(--space-2xl); }
@@ -96,8 +99,14 @@
     <h2>6. Vos droits</h2>
     <p>Vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité de vos données. Pour les exercer, écrivez-moi à <a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a> ; je réponds sous 30 jours. Vous pouvez aussi introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.</p>
 
-    <h2>7. Cookies</h2>
-    <p>Le site utilise Google Analytics pour mesurer son audience. Ces cookies ne servent qu’à comprendre l’usage du site, jamais à vous revendre. Vous pouvez les bloquer via les réglages de votre navigateur.</p>
+    <h2>7. Cookies et mesure</h2>
+    <p>Le site utilise deux services de mesure, uniquement avec votre consentement (bandeau affiché à la première visite, choix conservé 13 mois maximum) :</p>
+    <ul>
+        <li><strong>Google Analytics 4</strong> : mesure d’audience (pages vues, type d’appareil).</li>
+        <li><strong>Google Ads</strong> : mesure des conversions publicitaires (savoir qu’un appel a été réservé après un clic sur une annonce). Aucune revente de données, aucun profilage publicitaire tiers.</li>
+    </ul>
+    <p>Tant que vous n’avez pas accepté (ou si vous refusez), ces services fonctionnent sans cookies ni identifiants (signaux de consentement Google « consent mode » refusés). La prise de rendez-vous utilise <strong>Calendly</strong>, chargé uniquement quand vous cliquez sur un bouton de réservation.</p>
+    <p>Vous pouvez changer d’avis à tout moment : <a href="#" data-consent-open>gérer mes cookies</a>.</p>
 
     <p style="margin-top:var(--space-xl)"><a href="/">&larr; Retour à l’accueil</a></p>
 </main>
@@ -177,6 +186,6 @@
     </div>
 </footer>
 
-<script defer src="/ui.js?v=99"></script>
+<script defer src="/ui.js?v=100"></script>
 </body>
 </html>

@@ -278,6 +278,146 @@
     }
 
 
+    /* ---------- Consentement (CMP maison, consent mode v2) + Calendly mesurable ---------- */
+    /* Renseigner l'ID de conversion Google Ads quand il existera : 'AW-XXXXXXXXX/label' */
+    var MH_ADS_CONV = '';
+    var CONSENT_KEY = 'mh-consent';
+
+    function gtagSafe() { if (typeof window.gtag === 'function') window.gtag.apply(null, arguments); }
+
+    function consentRead() {
+        try {
+            var raw = localStorage.getItem(CONSENT_KEY);
+            if (!raw) return null;
+            var o = JSON.parse(raw);
+            /* CNIL : choix valable 13 mois maximum, ensuite on redemande */
+            if (!o || typeof o.g !== 'boolean' || (Date.now() - (o.t || 0)) > 395 * 864e5) return null;
+            return o;
+        } catch (e) { return null; }
+    }
+
+    function consentStore(granted) {
+        try { localStorage.setItem(CONSENT_KEY, JSON.stringify({ v: 1, g: granted, t: Date.now() })); } catch (e) { /* noop */ }
+    }
+
+    function consentApply(granted) {
+        gtagSafe('consent', 'update', {
+            ad_storage: granted ? 'granted' : 'denied',
+            analytics_storage: granted ? 'granted' : 'denied',
+            ad_user_data: granted ? 'granted' : 'denied',
+            ad_personalization: granted ? 'granted' : 'denied'
+        });
+        gtagSafe('set', 'ads_data_redaction', !granted);
+    }
+
+    function consentBanner() {
+        if (document.querySelector('.mh-consent')) return;
+        var en = isEN();
+        var el = document.createElement('div');
+        el.className = 'mh-consent';
+        el.setAttribute('role', 'dialog');
+        el.setAttribute('aria-label', en ? 'Cookies' : 'Cookies');
+        el.innerHTML =
+            '<p>' + (en
+                ? 'This site measures its audience and ad conversions (Google Analytics / Ads) only if you accept.'
+                : 'Ce site mesure son audience et ses conversions publicitaires (Google Analytics / Ads) uniquement si vous l\u2019acceptez.') +
+            ' <a href="/confidentialite">' + (en ? 'Learn more' : 'En savoir plus') + '</a></p>' +
+            '<div class="mh-consent-row">' +
+            '<button type="button" class="mh-consent-btn mh-consent-ok">' + (en ? 'Accept' : 'Accepter') + '</button>' +
+            '<button type="button" class="mh-consent-btn mh-consent-no">' + (en ? 'Decline' : 'Refuser') + '</button>' +
+            '</div>';
+        document.body.appendChild(el);
+        function done(granted) {
+            consentStore(granted);
+            consentApply(granted);
+            el.parentNode && el.parentNode.removeChild(el);
+        }
+        el.querySelector('.mh-consent-ok').addEventListener('click', function () { done(true); });
+        el.querySelector('.mh-consent-no').addEventListener('click', function () { done(false); });
+    }
+
+    function initConsent() {
+        var c = consentRead();
+        if (c) consentApply(c.g);
+        else consentBanner();
+        window.mhConsentOpen = consentBanner;
+        document.addEventListener('click', function (e) {
+            var t = e.target.closest ? e.target.closest('[data-consent-open]') : null;
+            if (t) { e.preventDefault(); consentBanner(); }
+        });
+        /* Lien « Cookies » a cote de chaque lien Confidentialite des footers */
+        var priv = document.querySelectorAll('footer a[href*="confidentialite"], .footer-min a[href*="confidentialite"]');
+        for (var i = 0; i < priv.length; i++) {
+            if (priv[i].parentNode.querySelector('[data-consent-open]')) continue;
+            var sep = document.createTextNode(' \u00b7 ');
+            var a = document.createElement('a');
+            a.href = '#';
+            a.setAttribute('data-consent-open', '');
+            a.textContent = 'Cookies';
+            priv[i].parentNode.insertBefore(sep, priv[i].nextSibling);
+            priv[i].parentNode.insertBefore(a, sep.nextSibling);
+        }
+    }
+
+    /* ---------- Calendly : popup + conversion « appel reserve » ---------- */
+    function initCalendly() {
+        /* gclid capture sur l'atterrissage, transmis a Calendly en utm_content */
+        try {
+            var qs = new URLSearchParams(location.search);
+            var g = qs.get('gclid') || qs.get('gbraid') || qs.get('wbraid');
+            if (g) sessionStorage.setItem('mh-gclid', g);
+        } catch (e) { /* noop */ }
+
+        var loading = false;
+        function calendlyUrl(base) {
+            var url = base.split('?')[0];
+            var params = ['utm_source=mathieuhaye.fr', 'utm_medium=site',
+                'utm_campaign=' + encodeURIComponent(location.pathname)];
+            try {
+                var g = sessionStorage.getItem('mh-gclid');
+                if (g) params.push('utm_content=gclid_' + encodeURIComponent(g));
+            } catch (e) { /* noop */ }
+            return url + '?' + params.join('&');
+        }
+        function openPopup(href) {
+            if (window.Calendly) {
+                window.Calendly.initPopupWidget({ url: calendlyUrl(href) });
+                return;
+            }
+            if (loading) return;
+            loading = true;
+            var css = document.createElement('link');
+            css.rel = 'stylesheet';
+            css.href = 'https://assets.calendly.com/assets/external/widget.css';
+            document.head.appendChild(css);
+            var s = document.createElement('script');
+            s.src = 'https://assets.calendly.com/assets/external/widget.js';
+            var fallback = setTimeout(function () { window.open(href, '_blank', 'noopener'); }, 2500);
+            s.onload = function () {
+                clearTimeout(fallback);
+                if (window.Calendly) window.Calendly.initPopupWidget({ url: calendlyUrl(href) });
+                else window.open(href, '_blank', 'noopener');
+            };
+            s.onerror = function () { clearTimeout(fallback); window.open(href, '_blank', 'noopener'); };
+            document.head.appendChild(s);
+        }
+        document.addEventListener('click', function (e) {
+            var a = e.target.closest ? e.target.closest('a[href*="calendly.com"]') : null;
+            if (!a) return;
+            e.preventDefault();
+            gtagSafe('event', 'calendly_click', { link_url: a.href, page_path: location.pathname });
+            openPopup(a.href);
+        });
+        window.addEventListener('message', function (e) {
+            if (!e.origin || e.origin.indexOf('calendly.com') === -1) return;
+            if (e.data && e.data.event === 'calendly.event_scheduled') {
+                gtagSafe('event', 'book_call_scheduled', { page_path: location.pathname });
+                if (MH_ADS_CONV) gtagSafe('event', 'conversion', { send_to: MH_ADS_CONV });
+            }
+        });
+    }
+
+
     /* ---------- Menu déroulant Services (v5.5) ---------- */
     function svcMenuHtml(en) {
         var items = en ? [
@@ -384,6 +524,8 @@
         normalizeNav();
         injectNavBook();
         initNavDrop();
+        initConsent();
+        initCalendly();
         enhanceServicePages();
         initRevealInterior();
         initDither();
