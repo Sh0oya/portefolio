@@ -420,13 +420,32 @@
 
     /* ---------- Fond de nav au scroll (pages intérieures : .nav est fixe) ---------- */
     function initNavScrolled() {
-        var nav = document.querySelector('.nav');
+        var nav = document.querySelector('.nav') || document.querySelector('.v51-header');
         if (!nav) return;
         function onScroll() {
             nav.classList.toggle('scrolled', (window.scrollY || window.pageYOffset || 0) > 20);
         }
         window.addEventListener('scroll', onScroll, { passive: true });
         onScroll();
+    }
+
+
+    /* ---------- URLs propres : retire les params de linker GA (_gl, _ga...) ---------- */
+    function initUrlCleaner() {
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                try {
+                    var url = new URL(window.location.href);
+                    var dirty = false;
+                    var kill = [];
+                    url.searchParams.forEach(function (v, k) {
+                        if (k === '_gl' || k === '_ga' || k.indexOf('_ga_') === 0) kill.push(k);
+                    });
+                    for (var i = 0; i < kill.length; i++) { url.searchParams.delete(kill[i]); dirty = true; }
+                    if (dirty) history.replaceState(history.state, '', url.pathname + (url.searchParams.toString() ? '?' + url.searchParams.toString() : '') + url.hash);
+                } catch (e) { /* noop */ }
+            }, 1200);
+        });
     }
 
 
@@ -535,6 +554,7 @@
         injectGlassFilter();
         normalizeNav();
         initNavScrolled();
+        initUrlCleaner();
         injectNavBook();
         initNavDrop();
         initConsent();

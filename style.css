@@ -4903,3 +4903,17 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
 @media (max-width: 520px) { .mh-consent { left: 12px; right: 12px; bottom: 12px; max-width: none; } }
 .page-hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .page-hero-note { margin-top: 14px; font-size: 13px; color: var(--ink-500); }
+
+
+/* ============================================================================
+   HEADER HOME/CHAT COLLANT (v5.6) — fond papier au scroll, pleine largeur
+   ============================================================================ */
+.v51-header { position: sticky; top: 0; z-index: 95; max-width: none; margin: 0; padding: 26px max(40px, calc((100% - 1120px) / 2)); background: transparent; border-bottom: 1px solid transparent; transition: background .4s var(--ease-out), border-color .4s var(--ease-out), padding .4s var(--ease-out); }
+.v51-header.scrolled { background: rgba(243, 241, 234, .9); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom-color: var(--hairline-soft); padding-top: 14px; padding-bottom: 14px; }
+@media (max-width: 760px) {
+    .v51-header { padding: 20px; }
+    .v51-header.scrolled { padding-top: 12px; padding-bottom: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .v51-header { transition: none; }
+}
