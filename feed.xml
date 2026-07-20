@@ -6,7 +6,25 @@
         <atom:link href="https://mathieuhaye.fr/feed.xml" rel="self" type="application/rss+xml" />
         <description>Bilingual journal (FR + EN) on Business x AI x Data.</description>
         
-        <lastBuildDate>Sun, 19 Jul 2026 09:00:00 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 08:00:00 +0200</lastBuildDate>
+        <item>
+            <title>Ce qu'un CRM sur mesure change vraiment : le cas 3018</title>
+            <link>https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma</guid>
+            <description>Le 3018 a remplacé son CRM du marché par Emma, un outil sur mesure : file unique multicanale, urgences priorisées, hébergement en France.</description>
+            <pubDate>Mon, 20 Jul 2026 08:00:00 +0200</pubDate>
+            <dc:language>fr</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
+        <item>
+            <title>What a custom CRM really changes: the 3018 case</title>
+            <link>https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma</link>
+            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma</guid>
+            <description>French helpline 3018 replaced its off-the-shelf CRM with Emma, a custom tool: one multichannel queue, prioritised urgencies, hosted in France.</description>
+            <pubDate>Mon, 20 Jul 2026 08:00:00 +0200</pubDate>
+            <dc:language>en</dc:language>
+            <dc:creator>Mathieu Haye</dc:creator>
+        </item>
         <item>
             <title>L'UE force Google à ouvrir Android aux agents IA rivaux</title>
             <link>https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite</link>

@@ -361,6 +361,8 @@
 
     /* ---------- Calendly : popup + conversion « appel reserve » ---------- */
     function initCalendly() {
+        /* Charge le tag Google Ads des que l'ID de conversion est renseigne */
+        if (MH_ADS_CONV) gtagSafe('config', MH_ADS_CONV.split('/')[0]);
         /* gclid capture sur l'atterrissage, transmis a Calendly en utm_content */
         try {
             var qs = new URLSearchParams(location.search);

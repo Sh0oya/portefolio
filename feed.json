@@ -13,6 +13,34 @@
   ],
   "items": [
     {
+      "id": "https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma",
+      "url": "https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma",
+      "title": "Ce qu'un CRM sur mesure change vraiment : le cas 3018",
+      "summary": "Le 3018 a remplacé son CRM du marché par Emma, un outil sur mesure : file unique multicanale, urgences priorisées, hébergement en France.",
+      "date_published": "2026-07-20T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Le 3018 a remplacé son CRM du marché par Emma, un outil sur mesure : file unique multicanale, urgences priorisées, hébergement en France."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma",
+      "title": "What a custom CRM really changes: the 3018 case",
+      "summary": "French helpline 3018 replaced its off-the-shelf CRM with Emma, a custom tool: one multichannel queue, prioritised urgencies, hosted in France.",
+      "date_published": "2026-07-20T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "French helpline 3018 replaced its off-the-shelf CRM with Emma, a custom tool: one multichannel queue, prioritised urgencies, hosted in France."
+    },
+    {
       "id": "https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite",
       "url": "https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite",
       "title": "L'UE force Google à ouvrir Android aux agents IA rivaux",

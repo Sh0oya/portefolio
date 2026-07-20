@@ -1438,4 +1438,23 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/website-creation"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/creation-site-web"/>
     </url>
+<url>
+    <loc>https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
+</url>
+
 </urlset>

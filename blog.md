@@ -9,7 +9,10 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (FR), 57 posts
+## Articles (FR), 58 posts
+
+- **2026-07-20** : [Ce qu'un CRM sur mesure change vraiment : le cas 3018](https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma)
+  Le 3018 a remplacé son CRM du marché par Emma, un outil sur mesure : file unique multicanale, urgences priorisées, hébergement en France.
 
 - **2026-07-19** : [L'UE force Google à ouvrir Android aux agents IA rivaux](https://mathieuhaye.fr/blog/2026-07-19-ue-google-android-agents-ia-interoperabilite)
   Le 16 juillet 2026, l'UE a ordonné à Google d'ouvrir 11 fonctions d'Android aux assistants IA rivaux, au même niveau que Gemini. Ce que ça change.
@@ -184,7 +187,10 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (EN), 57 posts
+## Articles (EN), 58 posts
+
+- **2026-07-20** : [What a custom CRM really changes: the 3018 case](https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma)
+  French helpline 3018 replaced its off-the-shelf CRM with Emma, a custom tool: one multichannel queue, prioritised urgencies, hosted in France.
 
 - **2026-07-19** : [EU forces Google to open Android to rival AI agents](https://mathieuhaye.fr/blog/en/2026-07-19-ue-google-android-agents-ia-interoperabilite)
   On July 16, 2026, the EU ordered Google to open 11 Android features to rival AI assistants, on par with Gemini. Why distribution is the real fight.
