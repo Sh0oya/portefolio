@@ -47,16 +47,23 @@ if (!$urls) {
 }
 
 // --- Load state ---
-$state = ['in' => [], 'g' => []];
+$state = ['in' => [], 'g' => [], 'in403' => 0, 'inKeyOverride' => ''];
 if (is_file($statePath)) {
     $s = json_decode((string)file_get_contents($statePath), true);
     if (is_array($s)) {
         $state['in'] = is_array($s['in'] ?? null) ? $s['in'] : [];
         $state['g']  = is_array($s['g']  ?? null) ? $s['g']  : [];
+        $state['in403'] = (int)($s['in403'] ?? 0);
+        $state['inKeyOverride'] = (string)($s['inKeyOverride'] ?? '');
     }
 }
 
 $now = date('c');
+
+// Une clé tournée automatiquement (après refus persistant) prime sur la config.
+if ($state['inKeyOverride'] !== '' && preg_match('/^[a-f0-9]{32}$/', $state['inKeyOverride'])) {
+    $inKey = $state['inKeyOverride'];
+}
 
 // --- IndexNow: every URL not yet sent (one batch) ---
 $newIn = array_values(array_diff($urls, array_keys($state['in'])));
@@ -65,21 +72,37 @@ $inHttp   = 0;
 $inNote   = '';
 if ($inKey !== '' && $newIn) {
     // Auto-réparation : le fichier de clé à la racine DOIT contenir exactement la
-    // clé configurée, sinon IndexNow rejette tout le lot (keyLocation invalide).
-    $keyFile = dirname(__DIR__) . '/' . $inKey . '.txt';
-    $current = is_file($keyFile) ? trim((string)@file_get_contents($keyFile)) : '';
-    if ($current !== $inKey) {
-        if (@file_put_contents($keyFile, $inKey . "\n", LOCK_EX) !== false) {
-            @chmod($keyFile, 0644);
-            $inNote = 'fichier de clé (ré)écrit à la racine';
-        } else {
-            $inNote = 'ÉCHEC écriture du fichier de clé ' . basename($keyFile);
-        }
-    }
+    // clé utilisée, sinon IndexNow rejette tout le lot (keyLocation invalide).
+    indexnow_write_keyfile($inKey, $inNote);
     $inHttp   = indexnow_ping($host, $inKey, $newIn);
     $inResult = ($inHttp >= 200 && $inHttp < 300) ? 'ok' : 'failed';
     if ($inResult === 'ok') {
         foreach ($newIn as $u) { $state['in'][$u] = $now; }
+        $state['in403'] = 0;
+    } elseif ($inHttp === 403) {
+        // 403 alors que le fichier de clé est servi correctement = le plus souvent
+        // un cache de validation côté IndexNow (clé vue invalide par le passé).
+        $state['in403']++;
+        if ($state['in403'] >= 2) {
+            // Rotation : nouvelle clé jamais vue par IndexNow, validée de zéro.
+            $fresh = bin2hex(random_bytes(16));
+            $rotNote = '';
+            if (indexnow_write_keyfile($fresh, $rotNote)) {
+                $state['inKeyOverride'] = $fresh;
+                $state['in403'] = 0;
+                $inHttp   = indexnow_ping($host, $fresh, $newIn);
+                $inResult = ($inHttp >= 200 && $inHttp < 300) ? 'ok' : 'failed';
+                if ($inResult === 'ok') {
+                    foreach ($newIn as $u) { $state['in'][$u] = $now; }
+                }
+                $inNote = 'clé tournée automatiquement (' . substr($fresh, 0, 8) . '…) après 403 répétés';
+            } else {
+                $inNote = 'rotation impossible : écriture du fichier de clé refusée';
+            }
+        } else {
+            $inNote = 'fichier de clé valide mais refus 403 : cache IndexNow probable, '
+                    . 'nouvelle tentative (puis rotation de clé) au prochain ping';
+        }
     }
 }
 
@@ -102,6 +125,13 @@ if ($token) {
             // Search Console : inutile d'essayer les URLs suivantes.
             $gResult = 'ownership_denied';
             break;
+        } elseif (strpos($GINDEX_LASTERR, 'HTTP 429') === 0
+               || strpos($GINDEX_LASTERR, 'RESOURCE_EXHAUSTED') !== false
+               || strpos($GINDEX_LASTERR, 'Quota exceeded') !== false) {
+            // Quota journalier épuisé : inutile de marteler l'API avec le reste
+            // du lot, les URLs restantes repartiront au prochain ping.
+            $gResult = 'quota_exhausted';
+            break;
         }
     }
 } elseif ($saPath !== '' && is_file($saPath)) {
@@ -113,6 +143,11 @@ if ($token) {
 
 $googleOut = ['status' => $gResult, 'sent' => $gDone, 'pending' => max(0, count($newG) - $gDone)];
 if ($GINDEX_LASTERR !== '') { $googleOut['error'] = $GINDEX_LASTERR; }
+if ($gResult === 'quota_exhausted') {
+    $googleOut['fix'] = 'Quota Indexing API épuisé (200 requêtes/jour, reset vers 9h heure de Paris). '
+        . 'Les URLs restantes repartiront automatiquement au prochain ping : à 50 URLs/jour, '
+        . 'le lot complet passe en ~3 jours. Ne pas relancer le ping plusieurs fois le même jour.';
+}
 if ($gResult === 'ownership_denied' || strpos($GINDEX_LASTERR, 'PERMISSION_DENIED') !== false) {
     $saEmail = '';
     if ($saPath !== '' && is_file($saPath)) {
@@ -212,6 +247,23 @@ function google_index_ping(string $token, string $url): bool
         return false;
     }
     return true;
+}
+
+/** Écrit (si besoin) le fichier de clé IndexNow à la racine. Retourne true si le fichier est bon. */
+function indexnow_write_keyfile(string $key, string &$note): bool
+{
+    $keyFile = dirname(__DIR__) . '/' . $key . '.txt';
+    $current = is_file($keyFile) ? trim((string)@file_get_contents($keyFile)) : '';
+    if ($current === $key) {
+        return true;
+    }
+    if (@file_put_contents($keyFile, $key . "\n", LOCK_EX) !== false) {
+        @chmod($keyFile, 0644);
+        $note = 'fichier de clé (ré)écrit à la racine';
+        return true;
+    }
+    $note = 'ÉCHEC écriture du fichier de clé ' . basename($keyFile);
+    return false;
 }
 
 /** Submit a batch of URLs to IndexNow (Bing, Yandex, ...). Returns the HTTP code. */
