@@ -418,6 +418,18 @@
     }
 
 
+    /* ---------- Fond de nav au scroll (pages intérieures : .nav est fixe) ---------- */
+    function initNavScrolled() {
+        var nav = document.querySelector('.nav');
+        if (!nav) return;
+        function onScroll() {
+            nav.classList.toggle('scrolled', (window.scrollY || window.pageYOffset || 0) > 20);
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    }
+
+
     /* ---------- Menu déroulant Services (v5.5) ---------- */
     function svcMenuHtml(en) {
         var items = en ? [
@@ -522,6 +534,7 @@
     ready(function () {
         injectGlassFilter();
         normalizeNav();
+        initNavScrolled();
         injectNavBook();
         initNavDrop();
         initConsent();
