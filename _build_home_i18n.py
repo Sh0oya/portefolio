@@ -94,6 +94,8 @@ en = re.sub(r'(?<![/\w])assets/(img|projects)/', r'/assets/\1/', en)
 # head : lang, SEO, OG, twitter, JSON-LD, sr-only, lang-switch
 PAIRS = [
     ('<html lang="fr">', '<html lang="en">'),
+    ('<a class="v51-link" href="/blog/" data-i18n="nav5.journal">Journal</a>',
+     '<a class="v51-link" href="/blog/en/" data-i18n="nav5.journal">Journal</a>'),
     ('<title>Mathieu Haye &middot; Freelance CRM, IA &amp; Automatisation</title>',
      '<title>Mathieu Haye &middot; Freelance CRM, AI &amp; Automation</title>'),
     ('<meta name="description" content="Les logiciels sur mesure qui simplifient le travail de vos &eacute;quipes : CRM, automatisations, agents IA et applications m&eacute;tier pour PME. Un seul interlocuteur, &agrave; Paris.">',

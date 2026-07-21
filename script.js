@@ -239,6 +239,7 @@
         'nav5.approach':  { en: 'Approach', fr: 'Approche' },
         'nav5.projects':  { en: 'Projects', fr: 'Projets' },
         'nav5.contact':   { en: 'Contact', fr: 'Contact' },
+        'nav5.journal':   { en: 'Journal', fr: 'Journal' },
         'hero5.title':    { en: 'Custom <em>software</em><br>that simplifies<br>your teams’ work.', fr: 'Les logiciels <em>sur mesure</em><br>qui simplifient<br>le travail de vos équipes.' },
         'hero.cta2':      { en: 'See the services', fr: 'Voir les services' },
         'col5.crmtitle':  { en: 'Custom CRM |<br>Sales pipeline', fr: 'CRM sur-mesure |<br>Pipeline commercial' },
