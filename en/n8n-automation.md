@@ -158,7 +158,7 @@ No. The workflow is designed, tested, deployed and documented end to end by one 
 
 Describe the repetitive task eating your time. In 30 min, I'll tell you whether an n8n workflow replaces it, how, and how long it takes.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - [Chat with my AI agent](https://mathieuhaye.fr/#agent)
 - Direct email: contact@mathieuhaye.fr
 
@@ -166,4 +166,4 @@ See what a workflow can replace? [Book a scoping call](https://mathieuhaye.fr/co
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

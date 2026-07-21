@@ -12,6 +12,6 @@ A conversational agent powered by Claude, trained on Mathieu Haye's profile (fre
 Describe your project in a few sentences: the agent tells you whether and how Mathieu can ship it, and on what timeline. Every contact request is then read by Mathieu himself.
 
 - Interactive page: https://mathieuhaye.fr/en/chat-with-my-ai
-- Book a 30-min call: https://calendly.com/mathieu-haye03/30min
+- Book a 30-min call: https://calendly.com/mathieu-haye/30min
 - Email: contact@mathieuhaye.fr (reply within 24h, Mon–Fri)
 - Free, no signup, instant reply.

@@ -155,7 +155,7 @@ A tune-up is counted in days, automations in days or weeks, a full CRM in severa
 
 Tell me how your team works today, even if it all lives in Excel. In 30 minutes I tell you which of the three modes solves your problem, and whether a simple tune-up is enough.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - [Chat with my AI agent](https://mathieuhaye.fr/#agent)
 - Direct email: contact@mathieuhaye.fr
 
@@ -163,4 +163,4 @@ CRM problems rarely get solved in the abstract: [book a scoping call](https://ma
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

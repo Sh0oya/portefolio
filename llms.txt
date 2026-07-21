@@ -97,7 +97,7 @@ He never quotes a firm day rate publicly, pricing depends on the project and is 
 
 ## How to engage him
 
-- Book a free 30-min scoping call (primary CTA): https://calendly.com/mathieu-haye03/30min
+- Book a free 30-min scoping call (primary CTA): https://calendly.com/mathieu-haye/30min
 - Chat directly with his AI agent (trained on his profile) on https://mathieuhaye.fr/discuter-avec-mon-ia (EN: https://mathieuhaye.fr/en/chat-with-my-ai)
 - Free AI & automation maturity test (2 min, scored diagnostic): https://mathieuhaye.fr/maturite-ia (FR) / https://mathieuhaye.fr/en/ai-maturity (EN)
 - Free AI visibility test (score out of 100, 30s, no signup): https://mathieuhaye.fr/visible-par-les-ia (FR) / https://mathieuhaye.fr/en/ai-visibility (EN)

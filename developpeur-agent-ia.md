@@ -129,8 +129,8 @@ Non. Il suffit d'expliquer le résultat que vous visez, même en langage métier
 
 ## On cadre votre agent ?
 
-Décrivez la tâche que vous voulez confier à un agent. En 30 min, je vous dis si c'est faisable, comment, et en combien de temps. Réservez un appel : https://calendly.com/mathieu-haye03/30min, parlez à mon agent IA sur https://mathieuhaye.fr/#agent, ou écrivez à contact@mathieuhaye.fr. Voir aussi : l'[agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), l'[automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), le [freelance IA](https://mathieuhaye.fr/freelance-ia), le [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), l'[application sur-mesure](https://mathieuhaye.fr/application-sur-mesure), la [visibilité par les IA (GEO)](https://mathieuhaye.fr/visible-par-les-ia), votre [maturité IA](https://mathieuhaye.fr/maturite-ia), la [page d'accueil](https://mathieuhaye.fr/) et le [journal](https://mathieuhaye.fr/blog/).
+Décrivez la tâche que vous voulez confier à un agent. En 30 min, je vous dis si c'est faisable, comment, et en combien de temps. Réservez un appel : https://calendly.com/mathieu-haye/30min, parlez à mon agent IA sur https://mathieuhaye.fr/#agent, ou écrivez à contact@mathieuhaye.fr. Voir aussi : l'[agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), l'[automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), le [freelance IA](https://mathieuhaye.fr/freelance-ia), le [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), l'[application sur-mesure](https://mathieuhaye.fr/application-sur-mesure), la [visibilité par les IA (GEO)](https://mathieuhaye.fr/visible-par-les-ia), votre [maturité IA](https://mathieuhaye.fr/maturite-ia), la [page d'accueil](https://mathieuhaye.fr/) et le [journal](https://mathieuhaye.fr/blog/).
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

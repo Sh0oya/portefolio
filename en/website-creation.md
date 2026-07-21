@@ -22,8 +22,8 @@ The framework: you own the code, GDPR respected, hosting in France, one point of
 
 ## Shall we scope your site?
 
-Describe your activity and what the site should bring you. In 30 min, you know which option to pick, how long it takes, and at what price. [Book a call](https://calendly.com/mathieu-haye03/30min) or write to [contact@mathieuhaye.fr](mailto:contact@mathieuhaye.fr). See also: the [custom web app](https://mathieuhaye.fr/en/custom-web-app), [offers and collaboration](https://mathieuhaye.fr/en/collaboration) and [chat with my AI](https://mathieuhaye.fr/en/chat-with-my-ai).
+Describe your activity and what the site should bring you. In 30 min, you know which option to pick, how long it takes, and at what price. [Book a call](https://calendly.com/mathieu-haye/30min) or write to [contact@mathieuhaye.fr](mailto:contact@mathieuhaye.fr). See also: the [custom web app](https://mathieuhaye.fr/en/custom-web-app), [offers and collaboration](https://mathieuhaye.fr/en/collaboration) and [chat with my AI](https://mathieuhaye.fr/en/chat-with-my-ai).
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

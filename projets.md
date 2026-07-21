@@ -282,8 +282,8 @@ Bascule vers une version maker-rebate via ordres limite aux bords des Bollinger.
 
 ## Un projet du même genre ?
 
-Décrivez votre projet en 30 secondes, je vous dis si je peux le faire (et combien de temps ça prend) en 24h max. Réservez un appel : https://calendly.com/mathieu-haye03/30min ou voyez les services : https://mathieuhaye.fr/freelance-ia
+Décrivez votre projet en 30 secondes, je vous dis si je peux le faire (et combien de temps ça prend) en 24h max. Réservez un appel : https://calendly.com/mathieu-haye/30min ou voyez les services : https://mathieuhaye.fr/freelance-ia
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

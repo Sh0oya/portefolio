@@ -1632,7 +1632,7 @@ input[type=file]{width:100%;padding:10px 12px;border-radius:10px;border:1px dash
         <a class="pill" href="https://www.bing.com/webmasters" target="_blank" rel="noopener noreferrer">Bing Webmaster</a>
         <a class="pill" href="https://analytics.google.com/" target="_blank" rel="noopener noreferrer">Google Analytics</a>
         <a class="pill" href="https://my.ionos.fr/" target="_blank" rel="noopener noreferrer">IONOS</a>
-        <a class="pill" href="https://calendly.com/mathieu-haye03/30min" target="_blank" rel="noopener noreferrer">Lien de booking</a>
+        <a class="pill" href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener noreferrer">Lien de booking</a>
         <a class="pill" href="https://www.linkedin.com/post-inspector/" target="_blank" rel="noopener noreferrer">LinkedIn Post Inspector</a>
       </div>
     </div>

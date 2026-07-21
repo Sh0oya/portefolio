@@ -69,4 +69,4 @@ Vous savez maintenant où vous en êtes. Pour passer du diagnostic à des automa
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

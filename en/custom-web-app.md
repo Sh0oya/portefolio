@@ -158,7 +158,7 @@ The application ships to production with monitoring and backups, and you receive
 
 Describe the product or tool you have in mind. In 30 minutes, I tell you what a V1 contains, how fast it ships, and at what price.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - [Chat with my AI agent](https://mathieuhaye.fr/#agent)
 - Direct email: contact@mathieuhaye.fr
 
@@ -166,4 +166,4 @@ Have a product or a tool in mind? [Describe it to my AI agent](https://mathieuha
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

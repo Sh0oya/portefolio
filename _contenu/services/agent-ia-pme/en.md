@@ -158,11 +158,11 @@ On a first process, a useful agent ships in about a week. You measure the time s
 
 Describe in 30 seconds the task that costs you the most time. I'll tell you honestly whether an AI agent can help, and at what cost, with no commitment.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - Direct email: contact@mathieuhaye.fr
 
 Ready to give your team time back? [Book a scoping call](https://mathieuhaye.fr/collaboration), [describe your need to my AI agent](https://mathieuhaye.fr/#agent), assess your [AI maturity](https://mathieuhaye.fr/en/ai-maturity), or explore the neighbouring services: [AI agent developer](https://mathieuhaye.fr/en/ai-agent-developer), [n8n automation](https://mathieuhaye.fr/en/n8n-automation), [AI freelance](https://mathieuhaye.fr/en/ai-freelance), [custom CRM](https://mathieuhaye.fr/en/custom-crm), [custom web app](https://mathieuhaye.fr/en/custom-web-app). You can also check whether your site is [visible to AI](https://mathieuhaye.fr/en/ai-visibility) or read the [journal](https://mathieuhaye.fr/blog/en/).
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

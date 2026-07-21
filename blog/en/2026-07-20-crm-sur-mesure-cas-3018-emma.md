@@ -83,7 +83,7 @@ Custom becomes justified when the workarounds pile up: processes that cannot be 
 
 Three questions are enough to tell which side you are on. How many windows does your team open to handle a single case? How many times a week is a piece of information retyped from one tool into another? And how much of your real process exists nowhere in the CRM, because it lives in a spreadsheet on the side?
 
-If the answers are "one or two, rarely, almost none", keep your tool and have it tuned. If they are "four, every day, about half", the subject is worth thirty minutes. You can [book a 30-minute scoping call](https://calendly.com/mathieu-haye03/30min); the three possible modes of intervention, from a simple fix to a full replacement, are detailed on the [custom CRM](/en/custom-crm) page.
+If the answers are "one or two, rarely, almost none", keep your tool and have it tuned. If they are "four, every day, about half", the subject is worth thirty minutes. You can [book a 30-minute scoping call](https://calendly.com/mathieu-haye/30min); the three possible modes of intervention, from a simple fix to a full replacement, are detailed on the [custom CRM](/en/custom-crm) page.
 
 
 

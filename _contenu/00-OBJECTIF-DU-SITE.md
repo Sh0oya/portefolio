@@ -32,7 +32,7 @@ Messages piliers :
 3. **Lead magnets** — deux diagnostics gratuits :
    - **Score GEO** (`/visible-par-les-ia`) : votre site est-il visible par les IA ? Score /100, résultat lead-gaté (nom + email).
    - **Test de maturité IA** (`/maturite-ia`) : 6 ou 20 questions, niveau + leviers prioritaires.
-4. **Conversion** — partout : bouton « Réserver un appel » (https://calendly.com/mathieu-haye03/30min), agent IA conversationnel sur la home (version IA de Mathieu propulsée par Claude, avec formulaire de recontact in-chat), email contact@mathieuhaye.fr, LinkedIn, téléphone.
+4. **Conversion** — partout : bouton « Réserver un appel » (https://calendly.com/mathieu-haye/30min), agent IA conversationnel sur la home (version IA de Mathieu propulsée par Claude, avec formulaire de recontact in-chat), email contact@mathieuhaye.fr, LinkedIn, téléphone.
 
 ## Les preuves (portfolio)
 

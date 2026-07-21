@@ -24,7 +24,7 @@ They trust me: e-Enfance / 3018, Fromagerie Ermitage, Horus Condition Report, Pr
 - **[Custom web app & MVP](https://mathieuhaye.fr/en/custom-web-app)**: your product idea shipped as a production web app in 4 to 6 weeks: users, payments, AI if needed. You own the code.
 - **[AI agent for SMEs](https://mathieuhaye.fr/en/ai-agent-for-smes)**: AI made concrete for a small business: one first profitable use case, scoped in 30 min, no jargon and no endless project.
 
-Not sure which format fits? 30 minutes, free, and you'll know whether and how I can ship it, and by when: [book a call](https://calendly.com/mathieu-haye03/30min).
+Not sure which format fits? 30 minutes, free, and you'll know whether and how I can ship it, and by when: [book a call](https://calendly.com/mathieu-haye/30min).
 
 ## The third way between an agency and no-code
 
@@ -47,7 +47,7 @@ From a one-week sprint to a full build. Budget depends on your project; we scope
 - **MVP 4 to 6 weeks** — priced on quote (most requested): full web app: users, payments, AI agent. Deployed to production.
 - **Monthly retainer** — priced on quote: ongoing presence on an existing product: features, maintenance, support.
 
-Details: https://mathieuhaye.fr/en/collaboration · Book a call: https://calendly.com/mathieu-haye03/30min
+Details: https://mathieuhaye.fr/en/collaboration · Book a call: https://calendly.com/mathieu-haye/30min
 
 ## Proof: flagship projects
 
@@ -71,7 +71,7 @@ I build with AI as a daily reflex: agentic workflows, LLM scoring pipelines, AI 
 
 ## Contact
 
-- **Book a call (30 min, free)**: https://calendly.com/mathieu-haye03/30min
+- **Book a call (30 min, free)**: https://calendly.com/mathieu-haye/30min
 - E-mail (best for a detailed brief): contact@mathieuhaye.fr — reply within 24h, Mon–Fri
 - LinkedIn: https://www.linkedin.com/in/mathieu-haye/ · Malt: https://www.malt.fr/profile/mathieuhaye
 - Phone (best for a quick call): +33 6 61 51 32 89

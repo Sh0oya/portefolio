@@ -133,8 +133,8 @@ Les projets sont conçus en conscience du RGPD, avec hébergement en France ou d
 
 ## On parle de votre projet IA ?
 
-Décrivez votre besoin en 30 secondes. Je vous dis si je peux le faire, combien de temps ça prend et sous quel format, sans engagement. Réservez un appel : https://calendly.com/mathieu-haye03/30min, parlez à mon agent IA sur https://mathieuhaye.fr/#agent, ou écrivez à contact@mathieuhaye.fr. Explorez les services : [développeur d'agents IA](https://mathieuhaye.fr/developpeur-agent-ia), [automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), [agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), [application sur-mesure](https://mathieuhaye.fr/application-sur-mesure). Testez votre [maturité IA](https://mathieuhaye.fr/maturite-ia), vérifiez si votre site est [visible par les IA](https://mathieuhaye.fr/visible-par-les-ia), ou parcourez le [journal](https://mathieuhaye.fr/blog/) sur l'IA appliquée et le build.
+Décrivez votre besoin en 30 secondes. Je vous dis si je peux le faire, combien de temps ça prend et sous quel format, sans engagement. Réservez un appel : https://calendly.com/mathieu-haye/30min, parlez à mon agent IA sur https://mathieuhaye.fr/#agent, ou écrivez à contact@mathieuhaye.fr. Explorez les services : [développeur d'agents IA](https://mathieuhaye.fr/developpeur-agent-ia), [automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), [agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), [application sur-mesure](https://mathieuhaye.fr/application-sur-mesure). Testez votre [maturité IA](https://mathieuhaye.fr/maturite-ia), vérifiez si votre site est [visible par les IA](https://mathieuhaye.fr/visible-par-les-ia), ou parcourez le [journal](https://mathieuhaye.fr/blog/) sur l'IA appliquée et le build.
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

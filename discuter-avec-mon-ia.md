@@ -12,6 +12,6 @@ Un agent conversationnel propulsé par Claude, entraîné sur le profil de Mathi
 Décrivez votre projet en quelques phrases : l'agent vous dit si et comment Mathieu peut le livrer, et sous quel délai. Chaque demande de contact est ensuite lue par Mathieu lui-même.
 
 - Page interactive : https://mathieuhaye.fr/discuter-avec-mon-ia
-- Réserver un appel de 30 min : https://calendly.com/mathieu-haye03/30min
+- Réserver un appel de 30 min : https://calendly.com/mathieu-haye/30min
 - E-mail : contact@mathieuhaye.fr (réponse sous 24 h, lun–ven)
 - Gratuit, sans inscription, réponse immédiate.

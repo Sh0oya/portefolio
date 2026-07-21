@@ -24,7 +24,7 @@ Ils me font confiance : e-Enfance / 3018, Fromagerie Ermitage, Horus Condition R
 - **[Application & MVP sur-mesure](https://mathieuhaye.fr/application-sur-mesure)** : votre idée livrée en app web de production en 4 à 6 semaines : utilisateurs, paiements, IA si besoin. Le code vous appartient.
 - **[Agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme)** : l'IA rendue concrète pour une PME : un premier cas d'usage rentable, cadré en 30 min, sans jargon ni projet à rallonge.
 
-Pas sûr du format qu'il vous faut ? 30 minutes, gratuit, et vous saurez si et comment je peux le livrer, et sous quel délai : [réserver un appel](https://calendly.com/mathieu-haye03/30min).
+Pas sûr du format qu'il vous faut ? 30 minutes, gratuit, et vous saurez si et comment je peux le livrer, et sous quel délai : [réserver un appel](https://calendly.com/mathieu-haye/30min).
 
 ## La 3e voie entre l'agence et le no-code
 
@@ -47,7 +47,7 @@ Du sprint d'une semaine au build complet. Le budget dépend de votre projet, on 
 - **MVP 4 à 6 semaines** — sur devis (le plus demandé) : app web complète, base utilisateurs, paiement, agent IA. Déployée en production.
 - **Retainer mensuel** — sur devis : présence régulière sur un produit existant : évolutions, maintenance, support.
 
-Détail : https://mathieuhaye.fr/collaboration · Réserver un appel : https://calendly.com/mathieu-haye03/30min
+Détail : https://mathieuhaye.fr/collaboration · Réserver un appel : https://calendly.com/mathieu-haye/30min
 
 ## Preuves : projets phares
 
@@ -71,7 +71,7 @@ Je construis avec l'IA en réflexe quotidien : workflows agentiques, pipelines d
 
 ## Contact
 
-- **Réserver un appel (30 min, gratuit)** : https://calendly.com/mathieu-haye03/30min
+- **Réserver un appel (30 min, gratuit)** : https://calendly.com/mathieu-haye/30min
 - E-mail (idéal pour un brief détaillé) : contact@mathieuhaye.fr — réponse sous 24 h, lun–ven
 - LinkedIn : https://www.linkedin.com/in/mathieu-haye/ · Malt : https://www.malt.fr/profile/mathieuhaye
 - Téléphone (idéal pour un appel rapide) : +33 6 61 51 32 89

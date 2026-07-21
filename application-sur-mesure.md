@@ -136,8 +136,8 @@ L'application part en production avec monitoring et sauvegardes, et vous recevez
 
 ## On cadre votre V1 ?
 
-Décrivez le produit ou l'outil que vous voulez. En 30 minutes, je vous dis ce qu'une V1 contient, en combien de temps elle sort, et à quel prix. Réservez un appel : https://calendly.com/mathieu-haye03/30min, décrivez-le à mon agent IA sur https://mathieuhaye.fr/#agent, ou passez par la page [collaboration](https://mathieuhaye.fr/collaboration). Voir aussi : l'[agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), votre [maturité IA](https://mathieuhaye.fr/maturite-ia), la [visibilité par les IA (GEO)](https://mathieuhaye.fr/visible-par-les-ia), la [page d'accueil](https://mathieuhaye.fr/) et le [journal](https://mathieuhaye.fr/blog/) sur l'IA appliquée et le build.
+Décrivez le produit ou l'outil que vous voulez. En 30 minutes, je vous dis ce qu'une V1 contient, en combien de temps elle sort, et à quel prix. Réservez un appel : https://calendly.com/mathieu-haye/30min, décrivez-le à mon agent IA sur https://mathieuhaye.fr/#agent, ou passez par la page [collaboration](https://mathieuhaye.fr/collaboration). Voir aussi : l'[agent IA pour PME](https://mathieuhaye.fr/agent-ia-pme), votre [maturité IA](https://mathieuhaye.fr/maturite-ia), la [visibilité par les IA (GEO)](https://mathieuhaye.fr/visible-par-les-ia), la [page d'accueil](https://mathieuhaye.fr/) et le [journal](https://mathieuhaye.fr/blog/) sur l'IA appliquée et le build.
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

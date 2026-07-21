@@ -19,7 +19,7 @@ Les pages money à alimenter (liens internes systématiques) :
 - /visible-par-les-ia (EN /en/ai-visibility) : scanner GEO gratuit
 - /collaboration (EN /en/collaboration) : packages et méthode
 - /projets (EN /en/projects) : portfolio détaillé
-- Booking : https://calendly.com/mathieu-haye03/30min
+- Booking : https://calendly.com/mathieu-haye/30min
 
 **Règle d'or : vendre, pas enseigner.** L'article explique le problème, les enjeux, les critères de décision et la réponse honnête. Il ne donne JAMAIS la recette pas-à-pas (pas de tutoriel, pas de code, pas de checklist d'implémentation) : le "comment" est précisément ce que Mathieu vend. Un lecteur doit finir l'article en se disant "j'ai compris l'enjeu, je sais quoi décider, et je sais qui appeler", pas "je peux le faire moi-même".
 
@@ -61,7 +61,7 @@ Type A : lis 2-3 sources (WebFetch), note chiffres exacts, dates, citations. Typ
 - Vers les SERVICES d'abord : chaque article lie 1-2 pages money avec une ancre naturelle dans "Ce que ça change pour vous" et/ou la FAQ.
 - Vers 1-2 ARTICLES liés (cluster) quand pertinent.
 - Vers les projets seulement en preuve : /projets (portfolio détaillé). Carte projets à jour : e-Enfance/3018 = CRM 100% sur-mesure qui a remplacé Salesforce (souverain, hébergé en France) → à lier avec /crm-sur-mesure ; IA Brew (newsletter auto, 93 nœuds n8n) → /automatisation-n8n ; scorer d'offres + CV ATS → /developpeur-agent-ia ; Bloomberg Dashboard Claude → /application-sur-mesure.
-- CTA final : phrase courte + lien booking https://calendly.com/mathieu-haye03/30min (ou la page service).
+- CTA final : phrase courte + lien booking https://calendly.com/mathieu-haye/30min (ou la page service).
 
 ### 5-6. Fichiers HTML FR et EN
 Comme v1, inchangé : pars de blog/_template.html (FR) et blog/en/_template.html (EN), même slug kebab-case YYYY-MM-DD-slug pour les deux langues, remplace TOUS les {{placeholders}} : {{TITLE}} 40-65 car., {{TITLE_HTML}}, {{META_DESCRIPTION}} 140-160 car., {{KEYWORDS}}, {{SLUG}}, {{CATEGORY}} (FR : IA appliquée, Automatisation, CRM &amp; Sales, Data &amp; Analytics, Business &amp; Growth, B2B SaaS, Fintech, Régulation / EN traduits), {{TAG1-3}}, {{DATE_ISO}} avec heure + fuseau Paris (ex 2026-04-19T08:00:00+02:00), {{DATE_HUMAN}}, {{READING_TIME}} (mots/220 arrondi), {{LEAD}}, {{BODY_HTML}}, {{WORD_COUNT}} entier nu, {{ABOUT_JSONLD}} objets séparés par virgules SANS crochets. FAQPage JSON-LD dans le slot <!-- FAQ_JSONLD_SLOT --> si section FAQ (inLanguage fr/en), jamais de FAQPage vide.

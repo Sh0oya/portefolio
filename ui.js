@@ -107,7 +107,7 @@
         if (!slot) return;
         var a = document.createElement('a');
         a.className = 'nav-book';
-        a.href = 'https://calendly.com/mathieu-haye03/30min';
+        a.href = 'https://calendly.com/mathieu-haye/30min';
         a.target = '_blank';
         a.rel = 'noopener';
         a.innerHTML =
@@ -410,6 +410,24 @@
             gtagSafe('event', 'calendly_click', { link_url: a.href, page_path: location.pathname });
             openPopup(a.href);
         });
+        /* Page /reserver : widget Calendly embarque (inline, memes UTM/gclid) */
+        var slot = document.getElementById('mh-booking');
+        if (slot) {
+            var base = slot.getAttribute('data-calendly') || 'https://calendly.com/mathieu-haye/30min';
+            var icss = document.createElement('link');
+            icss.rel = 'stylesheet';
+            icss.href = 'https://assets.calendly.com/assets/external/widget.css';
+            document.head.appendChild(icss);
+            var isc = document.createElement('script');
+            isc.src = 'https://assets.calendly.com/assets/external/widget.js';
+            isc.onload = function () {
+                if (!window.Calendly) return;
+                slot.innerHTML = '';
+                window.Calendly.initInlineWidget({ url: calendlyUrl(base), parentElement: slot });
+            };
+            document.head.appendChild(isc);
+        }
+
         window.addEventListener('message', function (e) {
             if (!e.origin || e.origin.indexOf('calendly.com') === -1) return;
             if (e.data && e.data.event === 'calendly.event_scheduled') {

@@ -125,8 +125,8 @@ Il vous appartient. Vous récupérez le code, les accès administrateur et une d
 
 ## Un process en tête ? Parlons-en.
 
-Décrivez en 30 secondes la tâche qui vous coûte le plus de temps. Je vous dis franchement si un agent IA peut aider, et à quel coût, sans engagement. Réservez un appel : https://calendly.com/mathieu-haye03/30min ou écrivez à contact@mathieuhaye.fr. Évaluez votre [maturité IA](https://mathieuhaye.fr/maturite-ia), ou explorez les services voisins : [développeur d'agents IA](https://mathieuhaye.fr/developpeur-agent-ia), [automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), [freelance IA](https://mathieuhaye.fr/freelance-ia), [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), [application sur-mesure](https://mathieuhaye.fr/application-sur-mesure). Vous pouvez aussi vérifier si votre site est [visible par les IA](https://mathieuhaye.fr/visible-par-les-ia) ou lire le [journal](https://mathieuhaye.fr/blog/).
+Décrivez en 30 secondes la tâche qui vous coûte le plus de temps. Je vous dis franchement si un agent IA peut aider, et à quel coût, sans engagement. Réservez un appel : https://calendly.com/mathieu-haye/30min ou écrivez à contact@mathieuhaye.fr. Évaluez votre [maturité IA](https://mathieuhaye.fr/maturite-ia), ou explorez les services voisins : [développeur d'agents IA](https://mathieuhaye.fr/developpeur-agent-ia), [automatisation n8n](https://mathieuhaye.fr/automatisation-n8n), [freelance IA](https://mathieuhaye.fr/freelance-ia), [CRM sur-mesure](https://mathieuhaye.fr/crm-sur-mesure), [application sur-mesure](https://mathieuhaye.fr/application-sur-mesure). Vous pouvez aussi vérifier si votre site est [visible par les IA](https://mathieuhaye.fr/visible-par-les-ia) ou lire le [journal](https://mathieuhaye.fr/blog/).
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

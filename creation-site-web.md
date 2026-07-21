@@ -22,8 +22,8 @@ Le cadre : le code vous appartient, RGPD respecté, hébergement en France, un s
 
 ## On cadre votre site ?
 
-Décrivez votre activité et ce que le site doit vous rapporter. En 30 min, vous savez quelle formule choisir, en combien de temps, et à quel prix. [Réservez un appel](https://calendly.com/mathieu-haye03/30min) ou écrivez à [contact@mathieuhaye.fr](mailto:contact@mathieuhaye.fr). Voir aussi : l'[application sur-mesure](https://mathieuhaye.fr/application-sur-mesure), les [offres et la collaboration](https://mathieuhaye.fr/collaboration) et [discuter avec mon IA](https://mathieuhaye.fr/discuter-avec-mon-ia).
+Décrivez votre activité et ce que le site doit vous rapporter. En 30 min, vous savez quelle formule choisir, en combien de temps, et à quel prix. [Réservez un appel](https://calendly.com/mathieu-haye/30min) ou écrivez à [contact@mathieuhaye.fr](mailto:contact@mathieuhaye.fr). Voir aussi : l'[application sur-mesure](https://mathieuhaye.fr/application-sur-mesure), les [offres et la collaboration](https://mathieuhaye.fr/collaboration) et [discuter avec mon IA](https://mathieuhaye.fr/discuter-avec-mon-ia).
 
 ---
 
-Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye03/30min | Site : https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Réserver un appel : https://calendly.com/mathieu-haye/30min | Site : https://mathieuhaye.fr/

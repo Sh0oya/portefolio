@@ -1457,4 +1457,42 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma"/>
 </url>
 
+<url>
+    <loc>https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/reserver</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/reserver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/book"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/reserver"/>
+</url>
+
+<url>
+    <loc>https://mathieuhaye.fr/en/book</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/reserver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/en/book"/>
+</url>
+
 </urlset>

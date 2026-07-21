@@ -154,7 +154,7 @@ No. Just explain the outcome you are aiming for, even in plain business terms. T
 
 Describe the task you want to hand to an agent. In 30 min, I tell you if it is doable, how, and how long it takes.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - [Chat with my AI agent](https://mathieuhaye.fr/#agent)
 - Direct email: contact@mathieuhaye.fr
 
@@ -162,4 +162,4 @@ You can see what an agent can do for you. To go further, [book a scoping call](h
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

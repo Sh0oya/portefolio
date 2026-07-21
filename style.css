@@ -4917,3 +4917,14 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
 @media (prefers-reduced-motion: reduce) {
     .v51-header { transition: none; }
 }
+
+
+/* ============================================================================
+   PAGE /RESERVER — widget Calendly embarqué sur le domaine
+   ============================================================================ */
+.booking-wrap { padding: 26px 0 90px; }
+.booking-slot { height: 720px; background: var(--card); border: 1px solid var(--hairline); border-radius: 24px; overflow: hidden; }
+.booking-fallback { padding: 48px 30px; text-align: center; font-size: 14.5px; line-height: 1.7; color: var(--ink-500); }
+.booking-fallback a { color: var(--terra); text-decoration: underline; text-underline-offset: 2px; }
+.booking-wrap .chat-note { margin-top: 18px; }
+@media (max-width: 640px) { .booking-slot { height: 880px; } }

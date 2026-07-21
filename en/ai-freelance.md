@@ -161,7 +161,7 @@ Projects are designed with GDPR in mind, with hosting in France or the European 
 
 Describe your need in 30 seconds. I will tell you if I can do it, how long it takes and in which format, with no commitment.
 
-- [Book a call](https://calendly.com/mathieu-haye03/30min)
+- [Book a call](https://calendly.com/mathieu-haye/30min)
 - [Chat with my AI agent](https://mathieuhaye.fr/#agent)
 - Direct email: contact@mathieuhaye.fr
 
@@ -169,4 +169,4 @@ Ready to move forward? Explore the services: [AI agent developer](https://mathie
 
 ---
 
-Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye03/30min | Site: https://mathieuhaye.fr/
+Contact: contact@mathieuhaye.fr | Book a call: https://calendly.com/mathieu-haye/30min | Site: https://mathieuhaye.fr/

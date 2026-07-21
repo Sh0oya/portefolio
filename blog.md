@@ -9,7 +9,10 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (FR), 58 posts
+## Articles (FR), 59 posts
+
+- **2026-07-21** : [AI Act 2 août 2026 : ce qui s'applique à votre PME](https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme)
+  Le Digital Omnibus repousse l'AI Act haut risque à fin 2027. Ce qui s'applique vraiment à votre PME le 2 août 2026 : transparence IA et littératie.
 
 - **2026-07-20** : [Ce qu'un CRM sur mesure change vraiment : le cas 3018](https://mathieuhaye.fr/blog/2026-07-20-crm-sur-mesure-cas-3018-emma)
   Le 3018 a remplacé son CRM du marché par Emma, un outil sur mesure : file unique multicanale, urgences priorisées, hébergement en France.
@@ -187,7 +190,10 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (EN), 58 posts
+## Articles (EN), 59 posts
+
+- **2026-07-21** : [EU AI Act, August 2, 2026: what applies to your SME](https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme)
+  The Digital Omnibus pushes the AI Act's high-risk rules to late 2027. What actually applies to an SME on August 2, 2026: AI transparency and AI literacy.
 
 - **2026-07-20** : [What a custom CRM really changes: the 3018 case](https://mathieuhaye.fr/blog/en/2026-07-20-crm-sur-mesure-cas-3018-emma)
   French helpline 3018 replaced its off-the-shelf CRM with Emma, a custom tool: one multichannel queue, prioritised urgencies, hosted in France.

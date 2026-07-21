@@ -83,7 +83,7 @@ Le sur-mesure se justifie quand les contournements s'accumulent : processus impo
 
 Trois questions suffisent à savoir de quel côté vous êtes. Combien de fenêtres votre équipe ouvre-t-elle pour traiter un seul dossier ? Combien de fois par semaine une information est-elle recopiée d'un outil vers un autre ? Et quelle part de votre processus réel n'existe nulle part dans le CRM, parce qu'elle vit dans un fichier Excel à côté ?
 
-Si les réponses sont « une ou deux, rarement, presque rien », gardez votre outil et faites-le régler. Si elles sont « quatre, tous les jours, la moitié », le sujet mérite trente minutes de discussion. Vous pouvez [réserver un appel de cadrage de 30 minutes](https://calendly.com/mathieu-haye03/30min) ; le détail des trois modes d'intervention possibles, du simple réglage au remplacement complet, est sur la page [CRM sur-mesure](/crm-sur-mesure).
+Si les réponses sont « une ou deux, rarement, presque rien », gardez votre outil et faites-le régler. Si elles sont « quatre, tous les jours, la moitié », le sujet mérite trente minutes de discussion. Vous pouvez [réserver un appel de cadrage de 30 minutes](https://calendly.com/mathieu-haye/30min) ; le détail des trois modes d'intervention possibles, du simple réglage au remplacement complet, est sur la page [CRM sur-mesure](/crm-sur-mesure).
 
 
 
