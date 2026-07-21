@@ -438,6 +438,26 @@
     }
 
 
+    /* ---------- Barre de progression de lecture (pages article) ---------- */
+    function initReadingProgress() {
+        var body = document.querySelector('.article-body');
+        if (!body) return;
+        var bar = document.createElement('div');
+        bar.className = 'reading-progress';
+        bar.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(bar);
+        function update() {
+            var rect = body.getBoundingClientRect();
+            var total = body.offsetHeight - window.innerHeight;
+            var pct = total > 0 ? Math.min(100, Math.max(0, (-rect.top / total) * 100)) : 0;
+            bar.style.width = pct + '%';
+        }
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update, { passive: true });
+        update();
+    }
+
+
     /* ---------- Fond de nav au scroll (pages intérieures : .nav est fixe) ---------- */
     function initNavScrolled() {
         var nav = document.querySelector('.nav') || document.querySelector('.v51-header');
@@ -593,6 +613,7 @@
         injectGlassFilter();
         normalizeNav();
         initNavScrolled();
+        initReadingProgress();
         initUrlCleaner();
         injectNavBook();
         initNavDrop();

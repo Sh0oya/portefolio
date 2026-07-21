@@ -4956,3 +4956,29 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
 .embed-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 @media (max-width: 640px) { .embed-frame { aspect-ratio: 4 / 5; } }
 @media (prefers-reduced-motion: reduce) { .embed-hint, .embed-hit { transition: none; } }
+
+
+/* ============================================================================
+   ARTICLE v5.7 — lecture soignee, conversion pleine largeur, carte auteur v5
+   ============================================================================ */
+/* Barre de progression de lecture (injectee par ui.js sur les pages article) */
+.reading-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--terra); z-index: 100; transition: width .12s linear; }
+
+/* Liens du corps : terracotta coherent (fin des tokens bleus legacy) */
+.article-body a { color: var(--terra); text-decoration-color: rgba(201, 94, 39, .38); }
+.article-body a:hover { color: var(--terra-hover); text-decoration-color: var(--terra); }
+
+/* Lead plus present */
+.article-lead { color: var(--ink-900); }
+
+/* Carte auteur : jeton v5 + monogramme (plus de photo perso, plus de rond) */
+.article-footer { margin-top: 60px; }
+.article-footer-author { background: var(--paper-hi); border: 1px solid var(--hairline); box-shadow: none; border-radius: 20px; padding: 26px 28px; gap: 22px; align-items: center; }
+.article-footer-author img { width: 60px; height: 60px; border-radius: 14px; border: 0; box-shadow: none; object-fit: contain; }
+.article-nav { border-top: 1px solid var(--hairline-soft); }
+
+/* Conversion : sortie de la colonne de lecture -> pleine largeur (comme les pages services) */
+.article-conversion { padding: 24px 0 96px; }
+.article-conversion .section-container { max-width: var(--container-max); margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); }
+
+@media (prefers-reduced-motion: reduce) { .reading-progress { transition: none; } }
