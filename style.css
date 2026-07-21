@@ -4928,3 +4928,31 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
 .booking-fallback a { color: var(--terra); text-decoration: underline; text-underline-offset: 2px; }
 .booking-wrap .chat-note { margin-top: 18px; }
 @media (max-width: 640px) { .booking-slot { height: 880px; } }
+
+
+/* ============================================================================
+   RÉALISATION — carte navigateur avec iframe live + modale (création de site)
+   ============================================================================ */
+.realisation { padding: 10px 0 120px; background: var(--paper-hi); }
+.embed-card { border: 1px solid var(--hairline); border-radius: 20px; overflow: hidden; background: var(--card); box-shadow: 0 18px 44px rgba(30, 32, 18, .08); }
+.embed-chrome { display: flex; align-items: center; gap: 7px; padding: 12px 18px; border-bottom: 1px solid var(--hairline-soft); background: var(--paper-hi); }
+.embed-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--sand); border: 1px solid var(--hairline); }
+.embed-url { margin-left: 12px; font-family: var(--font-mono); font-size: 12px; letter-spacing: .02em; color: #8B8E7A; background: var(--paper); border: 1px solid var(--hairline-soft); border-radius: 999px; padding: 4px 14px; }
+.embed-frame { position: relative; aspect-ratio: 16 / 9.5; background: var(--paper); }
+.embed-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+.embed-hit { position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: center; padding: 24px; background: transparent; border: 0; cursor: pointer; transition: background .3s var(--ease-out); }
+.embed-hit:hover, .embed-hit:focus-visible { background: rgba(27, 29, 18, .08); }
+.embed-hint { opacity: 0; transform: translateY(8px); transition: opacity .25s var(--ease-out), transform .25s var(--ease-out); background: var(--ink-900); color: var(--paper); border-radius: 999px; padding: 11px 20px; font-size: 13.5px; font-weight: 600; }
+.embed-hit:hover .embed-hint, .embed-hit:focus-visible .embed-hint { opacity: 1; transform: none; }
+.embed-dialog { border: 0; border-radius: 24px; padding: clamp(28px, 4vw, 44px); max-width: 560px; width: calc(100% - 40px); background: var(--card); color: var(--ink-900); box-shadow: 0 40px 90px rgba(27, 29, 18, .3); }
+.embed-dialog::backdrop { background: rgba(27, 29, 18, .45); backdrop-filter: blur(3px); }
+.embed-dialog h3 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(1.3rem, 2.4vw, 1.65rem); line-height: 1.25; margin: 12px 0 20px; color: var(--ink-900); }
+.embed-steps { margin: 0 0 26px; padding-left: 20px; display: grid; gap: 13px; }
+.embed-steps li { font-size: 14.5px; line-height: 1.65; color: var(--ink-500); }
+.embed-steps li strong { color: var(--ink-900); font-weight: 600; }
+.embed-steps li::marker { color: var(--terra); font-weight: 600; }
+.embed-close { position: absolute; top: 16px; right: 16px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--hairline); background: var(--paper); color: var(--ink-500); font-size: 20px; line-height: 1; cursor: pointer; transition: border-color .2s, color .2s; }
+.embed-close:hover { border-color: var(--ink-900); color: var(--ink-900); }
+.embed-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+@media (max-width: 640px) { .embed-frame { aspect-ratio: 4 / 5; } }
+@media (prefers-reduced-motion: reduce) { .embed-hint, .embed-hit { transition: none; } }

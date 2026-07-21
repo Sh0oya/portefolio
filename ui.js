@@ -469,6 +469,25 @@
     }
 
 
+    /* ---------- Cartes réalisation : iframe cliquable -> modale <dialog> ---------- */
+    function initEmbedCards() {
+        var hits = document.querySelectorAll('.embed-hit');
+        for (var i = 0; i < hits.length; i++) (function (btn) {
+            var dlg = document.getElementById(btn.getAttribute('aria-controls'));
+            if (!dlg || typeof dlg.showModal !== 'function') return;
+            btn.addEventListener('click', function () { dlg.showModal(); });
+            var close = dlg.querySelector('.embed-close');
+            if (close) close.addEventListener('click', function () { dlg.close(); });
+            dlg.addEventListener('click', function (e) {
+                if (e.target === dlg) { dlg.close(); return; }
+                /* La popup Calendly vit sous le top-layer du <dialog> : on ferme d'abord. */
+                var a = e.target.closest ? e.target.closest('a[href*="calendly.com"]') : null;
+                if (a) dlg.close();
+            });
+        })(hits[i]);
+    }
+
+
     /* ---------- Menu déroulant Services (v5.5) ---------- */
     function svcMenuHtml(en) {
         var items = en ? [
@@ -547,7 +566,7 @@
         var reduced = false;
         try { reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { /* noop */ }
         if (reduced) return;
-        var els = document.querySelectorAll('.package-card, .method-card, .faq-item, .final-cta-card, .explore-card, .method-head');
+        var els = document.querySelectorAll('.package-card, .method-card, .faq-item, .final-cta-card, .explore-card, .method-head, .embed-card');
         if (!els.length) return;
         var io = new IntersectionObserver(function (entries) {
             for (var i = 0; i < entries.length; i++) {
@@ -577,6 +596,7 @@
         initUrlCleaner();
         injectNavBook();
         initNavDrop();
+        initEmbedCards();
         initConsent();
         initCalendly();
         enhanceServicePages();
