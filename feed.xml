@@ -188,24 +188,6 @@
             <dc:creator>Mathieu Haye</dc:creator>
         </item>
         <item>
-            <title>Commerce agentique : quand les agents IA se mettent à payer</title>
-            <link>https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</guid>
-            <description>AIsa lève 6,5 millions de dollars pour faire payer les agents IA. Visa, Mastercard, Stripe et Coinbase se disputent l'infrastructure du commerce agentique.</description>
-            <pubDate>Sun, 05 Jul 2026 11:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Agentic commerce: when AI agents start to pay</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique</guid>
-            <description>AIsa raised $6.5m to let AI agents pay for data and APIs. Visa, Mastercard, Stripe and Coinbase are fighting to own the agentic commerce payment layer.</description>
-            <pubDate>Sun, 05 Jul 2026 11:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
             <title>Profound Aim : la visibilité IA passe à l'exécution</title>
             <link>https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia</link>
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia</guid>
@@ -238,24 +220,6 @@
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience</guid>
             <description>Anthropic launched Claude Sonnet 5 on June 30, 2026, cheaper than Opus. The real signal: enterprise AI is now judged on cost per agent, not the benchmark.</description>
             <pubDate>Wed, 01 Jul 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Taktile lève 110 M$ pour faire décider l'IA en banque</title>
-            <link>https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance</guid>
-            <description>Taktile lève 110 millions de dollars menés par Goldman Sachs pour automatiser les décisions de crédit, de fraude et de sinistres avec des agents IA supervisés.</description>
-            <pubDate>Sun, 28 Jun 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Taktile raises $110M to let AI decide for banks</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance</guid>
-            <description>Taktile raised $110m led by Goldman Sachs to automate credit, fraud and claims decisions with supervised AI agents inside an auditable framework.</description>
-            <pubDate>Sun, 28 Jun 2026 08:00:00 +0200</pubDate>
             <dc:language>en</dc:language>
             <dc:creator>Mathieu Haye</dc:creator>
         </item>
@@ -746,24 +710,6 @@
             <dc:creator>Mathieu Haye</dc:creator>
         </item>
         <item>
-            <title>ChatGPT branche les comptes bancaires : OpenAI vise la finance perso</title>
-            <link>https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques</guid>
-            <description>Le 15 mai 2026, OpenAI branche ChatGPT à plus de 12 000 banques américaines via Plaid. Décryptage d'une bascule de couche pour la finance personnelle.</description>
-            <pubDate>Sun, 17 May 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>ChatGPT plugs into your bank: OpenAI takes on personal finance</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques</guid>
-            <description>On May 15, 2026, OpenAI wired ChatGPT to 12,000+ US banks through Plaid. Breaking down a layer shift for personal finance and what it changes.</description>
-            <pubDate>Sun, 17 May 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
             <title>Anthropic dépasse OpenAI sur l'adoption B2B (Ramp Index)</title>
             <link>https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise</link>
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise</guid>
@@ -890,96 +836,6 @@
             <dc:creator>Mathieu Haye</dc:creator>
         </item>
         <item>
-            <title>Bloomberg AskB : Anthropic Claude au cœur du Terminal</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal</guid>
-            <description>Le 28 avril 2026, Bloomberg a ouvert AskB en bêta à 125 000 utilisateurs du Terminal. Pourquoi cet agent IA, alimenté par Claude, change la donne.</description>
-            <pubDate>Thu, 30 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Bloomberg AskB: Anthropic Claude lands inside the Terminal</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal</guid>
-            <description>On April 28, 2026, Bloomberg opened AskB in beta to 125,000 Terminal users. Why this Anthropic Claude-powered AI agent rewrites Wall Street's playbook.</description>
-            <pubDate>Thu, 30 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>BCE et IA : le modèle QRF qui surveille l'inflation depuis 2022</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation</guid>
-            <description>Depuis fin 2022, la BCE utilise un Quantile Regression Forest pour traquer l'inflation. Quatre économistes l'ont admis le 21 avril 2026 : ce que cela change.</description>
-            <pubDate>Wed, 29 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>ECB's QRF: how a random forest has quietly steered inflation calls since 2022</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation</guid>
-            <description>Since late 2022, the ECB has run a Quantile Regression Forest in its policy toolkit. Four economists confirmed it on April 21: what the disclosure changes.</description>
-            <pubDate>Wed, 29 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>BCE 30 avril : la stagflation impose un nouveau stress test ALM</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques</guid>
-            <description>Le 30 avril 2026, la BCE garde ses taux à 2,00 %. Inflation révisée à 2,6 %, croissance à 0,9 % : ce que cette décision change pour l'ALM des banques.</description>
-            <pubDate>Tue, 28 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>ECB April 30: stagflation forces a new ALM stress test</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques</guid>
-            <description>On April 30, 2026, the ECB holds at 2.00%. Headline inflation revised up to 2.6%, growth down to 0.9%: what the decision changes for European bank ALM teams.</description>
-            <pubDate>Tue, 28 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Taïwan : 16 banques s'unissent pour bâtir un LLM souverain</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance</guid>
-            <description>Le 23 avril 2026, 16 banques taïwanaises mutualisent un LLM bancaire souverain pour 40 à 70 millions NT$. Pourquoi cette annonce préfigure la trajectoire européenne.</description>
-            <pubDate>Mon, 27 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Taiwan: 16 banks unite to build a sovereign banking LLM</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance</guid>
-            <description>On April 23, 2026, sixteen Taiwanese banks pooled funds to build a sovereign banking LLM for NT$40-70 million. What this signals for Europe's financial AI strategy.</description>
-            <pubDate>Mon, 27 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Aspect Capital : Martin Lueck alerte sur l'IA en trading quant</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</guid>
-            <description>Martin Lueck, cofondateur d'Aspect Capital et pionnier du quant, refuse de confier les decisions de portefeuille a l'IA. Pourquoi ca compte pour la finance.</description>
-            <pubDate>Fri, 24 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Aspect Capital: Martin Lueck pushes back on AI quant trading</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire</guid>
-            <description>Martin Lueck, Aspect Capital co-founder and quant pioneer, refuses to hand portfolio decisions to AI. Why the FT interview matters for finance.</description>
-            <pubDate>Fri, 24 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
             <title>Google TPU 8 : l'ère agentique se joue sur le silicium</title>
             <link>https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique</link>
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique</guid>
@@ -998,24 +854,6 @@
             <dc:creator>Mathieu Haye</dc:creator>
         </item>
         <item>
-            <title>MCP : la faille qui rattrape les banques sur l'IA</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique</guid>
-            <description>Faille MCP d'Anthropic, position « expected » et 200 000 instances vulnerables : pourquoi les banques heritent du risque cyber agentique.</description>
-            <pubDate>Wed, 22 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>MCP flaw exposes banks pushing into agentic AI</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique</guid>
-            <description>Anthropic's MCP design flaw, OX Security's 200,000 exposed instances and the bank-side fallout: who owns the third-party risk now?</description>
-            <pubDate>Wed, 22 Apr 2026 08:00:00 +0200</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
             <title>Anthropic-Amazon : 100 milliards et 5 GW pour tenir Claude</title>
             <link>https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia</link>
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia</guid>
@@ -1030,42 +868,6 @@
             <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia</guid>
             <description>On April 20, 2026, Amazon commits up to $25bn more to Anthropic for 5 GW of compute. A deep dive into the deal, its circular financing, and why finance should care.</description>
             <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>IA systémique : la Bank of England passe aux simulations</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere</guid>
-            <description>Le 16 avril 2026, la Bank of England confirme qu'elle teste l'IA en scénario de stabilité financière. Fin du wait-and-see réglementaire.</description>
-            <pubDate>Mon, 20 Apr 2026 00:00:00 -0000</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Systemic AI: the Bank of England moves to simulations</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere</guid>
-            <description>On April 16, 2026, the Bank of England confirmed it is now stress-testing AI for financial stability. The wait-and-see doctrine is officially over.</description>
-            <pubDate>Mon, 20 Apr 2026 00:00:00 -0000</pubDate>
-            <dc:language>en</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Wall Street Q1 2026 : 5 000 postes en moins, l'IA en plus</title>
-            <link>https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia</guid>
-            <description>Q1 2026 : les six plus grandes banques US cumulent 47,3 milliards de profit et suppriment 5 000 postes. L'IA ne fait plus les annonces, elle fait le P&amp;L.</description>
-            <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
-            <dc:language>fr</dc:language>
-            <dc:creator>Mathieu Haye</dc:creator>
-        </item>
-        <item>
-            <title>Wall Street Q1 2026: 5,000 fewer jobs, more AI</title>
-            <link>https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia</link>
-            <guid isPermaLink="true">https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia</guid>
-            <description>Q1 2026: the six largest US banks posted $47.3bn in profit while cutting nearly 5,000 jobs. AI no longer does the press releases, it does the P&amp;L.</description>
-            <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
             <dc:language>en</dc:language>
             <dc:creator>Mathieu Haye</dc:creator>
         </item>

@@ -9,7 +9,7 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (FR), 59 posts
+## Articles (FR), 48 posts
 
 - **2026-07-21** : [AI Act 2 août 2026 : ce qui s'applique à votre PME](https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme)
   Le Digital Omnibus repousse l'AI Act haut risque à fin 2027. Ce qui s'applique vraiment à votre PME le 2 août 2026 : transparence IA et littératie.
@@ -41,17 +41,11 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-07-06** : [Coût des agents IA : l'entreprise passe au FinOps](https://mathieuhaye.fr/blog/2026-07-06-claude-enterprise-cout-agents-ia-finops)
   Le 2 juillet 2026, Anthropic a doté Claude Enterprise de plafonds de dépenses et d'une attribution des coûts par utilisateur. L'IA d'entreprise passe au FinOps.
 
-- **2026-07-05** : [Commerce agentique : quand les agents IA se mettent à payer](https://mathieuhaye.fr/blog/2026-07-05-aisa-paiement-agents-ia-commerce-agentique)
-  AIsa lève 6,5 millions de dollars pour faire payer les agents IA. Visa, Mastercard, Stripe et Coinbase se disputent l'infrastructure du commerce agentique.
-
 - **2026-07-05** : [Profound Aim : la visibilité IA passe à l'exécution](https://mathieuhaye.fr/blog/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia)
   Profound a lancé Aim le 2 juillet 2026 : un agent qui surveille la visibilité d'une marque dans ChatGPT et Perplexity, puis la transforme en tâches marketing.
 
 - **2026-07-01** : [Claude Sonnet 5 : l'IA se juge au coût de l'agent](https://mathieuhaye.fr/blog/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience)
   Anthropic lance Claude Sonnet 5 le 30 juin 2026, moins cher qu'Opus. Le vrai signal : l'IA en entreprise se juge au coût par agent, plus au benchmark.
-
-- **2026-06-28** : [Taktile lève 110 M$ pour faire décider l'IA en banque](https://mathieuhaye.fr/blog/2026-06-28-taktile-110-millions-decision-agentique-finance)
-  Taktile lève 110 millions de dollars menés par Goldman Sachs pour automatiser les décisions de crédit, de fraude et de sinistres avec des agents IA supervisés.
 
 - **2026-06-26** : [Attention lève 30 M$ : l'IA qui exécute la vente](https://mathieuhaye.fr/blog/2026-06-26-attention-30-millions-ia-execution-vente-crm)
   Attention lève 30 M$ le 24 juin 2026 pour une IA qui exécute la vente au lieu d'enregistrer les appels. Pourquoi le sales tech passe du system of record au system of action.
@@ -134,9 +128,6 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-05-18** : [SAP confie à Claude le cerveau de son entreprise autonome](https://mathieuhaye.fr/blog/2026-05-18-sap-anthropic-claude-erp-autonome)
   SAP fait de Claude le modèle de raisonnement principal de son entreprise autonome, dévoilée le 12 mai 2026 à Sapphire. Analyse du pari et de ses risques.
 
-- **2026-05-17** : [ChatGPT branche les comptes bancaires : OpenAI vise la finance perso](https://mathieuhaye.fr/blog/2026-05-17-openai-chatgpt-finance-plaid-banques)
-  Le 15 mai 2026, OpenAI branche ChatGPT à plus de 12 000 banques américaines via Plaid. Décryptage d'une bascule de couche pour la finance personnelle.
-
 - **2026-05-15** : [Anthropic dépasse OpenAI sur l'adoption B2B (Ramp Index)](https://mathieuhaye.fr/blog/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise)
   Le 13 mai 2026, l'AI Index de Ramp place Anthropic à 34,4 % d'adoption en entreprise contre 32,3 % pour OpenAI. Décryptage et trois menaces.
 
@@ -158,39 +149,15 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-05-03** : [Mistral Workflows : la France joue sa carte orchestration IA](https://mathieuhaye.fr/blog/2026-05-03-mistral-workflows-orchestration-ia-entreprise)
   Mistral AI a lancé Workflows le 28 avril 2026, un moteur d'orchestration sur Temporal déjà en prod chez La Banque Postale, France Travail, ASML, CMA-CGM. Analyse.
 
-- **2026-04-30** : [Bloomberg AskB : Anthropic Claude au cœur du Terminal](https://mathieuhaye.fr/blog/2026-04-30-bloomberg-askb-agent-ia-terminal)
-  Le 28 avril 2026, Bloomberg a ouvert AskB en bêta à 125 000 utilisateurs du Terminal. Pourquoi cet agent IA, alimenté par Claude, change la donne.
-
-- **2026-04-29** : [BCE et IA : le modèle QRF qui surveille l'inflation depuis 2022](https://mathieuhaye.fr/blog/2026-04-29-bce-qrf-machine-learning-inflation)
-  Depuis fin 2022, la BCE utilise un Quantile Regression Forest pour traquer l'inflation. Quatre économistes l'ont admis le 21 avril 2026 : ce que cela change.
-
-- **2026-04-28** : [BCE 30 avril : la stagflation impose un nouveau stress test ALM](https://mathieuhaye.fr/blog/2026-04-28-bce-30-avril-stagflation-alm-banques)
-  Le 30 avril 2026, la BCE garde ses taux à 2,00 %. Inflation révisée à 2,6 %, croissance à 0,9 % : ce que cette décision change pour l'ALM des banques.
-
-- **2026-04-27** : [Taïwan : 16 banques s'unissent pour bâtir un LLM souverain](https://mathieuhaye.fr/blog/2026-04-27-taiwan-16-banques-llm-souverain-finance)
-  Le 23 avril 2026, 16 banques taïwanaises mutualisent un LLM bancaire souverain pour 40 à 70 millions NT$. Pourquoi cette annonce préfigure la trajectoire européenne.
-
-- **2026-04-24** : [Aspect Capital : Martin Lueck alerte sur l'IA en trading quant](https://mathieuhaye.fr/blog/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire)
-  Martin Lueck, cofondateur d'Aspect Capital et pionnier du quant, refuse de confier les decisions de portefeuille a l'IA. Pourquoi ca compte pour la finance.
-
 - **2026-04-23** : [Google TPU 8 : l'ère agentique se joue sur le silicium](https://mathieuhaye.fr/blog/2026-04-23-google-tpu-8-inference-agentique)
   Le 22 avril 2026, Google dévoile ses TPU 8t et 8i pour l'ère agentique. Anthropic valide avec 3,5 GW. Ce que ça change pour les banques et l'inférence IA.
-
-- **2026-04-22** : [MCP : la faille qui rattrape les banques sur l'IA](https://mathieuhaye.fr/blog/2026-04-22-mcp-faille-banques-ia-agentique)
-  Faille MCP d'Anthropic, position « expected » et 200 000 instances vulnerables : pourquoi les banques heritent du risque cyber agentique.
 
 - **2026-04-21** : [Anthropic-Amazon : 100 milliards et 5 GW pour tenir Claude](https://mathieuhaye.fr/blog/2026-04-21-anthropic-amazon-100-milliards-compute-ia)
   Le 20 avril 2026, Amazon investit jusqu'à 25 milliards dans Anthropic pour 5 GW de compute. Décryptage d'un deal IA et de son modèle circulaire.
 
-- **2026-04-20** : [IA systémique : la Bank of England passe aux simulations](https://mathieuhaye.fr/blog/2026-04-20-bank-of-england-ia-stabilite-financiere)
-  Le 16 avril 2026, la Bank of England confirme qu'elle teste l'IA en scénario de stabilité financière. Fin du wait-and-see réglementaire.
-
-- **2026-04-19** : [Wall Street Q1 2026 : 5 000 postes en moins, l'IA en plus](https://mathieuhaye.fr/blog/2026-04-19-wall-street-q1-2026-5000-postes-ia)
-  Q1 2026 : les six plus grandes banques US cumulent 47,3 milliards de profit et suppriment 5 000 postes. L'IA ne fait plus les annonces, elle fait le P&L.
-
 ---
 
-## Articles (EN), 59 posts
+## Articles (EN), 48 posts
 
 - **2026-07-21** : [EU AI Act, August 2, 2026: what applies to your SME](https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme)
   The Digital Omnibus pushes the AI Act's high-risk rules to late 2027. What actually applies to an SME on August 2, 2026: AI transparency and AI literacy.
@@ -222,17 +189,11 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-07-06** : [AI agent costs push the enterprise into FinOps](https://mathieuhaye.fr/blog/en/2026-07-06-claude-enterprise-cout-agents-ia-finops)
   On July 2, 2026, Anthropic gave Claude Enterprise spend caps and per-user cost attribution. As agentic bills blow past budgets, enterprise AI turns to FinOps.
 
-- **2026-07-05** : [Agentic commerce: when AI agents start to pay](https://mathieuhaye.fr/blog/en/2026-07-05-aisa-paiement-agents-ia-commerce-agentique)
-  AIsa raised $6.5m to let AI agents pay for data and APIs. Visa, Mastercard, Stripe and Coinbase are fighting to own the agentic commerce payment layer.
-
 - **2026-07-05** : [Profound Aim: AI Visibility Becomes an Agent](https://mathieuhaye.fr/blog/en/2026-07-05-profound-aim-geo-agent-marketing-recherche-ia)
   Profound launched Aim on July 2, 2026: an agent that monitors a brand's visibility in ChatGPT and Perplexity, then turns it into concrete marketing tasks.
 
 - **2026-07-01** : [Claude Sonnet 5: AI now sells on cost per agent](https://mathieuhaye.fr/blog/en/2026-07-01-claude-sonnet-5-cout-agents-ia-efficience)
   Anthropic launched Claude Sonnet 5 on June 30, 2026, cheaper than Opus. The real signal: enterprise AI is now judged on cost per agent, not the benchmark.
-
-- **2026-06-28** : [Taktile raises $110M to let AI decide for banks](https://mathieuhaye.fr/blog/en/2026-06-28-taktile-110-millions-decision-agentique-finance)
-  Taktile raised $110m led by Goldman Sachs to automate credit, fraud and claims decisions with supervised AI agents inside an auditable framework.
 
 - **2026-06-26** : [Attention raises $30M: AI that runs the sale](https://mathieuhaye.fr/blog/en/2026-06-26-attention-30-millions-ia-execution-vente-crm)
   Attention raised $30M on June 24, 2026 for AI that runs the sale instead of recording calls. Why sales tech is shifting from system of record to system of action.
@@ -315,9 +276,6 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-05-18** : [SAP bets on Claude as the brain of its autonomous enterprise](https://mathieuhaye.fr/blog/en/2026-05-18-sap-anthropic-claude-erp-autonome)
   On May 12, 2026, SAP made Claude the primary reasoning model of its Autonomous Suite. Inside the ERP play and the concentration risk Forrester just flagged.
 
-- **2026-05-17** : [ChatGPT plugs into your bank: OpenAI takes on personal finance](https://mathieuhaye.fr/blog/en/2026-05-17-openai-chatgpt-finance-plaid-banques)
-  On May 15, 2026, OpenAI wired ChatGPT to 12,000+ US banks through Plaid. Breaking down a layer shift for personal finance and what it changes.
-
 - **2026-05-15** : [Anthropic overtakes OpenAI in enterprise AI adoption](https://mathieuhaye.fr/blog/en/2026-05-15-ramp-anthropic-depasse-openai-adoption-entreprise)
   On May 13, 2026, Ramp's AI Index put Anthropic at 34.4% of business adoption, ahead of OpenAI at 32.3%. Why now, and three threats that could erase the lead.
 
@@ -339,32 +297,8 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 - **2026-05-03** : [Mistral Workflows: France's bet on enterprise AI orchestration](https://mathieuhaye.fr/blog/en/2026-05-03-mistral-workflows-orchestration-ia-entreprise)
   On April 28, 2026, Mistral AI launched Workflows, a Temporal-powered orchestration engine already in production at La Banque Postale, France Travail and ASML.
 
-- **2026-04-30** : [Bloomberg AskB: Anthropic Claude lands inside the Terminal](https://mathieuhaye.fr/blog/en/2026-04-30-bloomberg-askb-agent-ia-terminal)
-  On April 28, 2026, Bloomberg opened AskB in beta to 125,000 Terminal users. Why this Anthropic Claude-powered AI agent rewrites Wall Street's playbook.
-
-- **2026-04-29** : [ECB's QRF: how a random forest has quietly steered inflation calls since 2022](https://mathieuhaye.fr/blog/en/2026-04-29-bce-qrf-machine-learning-inflation)
-  Since late 2022, the ECB has run a Quantile Regression Forest in its policy toolkit. Four economists confirmed it on April 21: what the disclosure changes.
-
-- **2026-04-28** : [ECB April 30: stagflation forces a new ALM stress test](https://mathieuhaye.fr/blog/en/2026-04-28-bce-30-avril-stagflation-alm-banques)
-  On April 30, 2026, the ECB holds at 2.00%. Headline inflation revised up to 2.6%, growth down to 0.9%: what the decision changes for European bank ALM teams.
-
-- **2026-04-27** : [Taiwan: 16 banks unite to build a sovereign banking LLM](https://mathieuhaye.fr/blog/en/2026-04-27-taiwan-16-banques-llm-souverain-finance)
-  On April 23, 2026, sixteen Taiwanese banks pooled funds to build a sovereign banking LLM for NT$40-70 million. What this signals for Europe's financial AI strategy.
-
-- **2026-04-24** : [Aspect Capital: Martin Lueck pushes back on AI quant trading](https://mathieuhaye.fr/blog/en/2026-04-24-aspect-capital-lueck-ia-quant-boite-noire)
-  Martin Lueck, Aspect Capital co-founder and quant pioneer, refuses to hand portfolio decisions to AI. Why the FT interview matters for finance.
-
 - **2026-04-23** : [Google TPU 8: the agentic era lands on silicon](https://mathieuhaye.fr/blog/en/2026-04-23-google-tpu-8-inference-agentique)
   On April 22, 2026, Google unveiled its TPU 8t and 8i for the agentic era. Anthropic commits 3.5 GW. What this means for banks and AI inference costs.
 
-- **2026-04-22** : [MCP flaw exposes banks pushing into agentic AI](https://mathieuhaye.fr/blog/en/2026-04-22-mcp-faille-banques-ia-agentique)
-  Anthropic's MCP design flaw, OX Security's 200,000 exposed instances and the bank-side fallout: who owns the third-party risk now?
-
 - **2026-04-21** : [Anthropic-Amazon: $100bn and 5 GW to keep Claude running](https://mathieuhaye.fr/blog/en/2026-04-21-anthropic-amazon-100-milliards-compute-ia)
   On April 20, 2026, Amazon commits up to $25bn more to Anthropic for 5 GW of compute. A deep dive into the deal, its circular financing, and why finance should care.
-
-- **2026-04-20** : [Systemic AI: the Bank of England moves to simulations](https://mathieuhaye.fr/blog/en/2026-04-20-bank-of-england-ia-stabilite-financiere)
-  On April 16, 2026, the Bank of England confirmed it is now stress-testing AI for financial stability. The wait-and-see doctrine is officially over.
-
-- **2026-04-19** : [Wall Street Q1 2026: 5,000 fewer jobs, more AI](https://mathieuhaye.fr/blog/en/2026-04-19-wall-street-q1-2026-5000-postes-ia)
-  Q1 2026: the six largest US banks posted $47.3bn in profit while cutting nearly 5,000 jobs. AI no longer does the press releases, it does the P&L.
