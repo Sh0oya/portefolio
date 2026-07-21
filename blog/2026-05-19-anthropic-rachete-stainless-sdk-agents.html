@@ -53,7 +53,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../style.css?v=106">
+    <link rel="stylesheet" href="../style.css?v=107">
 
     <!-- JSON-LD Article -->
     <script type="application/ld+json">
@@ -129,7 +129,7 @@
     </script>
 
 </head>
-<body class="launch-done">
+<body class="launch-done article-page">
 
     <div class="bg-grid"></div>
     <div class="bg-gradient"></div>
@@ -153,9 +153,9 @@
         </div>
     </nav>
 
-    <main class="article-wrap">
-
-        <a href="/blog/" class="back-home">
+    <header class="article-hero">
+        <div class="article-hero-inner">
+            <a href="/blog/" class="back-home">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
             Tous les articles
         </a>
@@ -171,6 +171,10 @@
         <h1 class="article-title">Anthropic rachète <em>Stainless</em> : la plomberie des agents IA</h1>
 
         <p class="article-lead">Le 18 mai 2026, Anthropic annonce le rachat de Stainless pour plus de 300 millions de dollars. Le geste n'est pas un coup sur les modèles ; il porte sur la plomberie qui rend les API utilisables par les agents.</p>
+        </div>
+    </header>
+
+    <main class="article-wrap">
 
         <article class="article-body">
             <p><strong>San Francisco, lundi 18 mai 2026.</strong> Anthropic <a href="https://www.anthropic.com/news/anthropic-acquires-stainless" target="_blank" rel="noopener">annonce le rachat de Stainless</a>, jeune entreprise fondée en 2022 par Alex Rattray, ancien ingénieur de Stripe. Le montant officiel n'est pas communiqué ; <a href="https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/" target="_blank" rel="noopener">The Information puis TechCrunch chiffrent l'opération à plus de 300 millions de dollars</a>. Stainless était soutenue par Sequoia Capital et Andreessen Horowitz.</p>
@@ -259,6 +263,16 @@
         <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
     </div>
 
+<section class="explore-next" aria-label="À explorer ensuite">
+    <span class="section-eyebrow">À explorer ensuite</span>
+    <div class="explore-grid">
+        <a class="explore-card" href="/blog/">Tous les articles <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/discuter-avec-mon-ia">Discuter avec mon IA <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/crm-sur-mesure">CRM sur-mesure <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/collaboration">Offres &amp; collaboration <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+</section>
+
 <!-- ============ FOOTER v4 (FR, pages intérieures — texte statique) ============ -->
 <footer class="footer">
     <div class="footer-container">
@@ -333,6 +347,6 @@
         </div>
     </div>
 </footer>
-<script defer src="/ui.js?v=106"></script>
+<script defer src="/ui.js?v=107"></script>
 </body>
 </html>
