@@ -103,7 +103,7 @@ GEO is a discipline of its own because it does not reduce to SEO and cannot be i
 
 It is this double nature, technical and moving, that makes the subject hard to handle on the side of your core business. Tracking how AI engines evolve, understanding why they cite one source over another, and adjusting a site accordingly is specialist work, not a box to tick. Most business owners have neither the time nor the appetite to get into that machinery, and that is a rational call: a rough attempt mostly costs lost time while better-supported competitors take the spot inside the answers.
 
-That is exactly the ground I work on. As a freelance builder, I handle the technical base and the signals that make a site visible and cited by AI, as a single point of contact, with no agency layer. You stay on your core business while I take care of your presence inside generative answers. It all starts with an assessment, then a [collaboration](https://mathieuhaye.fr/en/collaboration) where I take the job on end to end.
+That is exactly the ground I work on. As a freelance developer, I handle the technical base and the signals that make a site visible and cited by AI, as a single point of contact, with no agency layer. You stay on your core business while I take care of your presence inside generative answers. It all starts with an assessment, then a [collaboration](https://mathieuhaye.fr/en/collaboration) where I take the job on end to end.
 
 
 
@@ -162,7 +162,7 @@ With the free diagnosis. My [AI visibility test](https://mathieuhaye.fr/en/ai-vi
 
 
 
-A classic SEO agency optimizes for Google's blue links, which is still useful but does not cover visibility inside AI answers. As a freelance builder, I work the technical base and the signals that make a site quotable by generative engines, as a single point of contact, with no agency layer. You talk directly to the person with their hands in the site.
+A classic SEO agency optimizes for Google's blue links, which is still useful but does not cover visibility inside AI answers. As a freelance developer, I work the technical base and the signals that make a site quotable by generative engines, as a single point of contact, with no agency layer. You talk directly to the person with their hands in the site.
 
 
 

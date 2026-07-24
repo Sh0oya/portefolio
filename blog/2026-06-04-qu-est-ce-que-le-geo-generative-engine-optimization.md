@@ -137,11 +137,11 @@ Les corrections techniques de visibilité se mettent en place vite, mais une IA 
 
 
 
-### Pourquoi un freelance builder plutôt qu'une agence SEO ?
+### Pourquoi un développeur freelance plutôt qu'une agence SEO ?
 
 
 
-Parce que le GEO se joue dans le code, les données structurées et les fichiers destinés aux IA, pas seulement dans des mots-clés et des liens. Mathieu est freelance builder : il construit lui-même apps IA, automatisations et CRM sur-mesure, et applique cette même rigueur technique à la visibilité IA de votre site. Vous avez un seul interlocuteur qui comprend ce qu'il modifie, là où une agence SEO classique s'arrête souvent au référencement traditionnel.
+Parce que le GEO se joue dans le code, les données structurées et les fichiers destinés aux IA, pas seulement dans des mots-clés et des liens. Mathieu est développeur freelance : il construit lui-même apps IA, automatisations et CRM sur-mesure, et applique cette même rigueur technique à la visibilité IA de votre site. Vous avez un seul interlocuteur qui comprend ce qu'il modifie, là où une agence SEO classique s'arrête souvent au référencement traditionnel.
 
 
 

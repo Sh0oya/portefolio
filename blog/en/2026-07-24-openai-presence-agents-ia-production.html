@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+      gtag('set', 'ads_data_redaction', true);
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>OpenAI Presence: AI Agents Move Into Production &middot; Mathieu Haye Journal</title>
+    <meta name="description" content="OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.">
+    <meta name="keywords" content="OpenAI Presence, AI agents, enterprise AI agent, AI agent deployment, AI customer support, HubSpot Breeze, Prospecting Agent, AI guardrails, Codex, SME automation, Mathieu Haye, freelance developer, AI apps, automations, custom CRM">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="OpenAI Presence: AI Agents Move Into Production">
+    <meta property="og:description" content="OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="article:published_time" content="2026-07-24T08:00:00+02:00">
+    <meta property="article:author" content="Mathieu Haye">
+    <meta property="article:section" content="Applied AI">
+    <meta property="article:tag" content="AI agents">
+    <meta property="article:tag" content="OpenAI">
+    <meta property="article:tag" content="Customer support">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OpenAI Presence: AI Agents Move Into Production">
+    <meta name="twitter:description" content="OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover-en.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../../style.css?v=108">
+
+    <!-- JSON-LD Article (GEO-enriched: speakable, wordCount, isPartOf, mentions) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production#article",
+      "headline": "OpenAI Presence: AI Agents Move Into Production",
+      "description": "OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.",
+      "image": "https://mathieuhaye.fr/assets/img/og-cover-en.jpg",
+      "datePublished": "2026-07-24T08:00:00+02:00",
+      "dateModified": "2026-07-24T08:00:00+02:00",
+      "wordCount": 1206,
+      "author": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/",
+        "jobTitle": "Consultant IA &amp; automatisation, AI apps, automation and custom CRM",
+        "sameAs": ["https://www.linkedin.com/in/mathieu-haye/"]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/"
+      },
+      "mainEntityOfPage": "https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://mathieuhaye.fr/blog/#blog",
+        "name": "Mathieu Haye Journal",
+        "url": "https://mathieuhaye.fr/blog/en/"
+      },
+      "inLanguage": "en",
+      "articleSection": "Applied AI",
+      "keywords": "OpenAI Presence, AI agents, enterprise AI agent, AI agent deployment, AI customer support, HubSpot Breeze, Prospecting Agent, AI guardrails, Codex, SME automation",
+      "about": [{"@type":"Organization","name":"OpenAI"}, {"@type":"SoftwareApplication","name":"OpenAI Presence"}, {"@type":"Organization","name":"HubSpot"}, {"@type":"Thing","name":"AI agents"}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-lead", ".article-body h2"]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD BreadcrumbList (GEO: entity grounding) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mathieuhaye.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/en/" },
+        { "@type": "ListItem", "position": 3, "name": "OpenAI Presence: AI Agents Move Into Production", "item": "https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    { "@context":"https://schema.org", "@type":"FAQPage", "inLanguage":"en", "mainEntity":[
+      {"@type":"Question","name":"What is OpenAI Presence?","acceptedAnswer":{"@type":"Answer","text":"Presence is an enterprise platform launched by OpenAI on July 22, 2026 to deploy voice and chat AI agents connected to internal company systems. It bundles policies, guardrails, approved actions, simulations and evaluation tools. It is reserved for large enterprise customers, with no self-serve option."}},
+      {"@type":"Question","name":"Can a small or mid-sized company use OpenAI Presence?","acceptedAnswer":{"@type":"Answer","text":"Not at this stage. Presence is in limited general availability and every deployment is led by OpenAI engineers or partner systems integrators. The platform's principles, however, a written scope, approved actions, human escalation and continuous evaluation, transfer well to an agent built at SME scale."}},
+      {"@type":"Question","name":"Do AI agents replace human support?","acceptedAnswer":{"@type":"Answer","text":"No. The figure OpenAI highlights is 75% autonomous resolution on its own support line; the remaining quarter is handed off to human operators. A well-designed agent is judged as much by what it escalates as by what it resolves on its own."}}
+    ]}
+    </script>
+
+</head>
+<body class="launch-done article-page">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+    <script>try { localStorage.setItem('lang', 'en'); } catch(e) {}</script>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Back to portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/2026-07-24-openai-presence-agents-ia-production" class="lang-btn" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/2026-07-24-openai-presence-agents-ia-production" class="lang-btn active" data-lang="en">EN</a>
+                </div>
+                <a href="/blog/en/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">All articles</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="article-hero">
+        <div class="article-hero-inner">
+            <a href="/blog/en/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            All articles
+        </a>
+
+        <div class="article-meta-top">
+            <span class="article-category">Applied AI</span>
+            <span>&middot;</span>
+            <time datetime="2026-07-24T08:00:00+02:00">July 24, 2026</time>
+            <span>&middot;</span>
+            <span>5 min read</span>
+        </div>
+
+        <h1 class="article-title">OpenAI Presence: <em>AI agents</em> move into production</h1>
+
+        <p class="article-lead">OpenAI is no longer just selling models: with Presence, it sells the deployment of AI agents into production, engineers included. Small and mid-sized companies will not get access, yet they are directly concerned.</p>
+        </div>
+    </header>
+
+    <main class="article-wrap">
+
+        <article class="article-body">
+            <p><strong>TL;DR:</strong> On July 22, 2026, OpenAI launched Presence, a platform that deploys AI support and sales agents connected to the internal systems of large enterprises; on its own phone support line, OpenAI's agent resolves 75% of inbound calls without human intervention.</p>
+
+            <p>The announcement flew somewhat under the radar of mainstream media, yet it is one of the most structural of the summer. It tells you where the market is going: AI agents are leaving the demo stage and entering operations, with rules, guardrails and a human at the end of the chain.</p>
+
+            <h2>Key takeaways</h2>
+            <ul>
+                <li>Presence, launched on July 22, 2026, bundles internal policies, guardrails, approved actions, simulations and evaluation tools to run AI agents in production.</li>
+                <li>On OpenAI's English-language support line, the agent resolves 75% of calls without a human and cut handoffs to an operator by 15 percentage points in 10 days.</li>
+                <li>Presence is not self-serve: every deployment is led by OpenAI engineers or partner integrators, for large accounts such as BBVA, SoftBank and the insurer IAG.</li>
+                <li>The same week, HubSpot opened its Prospecting Agent to every paid customer: AI agents are landing in the tools SMEs already use, no dedicated project required.</li>
+            </ul>
+
+            <h2>What OpenAI announced</h2>
+            <p>On July 22, 2026, OpenAI unveiled Presence, an enterprise platform for deploying voice and chat AI agents on operational tasks: customer support, outbound sales development, procurement, IT services and HR. According to <a href="https://www.helpnetsecurity.com/2026/07/22/openai-presence-ai-agent-platform/" target="_blank" rel="noopener">Help Net Security</a>, Presence is not a new model but a deployment platform: it assembles internal policies and procedures, guardrails able to interrupt an interaction that drifts outside the company's boundaries, approved actions, test simulations and evaluation tools, plus a continuous improvement loop powered by Codex, OpenAI's software engineering system.</p>
+            <p>The proof comes from OpenAI itself: its English-language phone support line runs on Presence and resolves 75% of inbound calls without human intervention. According to <a href="https://mpost.io/openai-debuts-presence-an-enterprise-platform-for-mission-critical-ai-agents/" target="_blank" rel="noopener">Metaverse Post</a>, handoffs to a human operator dropped by 15 percentage points within 10 days thanks to that improvement loop. The first named customers are the bank BBVA in Mexico, Japanese carrier SoftBank and Australian insurer IAG, which is evaluating it to absorb call spikes during severe weather events.</p>
+            <p>The detail that matters: Presence is not self-serve. The platform is in limited general availability, reserved for enterprise customers, and every deployment is led by OpenAI's Forward Deployed Engineers or selected systems integrators. OpenAI is selling field engineering, not a checkbox in a subscription.</p>
+
+            <h2>Why sell a platform rather than a model?</h2>
+            <p>Because a model alone is not enough to put an agent into production. That is the implicit admission in this announcement, and it is a valuable one. Everything Presence packages for large accounts is exactly what demos lack: written procedures the agent must follow, a closed list of actions it is allowed to execute, guardrails that cut the conversation when it leaves the perimeter, simulations before going live, and continuous evaluation after.</p>
+            <p>The choice of assisted deployment confirms the diagnosis. If plugging an agent into a company's systems were simple, OpenAI would sell it self-serve, like ChatGPT. The company with the strongest incentive in the world to show that "AI deploys itself" is sending engineers on site. The hard work is not the model; it is the meeting point between the model and an organization's real processes: its data, its business rules, its edge cases.</p>
+            <p>The movement goes beyond OpenAI. Research firm Gartner projects that 40% of enterprise applications will embed agents by the end of 2026, up from less than 5% in 2025. The question is no longer whether agents are coming to business software, but under what conditions they are reliable.</p>
+
+            <h2>What does this change for a small or mid-sized company?</h2>
+            <p>Directly, nothing: a 30-person company will not sign a Presence contract with OpenAI engineers. Indirectly, a lot, for three reasons.</p>
+            <p>First, agents are arriving in the tools SMEs already use. The same week, HubSpot opened its Prospecting Agent to all paid customers and pushed its Breeze assistant into contact search and meeting preparation, according to the <a href="https://vantagepoint.io/blog/hs/hubspot-july-2026-product-updates" target="_blank" rel="noopener">July 2026 product update recap</a>. A company running a mainstream CRM will have AI agents in its daily workflow within months, whether it decided to or not. Better to configure them deliberately than to endure them.</p>
+            <p>Second, the Presence method is transferable even if the platform is not. A scope written down in black and white, a closed list of authorized actions, a handoff to a human as soon as a case leaves the perimeter, regular review of conversations: these principles apply to an agent built with an off-the-shelf model and an orchestration tool such as n8n, at a cost that has nothing in common with an enterprise contract. That is the difference between an agent that answers the phone and a chatbot that improvises.</p>
+            <p>Third, the figure to remember is not 75%; it is the remaining quarter. OpenAI openly accepts that its agent hands one call in four to a human. For an SME, that is the right target: an agent that handles repetitive requests and passes the baton cleanly on the rest. A vendor promising 100% autonomy on customer service is selling something other than engineering.</p>
+
+            <h2>What I take from this in the field</h2>
+            <p>I build agents and automations for SMEs, and this announcement validates an approach rather than a technology. IA Brew, the newsletter I automated with 93 n8n nodes, runs on its own every day because each step has a bounded scope and checkpoints; the <a href="/en/chat-with-my-ai">Chat with my AI</a> page on this site answers from a closed corpus, with explicit limits on what it does not know. None of these systems needs an enterprise-contract platform: they need clear rules and honest supervision.</p>
+            <p>That is exactly the job of an <a href="/en/ai-agent-developer">AI agent developer</a> at SME scale: defining what the agent is allowed to do, wiring it into the company's real tools, and organizing the handoff to a human. The model part has become the easy part.</p>
+
+            <h2>Frequently asked questions</h2>
+            <h3>What is OpenAI Presence?</h3>
+            <p>Presence is an enterprise platform launched by OpenAI on July 22, 2026 to deploy voice and chat AI agents connected to internal company systems. It bundles policies, guardrails, approved actions, simulations and evaluation tools. It is reserved for large enterprise customers, with no self-serve option.</p>
+            <h3>Can a small or mid-sized company use OpenAI Presence?</h3>
+            <p>Not at this stage. Presence is in limited general availability and every deployment is led by OpenAI engineers or partner systems integrators. The platform's principles, however, a written scope, approved actions, human escalation and continuous evaluation, transfer well to an agent built at SME scale.</p>
+            <h3>Do AI agents replace human support?</h3>
+            <p>No. The figure OpenAI highlights is 75% autonomous resolution on its own support line; the remaining quarter is handed off to human operators. A well-designed agent is judged as much by what it escalates as by what it resolves on its own.</p>
+
+            <hr>
+            <p>The real news of July 22 is not that OpenAI can build agents. It is that OpenAI believes making them work in production is worth a service contract with dedicated engineers. When the sector's leader puts that price on deployment, the useful question for a business owner is not "which AI tool should I pick" but "who will make that tool hold up inside my processes".</p>
+        </article>
+
+        <footer class="article-footer">
+            <div class="article-footer-author">
+                <img src="/assets/img/logo-mh.svg" alt="Mathieu Haye" width="60" height="60">
+                <div class="author-info">
+                    <div class="author-name">Mathieu <em>Haye.</em></div>
+                    <div class="author-bio">Freelance consultant and developer in CRM, automation and applied AI. I help SMEs replace manual processes with custom software.</div>
+                    <div class="author-links">
+                        <a href="/">Portfolio</a>
+                        <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:contact@mathieuhaye.fr">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-nav">
+                <a href="/blog/en/">&larr; All articles</a>
+                <a href="/">Full portfolio &rarr;</a>
+            </div>
+        </footer>
+
+        <!-- Conversion block (v4) -->
+
+    </main>
+
+    <section class="final-cta article-conversion">
+            <div class="section-container">
+                <div class="final-cta-card">
+                    <h2 class="final-cta-title">A CRM, AI or automation project?</h2>
+                    <p class="final-cta-lead">I design and ship these systems for SMEs and scale-ups, from scoping to production. Free 30-min scoping call.</p>
+                    <div class="final-cta-actions">
+                        <a class="btn btn-primary" href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener">Book a call</a>
+                        <a class="btn btn-ghost" href="/en/collaboration">See the offers</a>
+                        <a class="btn btn-ghost" href="/en/ai-agent-developer">AI agent developer &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<section class="explore-next" aria-label="Explore next">
+    <span class="section-eyebrow">Explore next</span>
+    <div class="explore-grid">
+        <a class="explore-card" href="/blog/en/">All articles <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/en/chat-with-my-ai">Chat with my AI <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/en/custom-crm">Custom CRM <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/en/collaboration">Offers &amp; collaboration <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+</section>
+
+<!-- ============ FOOTER v4 (EN, interior pages — static text) ============ -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>AI &amp; automation consultant &middot; CRM, AI agents &amp; business applications &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>Book a call</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/en/ai-agent-developer">AI agent developer</a></li>
+                    <li><a href="/en/n8n-automation">n8n automation</a></li>
+                    <li><a href="/en/custom-crm">Custom CRM</a></li>
+                    <li><a href="/en/custom-web-app">Custom app &amp; MVP</a></li>
+                    <li><a href="/en/ai-agent-for-smes">AI agent for SMEs</a></li>
+                    <li><a href="/en/ai-freelance">AI freelance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Explore</div>
+                <ul>
+                    <li><a href="/en/projects">Projects</a></li>
+                    <li><a href="/en/collaboration">Offers &amp; collaboration</a></li>
+                    <li><a href="/en/ai-maturity">AI maturity test</a></li>
+                    <li><a href="/en/ai-visibility">Visible by AI?</a></li>
+                    <li><a href="/blog/en/">Journal</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Get in touch</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Currently</div>
+                <ul>
+                    <li>Freelance consultant</li>
+                    <li>Bloomberg BMC certified</li>
+                    <li>Available for projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. All rights reserved.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Privacy</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Back to top">
+                    <span>Back to top</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script defer src="/ui.js?v=108"></script>
+</body>
+</html>

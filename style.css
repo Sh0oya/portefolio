@@ -5015,3 +5015,9 @@ body.page-projects .final-cta-lead { color: var(--olive-dim); }
     .article-hero { padding: calc(var(--nav-height) + 30px) 0 40px; }
     .article-page .article-wrap { padding-top: 40px; }
 }
+
+
+/* ---------- Realisations : grille 2 cartes + apercu statique (creation de site) ---------- */
+.embed-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.embed-shot { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+@media (max-width: 760px) { .embed-grid { grid-template-columns: 1fr; } }

@@ -51,7 +51,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../style.css?v=107">
+    <link rel="stylesheet" href="../style.css?v=108">
 
     <!-- JSON-LD -->
     <script type="application/ld+json">
@@ -275,20 +275,34 @@
 <section class="realisation">
     <div class="section-container">
         <div class="method-head" data-reveal>
-            <span class="section-eyebrow">Case study</span>
-            <h2 class="method-title">A live example: <span class="hero-accent">Racines Investissements</span>.</h2>
-            <p class="method-lead">A WordPress rebuild for an investment advisory firm. The site runs below, live; click the preview to see how it was built.</p>
+            <span class="section-eyebrow">Case studies</span>
+            <h2 class="method-title">Two sites already <span class="hero-accent">live</span>.</h2>
+            <p class="method-lead">A client rebuild and a product designed end to end. Click a preview to see how it was built.</p>
         </div>
-        <div class="embed-card" data-reveal>
-            <div class="embed-chrome" aria-hidden="true">
-                <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
-                <span class="embed-url">racinesinvestissements.com</span>
+        <div class="embed-grid">
+            <div class="embed-card" data-reveal>
+                <div class="embed-chrome" aria-hidden="true">
+                    <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
+                    <span class="embed-url">racinesinvestissements.com</span>
+                </div>
+                <div class="embed-frame">
+                    <iframe src="https://www.racinesinvestissements.com/" title="Preview of the Racines Investissements website" loading="lazy" referrerpolicy="no-referrer"></iframe>
+                    <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-racines">
+                        <span class="embed-hint">See how it was built &rarr;</span>
+                    </button>
+                </div>
             </div>
-            <div class="embed-frame">
-                <iframe src="https://www.racinesinvestissements.com/" title="Preview of the Racines Investissements website" loading="lazy" referrerpolicy="no-referrer"></iframe>
-                <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-racines">
-                    <span class="embed-hint">See how it was built &rarr;</span>
-                </button>
+            <div class="embed-card" data-reveal>
+                <div class="embed-chrome" aria-hidden="true">
+                    <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
+                    <span class="embed-url">dougg.fr</span>
+                </div>
+                <div class="embed-frame">
+                    <img class="embed-shot" src="/assets/img/realisations/dougg-og.jpg" alt="Preview of the Dougg website" loading="lazy" width="1200" height="630">
+                    <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-dougg">
+                        <span class="embed-hint">See how it was built &rarr;</span>
+                    </button>
+                </div>
             </div>
         </div>
         <dialog class="embed-dialog" id="dlg-racines" aria-labelledby="dlg-racines-title">
@@ -296,13 +310,27 @@
             <span class="section-eyebrow">Racines Investissements</span>
             <h3 id="dlg-racines-title">A redesign validated in mockups before touching the live site.</h3>
             <ol class="embed-steps">
-                    <li><strong>AI-built mockups</strong> to validate the design page by page, fast and at low cost, before changing anything on the live site.</li>
-                    <li><strong>Rebuild of the existing WordPress</strong>, matched to the approved design: same tool, new experience.</li>
-                    <li><strong>WordPress training for the team</strong>: routine updates are handled in-house, without depending on me.</li>
+                <li><strong>AI-built mockups</strong> to validate the design page by page, fast and at low cost, before changing anything on the live site.</li>
+                <li><strong>Rebuild of the existing WordPress</strong>, matched to the approved design: same tool, new experience.</li>
+                <li><strong>WordPress training for the team</strong>: routine updates are handled in-house, without depending on me.</li>
             </ol>
             <div class="embed-actions">
                 <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-primary"><span>Book a call</span></a>
                 <a href="https://www.racinesinvestissements.com/" target="_blank" rel="noopener" class="btn btn-ghost"><span>Visit the site</span></a>
+            </div>
+        </dialog>
+        <dialog class="embed-dialog" id="dlg-dougg" aria-labelledby="dlg-dougg-title">
+            <button type="button" class="embed-close" aria-label="Close">&times;</button>
+            <span class="section-eyebrow">Dougg</span>
+            <h3 id="dlg-dougg-title">A whole product, from concept to a live site.</h3>
+            <ol class="embed-steps">
+                <li><strong>A product designed end to end</strong>: Dougg matches shelter animals with the right person, from the concept through to the app and the website.</li>
+                <li><strong>Art direction and marketing site</strong>: I defined the visual world and built the site that presents the product and turns visitors into users.</li>
+                <li><strong>Consistent across the whole ecosystem</strong>: same identity and logic across the site, the iOS app and the shelter workspace.</li>
+            </ol>
+            <div class="embed-actions">
+                <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-primary"><span>Book a call</span></a>
+                <a href="https://dougg.fr/" target="_blank" rel="noopener" class="btn btn-ghost"><span>Visit the site</span></a>
             </div>
         </dialog>
     </div>
@@ -580,6 +608,6 @@
 })();
 </script>
 
-<script defer src="/ui.js?v=107"></script>
+<script defer src="/ui.js?v=108"></script>
 </body>
 </html>

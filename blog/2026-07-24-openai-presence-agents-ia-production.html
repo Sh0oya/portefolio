@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKK7XP89VW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+      gtag('set', 'ads_data_redaction', true);
+      gtag('js', new Date());
+      gtag('config', 'G-RKK7XP89VW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F3F1EA">
+
+    <title>OpenAI Presence : les agents IA passent en production &middot; Blog Mathieu Haye</title>
+    <meta name="description" content="OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.">
+    <meta name="keywords" content="OpenAI Presence, agents IA, agent IA entreprise, déploiement agent IA, support client IA, HubSpot Breeze, Prospecting Agent, garde-fous IA, Codex, automatisation PME, Mathieu Haye, développeur freelance, apps IA, automatisations, CRM sur-mesure">
+    <meta name="author" content="Mathieu Haye">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <link rel="canonical" href="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="fr" href="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="en" href="https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production">
+    <link rel="alternate" hreflang="x-default" href="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mathieu Haye">
+    <meta property="og:title" content="OpenAI Presence : les agents IA passent en production">
+    <meta property="og:description" content="OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.">
+    <meta property="og:url" content="https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production">
+    <meta property="og:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="article:published_time" content="2026-07-24T08:00:00+02:00">
+    <meta property="article:author" content="Mathieu Haye">
+    <meta property="article:section" content="IA appliquée">
+    <meta property="article:tag" content="Agents IA">
+    <meta property="article:tag" content="OpenAI">
+    <meta property="article:tag" content="Support client">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OpenAI Presence : les agents IA passent en production">
+    <meta name="twitter:description" content="OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.">
+    <meta name="twitter:image" content="https://mathieuhaye.fr/assets/img/og-cover.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../style.css?v=108">
+
+    <!-- JSON-LD Article (GEO-enriched: speakable, wordCount, isPartOf, mentions) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production#article",
+      "headline": "OpenAI Presence : les agents IA passent en production",
+      "description": "OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.",
+      "image": "https://mathieuhaye.fr/assets/img/og-cover.jpg",
+      "datePublished": "2026-07-24T08:00:00+02:00",
+      "dateModified": "2026-07-24T08:00:00+02:00",
+      "wordCount": 1279,
+      "author": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/",
+        "jobTitle": "Consultant IA &amp; automatisation, apps IA, automatisations et CRM sur-mesure",
+        "sameAs": ["https://www.linkedin.com/in/mathieu-haye/"]
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathieu Haye",
+        "url": "https://mathieuhaye.fr/"
+      },
+      "mainEntityOfPage": "https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://mathieuhaye.fr/blog/#blog",
+        "name": "Mathieu Haye Journal",
+        "url": "https://mathieuhaye.fr/blog/"
+      },
+      "inLanguage": "fr",
+      "articleSection": "IA appliquée",
+      "keywords": "OpenAI Presence, agents IA, agent IA entreprise, déploiement agent IA, support client IA, HubSpot Breeze, Prospecting Agent, garde-fous IA, Codex, automatisation PME",
+      "about": [{"@type":"Organization","name":"OpenAI"}, {"@type":"SoftwareApplication","name":"OpenAI Presence"}, {"@type":"Organization","name":"HubSpot"}, {"@type":"Thing","name":"Agents IA"}],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-lead", ".article-body h2"]
+      }
+    }
+    </script>
+
+    <!-- JSON-LD BreadcrumbList (GEO: entity grounding) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://mathieuhaye.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://mathieuhaye.fr/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "OpenAI Presence : les agents IA passent en production", "item": "https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    { "@context":"https://schema.org", "@type":"FAQPage", "inLanguage":"fr", "mainEntity":[
+      {"@type":"Question","name":"Qu'est-ce qu'OpenAI Presence ?","acceptedAnswer":{"@type":"Answer","text":"Presence est une plateforme d'entreprise lancée par OpenAI le 22 juillet 2026 pour déployer des agents IA vocaux et écrits connectés aux systèmes internes. Elle regroupe politiques, garde-fous, actions approuvées, simulations et évaluations. Elle est réservée aux grands comptes, sans libre-service."}},
+      {"@type":"Question","name":"Une PME peut-elle utiliser OpenAI Presence ?","acceptedAnswer":{"@type":"Answer","text":"Pas à ce stade. Presence est en disponibilité générale limitée et chaque déploiement est mené par des ingénieurs OpenAI ou des intégrateurs partenaires. En revanche, les principes de la plateforme, périmètre écrit, actions approuvées, escalade humaine et évaluation continue, se transposent à un agent construit à l'échelle d'une PME."}},
+      {"@type":"Question","name":"Les agents IA remplacent-ils le support humain ?","acceptedAnswer":{"@type":"Answer","text":"Non. Le chiffre mis en avant par OpenAI est 75 % de résolution autonome sur sa propre ligne de support ; le quart restant est transféré à des opérateurs humains. Un agent bien conçu se juge autant à ce qu'il sait transférer qu'à ce qu'il résout seul."}}
+    ]}
+    </script>
+
+</head>
+<body class="launch-done article-page">
+
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+    <script>try { localStorage.setItem('lang', 'fr'); } catch(e) {}</script>
+
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Retour au portfolio">
+                <span class="nav-logo-wordmark">mathieu <em>haye.</em></span>
+            </a>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <a href="/blog/2026-07-24-openai-presence-agents-ia-production" class="lang-btn active" data-lang="fr">FR</a>
+                    <span class="lang-sep" aria-hidden="true">/</span>
+                    <a href="/blog/en/2026-07-24-openai-presence-agents-ia-production" class="lang-btn" data-lang="en">EN</a>
+                </div>
+                <a href="/blog/" class="menu-toggle" style="text-decoration:none">
+                    <span class="menu-toggle-label">Tous les articles</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="article-hero">
+        <div class="article-hero-inner">
+            <a href="/blog/" class="back-home">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            Tous les articles
+        </a>
+
+        <div class="article-meta-top">
+            <span class="article-category">IA appliquée</span>
+            <span>&middot;</span>
+            <time datetime="2026-07-24T08:00:00+02:00">24 juillet 2026</time>
+            <span>&middot;</span>
+            <span>6 min de lecture</span>
+        </div>
+
+        <h1 class="article-title">OpenAI Presence : les <em>agents IA</em> passent en production</h1>
+
+        <p class="article-lead">OpenAI ne vend plus seulement des modèles : avec Presence, l'entreprise vend le déploiement d'agents IA en production, ingénieurs inclus. Les PME n'y auront pas accès, mais elles sont directement concernées.</p>
+        </div>
+    </header>
+
+    <main class="article-wrap">
+
+        <article class="article-body">
+            <p><strong>TL;DR :</strong> OpenAI a lancé le 22 juillet 2026 Presence, une plateforme qui déploie des agents IA de support et de vente connectés aux systèmes internes des grandes entreprises ; sur sa propre ligne de support téléphonique, l'agent d'OpenAI résout 75 % des appels entrants sans intervention humaine.</p>
+
+            <p>L'annonce est passée un peu sous les radars des médias généralistes, et c'est pourtant l'une des plus structurantes de l'été. Elle dit où va le marché : les agents IA quittent la démo pour entrer dans les opérations, avec des règles, des garde-fous et un humain en bout de chaîne.</p>
+
+            <h2>L'essentiel en 30 secondes</h2>
+            <ul>
+                <li>Presence, lancée le 22 juillet 2026, regroupe politiques internes, garde-fous, actions approuvées, simulations et outils d'évaluation pour faire tourner des agents IA en production.</li>
+                <li>Sur la ligne de support anglophone d'OpenAI, l'agent résout 75 % des appels sans humain et a réduit les transferts vers un opérateur de 15 points en 10 jours.</li>
+                <li>Presence n'est pas en libre-service : chaque déploiement est mené par des ingénieurs OpenAI ou des intégrateurs partenaires, pour des grands comptes comme BBVA, SoftBank ou l'assureur IAG.</li>
+                <li>Au même moment, HubSpot ouvre son Prospecting Agent à tous ses clients payants : les agents IA arrivent dans les outils des PME, sans projet dédié.</li>
+            </ul>
+
+            <h2>Ce qu'OpenAI a annoncé</h2>
+            <p>Le 22 juillet 2026, OpenAI a présenté Presence, une plateforme d'entreprise pour déployer des agents IA vocaux et écrits sur des tâches opérationnelles : support client, prospection sortante, achats, services informatiques, ressources humaines. Selon <a href="https://www.helpnetsecurity.com/2026/07/22/openai-presence-ai-agent-platform/" target="_blank" rel="noopener">Help Net Security</a>, Presence n'est pas un nouveau modèle mais une plateforme de déploiement : elle assemble politiques et procédures internes, garde-fous capables d'interrompre une interaction qui sort du cadre, actions approuvées, simulations de test et outils d'évaluation, plus une boucle d'amélioration continue pilotée par Codex, le système d'ingénierie logicielle d'OpenAI.</p>
+            <p>La preuve par l'usage vient d'OpenAI elle-même : sa ligne de support téléphonique anglophone tourne sur Presence et résout 75 % des appels entrants sans intervention humaine. D'après <a href="https://mpost.io/openai-debuts-presence-an-enterprise-platform-for-mission-critical-ai-agents/" target="_blank" rel="noopener">Metaverse Post</a>, les transferts vers un opérateur humain ont baissé de 15 points en 10 jours grâce à cette boucle d'amélioration. Les premiers clients cités sont la banque BBVA au Mexique, l'opérateur japonais SoftBank et l'assureur australien IAG, qui l'évalue pour absorber les pics d'appels lors d'événements climatiques.</p>
+            <p>Le détail qui compte : Presence n'est pas en libre-service. La plateforme est en disponibilité générale limitée, réservée aux clients entreprise, et chaque déploiement est mené par des « Forward Deployed Engineers » d'OpenAI ou des intégrateurs sélectionnés. OpenAI vend de l'ingénierie de terrain, pas une case à cocher dans un abonnement.</p>
+
+            <h2>Pourquoi vendre une plateforme plutôt qu'un modèle ?</h2>
+            <p>Parce qu'un modèle seul ne suffit pas à mettre un agent en production. C'est l'aveu implicite de cette annonce, et il est précieux. Tout ce que Presence packagera pour les grands comptes, ce sont les éléments qui manquent aux démos : des procédures écrites que l'agent doit suivre, une liste fermée d'actions qu'il a le droit d'exécuter, des garde-fous qui coupent la conversation quand elle sort du périmètre, des simulations avant la mise en ligne, et une évaluation continue après.</p>
+            <p>Le choix du déploiement accompagné confirme le diagnostic. Si brancher un agent sur les systèmes d'une entreprise était simple, OpenAI le vendrait en self-service, comme ChatGPT. L'entreprise qui a le plus intérêt au monde à démontrer que « l'IA se déploie toute seule » envoie des ingénieurs sur le terrain. Le travail difficile n'est pas le modèle ; c'est la rencontre entre le modèle et les processus réels d'une organisation : ses données, ses règles métier, ses cas limites.</p>
+            <p>Ce mouvement dépasse OpenAI. Le cabinet Gartner projette que 40 % des applications d'entreprise embarqueront des agents d'ici fin 2026, contre moins de 5 % en 2025. La question n'est plus de savoir si les agents arrivent dans les logiciels de gestion, mais dans quelles conditions ils sont fiables.</p>
+
+            <h2>Qu'est-ce que ça change pour une PME française ?</h2>
+            <p>Directement, rien : une PME de 30 salariés ne signera pas un contrat Presence avec des ingénieurs OpenAI. Indirectement, beaucoup, pour trois raisons.</p>
+            <p>D'abord, les agents arrivent dans les outils que les PME utilisent déjà. La même semaine, HubSpot a ouvert son Prospecting Agent à tous ses clients payants et a poussé son assistant Breeze dans la recherche de contacts et la préparation de réunions, selon le <a href="https://vantagepoint.io/blog/hs/hubspot-july-2026-product-updates" target="_blank" rel="noopener">récapitulatif des mises à jour de juillet 2026</a>. Une PME équipée d'un CRM du marché aura des agents IA dans son quotidien d'ici quelques mois, qu'elle l'ait décidé ou non. Autant les configurer volontairement plutôt que les subir.</p>
+            <p>Ensuite, la méthode Presence est transposable, même si la plateforme ne l'est pas. Périmètre écrit noir sur blanc, liste fermée d'actions autorisées, transfert à un humain dès que le cas sort du cadre, relecture régulière des conversations : ces principes valent pour un agent construit avec un modèle du marché et un outil d'orchestration comme n8n, à un coût sans rapport avec un contrat grand compte. C'est la différence entre un agent qui répond au téléphone et un chatbot qui improvise.</p>
+            <p>Enfin, le chiffre à retenir n'est pas 75 %, c'est le quart restant. OpenAI assume que son agent transfère un appel sur quatre à un humain. Pour une PME, c'est la bonne cible : un agent qui traite les demandes répétitives et passe la main proprement sur le reste. Un prestataire qui promet 100 % d'autonomie sur le service client vend autre chose que de l'ingénierie.</p>
+
+            <h2>Ce que j'en retiens sur le terrain</h2>
+            <p>Je construis des agents et des automatisations pour des PME, et cette annonce valide une approche plutôt qu'une technologie. La newsletter IA Brew, que j'ai automatisée avec 93 nœuds n8n, tourne seule chaque jour parce que chaque étape a un périmètre borné et des points de contrôle ; la page <a href="/discuter-avec-mon-ia">Discuter avec mon IA</a> de ce site répond sur un corpus fermé, avec des limites explicites sur ce qu'elle ne sait pas. Aucun de ces systèmes n'a besoin d'une plateforme à contrat entreprise : ils ont besoin de règles claires et d'une supervision honnête.</p>
+            <p>C'est exactement le travail d'un <a href="/developpeur-agent-ia">développeur d'agents IA</a> à l'échelle d'une PME : définir ce que l'agent a le droit de faire, le brancher sur les vrais outils de l'entreprise, et organiser le passage de relais à l'humain. La partie modèle est devenue la partie facile.</p>
+
+            <h2>Questions fréquentes</h2>
+            <h3>Qu'est-ce qu'OpenAI Presence ?</h3>
+            <p>Presence est une plateforme d'entreprise lancée par OpenAI le 22 juillet 2026 pour déployer des agents IA vocaux et écrits connectés aux systèmes internes. Elle regroupe politiques, garde-fous, actions approuvées, simulations et évaluations. Elle est réservée aux grands comptes, sans libre-service.</p>
+            <h3>Une PME peut-elle utiliser OpenAI Presence ?</h3>
+            <p>Pas à ce stade. Presence est en disponibilité générale limitée et chaque déploiement est mené par des ingénieurs OpenAI ou des intégrateurs partenaires. En revanche, les principes de la plateforme, périmètre écrit, actions approuvées, escalade humaine et évaluation continue, se transposent à un agent construit à l'échelle d'une PME.</p>
+            <h3>Les agents IA remplacent-ils le support humain ?</h3>
+            <p>Non. Le chiffre mis en avant par OpenAI est 75 % de résolution autonome sur sa propre ligne de support ; le quart restant est transféré à des opérateurs humains. Un agent bien conçu se juge autant à ce qu'il sait transférer qu'à ce qu'il résout seul.</p>
+
+            <hr>
+            <p>La vraie annonce du 22 juillet n'est pas qu'OpenAI sait faire des agents. C'est qu'OpenAI estime que les faire fonctionner en production vaut un contrat de service avec des ingénieurs dédiés. Quand le leader du secteur met ce prix sur le déploiement, la question utile pour un dirigeant n'est pas « quel outil IA choisir », mais « qui va faire tenir cet outil dans mes processus ».</p>
+        </article>
+
+        <footer class="article-footer">
+            <div class="article-footer-author">
+                <img src="/assets/img/logo-mh.svg" alt="Mathieu Haye" width="60" height="60">
+                <div class="author-info">
+                    <div class="author-name">Mathieu <em>Haye.</em></div>
+                    <div class="author-bio">Consultant et développeur freelance en CRM, automatisation et IA appliquée. J’aide les PME à remplacer leurs process manuels par des logiciels sur mesure.</div>
+                    <div class="author-links">
+                        <a href="/">Portfolio</a>
+                        <a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:contact@mathieuhaye.fr">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-nav">
+                <a href="/blog/">&larr; Tous les articles</a>
+                <a href="/">Portfolio complet &rarr;</a>
+            </div>
+        </footer>
+
+        <!-- Bloc conversion (v4) : présent sur chaque article généré -->
+
+    </main>
+
+    <section class="final-cta article-conversion">
+            <div class="section-container">
+                <div class="final-cta-card">
+                    <h2 class="final-cta-title">Un projet CRM, IA ou automatisation&nbsp;?</h2>
+                    <p class="final-cta-lead">Je con&ccedil;ois et livre ce genre de syst&egrave;mes pour des PME et scale-ups, du cadrage &agrave; la production. Appel de cadrage 30&nbsp;min, gratuit.</p>
+                    <div class="final-cta-actions">
+                        <a class="btn btn-primary" href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener">R&eacute;server un appel</a>
+                        <a class="btn btn-ghost" href="/collaboration">Voir les offres</a>
+                        <a class="btn btn-ghost" href="/developpeur-agent-ia">D&eacute;veloppeur d&rsquo;agents IA &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Ambient orbs -->
+    <div style="position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0">
+        <div class="orb orb-violet" style="top:10%;right:-6%;width:280px;height:280px;animation-duration:24s"></div>
+        <div class="orb orb-blue" style="bottom:10%;left:-6%;width:240px;height:240px;animation-duration:20s;animation-delay:-5s"></div>
+        <div class="orb orb-cyan" style="top:55%;right:30%;width:140px;height:140px;animation-duration:18s;animation-delay:-9s"></div>
+    </div>
+
+<section class="explore-next" aria-label="À explorer ensuite">
+    <span class="section-eyebrow">À explorer ensuite</span>
+    <div class="explore-grid">
+        <a class="explore-card" href="/blog/">Tous les articles <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/discuter-avec-mon-ia">Discuter avec mon IA <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/crm-sur-mesure">CRM sur-mesure <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+        <a class="explore-card" href="/collaboration">Offres &amp; collaboration <span class="x-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+</section>
+
+<!-- ============ FOOTER v4 (FR, pages intérieures — texte statique) ============ -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-hero">
+            <div class="footer-wordmark" aria-hidden="true">mathieu <em>haye.</em></div>
+            <div class="footer-lead">
+                <span class="footer-badge-dot"></span>
+                <span>Consultant IA &amp; automatisation &middot; CRM, agents IA &amp; applications m&eacute;tier &middot; Paris</span>
+            </div>
+            <div class="footer-book">
+                <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-light">
+                    <span>R&eacute;server un appel</span>
+                    <svg class="btn-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-col-label">Services</div>
+                <ul>
+                    <li><a href="/developpeur-agent-ia">D&eacute;veloppeur d&rsquo;agents IA</a></li>
+                    <li><a href="/automatisation-n8n">Automatisation n8n</a></li>
+                    <li><a href="/crm-sur-mesure">CRM sur-mesure</a></li>
+                    <li><a href="/application-sur-mesure">Application &amp; MVP sur-mesure</a></li>
+                    <li><a href="/agent-ia-pme">Agent IA pour PME</a></li>
+                    <li><a href="/freelance-ia">Freelance IA</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Naviguer</div>
+                <ul>
+                    <li><a href="/projets">Projets</a></li>
+                    <li><a href="/collaboration">Offres &amp; collaboration</a></li>
+                    <li><a href="/maturite-ia">Test maturit&eacute; IA</a></li>
+                    <li><a href="/visible-par-les-ia">Visible par les IA ?</a></li>
+                    <li><a href="/blog/">Journal</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Me joindre</div>
+                <ul>
+                    <li><a href="mailto:contact@mathieuhaye.fr">contact@mathieuhaye.fr</a></li>
+                    <li><a href="tel:+33661513289">+33 6 61 51 32 89</a></li>
+                    <li><a href="https://www.linkedin.com/in/mathieu-haye/" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
+                    <li><a href="https://www.malt.fr/profile/mathieuhaye" target="_blank" rel="noopener">Malt &rarr;</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-label">Actuellement</div>
+                <ul>
+                    <li>Consultant freelance</li>
+                    <li>Bloomberg BMC certifi&eacute;</li>
+                    <li>Disponible pour missions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>&copy; 2026 Mathieu Haye. Tous droits r&eacute;serv&eacute;s.</div>
+            <div class="footer-legal">
+                <a href="/confidentialite">Confidentialit&eacute;</a>
+                <a href="#" class="footer-top-link" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" aria-label="Retour en haut">
+                    <span>Retour en haut</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script defer src="/ui.js?v=108"></script>
+</body>
+</html>

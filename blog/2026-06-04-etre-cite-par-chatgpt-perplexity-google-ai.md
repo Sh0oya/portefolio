@@ -65,13 +65,13 @@ Le point important n'est pas de savoir lequel vous concerne, mais de comprendre 
 
 
 
-## Pourquoi confier ça à un freelance builder plutôt que d'essayer soi-même ?
+## Pourquoi confier ça à un développeur freelance plutôt que d'essayer soi-même ?
 
 
 
-Confier ce travail à un freelance builder fait gagner du temps et évite les angles morts, parce que la matière est technique, mouvante et facile à rater pour qui n'en fait pas son métier. En théorie, un dirigeant pourrait s'y plonger ; en pratique, le temps passé à apprendre des standards qui changent chaque trimestre est du temps volé à son activité, et la moindre couche oubliée annule l'effet des autres. Le risque n'est pas de tout casser, c'est de croire le sujet réglé alors qu'on reste invisible.
+Confier ce travail à un développeur freelance fait gagner du temps et évite les angles morts, parce que la matière est technique, mouvante et facile à rater pour qui n'en fait pas son métier. En théorie, un dirigeant pourrait s'y plonger ; en pratique, le temps passé à apprendre des standards qui changent chaque trimestre est du temps volé à son activité, et la moindre couche oubliée annule l'effet des autres. Le risque n'est pas de tout casser, c'est de croire le sujet réglé alors qu'on reste invisible.
 
-Mathieu Haye est freelance builder en applications IA, automatisations et systèmes sur-mesure. Il ne vend pas une prestation de SEO standard détachée du reste : il traite la visibilité dans les IA comme un problème d'ingénierie, du diagnostic jusqu'à la mise en place, sur votre site tel qu'il est construit. C'est cette double casquette, comprendre la technique du site et la logique des moteurs, qui fait la différence avec une approche purement marketing. Le sujet se règle de bout en bout, sans que vous ayez à devenir expert de quoi que ce soit.
+Mathieu Haye est développeur freelance en applications IA, automatisations et systèmes sur-mesure. Il ne vend pas une prestation de SEO standard détachée du reste : il traite la visibilité dans les IA comme un problème d'ingénierie, du diagnostic jusqu'à la mise en place, sur votre site tel qu'il est construit. C'est cette double casquette, comprendre la technique du site et la logique des moteurs, qui fait la différence avec une approche purement marketing. Le sujet se règle de bout en bout, sans que vous ayez à devenir expert de quoi que ce soit.
 
 La marche à suivre est simple de votre côté. D'abord, [testez gratuitement la visibilité IA de votre site](https://mathieuhaye.fr/visible-par-les-ia) pour voir où vous en êtes. Ensuite, si vous n'êtes pas cité, ou pas autant que vos concurrents, [parlez-en à Mathieu](https://mathieuhaye.fr/collaboration) : il prend le sujet en charge et vous rend une situation où l'IA peut vous citer. Vous gardez votre temps pour votre métier ; lui s'occupe d'être sûr que, la prochaine fois qu'un prospect pose la question, votre nom fasse partie de la réponse.
 
@@ -97,11 +97,11 @@ Il n'existe pas de délai garanti, car chaque moteur a son propre rythme. Perple
 
 
 
-### Pourquoi un freelance builder plutôt qu'une agence SEO classique ?
+### Pourquoi un développeur freelance plutôt qu'une agence SEO classique ?
 
 
 
-Parce qu'être cité par une IA est autant un problème d'ingénierie que de marketing, et qu'une agence SEO classique optimise surtout un classement de liens. Mathieu Haye est freelance builder : il comprend la technique de votre site et la logique des moteurs génératifs, et traite la visibilité IA de bout en bout plutôt que comme une option détachée. Un bon référencement reste utile, mais il ne garantit pas une citation dans une réponse rédigée.
+Parce qu'être cité par une IA est autant un problème d'ingénierie que de marketing, et qu'une agence SEO classique optimise surtout un classement de liens. Mathieu Haye est développeur freelance : il comprend la technique de votre site et la logique des moteurs génératifs, et traite la visibilité IA de bout en bout plutôt que comme une option détachée. Un bon référencement reste utile, mais il ne garantit pas une citation dans une réponse rédigée.
 
 
 

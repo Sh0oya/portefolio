@@ -13,6 +13,62 @@
   ],
   "items": [
     {
+      "id": "https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production",
+      "url": "https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production",
+      "title": "OpenAI Presence : les agents IA passent en production",
+      "summary": "OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.",
+      "date_published": "2026-07-24T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production",
+      "title": "OpenAI Presence: AI Agents Move Into Production",
+      "summary": "OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.",
+      "date_published": "2026-07-24T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/2026-07-23-combien-coute-crm-sur-mesure-2026",
+      "url": "https://mathieuhaye.fr/blog/2026-07-23-combien-coute-crm-sur-mesure-2026",
+      "title": "Combien coûte un CRM sur mesure en 2026 ?",
+      "summary": "Un CRM sur mesure coûte de 8 000 à 25 000 € pour une V1, 30 000-100 000 € pour remplacer un outil du marché en 2026. Tableaux, sources et quand ça vaut le coup.",
+      "date_published": "2026-07-23T08:00:00+02:00",
+      "language": "fr",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "Un CRM sur mesure coûte de 8 000 à 25 000 € pour une V1, 30 000-100 000 € pour remplacer un outil du marché en 2026. Tableaux, sources et quand ça vaut le coup."
+    },
+    {
+      "id": "https://mathieuhaye.fr/blog/en/2026-07-23-combien-coute-crm-sur-mesure-2026",
+      "url": "https://mathieuhaye.fr/blog/en/2026-07-23-combien-coute-crm-sur-mesure-2026",
+      "title": "How much does a custom CRM cost in 2026?",
+      "summary": "A custom CRM costs €8,000-€25,000 for a V1, €30,000-€100,000 to replace an off-the-shelf tool in 2026. Tables, sources and when it is worth it.",
+      "date_published": "2026-07-23T08:00:00+02:00",
+      "language": "en",
+      "authors": [
+        {
+          "name": "Mathieu Haye"
+        }
+      ],
+      "content_text": "A custom CRM costs €8,000-€25,000 for a V1, €30,000-€100,000 to replace an off-the-shelf tool in 2026. Tables, sources and when it is worth it."
+    },
+    {
       "id": "https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme",
       "url": "https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme",
       "title": "AI Act 2 août 2026 : ce qui s'applique à votre PME",

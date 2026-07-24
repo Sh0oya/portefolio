@@ -51,7 +51,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css?v=107">
+    <link rel="stylesheet" href="style.css?v=108">
 
     <!-- JSON-LD -->
     <script type="application/ld+json">
@@ -275,20 +275,34 @@
 <section class="realisation">
     <div class="section-container">
         <div class="method-head" data-reveal>
-            <span class="section-eyebrow">Réalisation</span>
-            <h2 class="method-title">Un exemple en ligne : <span class="hero-accent">Racines Investissements</span>.</h2>
-            <p class="method-lead">Refonte du site WordPress d'un cabinet de conseil en investissement. Le site tourne ci-dessous, en direct ; cliquez sur l'aperçu pour voir comment il a été construit.</p>
+            <span class="section-eyebrow">Réalisations</span>
+            <h2 class="method-title">Deux sites déjà <span class="hero-accent">en ligne</span>.</h2>
+            <p class="method-lead">Une refonte pour un client, un produit conçu de A à Z. Cliquez sur un aperçu pour voir comment il a été construit.</p>
         </div>
-        <div class="embed-card" data-reveal>
-            <div class="embed-chrome" aria-hidden="true">
-                <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
-                <span class="embed-url">racinesinvestissements.com</span>
+        <div class="embed-grid">
+            <div class="embed-card" data-reveal>
+                <div class="embed-chrome" aria-hidden="true">
+                    <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
+                    <span class="embed-url">racinesinvestissements.com</span>
+                </div>
+                <div class="embed-frame">
+                    <iframe src="https://www.racinesinvestissements.com/" title="Aperçu du site Racines Investissements" loading="lazy" referrerpolicy="no-referrer"></iframe>
+                    <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-racines">
+                        <span class="embed-hint">Voir comment c'est fait &rarr;</span>
+                    </button>
+                </div>
             </div>
-            <div class="embed-frame">
-                <iframe src="https://www.racinesinvestissements.com/" title="Aperçu du site Racines Investissements" loading="lazy" referrerpolicy="no-referrer"></iframe>
-                <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-racines">
-                    <span class="embed-hint">Voir comment c'est fait &rarr;</span>
-                </button>
+            <div class="embed-card" data-reveal>
+                <div class="embed-chrome" aria-hidden="true">
+                    <span class="embed-dot"></span><span class="embed-dot"></span><span class="embed-dot"></span>
+                    <span class="embed-url">dougg.fr</span>
+                </div>
+                <div class="embed-frame">
+                    <img class="embed-shot" src="/assets/img/realisations/dougg-og.jpg" alt="Aperçu du site Dougg" loading="lazy" width="1200" height="630">
+                    <button type="button" class="embed-hit" aria-haspopup="dialog" aria-controls="dlg-dougg">
+                        <span class="embed-hint">Voir comment c'est fait &rarr;</span>
+                    </button>
+                </div>
             </div>
         </div>
         <dialog class="embed-dialog" id="dlg-racines" aria-labelledby="dlg-racines-title">
@@ -296,13 +310,27 @@
             <span class="section-eyebrow">Racines Investissements</span>
             <h3 id="dlg-racines-title">Une refonte validée en maquette avant de toucher au site.</h3>
             <ol class="embed-steps">
-                    <li><strong>Maquettes construites avec l'IA</strong>pour valider le design page par page, rapidement et à moindre coût, avant toute modification du site réel.</li>
-                    <li><strong>Refonte du WordPress existant</strong>, alignée sur le design validé : même outil, nouvelle expérience.</li>
-                    <li><strong>Formation WordPress de l'équipe</strong> : les mises à jour courantes se font en interne, sans dépendre de moi.</li>
+                <li><strong>Maquettes construites avec l'IA</strong> pour valider le design page par page, rapidement et à moindre coût, avant toute modification du site réel.</li>
+                <li><strong>Refonte du WordPress existant</strong>, alignée sur le design validé : même outil, nouvelle expérience.</li>
+                <li><strong>Formation WordPress de l'équipe</strong> : les mises à jour courantes se font en interne, sans dépendre de moi.</li>
             </ol>
             <div class="embed-actions">
                 <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-primary"><span>Réserver un appel</span></a>
                 <a href="https://www.racinesinvestissements.com/" target="_blank" rel="noopener" class="btn btn-ghost"><span>Visiter le site</span></a>
+            </div>
+        </dialog>
+        <dialog class="embed-dialog" id="dlg-dougg" aria-labelledby="dlg-dougg-title">
+            <button type="button" class="embed-close" aria-label="Fermer">&times;</button>
+            <span class="section-eyebrow">Dougg</span>
+            <h3 id="dlg-dougg-title">Un produit entier, du concept au site en ligne.</h3>
+            <ol class="embed-steps">
+                <li><strong>Un produit conçu de bout en bout</strong> : Dougg fait matcher les animaux de refuge avec la bonne personne, du concept jusqu'à l'application et au site.</li>
+                <li><strong>Direction artistique et site vitrine</strong> : j'ai défini l'univers visuel et construit le site qui présente le produit et transforme les visiteurs en utilisateurs.</li>
+                <li><strong>Cohérent avec tout l'écosystème</strong> : même identité et même logique entre le site, l'application iOS et l'espace dédié aux refuges.</li>
+            </ol>
+            <div class="embed-actions">
+                <a href="https://calendly.com/mathieu-haye/30min" target="_blank" rel="noopener" class="btn btn-primary"><span>Réserver un appel</span></a>
+                <a href="https://dougg.fr/" target="_blank" rel="noopener" class="btn btn-ghost"><span>Visiter le site</span></a>
             </div>
         </dialog>
     </div>
@@ -580,6 +608,6 @@
 })();
 </script>
 
-<script defer src="/ui.js?v=107"></script>
+<script defer src="/ui.js?v=108"></script>
 </body>
 </html>

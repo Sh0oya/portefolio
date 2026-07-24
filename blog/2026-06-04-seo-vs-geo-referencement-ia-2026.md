@@ -103,7 +103,7 @@ Le GEO est un métier à part parce qu'il ne se réduit pas au SEO et ne s'impro
 
 C'est ce double caractère, technique et mouvant, qui rend le sujet difficile à traiter à côté de son activité principale. Suivre l'évolution des moteurs IA, comprendre pourquoi ils citent une source plutôt qu'une autre et ajuster un site en conséquence, c'est un travail de spécialiste, pas une case à cocher. La plupart des dirigeants n'ont ni le temps ni l'envie d'entrer dans cette mécanique, et c'est une décision rationnelle : un essai approximatif coûte surtout du temps perdu pendant que des concurrents mieux accompagnés prennent la place dans les réponses.
 
-C'est exactement le terrain sur lequel j'interviens. En tant que freelance builder, je travaille la base technique et les signaux qui rendent un site visible et cité par les IA, en interlocuteur unique, sans couche d'agence. Vous restez sur votre métier, je m'occupe de votre présence dans les réponses génératives. Tout commence par un état des lieux, puis une [collaboration](https://mathieuhaye.fr/collaboration) où je prends le chantier en charge de bout en bout.
+C'est exactement le terrain sur lequel j'interviens. En tant que développeur freelance, je travaille la base technique et les signaux qui rendent un site visible et cité par les IA, en interlocuteur unique, sans couche d'agence. Vous restez sur votre métier, je m'occupe de votre présence dans les réponses génératives. Tout commence par un état des lieux, puis une [collaboration](https://mathieuhaye.fr/collaboration) où je prends le chantier en charge de bout en bout.
 
 
 
@@ -162,7 +162,7 @@ Par le diagnostic gratuit. Mon [test de visibilité par les IA](https://mathieuh
 
 
 
-Une agence SEO classique optimise pour les liens bleus de Google, ce qui reste utile mais ne couvre pas la visibilité dans les réponses IA. En tant que freelance builder, je travaille la base technique et les signaux qui rendent un site citable par les moteurs génératifs, en interlocuteur unique, sans couche d'agence. Vous parlez directement à la personne qui met les mains dans le site.
+Une agence SEO classique optimise pour les liens bleus de Google, ce qui reste utile mais ne couvre pas la visibilité dans les réponses IA. En tant que développeur freelance, je travaille la base technique et les signaux qui rendent un site citable par les moteurs génératifs, en interlocuteur unique, sans couche d'agence. Vous parlez directement à la personne qui met les mains dans le site.
 
 
 

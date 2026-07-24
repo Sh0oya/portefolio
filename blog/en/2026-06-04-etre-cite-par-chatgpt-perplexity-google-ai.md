@@ -65,13 +65,13 @@ The point is not to figure out which one affects you, but to grasp that they are
 
 
 
-## Why hand this to a freelance builder instead of trying it yourself?
+## Why hand this to a freelance developer instead of trying it yourself?
 
 
 
-Handing this work to a freelance builder saves time and avoids blind spots, because the material is technical, shifting, and easy to miss for anyone who does not do it for a living. In theory an owner could dive in; in practice, the time spent learning standards that change every quarter is time stolen from the business, and a single forgotten layer cancels the effect of the others. The risk is not breaking everything, it is believing the matter is settled while you stay invisible.
+Handing this work to a freelance developer saves time and avoids blind spots, because the material is technical, shifting, and easy to miss for anyone who does not do it for a living. In theory an owner could dive in; in practice, the time spent learning standards that change every quarter is time stolen from the business, and a single forgotten layer cancels the effect of the others. The risk is not breaking everything, it is believing the matter is settled while you stay invisible.
 
-Mathieu Haye is a freelance builder in AI applications, automations and custom systems. He does not sell a standard SEO service detached from the rest: he treats AI visibility as an engineering problem, from diagnosis to setup, on your site as it is actually built. It is that double hat, understanding the site's technical side and the engines' logic, that sets him apart from a purely marketing approach. The matter gets handled end to end, without you having to become an expert in anything.
+Mathieu Haye is a freelance developer in AI applications, automations and custom systems. He does not sell a standard SEO service detached from the rest: he treats AI visibility as an engineering problem, from diagnosis to setup, on your site as it is actually built. It is that double hat, understanding the site's technical side and the engines' logic, that sets him apart from a purely marketing approach. The matter gets handled end to end, without you having to become an expert in anything.
 
 Your side is simple. First, [test your site's AI visibility for free](https://mathieuhaye.fr/en/ai-visibility) to see where you stand. Then, if you are not cited, or not as much as your competitors, [talk to Mathieu](https://mathieuhaye.fr/en/collaboration): he takes the matter on and hands you back a situation where AI can cite you. You keep your time for your work; he makes sure that, the next time a prospect asks the question, your name is part of the answer.
 
@@ -97,11 +97,11 @@ There is no guaranteed delay, because each engine has its own pace. Perplexity a
 
 
 
-### Why a freelance builder rather than a classic SEO agency?
+### Why a freelance developer rather than a classic SEO agency?
 
 
 
-Because getting cited by an AI is as much an engineering problem as a marketing one, and a classic SEO agency mostly optimizes a ranking of links. Mathieu Haye is a freelance builder: he understands your site's technical side and the logic of generative engines, and handles AI visibility end to end rather than as a detached add-on. Solid SEO stays useful, but it does not guarantee a citation inside a written answer.
+Because getting cited by an AI is as much an engineering problem as a marketing one, and a classic SEO agency mostly optimizes a ranking of links. Mathieu Haye is a freelance developer: he understands your site's technical side and the logic of generative engines, and handles AI visibility end to end rather than as a detached add-on. Solid SEO stays useful, but it does not guarantee a citation inside a written answer.
 
 
 

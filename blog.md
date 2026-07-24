@@ -9,7 +9,13 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (FR), 48 posts
+## Articles (FR), 50 posts
+
+- **2026-07-24** : [OpenAI Presence : les agents IA passent en production](https://mathieuhaye.fr/blog/2026-07-24-openai-presence-agents-ia-production)
+  OpenAI lance Presence, plateforme d'agents IA pour grands comptes : 75 % des appels résolus sans humain. Ce que ça change pour une PME française.
+
+- **2026-07-23** : [Combien coûte un CRM sur mesure en 2026 ?](https://mathieuhaye.fr/blog/2026-07-23-combien-coute-crm-sur-mesure-2026)
+  Un CRM sur mesure coûte de 8 000 à 25 000 € pour une V1, 30 000-100 000 € pour remplacer un outil du marché en 2026. Tableaux, sources et quand ça vaut le coup.
 
 - **2026-07-21** : [AI Act 2 août 2026 : ce qui s'applique à votre PME](https://mathieuhaye.fr/blog/2026-07-21-ai-act-digital-omnibus-report-pme)
   Le Digital Omnibus repousse l'AI Act haut risque à fin 2027. Ce qui s'applique vraiment à votre PME le 2 août 2026 : transparence IA et littératie.
@@ -157,7 +163,13 @@ Bilingual journal (FR + EN) on Business x AI x Data. New post every two days.
 
 ---
 
-## Articles (EN), 48 posts
+## Articles (EN), 50 posts
+
+- **2026-07-24** : [OpenAI Presence: AI Agents Move Into Production](https://mathieuhaye.fr/blog/en/2026-07-24-openai-presence-agents-ia-production)
+  OpenAI launches Presence, an enterprise AI agent platform: 75% of support calls resolved without a human. What it means for small and mid-sized companies.
+
+- **2026-07-23** : [How much does a custom CRM cost in 2026?](https://mathieuhaye.fr/blog/en/2026-07-23-combien-coute-crm-sur-mesure-2026)
+  A custom CRM costs €8,000-€25,000 for a V1, €30,000-€100,000 to replace an off-the-shelf tool in 2026. Tables, sources and when it is worth it.
 
 - **2026-07-21** : [EU AI Act, August 2, 2026: what applies to your SME](https://mathieuhaye.fr/blog/en/2026-07-21-ai-act-digital-omnibus-report-pme)
   The Digital Omnibus pushes the AI Act's high-risk rules to late 2027. What actually applies to an SME on August 2, 2026: AI transparency and AI literacy.

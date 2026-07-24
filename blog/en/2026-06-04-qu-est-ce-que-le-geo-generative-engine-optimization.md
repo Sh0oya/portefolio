@@ -137,11 +137,11 @@ Technical visibility fixes go live quickly, but an AI then has to re-crawl your 
 
 
 
-### Why a freelance builder rather than an SEO agency?
+### Why a freelance developer rather than an SEO agency?
 
 
 
-Because GEO plays out in code, structured data and files meant for AI, not just keywords and links. Mathieu is a freelance builder: he builds AI apps, automations and custom CRMs himself, and applies that same technical rigor to your site's AI visibility. You get a single point of contact who understands what he is changing, where a classic SEO agency often stops at traditional search.
+Because GEO plays out in code, structured data and files meant for AI, not just keywords and links. Mathieu is a freelance developer: he builds AI apps, automations and custom CRMs himself, and applies that same technical rigor to your site's AI visibility. You get a single point of contact who understands what he is changing, where a classic SEO agency often stops at traditional search.
 
 
 
